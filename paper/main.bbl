@@ -1,0 +1,573 @@
+\begin{thebibliography}{73}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agarwal(2026)]{agarwal2026crossarch}
+Ayushi Agarwal.
+\newblock Cross-architecture steering transfer in language models: A systematic
+  empirical study, 2026.
+\newblock arXiv:2608.05164.
+
+\bibitem[Ainsworth et~al.(2023)Ainsworth, Hayase, and
+  Srinivasa]{ainsworth2023rebasin}
+Samuel~K. Ainsworth, Jonathan Hayase, and Siddhartha Srinivasa.
+\newblock Git re-basin: Merging models modulo permutation symmetries.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2023.
+\newblock arXiv:2209.04836.
+
+\bibitem[Ameisen et~al.(2025)Ameisen, Lindsey, Pearce, Gurnee, Turner, Chen,
+  Citro, et~al.]{ameisen2025attribution}
+Emmanuel Ameisen, Jack Lindsey, Adam Pearce, Wes Gurnee, Nicholas~L. Turner,
+  Brian Chen, Craig Citro, et~al.
+\newblock Circuit tracing: Revealing computational graphs in language models.
+\newblock Transformer Circuits Thread, 2025.
+\newblock URL
+  \url{https://transformer-circuits.pub/2025/attribution-graphs/methods.html}.
+
+\bibitem[Bansal et~al.(2021)Bansal, Nakkiran, and Barak]{bansal2021stitching}
+Yamini Bansal, Preetum Nakkiran, and Boaz Barak.
+\newblock Revisiting model stitching to compare neural representations.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2021.
+\newblock arXiv:2106.07682.
+
+\bibitem[Biderman et~al.(2023)Biderman, Schoelkopf, Anthony, Bradley,
+  et~al.]{biderman2023pythia}
+Stella Biderman, Hailey Schoelkopf, Quentin Anthony, Herbie Bradley, et~al.
+\newblock {P}ythia: A suite for analyzing large language models across training
+  and scaling.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, pp.\
+  2397--2430, 2023.
+\newblock arXiv:2304.01373.
+
+\bibitem[Bloom(2024)]{bloom2024gpt2saes}
+Joseph Bloom.
+\newblock Open source sparse autoencoders for all residual stream layers of
+  {GPT2}-small.
+\newblock LessWrong, 2024.
+\newblock URL
+  \url{https://www.lesswrong.com/posts/f9EgfLSurAiqRJySD/open-source-sparse-autoencoders-for-all-residual-stream}.
+
+\bibitem[Bloom et~al.(2024)Bloom, Tigges, Duong, and Chanin]{bloom2024saelens}
+Joseph Bloom, Curt Tigges, Anthony Duong, and David Chanin.
+\newblock {SAELens}.
+\newblock \url{https://github.com/jbloomAus/SAELens}, 2024.
+
+\bibitem[{BluelightAI}(2025)]{bluelightai2025qwen-clt}
+{BluelightAI}.
+\newblock {Q}wen-3 cross-layer transcoders (base 0.6{B}/1.7{B}), 2025.
+\newblock URL \url{https://huggingface.co/bluelightai}.
+
+\bibitem[Bogdanov \& Huang(2026)Bogdanov and Huang]{bogdanov2026geoinv}
+Igor Bogdanov and Changcheng Huang.
+\newblock Discovering cross-language reasoning invariance in {LLM}s with
+  geometry-invariant sparse autoencoders, 2026.
+\newblock arXiv:2608.23809.
+
+\bibitem[Bricken et~al.(2023)Bricken, Templeton, Batson, Chen,
+  et~al.]{bricken2023monosemanticity}
+Trenton Bricken, Adly Templeton, Joshua Batson, Brian Chen, et~al.
+\newblock Towards monosemanticity: Decomposing language models with dictionary
+  learning.
+\newblock Transformer Circuits Thread, 2023.
+\newblock URL
+  \url{https://transformer-circuits.pub/2023/monosemantic-features}.
+
+\bibitem[Chanin(2024)]{chanind2024llamasae}
+David Chanin.
+\newblock {sae-llama-3.2-1b-res}: Residual-stream sparse autoencoders for
+  {L}lama-3.2-1{B}.
+\newblock HuggingFace model repository, \texttt{chanind/sae-llama-3.2-1b-res},
+  2024.
+\newblock URL \url{https://huggingface.co/chanind/sae-llama-3.2-1b-res}.
+
+\bibitem[Chen et~al.(2025)Chen, Merullo, Stolfo, and
+  Pavlick]{chen2025stitching}
+Alan Chen, Jack Merullo, Alessandro Stolfo, and Ellie Pavlick.
+\newblock Transferring linear features across language models with model
+  stitching.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2025.
+\newblock arXiv:2506.06609.
+
+\bibitem[Chughtai et~al.(2023)Chughtai, Chan, and Nanda]{chughtai2023toy}
+Bilal Chughtai, Lawrence Chan, and Neel Nanda.
+\newblock A toy model of universality: Reverse engineering how networks learn
+  group operations.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2023.
+\newblock arXiv:2302.03025.
+
+\bibitem[Cunningham et~al.(2024)Cunningham, Ewart, Riggs, Huben, and
+  Sharkey]{cunningham2023sparse}
+Hoagy Cunningham, Aidan Ewart, Logan Riggs, Robert Huben, and Lee Sharkey.
+\newblock Sparse autoencoders find highly interpretable features in language
+  models.
+\newblock In \emph{ICLR}, 2024.
+\newblock arXiv:2309.08600.
+
+\bibitem[Davari et~al.(2023)Davari, Horoi, Natik, Lajoie, Wolf, and
+  Belilovsky]{davari2023reliability}
+MohammadReza Davari, Stefan Horoi, Amine Natik, Guillaume Lajoie, Guy Wolf, and
+  Eugene Belilovsky.
+\newblock Reliability of {CKA} as a similarity measure in deep learning.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2023.
+\newblock arXiv:2210.16156.
+
+\bibitem[Deng et~al.(2025)Deng, Wan, Zhang, Yang, and
+  Feng]{deng2025languagespecific}
+Boyi Deng, Yu~Wan, Yidan Zhang, Baosong Yang, and Fuli Feng.
+\newblock Unveiling language-specific features in large language models via
+  sparse autoencoders.
+\newblock In \emph{Proceedings of ACL}, 2025.
+\newblock arXiv:2505.05111.
+
+\bibitem[Deng et~al.(2026)]{qwenscope2026}
+Boyi Deng et~al.
+\newblock {Qwen-Scope}: Turning sparse features into development tools for
+  large language models, 2026.
+\newblock arXiv:2605.11887.
+
+\bibitem[Ding et~al.(2021)Ding, Denain, and Steinhardt]{ding2021grounding}
+Frances Ding, Jean-Stanislas Denain, and Jacob Steinhardt.
+\newblock Grounding representation similarity through statistical testing.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2021.
+\newblock arXiv:2108.01661.
+
+\bibitem[Dravid et~al.(2023)Dravid, Gandelsman, Efros, and
+  Shocher]{dravid2023rosetta}
+Amil Dravid, Yossi Gandelsman, Alexei~A. Efros, and Assaf Shocher.
+\newblock Rosetta neurons: Mining the common units in a model zoo.
+\newblock In \emph{IEEE/CVF International Conference on Computer Vision
+  (ICCV)}, 2023.
+\newblock arXiv:2306.09346.
+
+\bibitem[Dravid et~al.(2026)Dravid, Bahri, Efros, and
+  Gandelsman]{dravid2026divergent}
+Amil Dravid, Yasaman Bahri, Alexei~A. Efros, and Yossi Gandelsman.
+\newblock Neuron populations exhibit divergent selectivity with scale, 2026.
+\newblock arXiv:2606.03990.
+
+\bibitem[Engels(2024)]{engels2024mistralsae}
+Joshua Engels.
+\newblock {M}istral-7{B} residual stream {SAE}s.
+\newblock HuggingFace model repository,
+  \texttt{JoshEngels/Mistral-7B-Residual-Stream-SAEs}; registered in
+  \texttt{sae-lens} as \texttt{mistral-7b-res-wg}, 2024.
+\newblock URL
+  \url{https://huggingface.co/JoshEngels/Mistral-7B-Residual-Stream-SAEs}.
+
+\bibitem[Fraser-Taliente et~al.(2026)Fraser-Taliente, Kantamneni, Ong, Mossing,
+  Lu, Bogdan, et~al.]{nla2026anthropic}
+Kit Fraser-Taliente, Subhash Kantamneni, Euan Ong, Dan Mossing, Christina Lu,
+  Paul~C. Bogdan, et~al.
+\newblock Natural language autoencoders produce unsupervised explanations of
+  {LLM} activations.
+\newblock Transformer Circuits Thread, 2026.
+\newblock URL \url{https://transformer-circuits.pub/2026/nla/index.html}.
+
+\bibitem[{Gemma Team} et~al.(2024){Gemma Team}, Riviere, Pathak, Sessa,
+  et~al.]{gemma2024gemma2}
+{Gemma Team}, Morgane Riviere, Shreya Pathak, Pier~Giuseppe Sessa, et~al.
+\newblock Gemma 2: Improving open language models at a practical size, 2024.
+\newblock arXiv:2408.00118.
+
+\bibitem[{Gemma Team} et~al.(2025){Gemma Team}, Kamath, Ferret,
+  et~al.]{gemma3report}
+{Gemma Team}, Aishwarya Kamath, Johan Ferret, et~al.
+\newblock {G}emma 3 technical report, 2025.
+\newblock arXiv:2503.19786.
+
+\bibitem[Gerasimov et~al.(2026)Gerasimov, Rusalev, Balagansky, Laptev,
+  Kurochkin, and Gavrilov]{gerasimov2026unstable}
+Gleb Gerasimov, Timofei Rusalev, Nikita Balagansky, Daniil Laptev, Vadim
+  Kurochkin, and Daniil Gavrilov.
+\newblock Unstable features, reproducible subspaces: Understanding seed
+  dependence in sparse autoencoders, 2026.
+\newblock arXiv:2606.12138.
+
+\bibitem[Gorbett \& Jana(2026)Gorbett and Jana]{gorbett2026linear}
+Matt Gorbett and Suman Jana.
+\newblock Ventriloquist {LLM}s: Linear alignment of late-stage representations,
+  2026.
+\newblock arXiv:2603.18908.
+
+\bibitem[Grattafiori et~al.(2024)Grattafiori, Dubey, Jauhri, Pandey,
+  et~al.]{grattafiori2024llama3}
+Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, et~al.
+\newblock The {L}lama 3 herd of models, 2024.
+\newblock arXiv:2407.21783.
+
+\bibitem[Gr{\"o}ger et~al.(2026)Gr{\"o}ger, Wen, and
+  Brbi{\'c}]{groger2026aristotelian}
+Fabian Gr{\"o}ger, Shuo Wen, and Maria Brbi{\'c}.
+\newblock Revisiting the {P}latonic representation hypothesis: An
+  {A}ristotelian view.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2026.
+\newblock arXiv:2602.14486.
+
+\bibitem[Gurnee et~al.(2024)Gurnee, Horsley, Guo, Kheirkhah, Sun, Hathaway,
+  Nanda, and Bertsimas]{gurnee2024universal}
+Wes Gurnee, Theo Horsley, Zifan~Carl Guo, Tara~Rezaei Kheirkhah, Qinyi Sun,
+  Will Hathaway, Neel Nanda, and Dimitris Bertsimas.
+\newblock Universal neurons in {GPT2} language models.
+\newblock \emph{Transactions on Machine Learning Research}, 2024.
+\newblock arXiv:2401.12181.
+
+\bibitem[Hanna(2025{\natexlab{a}})]{hanna2025gemma-scope-2-transcoders}
+Michael Hanna.
+\newblock {Gemma-Scope-2} transcoders ({Circuit-Tracer}), 2025{\natexlab{a}}.
+\newblock URL
+  \url{https://huggingface.co/collections/mwhanna/gemma-scope-2-transcoders-circuit-tracer}.
+\newblock HuggingFace collection of circuit-tracer configurations for the Gemma
+  Scope 2 transcoders.
+
+\bibitem[Hanna(2025{\natexlab{b}})]{hanna2025qwen-transcoders}
+Michael Hanna.
+\newblock Transcoders trained on {Q}wen-3 models from 0.6{B} to 14{B},
+  2025{\natexlab{b}}.
+\newblock URL \url{https://huggingface.co/mwhanna}.
+\newblock HuggingFace model series.
+
+\bibitem[Hanna et~al.(2025)Hanna, Piotrowski, Lindsey, and
+  Ameisen]{hanna2025circuit-tracer}
+Michael Hanna, Mateusz Piotrowski, Jack Lindsey, and Emmanuel Ameisen.
+\newblock {circuit-tracer}, 2025.
+\newblock URL \url{https://github.com/decoderesearch/circuit-tracer}.
+\newblock Software library.
+
+\bibitem[Heap et~al.(2025)Heap, Lawson, Farnik, and Aitchison]{heap2025random}
+Thomas Heap, Tim Lawson, Lucy Farnik, and Laurence Aitchison.
+\newblock Automated interpretability metrics do not distinguish trained and
+  random transformers, 2025.
+\newblock arXiv:2501.17727.
+
+\bibitem[Heimersheim \& Nanda(2024)Heimersheim and
+  Nanda]{heimersheim2024patching}
+Stefan Heimersheim and Neel Nanda.
+\newblock How to use and interpret activation patching.
+\newblock \emph{arXiv preprint arXiv:2404.15255}, 2024.
+
+\bibitem[Huang et~al.(2025)Huang, Huang, Feng, Lei, and
+  Lv]{huang2025platonictransfer}
+Youcheng Huang, Chen Huang, Duanyu Feng, Wenqiang Lei, and Jiancheng Lv.
+\newblock Cross-model transferability among large language models on the
+  {P}latonic representations of concepts.
+\newblock In \emph{Proceedings of ACL}, 2025.
+\newblock arXiv:2501.02009.
+
+\bibitem[Huh et~al.(2024)Huh, Cheung, Wang, and Isola]{huh2024platonic}
+Minyoung Huh, Brian Cheung, Tongzhou Wang, and Phillip Isola.
+\newblock The {P}latonic representation hypothesis.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2024.
+\newblock arXiv:2405.07987.
+
+\bibitem[Ifergan et~al.(2025)Ifergan, Choshen, Aharoni, Szpektor, and
+  Abend]{ifergan2024beneath}
+Maxim Ifergan, Leshem Choshen, Roee Aharoni, Idan Szpektor, and Omri Abend.
+\newblock Beneath the surface of consistency: Exploring cross-lingual knowledge
+  representation sharing in {LLM}s.
+\newblock In \emph{Findings of NAACL}, 2025.
+\newblock arXiv:2408.10646.
+
+\bibitem[Jiang et~al.(2023)Jiang, Sablayrolles, Mensch, Bamford,
+  et~al.]{jiang2023mistral}
+Albert~Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, Chris Bamford, et~al.
+\newblock {M}istral 7{B}, 2023.
+\newblock arXiv:2310.06825.
+
+\bibitem[Jiralerspong \& Bricken(2026)Jiralerspong and
+  Bricken]{diff_tool2026anthropic}
+Thomas Jiralerspong and Trenton Bricken.
+\newblock A ``diff'' tool for {AI} models.
+\newblock Anthropic Research, 2026.
+\newblock URL \url{https://www.anthropic.com/research/diff-tool}.
+
+\bibitem[Klabunde et~al.(2025)Klabunde, Schumacher, Strohmaier, and
+  Lemmerich]{klabunde2023similarity}
+Max Klabunde, Tobias Schumacher, Markus Strohmaier, and Florian Lemmerich.
+\newblock Similarity of neural network models: A survey of functional and
+  representational measures.
+\newblock \emph{ACM Computing Surveys}, 57\penalty0 (9):\penalty0
+  242:1--242:52, 2025.
+\newblock \doi{10.1145/3728458}.
+
+\bibitem[Kornblith et~al.(2019)Kornblith, Norouzi, Lee, and
+  Hinton]{kornblith2019cka}
+Simon Kornblith, Mohammad Norouzi, Honglak Lee, and Geoffrey Hinton.
+\newblock Similarity of neural network representations revisited.
+\newblock In \emph{International Conference on Machine Learning}, pp.\
+  3519--3529, 2019.
+
+\bibitem[Korznikov et~al.(2026)Korznikov, Galichin, Dontsov, Rogov, Oseledets,
+  and Tutubalina]{korznikov2026sanity}
+Anton Korznikov, Andrey Galichin, Alexey Dontsov, Oleg Rogov, Ivan Oseledets,
+  and Elena Tutubalina.
+\newblock Sanity checks for sparse autoencoders: Do {SAE}s beat random
+  baselines?, 2026.
+\newblock arXiv:2602.14111.
+
+\bibitem[Kriegeskorte et~al.(2008)Kriegeskorte, Mur, and
+  Bandettini]{kriegeskorte2008rsa}
+Nikolaus Kriegeskorte, Marieke Mur, and Peter Bandettini.
+\newblock Representational similarity analysis --- connecting the branches of
+  systems neuroscience.
+\newblock \emph{Frontiers in Systems Neuroscience}, 2:\penalty0 4, 2008.
+\newblock \doi{10.3389/neuro.06.004.2008}.
+
+\bibitem[Kriegeskorte et~al.(2009)Kriegeskorte, Simmons, Bellgowan, and
+  Baker]{kriegeskorte2009circular}
+Nikolaus Kriegeskorte, W.~Kyle Simmons, Patrick S.~F. Bellgowan, and Chris~I.
+  Baker.
+\newblock Circular analysis in systems neuroscience: the dangers of double
+  dipping.
+\newblock \emph{Nature Neuroscience}, 12\penalty0 (5):\penalty0 535--540, 2009.
+\newblock \doi{10.1038/nn.2303}.
+
+\bibitem[Kuhn(1955)]{kuhn1955hungarian}
+Harold~W Kuhn.
+\newblock The {H}ungarian method for the assignment problem.
+\newblock \emph{Naval Research Logistics Quarterly}, 2\penalty0
+  (1--2):\penalty0 83--97, 1955.
+
+\bibitem[Lan et~al.(2024)Lan, Torr, Meek, Khakzar, Krueger, and
+  Barez]{lan2024universal}
+Michael Lan, Philip Torr, Austin Meek, Ashkan Khakzar, David Krueger, and Fazl
+  Barez.
+\newblock Quantifying feature space universality across large language models
+  via sparse autoencoders, 2024.
+\newblock arXiv:2410.06981.
+
+\bibitem[Li et~al.(2016)Li, Yosinski, Clune, Lipson, and
+  Hopcroft]{li2016convergent}
+Yixuan Li, Jason Yosinski, Jeff Clune, Hod Lipson, and John Hopcroft.
+\newblock Convergent learning: Do different neural networks learn the same
+  representations?
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2016.
+\newblock arXiv:1511.07543.
+
+\bibitem[Lieberum et~al.(2024)Lieberum, Rajamanoharan, Conmy, Smith, Sonnerat,
+  Varma, Kram{\'a}r, Dragan, Shah, and Nanda]{lieberum2024gemmascope}
+Tom Lieberum, Senthooran Rajamanoharan, Arthur Conmy, Lewis Smith, Nicolas
+  Sonnerat, Vikrant Varma, J{\'a}nos Kram{\'a}r, Anca Dragan, Rohin Shah, and
+  Neel Nanda.
+\newblock Gemma {S}cope: Open sparse autoencoders everywhere all at once on
+  {G}emma 2.
+\newblock In \emph{Proceedings of the 7th BlackboxNLP Workshop: Analyzing and
+  Interpreting Neural Networks for NLP}, pp.\  278--300, 2024.
+\newblock \doi{10.18653/v1/2024.blackboxnlp-1.19}.
+\newblock arXiv:2408.05147.
+
+\bibitem[Lindsey et~al.(2024)Lindsey, Templeton, Marcus, Conerly, Batson, and
+  Olah]{lindsey2024crosscoders}
+Jack Lindsey, Adly Templeton, Jonathan Marcus, Thomas Conerly, Joshua Batson,
+  and Christopher Olah.
+\newblock Sparse crosscoders for cross-layer features and model diffing.
+\newblock Transformer Circuits Thread, 2024.
+\newblock URL
+  \url{https://transformer-circuits.pub/2024/crosscoders/index.html}.
+
+\bibitem[Lindsey et~al.(2025)Lindsey, Gurnee, Ameisen, Chen, Pearce, Turner,
+  Citro, et~al.]{lindsey2025biology}
+Jack Lindsey, Wes Gurnee, Emmanuel Ameisen, Brian Chen, Adam Pearce,
+  Nicholas~L. Turner, Craig Citro, et~al.
+\newblock On the biology of a large language model.
+\newblock Transformer Circuits Thread, 2025.
+\newblock URL
+  \url{https://transformer-circuits.pub/2025/attribution-graphs/biology.html}.
+
+\bibitem[Marks et~al.(2025)Marks, Rager, Michaud, Belinkov, Bau, and
+  Mueller]{marks2024sparse}
+Samuel Marks, Can Rager, Eric~J. Michaud, Yonatan Belinkov, David Bau, and
+  Aaron Mueller.
+\newblock Sparse feature circuits: Discovering and editing interpretable causal
+  graphs in language models.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+\newblock arXiv:2403.19647.
+
+\bibitem[McCann(2026)]{polymorphism_rotation2026}
+Jordan~F. McCann.
+\newblock Polymorphism is rotation: Operational mechanistic interpretability
+  from a two-layer transformer to {Pythia}-70m.
+\newblock \emph{arXiv preprint arXiv:2605.24577}, 2026.
+
+\bibitem[McDougall et~al.(2025)McDougall, Conmy, Kram{\'a}r, Lieberum,
+  Rajamanoharan, and Nanda]{mcdougall2025gemmascope2}
+Callum McDougall, Arthur Conmy, J{\'a}nos Kram{\'a}r, Tom Lieberum, Senthooran
+  Rajamanoharan, and Neel Nanda.
+\newblock Gemma {S}cope 2 -- technical paper.
+\newblock Google DeepMind technical paper, linked from the model card, 2025.
+\newblock URL \url{https://huggingface.co/google/gemma-scope-2-4b-it}.
+
+\bibitem[Minder et~al.(2025)Minder, Dumas, Juang, Chughtai, and
+  Nanda]{minder2025crosscoder}
+Julian Minder, Cl{\'e}ment Dumas, Caden Juang, Bilal Chughtai, and Neel Nanda.
+\newblock Overcoming sparsity artifacts in crosscoders to interpret
+  chat-tuning.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2025.
+\newblock arXiv:2504.02922.
+
+\bibitem[Moschella et~al.(2023)Moschella, Maiorca, Fumero, Norelli, Locatello,
+  and Rodol{\`a}]{moschella2023relative}
+Luca Moschella, Valentino Maiorca, Marco Fumero, Antonio Norelli, Francesco
+  Locatello, and Emanuele Rodol{\`a}.
+\newblock Relative representations enable zero-shot latent space communication.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2023.
+\newblock arXiv:2209.15430.
+
+\bibitem[Nanda \& Bloom(2022)Nanda and Bloom]{nanda2022transformerlens}
+Neel Nanda and Joseph Bloom.
+\newblock {TransformerLens}.
+\newblock \url{https://github.com/TransformerLensOrg/TransformerLens}, 2022.
+
+\bibitem[Olah et~al.(2020)Olah, Cammarata, Schubert, Goh, Petrov, and
+  Carter]{olah2020zoom}
+Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and
+  Shan Carter.
+\newblock Zoom in: An introduction to circuits.
+\newblock \emph{Distill}, 5\penalty0 (3), 2020.
+\newblock \doi{10.23915/distill.00024.001}.
+\newblock URL \url{https://distill.pub/2020/circuits/zoom-in}.
+
+\bibitem[Olsson et~al.(2022)Olsson, Elhage, Nanda, Joseph,
+  et~al.]{olsson2022context}
+Catherine Olsson, Nelson Elhage, Neel Nanda, Nicholas Joseph, et~al.
+\newblock In-context learning and induction heads.
+\newblock Transformer Circuits Thread, 2022.
+\newblock URL
+  \url{https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads}.
+
+\bibitem[Paulo \& Belrose(2026)Paulo and Belrose]{paulo2025sae}
+Gon{\c{c}}alo Paulo and Nora Belrose.
+\newblock Sparse autoencoders trained on the same data learn different
+  features.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2026.
+\newblock arXiv:2501.16615.
+
+\bibitem[Phipson \& Smyth(2010)Phipson and Smyth]{phipson2010permutation}
+Belinda Phipson and Gordon~K. Smyth.
+\newblock Permutation {P}-values should never be zero: Calculating exact
+  {P}-values when permutations are randomly drawn.
+\newblock \emph{Statistical Applications in Genetics and Molecular Biology},
+  9\penalty0 (1), 2010.
+\newblock \doi{10.2202/1544-6115.1585}.
+
+\bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, and
+  Sutskever]{radford2019gpt2}
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+  Sutskever.
+\newblock Language models are unsupervised multitask learners.
+\newblock Technical report, OpenAI, 2019.
+
+\bibitem[Raffel et~al.(2020)Raffel, Shazeer, Roberts, Lee, Narang, Matena,
+  Zhou, Li, and Liu]{raffel2020exploring}
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+  Matena, Yanqi Zhou, Wei Li, and Peter~J Liu.
+\newblock Exploring the limits of transfer learning with a unified text-to-text
+  transformer.
+\newblock \emph{Journal of Machine Learning Research}, 21\penalty0
+  (140):\penalty0 1--67, 2020.
+
+\bibitem[Raghu et~al.(2017)Raghu, Gilmer, Yosinski, and
+  Sohl-Dickstein]{raghu2017svcca}
+Maithra Raghu, Justin Gilmer, Jason Yosinski, and Jascha Sohl-Dickstein.
+\newblock {SVCCA}: Singular vector canonical correlation analysis for deep
+  learning dynamics and interpretability.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+
+\bibitem[Rajamanoharan et~al.(2024)Rajamanoharan, Conmy, Smith, Lieberum,
+  Varma, Kram{\'a}r, Shah, and Nanda]{rajamanoharan2024gated}
+Senthooran Rajamanoharan, Arthur Conmy, Lewis Smith, Tom Lieberum, Vikrant
+  Varma, J{\'a}nos Kram{\'a}r, Rohin Shah, and Neel Nanda.
+\newblock Improving sparse decomposition of language model activations with
+  gated sparse autoencoders.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~37, pp.\  775--818, 2024.
+\newblock \doi{10.52202/079017-0024}.
+\newblock arXiv:2404.16014.
+
+\bibitem[Soligo et~al.(2026)Soligo, Mikulik, and Saunders]{soligo2026distress}
+Anna Soligo, Vladimir Mikulik, and William Saunders.
+\newblock Gemma needs help: Investigating and mitigating emotional instability
+  in {LLM}s, 2026.
+\newblock arXiv:2603.10011.
+
+\bibitem[Son et~al.(2025)Son, Rathore, Rufail, Simon, Zhang, Dave, Blondin,
+  Zhu, and O'Brien]{son2025semanticconvergence}
+Daniel Son, Sanjana Rathore, Andrew Rufail, Adrian Simon, Daniel Zhang, Soham
+  Dave, Cole Blondin, Kevin Zhu, and Sean O'Brien.
+\newblock Semantic convergence: Investigating shared representations across
+  scaled {LLM}s, 2025.
+\newblock arXiv:2507.22918.
+
+\bibitem[Syed et~al.(2024)Syed, Rager, and Conmy]{syed2023attribution}
+Aaquib Syed, Can Rager, and Arthur Conmy.
+\newblock Attribution patching outperforms automated circuit discovery.
+\newblock In \emph{Proceedings of the 7th BlackboxNLP Workshop: Analyzing and
+  Interpreting Neural Networks for NLP}, pp.\  407--416, 2024.
+\newblock \doi{10.18653/v1/2024.blackboxnlp-1.25}.
+\newblock arXiv:2310.10348.
+
+\bibitem[Templeton et~al.(2024)Templeton, Conerly, Marcus, Lindsey, Bricken,
+  et~al.]{templeton2024scaling}
+Adly Templeton, Tom Conerly, Jonathan Marcus, Jack Lindsey, Trenton Bricken,
+  et~al.
+\newblock Scaling monosemanticity: Extracting interpretable features from
+  {C}laude 3 {S}onnet.
+\newblock Transformer Circuits Thread, 2024.
+\newblock URL
+  \url{https://transformer-circuits.pub/2024/scaling-monosemanticity}.
+
+\bibitem[Thasarathan et~al.(2025)Thasarathan, Forsyth, Fel, Kowal, and
+  Derpanis]{thasarathan2025usae}
+Harrish Thasarathan, Julian Forsyth, Thomas Fel, Matthew Kowal, and
+  Konstantinos~G. Derpanis.
+\newblock Universal sparse autoencoders: Interpretable cross-model concept
+  alignment.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2025.
+\newblock arXiv:2502.03714.
+
+\bibitem[Wang et~al.(2025)Wang, Ge, Shu, Tang, Zhou, He, and
+  Qiu]{wang2025universality}
+Junxuan Wang, Xuyang Ge, Wentao Shu, Qiong Tang, Yunhua Zhou, Zhengfu He, and
+  Xipeng Qiu.
+\newblock Towards universality: Studying mechanistic similarity across language
+  model architectures.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+\newblock arXiv:2410.06672.
+
+\bibitem[Wang et~al.(2026)Wang, Hu, Wang, and Zou]{wang2025interputility}
+Xu~Wang, Yan Hu, Benyou Wang, and Difan Zou.
+\newblock Does higher interpretability imply better utility? {A} pairwise
+  analysis on sparse autoencoders.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2026.
+\newblock arXiv:2510.03659.
+
+\bibitem[Wendler et~al.(2024)Wendler, Veselovsky, Monea, and
+  West]{wendler2024llamaspeak}
+Chris Wendler, Veniamin Veselovsky, Giovanni Monea, and Robert West.
+\newblock Do llamas work in {E}nglish? {O}n the latent language of multilingual
+  transformers.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (ACL)}, pp.\  15366--15394, 2024.
+\newblock \doi{10.18653/v1/2024.acl-long.820}.
+
+\bibitem[Yang et~al.(2025)Yang, Li, Yang, Zhang, et~al.]{yang2025qwen3}
+An~Yang, Anfeng Li, Baosong Yang, Beichen Zhang, et~al.
+\newblock {Qwen3} technical report, 2025.
+\newblock arXiv:2505.09388.
+
+\end{thebibliography}

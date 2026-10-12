@@ -1,0 +1,14 @@
+{
+  "model_a": "Qwen/Qwen3-1.7B-Base",
+  "model_b": "mistralai/Mistral-7B-v0.1",
+  "topk": 512,
+  "c4": {
+    "svcca": 0.38729915022850037,
+    "rsa": 0.133811816573143,
+    "K": 512,
+    "svcca_random_pairing": 0.1665206767618656,
+    "rsa_random_pairing": -0.0006185431928315665,
+    "svcca_permuted_pairing": 0.2190858818590641,
+    "rsa_permuted_pairing": 0.05437494739890099
+  }
+}

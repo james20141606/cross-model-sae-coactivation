@@ -1,0 +1,183 @@
+{
+  "cell": "tokaclean20k_qwen3-1.7b__gemma2-2b.json",
+  "tag": "qwen3-1.7b__gemma2-2b",
+  "prereg_commit": "df330c6",
+  "a3_exec_commit": "b0b07cd",
+  "smoke": false,
+  "model_a": "Qwen/Qwen3-1.7B-Base",
+  "model_b": "google/gemma-2-2b",
+  "sae_a": "qwenpt:Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50::layer14",
+  "sae_b": "gemma-scope-2b-pt-res-canonical::layer_12/width_16k/canonical",
+  "n_docs": 20000,
+  "n_perm": 2000,
+  "seed": 0,
+  "device": "cuda",
+  "split": {
+    "seed": 42,
+    "n_a": 10000,
+    "n_b": 10000,
+    "sha256_a": "4ce0138bdd8888e0640d7429927591bb9bbdfc35ea37aa0a02042f68f781a0ae",
+    "sha256_b": "e381de51b90e5f876ba6778f0e2303b36bdc4c3a0fbacf98bc5fa9f4f3d770ac"
+  },
+  "selection": {
+    "procedure": "A4: top-K-by-variance universe computed on split-A pooled rows of the FULL dictionary per side, then mutual_nn_pairs (_zcols) inside it",
+    "universe_k": 1500,
+    "n_selected_pairs": 814
+  },
+  "gates": {
+    "G0": {
+      "dump_integrity_a": {
+        "n_features": 814,
+        "min_r": 0.9999980452262003,
+        "n_below_999": 0,
+        "passed": true
+      },
+      "dump_integrity_b": {
+        "n_features": 814,
+        "min_r": 0.9999970603572503,
+        "n_below_999": 0,
+        "passed": true
+      },
+      "n_selected_pairs": 814,
+      "overlap_with_frozen": {
+        "computed": true,
+        "n_frozen_style_pairs": 805,
+        "n_a4_pairs": 814,
+        "n_shared": 753,
+        "note": "informational per A4(b); not gated"
+      },
+      "passed": true
+    },
+    "G1": {
+      "side_a": {
+        "n_docs_qa": 50,
+        "spans_valid_and_covered": true,
+        "word_coverage": 1.0,
+        "crossword_rate": 0.0,
+        "crossword_instances": [],
+        "passed": true
+      },
+      "side_b": {
+        "n_docs_qa": 50,
+        "spans_valid_and_covered": true,
+        "word_coverage": 1.0,
+        "crossword_rate": 0.0,
+        "crossword_instances": [],
+        "passed": true
+      },
+      "frac_docs_failed": 0.00034999999999996145,
+      "passed": true
+    },
+    "G2": {
+      "s1": {
+        "n_pairs_in": 814,
+        "n_pairs_pass": 814,
+        "min_occ": 50,
+        "testable": true
+      },
+      "s2": {
+        "n_pairs_in": 814,
+        "n_pairs_pass": 814,
+        "min_occ": 50,
+        "testable": true
+      }
+    }
+  },
+  "alignment": {
+    "n_occurrences_total": 937971,
+    "n_occurrences_split_b": 469327,
+    "n_word_types": 70887,
+    "n_types_retained": 2821,
+    "n_occ_retained": 360467,
+    "n_occ_total": 469327
+  },
+  "aliasing_audit": {
+    "radix": 68,
+    "max_a_widx": 69,
+    "n_aliasing_a_occurrences": 0
+  },
+  "s1": {
+    "obs_mean_pair_r": 0.5221265554428101,
+    "null_n1": {
+      "mean": -6.889582682137796e-06,
+      "sd": 0.0004683375525805924,
+      "ci95": [
+        -0.0009181640736642294,
+        0.0008852373604895544
+      ],
+      "p": 0.0004997501249375312,
+      "n_perm": 2000
+    },
+    "excess": 0.5221334450254922,
+    "n_pairs_scored": 813,
+    "null_n2": {
+      "mean": 0.0034371000272221865,
+      "sd": 5.6495360933332816e-05,
+      "ci95": [
+        0.0033341967035084965,
+        0.0035487539775203914
+      ],
+      "p": 0.0004997501249375312,
+      "n_perm": 2000
+    },
+    "excess_n2": 0.5186894554155879
+  },
+  "s2_clean": {
+    "obs_mean_pair_r": 0.46661326041029577,
+    "null_n3": {
+      "mean": -0.003838339295649059,
+      "sd": 0.0003455042130114019,
+      "ci95": [
+        -0.00449870486671341,
+        -0.003164882369895325
+      ],
+      "p": 0.0004997501249375312,
+      "n_perm": 2000
+    },
+    "excess": 0.47045159970594486,
+    "fe_convergence": {
+      "tol": 1e-08,
+      "max_sweeps": 500,
+      "obs_sweeps_a": 16,
+      "obs_sweeps_b": 16,
+      "obs_max_dev_a": 3.425203621718369e-09,
+      "obs_max_dev_b": 7.069759585834587e-09,
+      "null_sweeps_mean": 16.0,
+      "null_sweeps_max": 16
+    },
+    "null_reresidualized": true,
+    "s1_on_s2_support": {
+      "obs_mean_pair_r": 0.5087606386872444,
+      "null_n1": {
+        "mean": -2.4723513165846313e-06,
+        "sd": 0.0005787797786612403,
+        "ci95": [
+          -0.0011026841767301431,
+          0.001135842768377627
+        ],
+        "p": 0.0004997501249375312,
+        "n_perm": 2000
+      },
+      "excess": 0.508763111038561
+    },
+    "R_tok_clean": 0.9246967586655229,
+    "R_tok_clean_naive": 0.9010179374412147
+  },
+  "common_mask": {
+    "n_pairs_scored": 813,
+    "sha256": "2e62412d306e58cc65c66526f34779dc77027e3cdddb4aa3c49df3e1be868df8",
+    "definition": "G2(S2) support AND residual sd > 1e-8 both sides under BOTH the joint-FE and the doc-centering transformation; asserted identical for R_tok_clean numerator and denominator"
+  },
+  "a3_requirements": {
+    "disjoint_selection_eval": true,
+    "joint_fe_converged": true,
+    "null_reresidualized": true,
+    "common_mask_asserted": true
+  },
+  "a4_requirements": {
+    "token_stream_gated_to_b": true,
+    "universe_screened_on_a_only": true,
+    "aliasing_audited": true
+  },
+  "elapsed_s": 660.2
+}

@@ -1,0 +1,171 @@
+{
+ "pair": "pythia70m__mistral7b",
+ "corpus": "c4",
+ "n_docs": 2000,
+ "prereg": "notes/PREREG_lan_filters_20260924.md (commit 4cbd289)",
+ "G0": {
+  "local": {
+   "svcca": 0.3495226502418518,
+   "rsa": 0.14953628182411194,
+   "K": 512,
+   "svcca_random_pairing": 0.1685931198298931,
+   "rsa_random_pairing": 0.00033049990197469014,
+   "svcca_permuted_pairing": 0.23640186116099357,
+   "rsa_permuted_pairing": 0.07906019184738397
+  },
+  "receipt": {
+   "svcca": 0.3502747118473053,
+   "rsa": 0.14636528491973877,
+   "K": 512,
+   "svcca_random_pairing": 0.1640020452439785,
+   "rsa_random_pairing": -0.0002727562245127046,
+   "svcca_permuted_pairing": 0.23630253225564957,
+   "rsa_permuted_pairing": 0.07786724679172038
+  },
+  "receipt_path": "lanC_pythia70m__mistral7b.json",
+  "delta_rsa": 0.003170996904373169,
+  "delta_svcca": -0.0007520616054534912,
+  "pass": true
+ },
+ "unfiltered_n200": {
+  "svcca": 0.3495226502418518,
+  "rsa": 0.14953628182411194,
+  "K": 512,
+  "svcca_random_pairing": 0.16739935733377934,
+  "rsa_random_pairing": 2.080996524227885e-05,
+  "svcca_permuted_pairing": 0.23946800835430623,
+  "rsa_permuted_pairing": 0.08399249892681837
+ },
+ "filtered": {
+  "P": {
+   "variant": "P",
+   "pool_A": 512,
+   "pool_B": 512,
+   "nonconcept_A": 84,
+   "nonconcept_B": 260,
+   "steps": {
+    "after_F1": 38,
+    "after_F2": 24,
+    "after_F3": 23
+   },
+   "K_f": 23,
+   "retention": 0.044921875,
+   "n_unique_targets_unfiltered": 225,
+   "estimable": true,
+   "rsa": 0.1783086508512497,
+   "svcca": 0.9411118626594543,
+   "mean_corr_kept": 0.44018402224695136,
+   "rsa_rand": 0.004357814063987462,
+   "rsa_rand_sd": 0.06732641448615244,
+   "svcca_rand": 0.9223483517765999,
+   "svcca_rand_sd": 0.01113678481652716,
+   "perm_kept_sizes_median": 10.0,
+   "perm_kept_sizes_q05_q95": [
+    6.0,
+    15.0
+   ],
+   "perm_estimable_frac": 0.0,
+   "perm_estimable": false
+  },
+  "S1": {
+   "variant": "S1",
+   "pool_A": 512,
+   "pool_B": 512,
+   "nonconcept_A": 84,
+   "nonconcept_B": 260,
+   "steps": {
+    "after_F1": 6,
+    "after_F2": 6,
+    "after_F3": 6
+   },
+   "K_f": 6,
+   "retention": 0.01171875,
+   "n_unique_targets_unfiltered": 225,
+   "estimable": false
+  },
+  "S2": {
+   "variant": "S2",
+   "pool_A": 512,
+   "pool_B": 512,
+   "nonconcept_A": 84,
+   "nonconcept_B": 260,
+   "steps": {
+    "after_F1": 38,
+    "after_F2": 15,
+    "after_F3": 14
+   },
+   "K_f": 14,
+   "retention": 0.02734375,
+   "n_unique_targets_unfiltered": 225,
+   "estimable": false
+  }
+ },
+ "provenance": {
+  "inputs_sha256": {
+   "pythia70m__c4__pooled.npy": "de8a61a81059d55d238c44e5c954acdeb52d286e75ef9b9b2659ae1b8b7daeaf",
+   "mistral7b__c4__pooled.npy": "8faf49d1c63b3cae2f5a038b66f7f4d8489b00487975d87debb0eaaa6c68849d",
+   "pythia70m__c4__top5.npz": "df06cf322780f0cec53fc90b746481469d83e9408f2a7b635f7680959996bea7",
+   "mistral7b__c4__top5.npz": "b201ae3ef772457ea846e1a16595825eaa96725f58eccdd00494d453af7fcc2c",
+   "pythia70m__wdec.npy": "12151ef39e3777270303329e4d63064380c46c780500f72cd189b598344dff9d",
+   "mistral7b__wdec.npy": "2a5afe9b45ef8907fd469b8c51ce8c06706287f3a898ddabb9cabd9133c2a46f"
+  },
+  "script": "code/analysis/lan_filter_audit.py",
+  "script_sha256": "2976edf96783afd0561c8cc1423ced8cad4a67107f0181328d6eadf64deffc9b",
+  "lan_protocol_audit_sha256": "0d868b37af8300132936b70a223b3d3003dbf5482402e4c1c2f30555f133011c",
+  "seeds": {
+   "G0": 0,
+   "unfiltered_n200": 0,
+   "rand": 0,
+   "perm": 1
+  },
+  "n_draws": 200,
+  "min_k": 21,
+  "corr_floor": 0.1,
+  "meta_A": {
+   "model_tag": "pythia70m",
+   "hf_id_loaded": "EleutherAI/pythia-70m-deduped",
+   "sae_release": "pythia-70m-deduped-res-sm",
+   "sae_id": "blocks.3.hook_resid_post",
+   "hs_idx": 4,
+   "corpus": "c4",
+   "prompts": "c4_slice.jsonl",
+   "prompts_sha256": "4c7c9b9bb2ed840ce0eb3056d3190c62aacc282e5d38f6af16205857e57fe936",
+   "n_rows": 2000,
+   "n_tokens": 129028,
+   "d_sae": 32768,
+   "special_ids": [
+    0
+   ],
+   "device": "mps",
+   "torch": "2.14.0",
+   "transformers": "4.56.2",
+   "sae_lens": "6.51.1",
+   "script_sha256": "2fb7e2efc264609819b8e807684dfb7f3a8f8b4b1d5de847d8f2e81835701982"
+  },
+  "meta_B": {
+   "model_tag": "mistral7b",
+   "hf_id_loaded": "mistralai/Mistral-7B-v0.1",
+   "sae_release": "mistral-7b-res-wg",
+   "sae_id": "blocks.16.hook_resid_pre",
+   "hs_idx": 16,
+   "corpus": "c4",
+   "prompts": "c4_slice.jsonl",
+   "prompts_sha256": "4c7c9b9bb2ed840ce0eb3056d3190c62aacc282e5d38f6af16205857e57fe936",
+   "n_rows": 2000,
+   "n_tokens": 143519,
+   "d_sae": 65536,
+   "special_ids": [
+    0,
+    1,
+    2
+   ],
+   "device": "mps",
+   "torch": "2.14.0",
+   "transformers": "4.56.2",
+   "sae_lens": "6.51.1",
+   "script_sha256": "2fb7e2efc264609819b8e807684dfb7f3a8f8b4b1d5de847d8f2e81835701982"
+  },
+  "python": "3.11.14",
+  "numpy": "2.4.6"
+ }
+}

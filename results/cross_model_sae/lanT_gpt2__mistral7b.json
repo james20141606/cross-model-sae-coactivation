@@ -1,0 +1,14 @@
+{
+  "model_a": "gpt2",
+  "model_b": "mistralai/Mistral-7B-v0.1",
+  "topk": 512,
+  "templates": {
+    "svcca": 0.17390355467796326,
+    "rsa": 0.0014292016858235002,
+    "K": 512,
+    "svcca_random_pairing": 0.1676025614142418,
+    "rsa_random_pairing": 0.00019394713744986803,
+    "svcca_permuted_pairing": 0.1780427388846874,
+    "rsa_permuted_pairing": -0.0008468509884551167
+  }
+}

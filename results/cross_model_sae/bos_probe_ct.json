@@ -1,0 +1,180 @@
+{
+ "script": "code/analysis/bos_probe_ct.py",
+ "transformers": "4.57.1",
+ "hf_hub_offline": "1",
+ "tokenization": "tok(text) with default add_special_tokens, as cross_model_sae_match.py",
+ "c4_files": {
+  "c4_slice.jsonl": {
+   "sha256": "4c7c9b9bb2ed840ce0eb3056d3190c62aacc282e5d38f6af16205857e57fe936",
+   "chars": {
+    "n": 2000,
+    "min": 51,
+    "max": 300,
+    "mean": 290.31,
+    "median": 300.0
+   },
+   "n_at_300": 1791
+  },
+  "c4_fit.jsonl": {
+   "sha256": "54341323100f8f8ddb244ce4200bd63a5a9a87e56bd1da62e529fb03f485ac87",
+   "chars": {
+    "n": 1000,
+    "min": 51,
+    "max": 300,
+    "mean": 289.6,
+    "median": 300.0
+   },
+   "n_at_300": 899
+  },
+  "c4_heldout.jsonl": {
+   "sha256": "40f6e4b118b19769e2b9adde17db1fd3490cf7a47c99f059fee0f541bb701f25",
+   "chars": {
+    "n": 1000,
+    "min": 86,
+    "max": 300,
+    "mean": 291.01,
+    "median": 300.0
+   },
+   "n_at_300": 892
+  },
+  "c4_slice_20k.jsonl": {
+   "sha256": "ef6ab309dc759a8f3c7bfb6989db0e52a4a98e137db69fd04a9d8b030eab2b08",
+   "chars": {
+    "n": 20000,
+    "min": 51,
+    "max": 300,
+    "mean": 290.3,
+    "median": 300.0
+   },
+   "n_at_300": 17901
+  }
+ },
+ "tokenizers": {
+  "google/gemma-2-2b": {
+   "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+   "cls": "GemmaTokenizerFast",
+   "bos_token": "<bos>",
+   "bos_token_id": 2,
+   "add_bos_token": true,
+   "first_three_tokens_doc1": [
+    "<bos>",
+    "Begin",
+    "ners"
+   ],
+   "frac_docs_first_id_is_bos": 1.0,
+   "prepends_bos": true,
+   "T_d_c4_slice": {
+    "n": 2000,
+    "min": 15,
+    "max": 141,
+    "mean": 64.25,
+    "median": 64.0
+   }
+  },
+  "google/gemma-2-9b": {
+   "revision": "33c193028431c2fde6c6e51f29e6f17b60cbfac6",
+   "cls": "GemmaTokenizerFast",
+   "bos_token": "<bos>",
+   "bos_token_id": 2,
+   "add_bos_token": true,
+   "first_three_tokens_doc1": [
+    "<bos>",
+    "Begin",
+    "ners"
+   ],
+   "frac_docs_first_id_is_bos": 1.0,
+   "prepends_bos": true,
+   "T_d_c4_slice": {
+    "n": 2000,
+    "min": 15,
+    "max": 141,
+    "mean": 64.25,
+    "median": 64.0
+   }
+  },
+  "mistralai/Mistral-7B-v0.1": {
+   "revision": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
+   "cls": "LlamaTokenizerFast",
+   "bos_token": "<s>",
+   "bos_token_id": 1,
+   "add_bos_token": true,
+   "first_three_tokens_doc1": [
+    "<s>",
+    "\u2581Begin",
+    "ners"
+   ],
+   "frac_docs_first_id_is_bos": 1.0,
+   "prepends_bos": true,
+   "T_d_c4_slice": {
+    "n": 2000,
+    "min": 15,
+    "max": 144,
+    "mean": 71.76,
+    "median": 71.0
+   }
+  },
+  "Qwen/Qwen3-1.7B-Base": {
+   "revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+   "cls": "Qwen2TokenizerFast",
+   "bos_token": null,
+   "bos_token_id": null,
+   "add_bos_token": null,
+   "first_three_tokens_doc1": [
+    "Begin",
+    "ners",
+    "\u0120BBQ"
+   ],
+   "frac_docs_first_id_is_bos": 0.0,
+   "prepends_bos": false,
+   "T_d_c4_slice": {
+    "n": 2000,
+    "min": 14,
+    "max": 138,
+    "mean": 64.27,
+    "median": 64.0
+   }
+  },
+  "Qwen/Qwen3-8B-Base": {
+   "revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+   "cls": "Qwen2TokenizerFast",
+   "bos_token": null,
+   "bos_token_id": null,
+   "add_bos_token": null,
+   "first_three_tokens_doc1": [
+    "Begin",
+    "ners",
+    "\u0120BBQ"
+   ],
+   "frac_docs_first_id_is_bos": 0.0,
+   "prepends_bos": false,
+   "T_d_c4_slice": {
+    "n": 2000,
+    "min": 14,
+    "max": 138,
+    "mean": 64.27,
+    "median": 64.0
+   }
+  },
+  "meta-llama/Llama-3.2-1B": {
+   "revision": "4e20de362430cd3b72f300e6b0f18e50e7166e08",
+   "cls": "PreTrainedTokenizerFast",
+   "bos_token": "<|begin_of_text|>",
+   "bos_token_id": 128000,
+   "add_bos_token": null,
+   "first_three_tokens_doc1": [
+    "<|begin_of_text|>",
+    "Begin",
+    "ners"
+   ],
+   "frac_docs_first_id_is_bos": 1.0,
+   "prepends_bos": true,
+   "T_d_c4_slice": {
+    "n": 2000,
+    "min": 15,
+    "max": 108,
+    "mean": 63.97,
+    "median": 64.0
+   }
+  }
+ }
+}

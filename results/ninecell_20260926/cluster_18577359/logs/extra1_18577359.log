@@ -1,0 +1,5 @@
+[A:llama3.2-1b__mistral7b] point done 68s
+[A:llama3.2-1b__mistral7b] done boot 672s -> $HOME/ninecell_20260926/results/ninecell_20260926/A_llama3.2-1b__mistral7b.json
+[A:gemma2-9b__mistral7b] point done 64s
+[A:gemma2-9b__mistral7b] done boot 634s -> $HOME/ninecell_20260926/results/ninecell_20260926/A_gemma2-9b__mistral7b.json
+[A:gemma2-2b__mistral7b] receipt exists, skipped -> $HOME/ninecell_20260926/results/ninecell_20260926/A_gemma2-2b__mistral7b.json

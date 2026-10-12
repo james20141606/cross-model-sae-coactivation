@@ -1,0 +1,1209 @@
+{
+  "model_a": "Qwen/Qwen3-1.7B-Base",
+  "model_b": "google/gemma-2-2b",
+  "n_docs": 2000,
+  "k_pairs": 20,
+  "pairs": [
+    {
+      "feature_a": 21258,
+      "feature_b": 6196,
+      "pooled_corr": 0.9990897172529282,
+      "top_doc_overlap": 1,
+      "top_docs_a": [
+        {
+          "doc": 512,
+          "act": 14.995790481567383,
+          "text": "An example method involves providing, with a network management module of a network management system, current reroute statistics in a data structure based on t"
+        },
+        {
+          "doc": 686,
+          "act": 0.370449960231781,
+          "text": "Today's crossword puzzle clue is a cryptic one: Type of party – ring mobile phone to get through. We will try to find the right answer to this particular crossw"
+        },
+        {
+          "doc": 2,
+          "act": 0.14770594239234924,
+          "text": "Foil plaid lycra and spandex shortall with metallic slinky insets. Attached metallic elastic belt with O-ring. Headband included. Great hip hop or jazz dance co"
+        },
+        {
+          "doc": 169,
+          "act": 0.11719147861003876,
+          "text": "White cotton t-shirt, ribbed crewneck, back central seam detail, front graphic print, oversized fit. The model is 185 cm and wears size M. Composition: 100% cot"
+        },
+        {
+          "doc": 1098,
+          "act": 0.10159719735383987,
+          "text": "To a large degree，the measure of our peace of mind is determined by how much we are able to live in the present moment.Irrespective of what happened yesterday o"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 512,
+          "act": 13.503558158874512,
+          "text": "An example method involves providing, with a network management module of a network management system, current reroute statistics in a data structure based on t"
+        },
+        {
+          "doc": 815,
+          "act": 0.33745378255844116,
+          "text": "Philipp Plein's collection exudes hard-edged decadence with an intricate focus upon detailing. Crafted in Italy from aqua blue leather, goat skin and rubber, th"
+        },
+        {
+          "doc": 1142,
+          "act": 0.12654642760753632,
+          "text": "1) The development of screw conveyor can be divided into two process, shaft type auger conveyor and shaftless type auger conveyor. a. Shaft type auger conveyor "
+        },
+        {
+          "doc": 1140,
+          "act": 0.06510700285434723,
+          "text": "SAMD12 has 3,154 functional associations with biological entities spanning 8 categories (molecular profile, organism, functional term, phrase or reference, chem"
+        },
+        {
+          "doc": 606,
+          "act": 0.06458055973052979,
+          "text": "On a proper construction of an agreement, which required a supplier of warehouse services to give credit to the user for additional business secured by the supp"
+        }
+      ]
+    },
+    {
+      "feature_a": 22189,
+      "feature_b": 4026,
+      "pooled_corr": 0.9961065501935787,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 611,
+          "act": 26.45401954650879,
+          "text": "3 Wives, in the same way submit yourselves to your own husbands so that, if any of them do not believe the word, they may be won over without words by the behav"
+        },
+        {
+          "doc": 479,
+          "act": 17.33545684814453,
+          "text": "God didn’t set us up for an angry rejection but for salvation by our Master, Jesus Christ. He died for us, a death that triggered life…So speak encouraging word"
+        },
+        {
+          "doc": 965,
+          "act": 4.567348480224609,
+          "text": "And He came to earth as God’s only Son. Now He is seated next to the Father in the heavenly sky. That He is God’s Son indeed. We must accept Him and do what He "
+        },
+        {
+          "doc": 848,
+          "act": 2.1476683616638184,
+          "text": "41:33 And who is better in saying than he who invites to God, and does good works, and says: \"I am one of those who have submitted.\" Behold, all who pledge thei"
+        },
+        {
+          "doc": 1126,
+          "act": 1.759189248085022,
+          "text": "When we hear the word patience, we probably think of the virtue that enables us to wait. That’s one way of looking at it, but Spirit-led patience is also much m"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 611,
+          "act": 19.855669021606445,
+          "text": "3 Wives, in the same way submit yourselves to your own husbands so that, if any of them do not believe the word, they may be won over without words by the behav"
+        },
+        {
+          "doc": 479,
+          "act": 14.007781028747559,
+          "text": "God didn’t set us up for an angry rejection but for salvation by our Master, Jesus Christ. He died for us, a death that triggered life…So speak encouraging word"
+        },
+        {
+          "doc": 965,
+          "act": 3.8007941246032715,
+          "text": "And He came to earth as God’s only Son. Now He is seated next to the Father in the heavenly sky. That He is God’s Son indeed. We must accept Him and do what He "
+        },
+        {
+          "doc": 1126,
+          "act": 1.8517440557479858,
+          "text": "When we hear the word patience, we probably think of the virtue that enables us to wait. That’s one way of looking at it, but Spirit-led patience is also much m"
+        },
+        {
+          "doc": 1558,
+          "act": 0.7513395547866821,
+          "text": "Come worship with us every Sunday at 3:00pm @ The Cookery. Learn about who we are, our story and what God has done. It’s a privilege to give back what God has g"
+        }
+      ]
+    },
+    {
+      "feature_a": 26233,
+      "feature_b": 6521,
+      "pooled_corr": 0.991962499823725,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 1881,
+          "act": 15.871686935424805,
+          "text": "[AUTO](RC):[Counter Blast (1) & Put this unit into your soul] During your opponent's end phase, when an opponent's locked card is unlocked, if you have a «Link "
+        },
+        {
+          "doc": 670,
+          "act": 14.644227981567383,
+          "text": "Plasmatic Biomatter Blast Rifles are ranged ground weapons. They fire a powerful bolt that inflicts energy damage at a single target. They have a secondary firi"
+        },
+        {
+          "doc": 1330,
+          "act": 2.336221694946289,
+          "text": "Circlet is an Item in Final Fantasy XV. \"An elegant headpiece studded with many precious stones. Enhances magic moderately.\""
+        },
+        {
+          "doc": 1995,
+          "act": 0.5264841318130493,
+          "text": "The \"crafting\" label above the 2x2 grid in the player inventory was removed because the sizing didn't work in non-English languages. Fixed white wool/carpet app"
+        },
+        {
+          "doc": 933,
+          "act": 0.24884693324565887,
+          "text": "Between Pride of the Clouds and Thunderclap Wyvern, I'd try and go all-in on the flying theme! Favorable Winds , Warden of Evos Isle and Esper Stormblade would "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 670,
+          "act": 14.15312385559082,
+          "text": "Plasmatic Biomatter Blast Rifles are ranged ground weapons. They fire a powerful bolt that inflicts energy damage at a single target. They have a secondary firi"
+        },
+        {
+          "doc": 1881,
+          "act": 12.373785018920898,
+          "text": "[AUTO](RC):[Counter Blast (1) & Put this unit into your soul] During your opponent's end phase, when an opponent's locked card is unlocked, if you have a «Link "
+        },
+        {
+          "doc": 1330,
+          "act": 1.6769418716430664,
+          "text": "Circlet is an Item in Final Fantasy XV. \"An elegant headpiece studded with many precious stones. Enhances magic moderately.\""
+        },
+        {
+          "doc": 284,
+          "act": 0.8869365453720093,
+          "text": "Mechanics in Splatoon which appear primarily in the singleplayer campaigns, Octo Valley and Octo Canyon. In Splatoon, the only multiplayer stage which features "
+        },
+        {
+          "doc": 933,
+          "act": 0.462408185005188,
+          "text": "Between Pride of the Clouds and Thunderclap Wyvern, I'd try and go all-in on the flying theme! Favorable Winds , Warden of Evos Isle and Esper Stormblade would "
+        }
+      ]
+    },
+    {
+      "feature_a": 18940,
+      "feature_b": 2564,
+      "pooled_corr": 0.9918477249580808,
+      "top_doc_overlap": 5,
+      "top_docs_a": [
+        {
+          "doc": 382,
+          "act": 4.458918571472168,
+          "text": "Delete or alter any copyright, trademark or other proprietary rights notices from copies of materials from this site. You must not access or use for any commerc"
+        },
+        {
+          "doc": 1455,
+          "act": 3.73309588432312,
+          "text": "Contact us by email, call or whatsapp, we'll be happy to assist you! If you are enquiring about our wedding and event planning services please either use the en"
+        },
+        {
+          "doc": 395,
+          "act": 3.4299721717834473,
+          "text": "Our last competition for the Summertime Reading Competition is the funnest! Just leave a comment on this post, or submit a video or picture telling (or showing)"
+        },
+        {
+          "doc": 1140,
+          "act": 3.0838754177093506,
+          "text": "SAMD12 has 3,154 functional associations with biological entities spanning 8 categories (molecular profile, organism, functional term, phrase or reference, chem"
+        },
+        {
+          "doc": 1612,
+          "act": 3.027297258377075,
+          "text": "Seeking a dedicated individual to conduct rights and clearances for independent documentaries. This position is ideal for IP lawyers, law students or journalist"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 382,
+          "act": 3.7631258964538574,
+          "text": "Delete or alter any copyright, trademark or other proprietary rights notices from copies of materials from this site. You must not access or use for any commerc"
+        },
+        {
+          "doc": 1612,
+          "act": 2.550610303878784,
+          "text": "Seeking a dedicated individual to conduct rights and clearances for independent documentaries. This position is ideal for IP lawyers, law students or journalist"
+        },
+        {
+          "doc": 395,
+          "act": 2.537149429321289,
+          "text": "Our last competition for the Summertime Reading Competition is the funnest! Just leave a comment on this post, or submit a video or picture telling (or showing)"
+        },
+        {
+          "doc": 1455,
+          "act": 2.424537181854248,
+          "text": "Contact us by email, call or whatsapp, we'll be happy to assist you! If you are enquiring about our wedding and event planning services please either use the en"
+        },
+        {
+          "doc": 1140,
+          "act": 2.1731536388397217,
+          "text": "SAMD12 has 3,154 functional associations with biological entities spanning 8 categories (molecular profile, organism, functional term, phrase or reference, chem"
+        }
+      ]
+    },
+    {
+      "feature_a": 30725,
+      "feature_b": 6668,
+      "pooled_corr": 0.9915917686208265,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 325,
+          "act": 4.995051383972168,
+          "text": "The sign has arrived and I couldn’t be more thrilled! It’s PERFECT!!! Thanks a million!"
+        },
+        {
+          "doc": 1543,
+          "act": 4.388427734375,
+          "text": "This statement is so true! How many colors, patterns are you wearing today! That many! Great job!!!! LOOK UP IN THE SKY!!!! Looking good Liz! Wow! Tattoo is gre"
+        },
+        {
+          "doc": 1462,
+          "act": 3.3077213764190674,
+          "text": "Every Brunette Needs A Blonde Best Friend! And Every Blonde needs a Brunette Best Friend. Pair up with your bestie!"
+        },
+        {
+          "doc": 635,
+          "act": 3.224313735961914,
+          "text": "UGLYS Electric Motors and Controls Book FREE SHIP ! UGLYS T-Shirt (Large) FREE SHIP ! UGLYS T-Shirt (XXL) FREE SHIP !"
+        },
+        {
+          "doc": 695,
+          "act": 3.138024091720581,
+          "text": "By The Abyssinian | On May 13, 2015 | in Fun with Comments Off on Ethiopian food on The Simpsons! Eat my Shiro! Check out the clip from The Simpsons! (23×5)."
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1543,
+          "act": 4.290687561035156,
+          "text": "This statement is so true! How many colors, patterns are you wearing today! That many! Great job!!!! LOOK UP IN THE SKY!!!! Looking good Liz! Wow! Tattoo is gre"
+        },
+        {
+          "doc": 325,
+          "act": 4.170814037322998,
+          "text": "The sign has arrived and I couldn’t be more thrilled! It’s PERFECT!!! Thanks a million!"
+        },
+        {
+          "doc": 1462,
+          "act": 3.0223922729492188,
+          "text": "Every Brunette Needs A Blonde Best Friend! And Every Blonde needs a Brunette Best Friend. Pair up with your bestie!"
+        },
+        {
+          "doc": 1828,
+          "act": 2.6036226749420166,
+          "text": "Week 2 weigh in this morning and I have lost 10lbs!! Great job! This is amazing! Keep up the amazing work! Way to go on your 10 Lbs loss!! Yahooo!!! Keep on, ke"
+        },
+        {
+          "doc": 902,
+          "act": 2.494084119796753,
+          "text": "Earned the Riding Steady (Level 8) badge! Earned the Photogenic Brew (Level 13) badge! Earned the Brewery Pioneer (Level 9) badge! Earned the Here Come the Viki"
+        }
+      ]
+    },
+    {
+      "feature_a": 31028,
+      "feature_b": 11247,
+      "pooled_corr": 0.9911784580630331,
+      "top_doc_overlap": 5,
+      "top_docs_a": [
+        {
+          "doc": 52,
+          "act": 8.478075981140137,
+          "text": "In a small bowl, combine fennel, capers, lemon juice, parsley and olive oil and set aside. Preheat oven to 400°F. Lay trout on a greased baking sheet. Stuff eac"
+        },
+        {
+          "doc": 1774,
+          "act": 6.201802730560303,
+          "text": "Serve with whipped cream or ice cream and maple syrup. Cook apples in butter, covered, in a saucepan over medium heat, stirring occasionally, until slightly sof"
+        },
+        {
+          "doc": 724,
+          "act": 5.484492301940918,
+          "text": "Want to make whole wheat bread yourself? Just follow my step by step instructions to get a fresh loaf of homemade whole wheat bread from your own oven! 4 Tbs. B"
+        },
+        {
+          "doc": 71,
+          "act": 3.556438684463501,
+          "text": "Melt margarine in skillet and lightly fry onion, pepper and celery until tender crisp. Add flour and blend in. Add other ingredients and heat through. Serve wit"
+        },
+        {
+          "doc": 1427,
+          "act": 3.464750289916992,
+          "text": "Check out our recipe for a Southern classic, BBQ Shrimp & Grits. **To coarse-grind the peppercorns, use a blender or peppermill. The grind is important to the t"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 52,
+          "act": 10.437751770019531,
+          "text": "In a small bowl, combine fennel, capers, lemon juice, parsley and olive oil and set aside. Preheat oven to 400°F. Lay trout on a greased baking sheet. Stuff eac"
+        },
+        {
+          "doc": 724,
+          "act": 6.486474514007568,
+          "text": "Want to make whole wheat bread yourself? Just follow my step by step instructions to get a fresh loaf of homemade whole wheat bread from your own oven! 4 Tbs. B"
+        },
+        {
+          "doc": 1774,
+          "act": 6.061243534088135,
+          "text": "Serve with whipped cream or ice cream and maple syrup. Cook apples in butter, covered, in a saucepan over medium heat, stirring occasionally, until slightly sof"
+        },
+        {
+          "doc": 1427,
+          "act": 4.389349460601807,
+          "text": "Check out our recipe for a Southern classic, BBQ Shrimp & Grits. **To coarse-grind the peppercorns, use a blender or peppermill. The grind is important to the t"
+        },
+        {
+          "doc": 71,
+          "act": 4.119307994842529,
+          "text": "Melt margarine in skillet and lightly fry onion, pepper and celery until tender crisp. Add flour and blend in. Add other ingredients and heat through. Serve wit"
+        }
+      ]
+    },
+    {
+      "feature_a": 7066,
+      "feature_b": 7283,
+      "pooled_corr": 0.9908793803476185,
+      "top_doc_overlap": 5,
+      "top_docs_a": [
+        {
+          "doc": 1583,
+          "act": 3.409912109375,
+          "text": "Anyone else have actual experience? are these UFOs over China?? What makes you likely to be abducted by aliens? What do you know about black magic ? Are the gho"
+        },
+        {
+          "doc": 843,
+          "act": 3.332153081893921,
+          "text": "Please choose a security question What is your birth place? What is your pet's name? What is your mother's middle name? What kind of person are you?"
+        },
+        {
+          "doc": 435,
+          "act": 3.0152249336242676,
+          "text": "Home »featured»Who are we… REALLY? A Psalm of Identity, Who are we? Regardless of its few or many letters? Or what we have yet still to accomplish? Has God our "
+        },
+        {
+          "doc": 1683,
+          "act": 2.781081438064575,
+          "text": "How to create your own Template? How to change the style of your application with the css-editor? How to create a Bundle? How to create your own Element? How to"
+        },
+        {
+          "doc": 581,
+          "act": 2.591172218322754,
+          "text": "What is a Termite Bond? What are Bonds Good For? What is a Termite Bond? What are They Good For & are Bonds Worth the Cost? >> What is a Termite Bond? What are "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 843,
+          "act": 3.0259106159210205,
+          "text": "Please choose a security question What is your birth place? What is your pet's name? What is your mother's middle name? What kind of person are you?"
+        },
+        {
+          "doc": 1583,
+          "act": 2.975691795349121,
+          "text": "Anyone else have actual experience? are these UFOs over China?? What makes you likely to be abducted by aliens? What do you know about black magic ? Are the gho"
+        },
+        {
+          "doc": 581,
+          "act": 2.7298638820648193,
+          "text": "What is a Termite Bond? What are Bonds Good For? What is a Termite Bond? What are They Good For & are Bonds Worth the Cost? >> What is a Termite Bond? What are "
+        },
+        {
+          "doc": 1683,
+          "act": 2.5716326236724854,
+          "text": "How to create your own Template? How to change the style of your application with the css-editor? How to create a Bundle? How to create your own Element? How to"
+        },
+        {
+          "doc": 435,
+          "act": 2.5595970153808594,
+          "text": "Home »featured»Who are we… REALLY? A Psalm of Identity, Who are we? Regardless of its few or many letters? Or what we have yet still to accomplish? Has God our "
+        }
+      ]
+    },
+    {
+      "feature_a": 28937,
+      "feature_b": 8306,
+      "pooled_corr": 0.990455577622669,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 686,
+          "act": 20.85434341430664,
+          "text": "Today's crossword puzzle clue is a cryptic one: Type of party – ring mobile phone to get through. We will try to find the right answer to this particular crossw"
+        },
+        {
+          "doc": 1958,
+          "act": 12.122955322265625,
+          "text": "On this particular page you will find the solution to Egg-shaped crossword clue crossword clue. This clue was last seen on New York Times Crossword on February "
+        },
+        {
+          "doc": 843,
+          "act": 4.875298500061035,
+          "text": "Please choose a security question What is your birth place? What is your pet's name? What is your mother's middle name? What kind of person are you?"
+        },
+        {
+          "doc": 323,
+          "act": 0.8934349417686462,
+          "text": "It's Quick. It's Easy. It's Free! Are You an Columbia Contractor?"
+        },
+        {
+          "doc": 1571,
+          "act": 0.7849410176277161,
+          "text": "1. In the early years if you signed the register with your address you received a post card reminder the next year. 7. A few boyfriends and girlfriends came to "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 686,
+          "act": 14.253458976745605,
+          "text": "Today's crossword puzzle clue is a cryptic one: Type of party – ring mobile phone to get through. We will try to find the right answer to this particular crossw"
+        },
+        {
+          "doc": 1958,
+          "act": 8.377884864807129,
+          "text": "On this particular page you will find the solution to Egg-shaped crossword clue crossword clue. This clue was last seen on New York Times Crossword on February "
+        },
+        {
+          "doc": 843,
+          "act": 2.585289716720581,
+          "text": "Please choose a security question What is your birth place? What is your pet's name? What is your mother's middle name? What kind of person are you?"
+        },
+        {
+          "doc": 1999,
+          "act": 1.8586225509643555,
+          "text": "Is ems valid for Scrabble? Words With Friends? Other games? A river of northwest Germany flowing about 335 km (208 mi) to the North Sea at the Netherlands borde"
+        },
+        {
+          "doc": 187,
+          "act": 0.8792821764945984,
+          "text": "Gimme S'more - A School Superintendent's thoughts on education, community, parenting, and more. What can make a hippopotamus smile? What can make him walk more "
+        }
+      ]
+    },
+    {
+      "feature_a": 1807,
+      "feature_b": 3460,
+      "pooled_corr": 0.9892047326965081,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 732,
+          "act": 4.174688816070557,
+          "text": "PLAC ZONE ENTRIES: Click here for the final entries for Parramatta. PROGRAM: Click here for the event times for the North Metropolitan Zone Carnival. The full p"
+        },
+        {
+          "doc": 1746,
+          "act": 3.9180238246917725,
+          "text": "Roofing “paddocks” for camels cover. Realized for the plant \"NEW METALPORTE\"Costigliole Saluzzo (CN) - Italyfor the production of 165 kwp. Project automatic sto"
+        },
+        {
+          "doc": 1844,
+          "act": 3.7771694660186768,
+          "text": "Purchase these supplements for the growth and development of healthy bones from this website for a reduced price. Shop a wide range of conditioners, eye drops a"
+        },
+        {
+          "doc": 1636,
+          "act": 3.543292999267578,
+          "text": "The Kearny Mesa Swimming Pool is now much more inviting for disabled visitors. Crews striped extra-wide parking spots to accommodate vans for the disabled, and "
+        },
+        {
+          "doc": 1628,
+          "act": 3.5187466144561768,
+          "text": "ERP, CRM, BPM Or BI SOFTWARE? for your SME and budget. Easy-to-use, modular ERP / business software customized for your SME and budget. Complete and powerful ER"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1746,
+          "act": 2.911942958831787,
+          "text": "Roofing “paddocks” for camels cover. Realized for the plant \"NEW METALPORTE\"Costigliole Saluzzo (CN) - Italyfor the production of 165 kwp. Project automatic sto"
+        },
+        {
+          "doc": 1844,
+          "act": 2.709641695022583,
+          "text": "Purchase these supplements for the growth and development of healthy bones from this website for a reduced price. Shop a wide range of conditioners, eye drops a"
+        },
+        {
+          "doc": 732,
+          "act": 2.5594875812530518,
+          "text": "PLAC ZONE ENTRIES: Click here for the final entries for Parramatta. PROGRAM: Click here for the event times for the North Metropolitan Zone Carnival. The full p"
+        },
+        {
+          "doc": 338,
+          "act": 2.4881534576416016,
+          "text": "Residential buildings account for a significant amount of the national energy consumption of all OECD countries and consequently the EU and the Netherlands. The"
+        },
+        {
+          "doc": 1636,
+          "act": 2.443876028060913,
+          "text": "The Kearny Mesa Swimming Pool is now much more inviting for disabled visitors. Crews striped extra-wide parking spots to accommodate vans for the disabled, and "
+        }
+      ]
+    },
+    {
+      "feature_a": 562,
+      "feature_b": 13516,
+      "pooled_corr": 0.9889726677091761,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 382,
+          "act": 6.753231525421143,
+          "text": "Delete or alter any copyright, trademark or other proprietary rights notices from copies of materials from this site. You must not access or use for any commerc"
+        },
+        {
+          "doc": 1661,
+          "act": 3.250544309616089,
+          "text": "Email memos and any attached files transmitted from the email system of the Houses of the Oireachtas Commission are intended solely for the addressee. They may "
+        },
+        {
+          "doc": 1417,
+          "act": 3.0651795864105225,
+          "text": "represents EGEA externally and acts as the executive body of the association. Do you have any feedback for the Board of EGEA? Then click here. Do you have any f"
+        },
+        {
+          "doc": 1473,
+          "act": 2.5344722270965576,
+          "text": "Please ensure you upload the highest quality logo file, we also request they are submitted in any of the following formats jpeg/png/eps files, preferably images"
+        },
+        {
+          "doc": 664,
+          "act": 2.307408332824707,
+          "text": "I competed in my first ever triathlon yesterday, which also marked the first time wearing spandex outside the house (photo intentionally deleted). I had a fabul"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 382,
+          "act": 4.527819633483887,
+          "text": "Delete or alter any copyright, trademark or other proprietary rights notices from copies of materials from this site. You must not access or use for any commerc"
+        },
+        {
+          "doc": 1661,
+          "act": 2.209381580352783,
+          "text": "Email memos and any attached files transmitted from the email system of the Houses of the Oireachtas Commission are intended solely for the addressee. They may "
+        },
+        {
+          "doc": 1417,
+          "act": 2.0499207973480225,
+          "text": "represents EGEA externally and acts as the executive body of the association. Do you have any feedback for the Board of EGEA? Then click here. Do you have any f"
+        },
+        {
+          "doc": 1994,
+          "act": 1.825290322303772,
+          "text": "Any other trail is good if you like long XC rides. The trail is fast with technical sections filled with rocks and roots with lots of JUMPS and some single trac"
+        },
+        {
+          "doc": 664,
+          "act": 1.7046642303466797,
+          "text": "I competed in my first ever triathlon yesterday, which also marked the first time wearing spandex outside the house (photo intentionally deleted). I had a fabul"
+        }
+      ]
+    },
+    {
+      "feature_a": 7,
+      "feature_b": 10502,
+      "pooled_corr": 0.9888961048154165,
+      "top_doc_overlap": 1,
+      "top_docs_a": [
+        {
+          "doc": 1056,
+          "act": 26.372005462646484,
+          "text": "Global Sleeping Aids Market size is projected to be valued $96 Billion by 2024; with a CAGR of 6.2% from 2017 to 2025. Sleeping aids are medical specialty or su"
+        },
+        {
+          "doc": 1690,
+          "act": 2.6451902389526367,
+          "text": "Terrorism Index in Latvia increased to 0.46 in 2017 from 0 in 2016. Terrorism Index in Latvia averaged 0.09 from 2002 until 2017, reaching an all time high of 0"
+        },
+        {
+          "doc": 833,
+          "act": 0.907569408416748,
+          "text": "Wages & salaries for Computer software engineers, applications in Salinas, CA ? The BLS estimates that in Salinas, CA there were around 100 employed in the fiel"
+        },
+        {
+          "doc": 145,
+          "act": 0.8573994636535645,
+          "text": "The plant-based revolution is gathering pace at Tesco, which has now announced plans to double its Wicked Kitchen range. The supermarket giant said its sales of"
+        },
+        {
+          "doc": 618,
+          "act": 0.7194737195968628,
+          "text": "Chances are if you’ve been affected by cybercrime in the past year, you’ve been the victim of a banking trojan. Proofpoint’s latest quarterly threat report note"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1056,
+          "act": 17.502962112426758,
+          "text": "Global Sleeping Aids Market size is projected to be valued $96 Billion by 2024; with a CAGR of 6.2% from 2017 to 2025. Sleeping aids are medical specialty or su"
+        },
+        {
+          "doc": 1095,
+          "act": 1.0982739925384521,
+          "text": "Tap into the growing South Indian market by creating joint ventures, partnerships/associations, sourcing, dealerships, and networks. Get a roadmap to success fo"
+        },
+        {
+          "doc": 414,
+          "act": 0.9820362329483032,
+          "text": "The most excelling grading skills are seen in the students who are preparing out with our guides for their updated video training preparation. You may take the "
+        },
+        {
+          "doc": 1970,
+          "act": 0.8239948153495789,
+          "text": "passguide is a nice platform for students therefore all expert persons advise students to pass the updated Six Sigma IASSC Lean Six Sigma Black Belt audio train"
+        },
+        {
+          "doc": 1967,
+          "act": 0.7734217643737793,
+          "text": "We are one of the leading Manufacturer of a wide range of Lenin Fabric, Polyester Dupion and Polyester Silk. Our organization is highly acclaimed as a manufactu"
+        }
+      ]
+    },
+    {
+      "feature_a": 7749,
+      "feature_b": 10543,
+      "pooled_corr": 0.9883434386231127,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 20,
+          "act": 4.680710792541504,
+          "text": "A full time vegan, poet, artist and woman. Frontal and thorough when inspired. Our memories: childhood memories, the language we dearly speak and nature's color"
+        },
+        {
+          "doc": 1371,
+          "act": 4.638127326965332,
+          "text": "The Lime and Limestone Operations manufactures lime and limestone products, supplying primarily the construction (including highway, road and parking lot contra"
+        },
+        {
+          "doc": 67,
+          "act": 4.615339756011963,
+          "text": "Expand your clientele, meet and network with potential business partners and make new business contacts. Learn from seasoned industry experts sharing their know"
+        },
+        {
+          "doc": 450,
+          "act": 4.598064422607422,
+          "text": "Dig and Rig Equipment Dedicated to the HDD industry and those within it. Consulting, service, tooling, and MTI Equipment. We offer a full line of underground to"
+        },
+        {
+          "doc": 1628,
+          "act": 4.355393409729004,
+          "text": "ERP, CRM, BPM Or BI SOFTWARE? for your SME and budget. Easy-to-use, modular ERP / business software customized for your SME and budget. Complete and powerful ER"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 450,
+          "act": 3.8085849285125732,
+          "text": "Dig and Rig Equipment Dedicated to the HDD industry and those within it. Consulting, service, tooling, and MTI Equipment. We offer a full line of underground to"
+        },
+        {
+          "doc": 1371,
+          "act": 3.5137245655059814,
+          "text": "The Lime and Limestone Operations manufactures lime and limestone products, supplying primarily the construction (including highway, road and parking lot contra"
+        },
+        {
+          "doc": 67,
+          "act": 3.4926953315734863,
+          "text": "Expand your clientele, meet and network with potential business partners and make new business contacts. Learn from seasoned industry experts sharing their know"
+        },
+        {
+          "doc": 20,
+          "act": 3.4695544242858887,
+          "text": "A full time vegan, poet, artist and woman. Frontal and thorough when inspired. Our memories: childhood memories, the language we dearly speak and nature's color"
+        },
+        {
+          "doc": 517,
+          "act": 3.0870590209960938,
+          "text": "Attorneys at Hyatt McIntire and Associates* specialize in estate planning, trust and probate law. We are dedicated to personalized, proactive, effective and res"
+        }
+      ]
+    },
+    {
+      "feature_a": 24467,
+      "feature_b": 2041,
+      "pooled_corr": 0.9880801198593014,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 1781,
+          "act": 3.6912248134613037,
+          "text": "Sorry no files available for the first quarter at the moment. This will be updated when new materials are added. Sorry no files available for the second quarter"
+        },
+        {
+          "doc": 196,
+          "act": 3.251091241836548,
+          "text": "A good honours degree in chemistry, pharmacy, pharmaceutical science, pharmacology, biological science or biomedical science. Other chemistry or medical science"
+        },
+        {
+          "doc": 1667,
+          "act": 3.093294143676758,
+          "text": "Presented by Workplace Safety and Prevention Services (WSPS), this relevant and informative session will provide an overview of the new cannabis legislation. Em"
+        },
+        {
+          "doc": 133,
+          "act": 3.0896081924438477,
+          "text": "The Eastern Playoff race has been decided. The Carolina Hurricanes have drawn the first wildcard spot and will face the Metropolitan Division-leading Washington"
+        },
+        {
+          "doc": 1665,
+          "act": 2.827301502227783,
+          "text": "I will clean the coils on my refrigerator at least twice this year. I will leave the door on my washer open after use to prevent mildew and odors. I will check "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1665,
+          "act": 2.333509683609009,
+          "text": "I will clean the coils on my refrigerator at least twice this year. I will leave the door on my washer open after use to prevent mildew and odors. I will check "
+        },
+        {
+          "doc": 1781,
+          "act": 2.0122740268707275,
+          "text": "Sorry no files available for the first quarter at the moment. This will be updated when new materials are added. Sorry no files available for the second quarter"
+        },
+        {
+          "doc": 1667,
+          "act": 1.9530881643295288,
+          "text": "Presented by Workplace Safety and Prevention Services (WSPS), this relevant and informative session will provide an overview of the new cannabis legislation. Em"
+        },
+        {
+          "doc": 133,
+          "act": 1.8147568702697754,
+          "text": "The Eastern Playoff race has been decided. The Carolina Hurricanes have drawn the first wildcard spot and will face the Metropolitan Division-leading Washington"
+        },
+        {
+          "doc": 1906,
+          "act": 1.7716917991638184,
+          "text": "The 2019 BSC Annual Conference will be held at the University of Lincoln. The conference will explore the potential prospects for Criminology to ‘bridge the gap"
+        }
+      ]
+    },
+    {
+      "feature_a": 21165,
+      "feature_b": 4192,
+      "pooled_corr": 0.98803335564602,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 1470,
+          "act": 10.564079284667969,
+          "text": "Federal Reserve Bank of Minneapolis President Narayana Kocherlakota will step down when his current term ends in February 2016. The Federal Reserve Bank of Minn"
+        },
+        {
+          "doc": 1023,
+          "act": 8.881521224975586,
+          "text": "US job growth likely rebounded in October, with wages expected to have recorded their largest annual gain in 9-1/2 years, pointing to further labour market tigh"
+        },
+        {
+          "doc": 12,
+          "act": 6.474918842315674,
+          "text": "\"Unemployment, Relative Price Dispersion and the Implicit Contract Model.\" \"The Federal Reserve&apos;s Preferences for Inflation and Unemployment: An Analysis o"
+        },
+        {
+          "doc": 1306,
+          "act": 1.3666105270385742,
+          "text": "Is the FXCM trading resource centre free? Market orders: With a market order, you instruct your broker to execute your buy/sell at the current market rate. Ther"
+        },
+        {
+          "doc": 1071,
+          "act": 0.42472875118255615,
+          "text": "The Philippines of recent years has witnessed a spectacular turnaround. Over the past decade, the country has averaged 5% GDP growth each year. Sound economic f"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1470,
+          "act": 9.064204216003418,
+          "text": "Federal Reserve Bank of Minneapolis President Narayana Kocherlakota will step down when his current term ends in February 2016. The Federal Reserve Bank of Minn"
+        },
+        {
+          "doc": 1023,
+          "act": 7.092389106750488,
+          "text": "US job growth likely rebounded in October, with wages expected to have recorded their largest annual gain in 9-1/2 years, pointing to further labour market tigh"
+        },
+        {
+          "doc": 12,
+          "act": 3.9115922451019287,
+          "text": "\"Unemployment, Relative Price Dispersion and the Implicit Contract Model.\" \"The Federal Reserve&apos;s Preferences for Inflation and Unemployment: An Analysis o"
+        },
+        {
+          "doc": 1963,
+          "act": 1.4071651697158813,
+          "text": "I had another debate with my friend again regarding the cost of living in Singapore. Naturally, we referred to the article below, titled \"Inflation could hit 5%"
+        },
+        {
+          "doc": 1306,
+          "act": 1.0866371393203735,
+          "text": "Is the FXCM trading resource centre free? Market orders: With a market order, you instruct your broker to execute your buy/sell at the current market rate. Ther"
+        }
+      ]
+    },
+    {
+      "feature_a": 30566,
+      "feature_b": 12027,
+      "pooled_corr": 0.9872665208588652,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 358,
+          "act": 4.8417134284973145,
+          "text": "Enjoy all day energy without the crash of stimulants. Pure Energy Extra Strength gives your body exuberant energy without the caffeine crash. Kelp (whole plant)"
+        },
+        {
+          "doc": 1371,
+          "act": 3.6144325733184814,
+          "text": "The Lime and Limestone Operations manufactures lime and limestone products, supplying primarily the construction (including highway, road and parking lot contra"
+        },
+        {
+          "doc": 635,
+          "act": 3.3146164417266846,
+          "text": "UGLYS Electric Motors and Controls Book FREE SHIP ! UGLYS T-Shirt (Large) FREE SHIP ! UGLYS T-Shirt (XXL) FREE SHIP !"
+        },
+        {
+          "doc": 1361,
+          "act": 3.2783584594726562,
+          "text": "Professor Colin Butler is based at the Faculty of Health, University of Canberra. He is a medical graduate (University of Newcastle) with postgraduate qualifica"
+        },
+        {
+          "doc": 1465,
+          "act": 3.166616201400757,
+          "text": "Composed by Dmitri Shostakovich (1906-1975). Op. 102. Piano duet book (requires 2 copies for performance) for piano duet (2 pianos, 4 hands). With solo part and"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 358,
+          "act": 3.864496946334839,
+          "text": "Enjoy all day energy without the crash of stimulants. Pure Energy Extra Strength gives your body exuberant energy without the caffeine crash. Kelp (whole plant)"
+        },
+        {
+          "doc": 851,
+          "act": 2.358367443084717,
+          "text": "You can post for sale and for rent advertisements for free. You need to register an account to post advertisements. (1) Click Register in the right upper corner"
+        },
+        {
+          "doc": 1371,
+          "act": 2.3451459407806396,
+          "text": "The Lime and Limestone Operations manufactures lime and limestone products, supplying primarily the construction (including highway, road and parking lot contra"
+        },
+        {
+          "doc": 902,
+          "act": 2.1886627674102783,
+          "text": "Earned the Riding Steady (Level 8) badge! Earned the Photogenic Brew (Level 13) badge! Earned the Brewery Pioneer (Level 9) badge! Earned the Here Come the Viki"
+        },
+        {
+          "doc": 635,
+          "act": 2.1533472537994385,
+          "text": "UGLYS Electric Motors and Controls Book FREE SHIP ! UGLYS T-Shirt (Large) FREE SHIP ! UGLYS T-Shirt (XXL) FREE SHIP !"
+        }
+      ]
+    },
+    {
+      "feature_a": 24805,
+      "feature_b": 13828,
+      "pooled_corr": 0.9872212816301729,
+      "top_doc_overlap": 5,
+      "top_docs_a": [
+        {
+          "doc": 561,
+          "act": 3.792158603668213,
+          "text": "You made it this far you speed devil, you. Let’s get you tuned up. This upgrade requires you to send us your ECU for re-programming. You will be emailed a downl"
+        },
+        {
+          "doc": 536,
+          "act": 3.516052007675171,
+          "text": "Here you are able to download free fonts beginning with letter A. This is nice if you know the name of the free font you are looking up. If not, then you you sh"
+        },
+        {
+          "doc": 1808,
+          "act": 3.4477121829986572,
+          "text": "Now how do you suppose a chewing gum company would try to sell more chewing gum? If you think it’s by touting the scientific evidence that chewing gum helps pre"
+        },
+        {
+          "doc": 1527,
+          "act": 3.2474913597106934,
+          "text": "Reasons why You Ought To Compare Online Fax Services No matter the type of product or services you are in need of, it is usually important to make a comparison "
+        },
+        {
+          "doc": 180,
+          "act": 3.1622166633605957,
+          "text": "Parenting Podcasts: You Aren’t Alone! When you follow someone online, you get a glimpse into their life. Suddenly instead of feeling alone, you feel validated i"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 561,
+          "act": 3.213949680328369,
+          "text": "You made it this far you speed devil, you. Let’s get you tuned up. This upgrade requires you to send us your ECU for re-programming. You will be emailed a downl"
+        },
+        {
+          "doc": 1527,
+          "act": 2.6774892807006836,
+          "text": "Reasons why You Ought To Compare Online Fax Services No matter the type of product or services you are in need of, it is usually important to make a comparison "
+        },
+        {
+          "doc": 536,
+          "act": 2.6315929889678955,
+          "text": "Here you are able to download free fonts beginning with letter A. This is nice if you know the name of the free font you are looking up. If not, then you you sh"
+        },
+        {
+          "doc": 1808,
+          "act": 2.6286134719848633,
+          "text": "Now how do you suppose a chewing gum company would try to sell more chewing gum? If you think it’s by touting the scientific evidence that chewing gum helps pre"
+        },
+        {
+          "doc": 180,
+          "act": 2.5439770221710205,
+          "text": "Parenting Podcasts: You Aren’t Alone! When you follow someone online, you get a glimpse into their life. Suddenly instead of feeling alone, you feel validated i"
+        }
+      ]
+    },
+    {
+      "feature_a": 21887,
+      "feature_b": 5511,
+      "pooled_corr": 0.9865734935709007,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 133,
+          "act": 7.567119598388672,
+          "text": "The Eastern Playoff race has been decided. The Carolina Hurricanes have drawn the first wildcard spot and will face the Metropolitan Division-leading Washington"
+        },
+        {
+          "doc": 1057,
+          "act": 7.249917030334473,
+          "text": "The day is drawing near when the Ukrainian Greek Catholic Church will celebrate the fourth centenary of the union between the Bishops of the Metropolia of Kieva"
+        },
+        {
+          "doc": 371,
+          "act": 6.985200881958008,
+          "text": "A past newsletter featured the amazing transformation of the Picton hockey arena in Prince Edward County. You can see the project for yourself in the video post"
+        },
+        {
+          "doc": 1357,
+          "act": 6.948624134063721,
+          "text": "Especially, during the last 10 years a lot of projects have been carried out at Groyne 42. The projects range from mapping of the comprehensive contamination of"
+        },
+        {
+          "doc": 520,
+          "act": 6.6335930824279785,
+          "text": "To determine your torso length, measure the distance between the C7 vertebrae and the top of the hip bone. Use the sizing charts below to find the pack that wil"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1057,
+          "act": 5.9120683670043945,
+          "text": "The day is drawing near when the Ukrainian Greek Catholic Church will celebrate the fourth centenary of the union between the Bishops of the Metropolia of Kieva"
+        },
+        {
+          "doc": 133,
+          "act": 5.175395488739014,
+          "text": "The Eastern Playoff race has been decided. The Carolina Hurricanes have drawn the first wildcard spot and will face the Metropolitan Division-leading Washington"
+        },
+        {
+          "doc": 520,
+          "act": 5.165623664855957,
+          "text": "To determine your torso length, measure the distance between the C7 vertebrae and the top of the hip bone. Use the sizing charts below to find the pack that wil"
+        },
+        {
+          "doc": 371,
+          "act": 5.045256614685059,
+          "text": "A past newsletter featured the amazing transformation of the Picton hockey arena in Prince Edward County. You can see the project for yourself in the video post"
+        },
+        {
+          "doc": 878,
+          "act": 4.998168468475342,
+          "text": "A photo from the 1940’s showing all the members of the wedding. Previous Post A photo from the 1940’s showing all the members of the wedding. Next Post A photo "
+        }
+      ]
+    },
+    {
+      "feature_a": 11891,
+      "feature_b": 11185,
+      "pooled_corr": 0.9847715944132616,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 1775,
+          "act": 2.8349533081054688,
+          "text": "At Foppapedretti we think it is important to use advanced technology in order to provide our products with the maximum functionality and ease of use. Since 1946"
+        },
+        {
+          "doc": 777,
+          "act": 2.647831439971924,
+          "text": "This is a placeholder page for Donald Sawyer, which means this person is not currently on this site. We do suggest using the tools below to find Donald Sawyer. "
+        },
+        {
+          "doc": 1065,
+          "act": 2.610933303833008,
+          "text": "If you want to use a hand cursor (like web browsers use when the mouse is over a link) you either have to have Windows 2000 or above, or use a resource. [Yes, t"
+        },
+        {
+          "doc": 557,
+          "act": 2.505216360092163,
+          "text": "​We use a professional quality dual diesel/gasoline engine system that generates hot water, which allows us to use the ultra cleaning power of steam. This enabl"
+        },
+        {
+          "doc": 1948,
+          "act": 2.4138693809509277,
+          "text": "This is a placeholder page for Alan Farris, which means this person is not currently on this site. We do suggest using the tools below to find Alan Farris. You "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1775,
+          "act": 1.7410240173339844,
+          "text": "At Foppapedretti we think it is important to use advanced technology in order to provide our products with the maximum functionality and ease of use. Since 1946"
+        },
+        {
+          "doc": 557,
+          "act": 1.5603822469711304,
+          "text": "​We use a professional quality dual diesel/gasoline engine system that generates hot water, which allows us to use the ultra cleaning power of steam. This enabl"
+        },
+        {
+          "doc": 520,
+          "act": 1.51524019241333,
+          "text": "To determine your torso length, measure the distance between the C7 vertebrae and the top of the hip bone. Use the sizing charts below to find the pack that wil"
+        },
+        {
+          "doc": 1065,
+          "act": 1.5020065307617188,
+          "text": "If you want to use a hand cursor (like web browsers use when the mouse is over a link) you either have to have Windows 2000 or above, or use a resource. [Yes, t"
+        },
+        {
+          "doc": 937,
+          "act": 1.4880406856536865,
+          "text": "An introduction to the history and design of Internet-based business models utilizing electronic commerce in organizations. Topics include e-commerce management"
+        }
+      ]
+    },
+    {
+      "feature_a": 7139,
+      "feature_b": 10678,
+      "pooled_corr": 0.9847421656695938,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 1131,
+          "act": 7.207647800445557,
+          "text": "The European Publishing Awards honours the best digital products, magazines and newspapers of Europe’s various media markets. We demonstrate which products set "
+        },
+        {
+          "doc": 1259,
+          "act": 6.914539337158203,
+          "text": "Corrugated boxes and other custom corrugated packaging with a wide array of board grades and printing capabilities. Quality new construction pallets, skids, cra"
+        },
+        {
+          "doc": 347,
+          "act": 5.920599460601807,
+          "text": "Many materials are available in both English and Spanish. FSNE’s multilevel interventions positively influence individual health behaviors, while also targeting"
+        },
+        {
+          "doc": 889,
+          "act": 5.919549465179443,
+          "text": "A weight management supplement. A unique blend of vitamins, minerals and extracts, Burner Capsules are designed to support and aid your goals. Containing caffei"
+        },
+        {
+          "doc": 360,
+          "act": 5.869542598724365,
+          "text": "Do your knowledge workers need a shared call queue? Do your teams field calls, solve problems, and juggle multiple service requests? XM TeamQ is ideal for organ"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1259,
+          "act": 4.178208827972412,
+          "text": "Corrugated boxes and other custom corrugated packaging with a wide array of board grades and printing capabilities. Quality new construction pallets, skids, cra"
+        },
+        {
+          "doc": 1131,
+          "act": 4.137420654296875,
+          "text": "The European Publishing Awards honours the best digital products, magazines and newspapers of Europe’s various media markets. We demonstrate which products set "
+        },
+        {
+          "doc": 1146,
+          "act": 3.6153838634490967,
+          "text": "Exquisite Unicorn Coloring Pages Best Choice Of For Kids Pages Free Unicorns Page Delivered | Necrocomiccon unicorn coloring pages color by number. dabbing unic"
+        },
+        {
+          "doc": 1805,
+          "act": 3.607508659362793,
+          "text": "Vernal presents a selection of new multi-media works that use stories, myths, and legends passed down from various cultures to explore ideas related to, among o"
+        },
+        {
+          "doc": 1972,
+          "act": 3.573859453201294,
+          "text": "Couples Counselling in Fort Saskatchewan, AB: Therapy That Works. Great Couples Counselling in Fort Saskatchewan, AB. Therapy to heal relationships. Licensed th"
+        }
+      ]
+    },
+    {
+      "feature_a": 27582,
+      "feature_b": 787,
+      "pooled_corr": 0.9841205731832124,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 232,
+          "act": 3.232886791229248,
+          "text": "Enjoy your family. Enjoy your friends. Make lots of special memories."
+        },
+        {
+          "doc": 843,
+          "act": 2.723301887512207,
+          "text": "Please choose a security question What is your birth place? What is your pet's name? What is your mother's middle name? What kind of person are you?"
+        },
+        {
+          "doc": 867,
+          "act": 2.002897262573242,
+          "text": "If you do not have a Website, Open an FindOffer Web store to improve your Retail store traffic. Subscribe your Website for automated item submission and make th"
+        },
+        {
+          "doc": 346,
+          "act": 1.6886125802993774,
+          "text": "Does your child(ren) have special dietary requirements? Does your child(ren) have allergies? Please specify which child along with the details of the allergies."
+        },
+        {
+          "doc": 1079,
+          "act": 1.656198263168335,
+          "text": "Coming to a show and need a little help finding your way? Here’s the information you’ll need. We look forward to your visit, and enjoy the show."
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 232,
+          "act": 3.6241586208343506,
+          "text": "Enjoy your family. Enjoy your friends. Make lots of special memories."
+        },
+        {
+          "doc": 843,
+          "act": 2.25193190574646,
+          "text": "Please choose a security question What is your birth place? What is your pet's name? What is your mother's middle name? What kind of person are you?"
+        },
+        {
+          "doc": 867,
+          "act": 2.218858003616333,
+          "text": "If you do not have a Website, Open an FindOffer Web store to improve your Retail store traffic. Subscribe your Website for automated item submission and make th"
+        },
+        {
+          "doc": 816,
+          "act": 1.9062261581420898,
+          "text": "The soil beneath your feet is your most precious resource in the garden: look after it, and your plants thrive. There's a huge range of bagged composts, soil im"
+        },
+        {
+          "doc": 346,
+          "act": 1.8819040060043335,
+          "text": "Does your child(ren) have special dietary requirements? Does your child(ren) have allergies? Please specify which child along with the details of the allergies."
+        }
+      ]
+    }
+  ],
+  "mean_top_doc_overlap": 3.6
+}

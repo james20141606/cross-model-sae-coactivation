@@ -1,0 +1,1232 @@
+{
+  "model_a": "google/gemma-2-9b",
+  "model_b": "mistralai/Mistral-7B-v0.1",
+  "n_docs": 1000,
+  "audit_prompts": "data/c4_heldout.jsonl",
+  "n_audit_docs": 1000,
+  "k_pairs": 20,
+  "pairs": [
+    {
+      "feature_a": 6646,
+      "feature_b": 20881,
+      "pooled_corr": 0.999767485875227,
+      "doc_corpus_corr": 0.7593936280816095,
+      "top_doc_overlap": 1,
+      "top_docs_a": [
+        {
+          "doc": 490,
+          "act": 1.6007966995239258,
+          "text": "We have been married for several years and have been trying to conceive. Besides the normal Qurʾānic duʿās for conception, what other actions could we do? Psych"
+        },
+        {
+          "doc": 342,
+          "act": 0.0,
+          "text": "Many people are in need of loans for various reasons, some credible, others not so credible. Taking up a loan is a personal decision that can affect the borrowe"
+        },
+        {
+          "doc": 341,
+          "act": 0.0,
+          "text": "Human trafficking is definitely an important issue and still exists today even in the United States! We should be doing more to combat human trafficking, especi"
+        },
+        {
+          "doc": 340,
+          "act": 0.0,
+          "text": "There are 14 Auto insurance companies in Chino, CA. Below is a list of the 10 most popular Auto insurance companies on Auto Insurance Directory. Are you looking"
+        },
+        {
+          "doc": 339,
+          "act": 0.0,
+          "text": "Backpacks & Briefcases: Oops! We're restocking. It looks like you've found one of our popular items within our Men's Accessories assortment. We apologize for th"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 490,
+          "act": 0.0760202407836914,
+          "text": "We have been married for several years and have been trying to conceive. Besides the normal Qurʾānic duʿās for conception, what other actions could we do? Psych"
+        },
+        {
+          "doc": 254,
+          "act": 0.0629967451095581,
+          "text": "Addiction Step Eleven: Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His wi"
+        },
+        {
+          "doc": 556,
+          "act": 0.012864256277680397,
+          "text": "With regard to whatever worries you, not only accept the worst thing that could happen, but make it a point to quantify what the worst thing could be. Very seld"
+        },
+        {
+          "doc": 253,
+          "act": 0.010085687972605228,
+          "text": "Some words remain etched on your mind no matter when you read them. That’s the power of words. I particularly believe in these words of Paulo Coelho – “When you"
+        },
+        {
+          "doc": 329,
+          "act": 0.0,
+          "text": "It's difficult, at best... an SL challenge! I study World Map 'really close'.. but that doesn't get it always. You can pretty much bet that if the road 'ends' o"
+        }
+      ]
+    },
+    {
+      "feature_a": 189,
+      "feature_b": 46180,
+      "pooled_corr": 0.9996038348501349,
+      "doc_corpus_corr": 0.9931778230458251,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 881,
+          "act": 2.8704593181610107,
+          "text": "[AUTO](RC):[Counter Blast (1) & Put this unit into your soul] During your opponent's end phase, when an opponent's locked card is unlocked, if you have a «Link "
+        },
+        {
+          "doc": 330,
+          "act": 0.21237866580486298,
+          "text": "Circlet is an Item in Final Fantasy XV. \"An elegant headpiece studded with many precious stones. Enhances magic moderately.\""
+        },
+        {
+          "doc": 221,
+          "act": 0.2017415314912796,
+          "text": "Tickets go on sale October 13th. The NOVA Open Charitable Foundation’s 2017 Fall Model, Warhammer 40K Commissar was donated & painted by David Faust; visit his "
+        },
+        {
+          "doc": 123,
+          "act": 0.13109055161476135,
+          "text": "For about as long as I can remember going to the gaming store, I remember seeing little bags with Cheapass Games on the side. They were a couple bucks each, and"
+        },
+        {
+          "doc": 186,
+          "act": 0.10384652018547058,
+          "text": "Enthusiast system builds are not always about having the best of everything but sometimes more about picking the right equipment to make everything work. For in"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 881,
+          "act": 11.500261306762695,
+          "text": "[AUTO](RC):[Counter Blast (1) & Put this unit into your soul] During your opponent's end phase, when an opponent's locked card is unlocked, if you have a «Link "
+        },
+        {
+          "doc": 956,
+          "act": 0.019544200971722603,
+          "text": "BGR has partnered with The Points Guy for our coverage of credit card products. BGR and The Points Guy may receive a commission from card issuers. The annual fe"
+        },
+        {
+          "doc": 623,
+          "act": 0.016641955822706223,
+          "text": "[Effect of lycopene on proliferation and cell cycle of hormone refractory prostate cancer PC-3 cell line]. OBJECTIVE: To investigate the effects of lycopene on "
+        },
+        {
+          "doc": 273,
+          "act": 0.012721818871796131,
+          "text": "Cards: Crown Royale 2013 Silver (#139/199), Crown Royale 2013 Red (#14/99), Panini Black 2013 (#019/399), Photo Memorabilia. An intriguing member of the Houston"
+        },
+        {
+          "doc": 330,
+          "act": 0.0,
+          "text": "Circlet is an Item in Final Fantasy XV. \"An elegant headpiece studded with many precious stones. Enhances magic moderately.\""
+        }
+      ]
+    },
+    {
+      "feature_a": 6401,
+      "feature_b": 2372,
+      "pooled_corr": 0.9994652382130337,
+      "doc_corpus_corr": 0.9853448211561117,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 321,
+          "act": 6.025467395782471,
+          "text": "After much anticipation, Melania Trump has finally given the world a glimpse of her platform. Like those before her, Trump is keen to make a difference in her o"
+        },
+        {
+          "doc": 86,
+          "act": 0.9894573092460632,
+          "text": "The 2019 Aga Khan Music Awards will conclude with a gala concert and prize-giving ceremony on Sunday 31 March in Lisbon, Portugal. Each of the Laureates will pe"
+        },
+        {
+          "doc": 687,
+          "act": 0.2868887484073639,
+          "text": "This website is provided and operated by The British Red Cross Society, incorporated by Royal Charter 1908; registered as a charity in England and Wales (220949"
+        },
+        {
+          "doc": 390,
+          "act": 0.19248634576797485,
+          "text": "Items where Subject is \"L Social studies > L232 UK Constitutional studies\" Kelly, Richard and Bochel, Catherine (2018) Parliament's engagement with the public. "
+        },
+        {
+          "doc": 762,
+          "act": 0.16099755465984344,
+          "text": "Tipper and I were deeply saddened today to learn of the death of former Rep. Morris (Mo) Udall. Mo Udall made his life's work protecting the environment and ser"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 321,
+          "act": 1.2699648141860962,
+          "text": "After much anticipation, Melania Trump has finally given the world a glimpse of her platform. Like those before her, Trump is keen to make a difference in her o"
+        },
+        {
+          "doc": 687,
+          "act": 0.023579958826303482,
+          "text": "This website is provided and operated by The British Red Cross Society, incorporated by Royal Charter 1908; registered as a charity in England and Wales (220949"
+        },
+        {
+          "doc": 666,
+          "act": 0.007764139212667942,
+          "text": "Iced Woofin - a cupcake for dogs! Made from light and fluffy sponge, topped wth a large tail swishing swril of our famous yoghurt icing and decorated with an as"
+        },
+        {
+          "doc": 968,
+          "act": 0.00444131949916482,
+          "text": "new neighbors, new challenges and, of course, new romances, the sisters must depend on one another to navigate the City of Angels. Cierra Ramirez, Jennifer Lope"
+        },
+        {
+          "doc": 933,
+          "act": 0.0005812065792270005,
+          "text": "The three events below are just a few highlights from an exciting and impressive array of events! Visit the ArtWeek website to get a full list of events in our "
+        }
+      ]
+    },
+    {
+      "feature_a": 773,
+      "feature_b": 32911,
+      "pooled_corr": 0.9983652322747685,
+      "doc_corpus_corr": 0.975667482260674,
+      "top_doc_overlap": 5,
+      "top_docs_a": [
+        {
+          "doc": 748,
+          "act": 4.396173477172852,
+          "text": "JERUSALEM (Ma'an) -- The Israeli police banned three Palestinian women and one youth from the Al-Aqsa Mosque, and another from entering occupied Jerusalem, on F"
+        },
+        {
+          "doc": 408,
+          "act": 3.340850591659546,
+          "text": "I write this from Ben Gurion airport, the Dan lounge to be exact, a perk left over from my pre-B’nai Abraham frequent flyer days. It’s late Thursday evening, bo"
+        },
+        {
+          "doc": 208,
+          "act": 0.6342909336090088,
+          "text": "Empower users to access all of their applications – Google apps, and Windows applications and desktops. All you need is a Chromebook or Chromebox and an Interne"
+        },
+        {
+          "doc": 337,
+          "act": 0.5235329866409302,
+          "text": "2) Antique Jerusalem ISRAEL Hand Made & Carved SEA SHELLS Old Statue Figurines! Vtg Hand Carved SEA SHELL CABOCHON Natural 3-D Daisy Flowers 16x12mm Oval Cream!"
+        },
+        {
+          "doc": 62,
+          "act": 0.4500584602355957,
+          "text": "Finally we found a safe & secure tool that allows us to surf the net from all over the world. As QA Manager/Lead Tester for an organization that currently perfo"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 748,
+          "act": 3.151082992553711,
+          "text": "JERUSALEM (Ma'an) -- The Israeli police banned three Palestinian women and one youth from the Al-Aqsa Mosque, and another from entering occupied Jerusalem, on F"
+        },
+        {
+          "doc": 408,
+          "act": 1.5305777788162231,
+          "text": "I write this from Ben Gurion airport, the Dan lounge to be exact, a perk left over from my pre-B’nai Abraham frequent flyer days. It’s late Thursday evening, bo"
+        },
+        {
+          "doc": 208,
+          "act": 0.48342642188072205,
+          "text": "Empower users to access all of their applications – Google apps, and Windows applications and desktops. All you need is a Chromebook or Chromebox and an Interne"
+        },
+        {
+          "doc": 337,
+          "act": 0.3588259518146515,
+          "text": "2) Antique Jerusalem ISRAEL Hand Made & Carved SEA SHELLS Old Statue Figurines! Vtg Hand Carved SEA SHELL CABOCHON Natural 3-D Daisy Flowers 16x12mm Oval Cream!"
+        },
+        {
+          "doc": 62,
+          "act": 0.3084387183189392,
+          "text": "Finally we found a safe & secure tool that allows us to surf the net from all over the world. As QA Manager/Lead Tester for an organization that currently perfo"
+        }
+      ]
+    },
+    {
+      "feature_a": 11680,
+      "feature_b": 34888,
+      "pooled_corr": 0.9982864302010895,
+      "doc_corpus_corr": 0.9977094714353011,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 958,
+          "act": 29.635601043701172,
+          "text": "On this particular page you will find the solution to Egg-shaped crossword clue crossword clue. This clue was last seen on New York Times Crossword on February "
+        },
+        {
+          "doc": 999,
+          "act": 5.338671684265137,
+          "text": "Is ems valid for Scrabble? Words With Friends? Other games? A river of northwest Germany flowing about 335 km (208 mi) to the North Sea at the Netherlands borde"
+        },
+        {
+          "doc": 492,
+          "act": 0.14705154299736023,
+          "text": "There's so much to recommend your current amour: kindness, generosity of spirit, integrity, honesty. You may have been hearing from loved ones that you really m"
+        },
+        {
+          "doc": 607,
+          "act": 0.11335522681474686,
+          "text": "What does Oxypoda grandipennis mean as a name of something? Oxypoda grandipennis is a species of Oxypoda, described by Casey in 1911. Go to the thesaurus of Oxy"
+        },
+        {
+          "doc": 110,
+          "act": 0.06813251972198486,
+          "text": "Check back later to find the answer to this. Answered on Jul 17, 2018 Posted in PR Photos 1 answer Last reply 1 week ago This question has 0 votes by We&apos;re"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 958,
+          "act": 8.992325782775879,
+          "text": "On this particular page you will find the solution to Egg-shaped crossword clue crossword clue. This clue was last seen on New York Times Crossword on February "
+        },
+        {
+          "doc": 999,
+          "act": 1.8130604028701782,
+          "text": "Is ems valid for Scrabble? Words With Friends? Other games? A river of northwest Germany flowing about 335 km (208 mi) to the North Sea at the Netherlands borde"
+        },
+        {
+          "doc": 433,
+          "act": 0.4391380548477173,
+          "text": "Help Florence restore her familys fortune in Secret Diaries: Florence Ashford, a wonderful Hidden Object Puzzle Adventure game! In order to pay off her father"
+        },
+        {
+          "doc": 146,
+          "act": 0.21904931962490082,
+          "text": "Exquisite Unicorn Coloring Pages Best Choice Of For Kids Pages Free Unicorns Page Delivered | Necrocomiccon unicorn coloring pages color by number. dabbing unic"
+        },
+        {
+          "doc": 423,
+          "act": 0.20217013359069824,
+          "text": "Experimental design and architectural firm, D*Haus Company, takes their inspiration for the creation of structures, furniture, and lighting from mathematics, mo"
+        }
+      ]
+    },
+    {
+      "feature_a": 14254,
+      "feature_b": 24265,
+      "pooled_corr": 0.9981757814351369,
+      "doc_corpus_corr": 0.9007164463462081,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 881,
+          "act": 7.3477911949157715,
+          "text": "[AUTO](RC):[Counter Blast (1) & Put this unit into your soul] During your opponent's end phase, when an opponent's locked card is unlocked, if you have a «Link "
+        },
+        {
+          "doc": 330,
+          "act": 3.4820542335510254,
+          "text": "Circlet is an Item in Final Fantasy XV. \"An elegant headpiece studded with many precious stones. Enhances magic moderately.\""
+        },
+        {
+          "doc": 623,
+          "act": 0.13267698884010315,
+          "text": "[Effect of lycopene on proliferation and cell cycle of hormone refractory prostate cancer PC-3 cell line]. OBJECTIVE: To investigate the effects of lycopene on "
+        },
+        {
+          "doc": 432,
+          "act": 0.09327081590890884,
+          "text": "87 out of 100. Incorporating 1300+ ratings and reviews. The JamMan Stereo is the current JamMan series flagship looper pedal, and while it has been years since "
+        },
+        {
+          "doc": 507,
+          "act": 0.09278139472007751,
+          "text": "Come in and join the fiesta of music, and dancing in this Latin theme from IGT’s video slot game call Latino Machino. This game if full of fun and excitement wi"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 881,
+          "act": 0.5146431922912598,
+          "text": "[AUTO](RC):[Counter Blast (1) & Put this unit into your soul] During your opponent's end phase, when an opponent's locked card is unlocked, if you have a «Link "
+        },
+        {
+          "doc": 995,
+          "act": 0.05640672892332077,
+          "text": "The \"crafting\" label above the 2x2 grid in the player inventory was removed because the sizing didn't work in non-English languages. Fixed white wool/carpet app"
+        },
+        {
+          "doc": 396,
+          "act": 0.016461504623293877,
+          "text": "Mephisto's sandals cover the full spectrum of casual to dressy. Walk all day in Mephisto sandals. Free shipping & free returns."
+        },
+        {
+          "doc": 388,
+          "act": 0.006438392214477062,
+          "text": "The Roll End Front Tuck (REFT) with Dust Flaps is our #1 most popular mailer style. Great brand real estate and presentation value offer your customers the ulti"
+        },
+        {
+          "doc": 330,
+          "act": 0.0030368738807737827,
+          "text": "Circlet is an Item in Final Fantasy XV. \"An elegant headpiece studded with many precious stones. Enhances magic moderately.\""
+        }
+      ]
+    },
+    {
+      "feature_a": 12236,
+      "feature_b": 47577,
+      "pooled_corr": 0.9980263142254212,
+      "doc_corpus_corr": 0.799384761506915,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 661,
+          "act": 6.740096092224121,
+          "text": "Email memos and any attached files transmitted from the email system of the Houses of the Oireachtas Commission are intended solely for the addressee. They may "
+        },
+        {
+          "doc": 660,
+          "act": 3.6142592430114746,
+          "text": "Your use of this Internet Site in any manner, including browsing, logging in, creating an account, sending a request or making a purchase, constitutes your ackn"
+        },
+        {
+          "doc": 421,
+          "act": 2.841799736022949,
+          "text": "A copy of the agenda will be available 72 hours before a meeting. If you need a reader, amplifier, qualified sign language interpreter, or any other form of aux"
+        },
+        {
+          "doc": 166,
+          "act": 2.5529069900512695,
+          "text": "These terms and conditions, together with any additional terms, conditions, notices and disclaimers displayed elsewhere on the Equipment Coordination Profession"
+        },
+        {
+          "doc": 289,
+          "act": 1.4661691188812256,
+          "text": "Lendly Pty Ltd (ABN 57 108 502 745) and its wholly owned subsidiaries (“we”, “our”, “us”, “Lendly”) collects and uses data related to your online activity using"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 661,
+          "act": 4.58629035949707,
+          "text": "Email memos and any attached files transmitted from the email system of the Houses of the Oireachtas Commission are intended solely for the addressee. They may "
+        },
+        {
+          "doc": 15,
+          "act": 0.5694459676742554,
+          "text": "Our website address is: https://www.floortique.co.uk. We DO NOT share your data with anyone. We neither sell it nor make it available, and we will not be contac"
+        },
+        {
+          "doc": 660,
+          "act": 0.56700199842453,
+          "text": "Your use of this Internet Site in any manner, including browsing, logging in, creating an account, sending a request or making a purchase, constitutes your ackn"
+        },
+        {
+          "doc": 94,
+          "act": 0.3002283275127411,
+          "text": "Users must yield the right-of-way to pedestrians at all times. Coasting devices may not be used in any manner that places pedestrians at risk. Speed of the devi"
+        },
+        {
+          "doc": 785,
+          "act": 0.023551095277071,
+          "text": "This magazine does not accept unsolicited MSS, but will consider queries. Monthly food magazine. Welcomes unsolicited queries but responds only when interested."
+        }
+      ]
+    },
+    {
+      "feature_a": 15474,
+      "feature_b": 52356,
+      "pooled_corr": 0.9978170392342322,
+      "doc_corpus_corr": 0.35678537878805644,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 319,
+          "act": 6.032042026519775,
+          "text": "So much for Global Warming. We really need to prepare for what happens if we continue down this path of colder winters. The ground freezes and it can freeze eve"
+        },
+        {
+          "doc": 727,
+          "act": 1.951308012008667,
+          "text": "Over the past few years, I have become a student of some global environmental issues. Preparation for the Climate Conference in Paris, and since then, has worke"
+        },
+        {
+          "doc": 31,
+          "act": 1.6318345069885254,
+          "text": "It’s a continuation of a trend they have seen over the last several years. “It’s been almost three years of nothing but above normal temperatures for the most p"
+        },
+        {
+          "doc": 380,
+          "act": 1.363556146621704,
+          "text": "Only within the last 16 months, the world has seen the emergence of the Sustainable Development Goals (SDG), the Paris agreement which has just recently come in"
+        },
+        {
+          "doc": 203,
+          "act": 0.24929888546466827,
+          "text": "The competition is open to all people from any country. Our primary focus is one of the most important issues we face in our times – banishing violence and insp"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 31,
+          "act": 0.3027266263961792,
+          "text": "It’s a continuation of a trend they have seen over the last several years. “It’s been almost three years of nothing but above normal temperatures for the most p"
+        },
+        {
+          "doc": 380,
+          "act": 0.14516980946063995,
+          "text": "Only within the last 16 months, the world has seen the emergence of the Sustainable Development Goals (SDG), the Paris agreement which has just recently come in"
+        },
+        {
+          "doc": 677,
+          "act": 0.10014347732067108,
+          "text": "Scand J Work Environ Health. 39(4):361-368. Our previous work has suggested that the incidence of any occurrence of injury leave among police officers is higher"
+        },
+        {
+          "doc": 727,
+          "act": 0.08187372237443924,
+          "text": "Over the past few years, I have become a student of some global environmental issues. Preparation for the Climate Conference in Paris, and since then, has worke"
+        },
+        {
+          "doc": 662,
+          "act": 0.04561333358287811,
+          "text": "P. Á. Szilágyi, D. M. Rogers, I. Zaiser, E. Callini, S. Turner, A. Borgschulte, A. Züttel, H. Geerlings, M. Hirscher, and B. Dam, \"Functionalised metal-organic "
+        }
+      ]
+    },
+    {
+      "feature_a": 9246,
+      "feature_b": 33184,
+      "pooled_corr": 0.9953444215148458,
+      "doc_corpus_corr": 0.7549287394402855,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 738,
+          "act": 9.353545188903809,
+          "text": "\"The awareness that arises through paying attention on purpose in the present moment and non-judgmentally in the service of self understanding and wisdom\" Mindf"
+        },
+        {
+          "doc": 499,
+          "act": 3.127328395843506,
+          "text": "Yoga is a vast subject and needs constant research, practice and discussions in order to master this skill. Any yoga practitioner will vouch for regular practic"
+        },
+        {
+          "doc": 254,
+          "act": 2.7426540851593018,
+          "text": "Addiction Step Eleven: Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His wi"
+        },
+        {
+          "doc": 98,
+          "act": 2.089226484298706,
+          "text": "To a large degree，the measure of our peace of mind is determined by how much we are able to live in the present moment.Irrespective of what happened yesterday o"
+        },
+        {
+          "doc": 545,
+          "act": 0.8290517926216125,
+          "text": "A dramatical simplification of man's relation with the world uncovers a functional dichotomy: human condition founds the economy, while human nature determines "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 98,
+          "act": 2.0380828380584717,
+          "text": "To a large degree，the measure of our peace of mind is determined by how much we are able to live in the present moment.Irrespective of what happened yesterday o"
+        },
+        {
+          "doc": 738,
+          "act": 1.6930232048034668,
+          "text": "\"The awareness that arises through paying attention on purpose in the present moment and non-judgmentally in the service of self understanding and wisdom\" Mindf"
+        },
+        {
+          "doc": 254,
+          "act": 0.817843496799469,
+          "text": "Addiction Step Eleven: Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His wi"
+        },
+        {
+          "doc": 243,
+          "act": 0.6535362005233765,
+          "text": "– For building bridges from deterministic, linear and Cartesian thought and word use, by exploring our observations of the environments and their living systems"
+        },
+        {
+          "doc": 545,
+          "act": 0.48719877004623413,
+          "text": "A dramatical simplification of man's relation with the world uncovers a functional dichotomy: human condition founds the economy, while human nature determines "
+        }
+      ]
+    },
+    {
+      "feature_a": 4864,
+      "feature_b": 5694,
+      "pooled_corr": 0.9951527347819954,
+      "doc_corpus_corr": 0.8854566042061935,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 774,
+          "act": 6.725770473480225,
+          "text": "Serve with whipped cream or ice cream and maple syrup. Cook apples in butter, covered, in a saucepan over medium heat, stirring occasionally, until slightly sof"
+        },
+        {
+          "doc": 207,
+          "act": 6.0863728523254395,
+          "text": "This has got to be one of the easiest desserts I've ever made. It took me all of 3-5 minutes to pull together. Combine drained crushed pineapple, dry pudding mi"
+        },
+        {
+          "doc": 427,
+          "act": 5.387587070465088,
+          "text": "Check out our recipe for a Southern classic, BBQ Shrimp & Grits. **To coarse-grind the peppercorns, use a blender or peppermill. The grind is important to the t"
+        },
+        {
+          "doc": 729,
+          "act": 1.8551121950149536,
+          "text": "Amish Broccoli Cauliflower Salad tossed in a creamy dressing of yogurt and mayonnaise. This easy recipe is perfect for gatherings and low carb friends. The firs"
+        },
+        {
+          "doc": 654,
+          "act": 1.2719001770019531,
+          "text": "I have been busy baking Christmas cookies for the last couple of days. This is one of the first ones I did. It is a butter sugar cookie that you can flavor anyw"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 774,
+          "act": 1.6591886281967163,
+          "text": "Serve with whipped cream or ice cream and maple syrup. Cook apples in butter, covered, in a saucepan over medium heat, stirring occasionally, until slightly sof"
+        },
+        {
+          "doc": 427,
+          "act": 0.6585202217102051,
+          "text": "Check out our recipe for a Southern classic, BBQ Shrimp & Grits. **To coarse-grind the peppercorns, use a blender or peppermill. The grind is important to the t"
+        },
+        {
+          "doc": 207,
+          "act": 0.5369353294372559,
+          "text": "This has got to be one of the easiest desserts I've ever made. It took me all of 3-5 minutes to pull together. Combine drained crushed pineapple, dry pudding mi"
+        },
+        {
+          "doc": 285,
+          "act": 0.04950900375843048,
+          "text": "Wild garlic pesto shrimp pasta is a fresh and easy pasta dish made with sauteed shrimps, marinated in flavourful wild garlic pesto… Perfect for lunch or dinner!"
+        },
+        {
+          "doc": 187,
+          "act": 0.012854334898293018,
+          "text": "­Step 4: Use diagonal lines to lightly shade the bottoms of the rocks. Shade the stalks of two of the cacti with vertical and mostly diagonal lines. Your landsc"
+        }
+      ]
+    },
+    {
+      "feature_a": 1609,
+      "feature_b": 61760,
+      "pooled_corr": 0.9948119834326558,
+      "doc_corpus_corr": 0.7811468838470419,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 104,
+          "act": 1.2483105659484863,
+          "text": "When you stay at Helios Hotel - All Inclusive in Side, you'll be near the beach and 13 minutes by foot from Side West Beach. Featured amenities include express "
+        },
+        {
+          "doc": 938,
+          "act": 0.645176887512207,
+          "text": "Since 1992, Discovery World Learning Center has offered an innovative, educational curriculum, encouraging each child to discover and explore new horizons. We a"
+        },
+        {
+          "doc": 303,
+          "act": 0.49778294563293457,
+          "text": "Lock in a great price for Lederer's living – rated 9.5 by recent guests! As always words can’t express enough how marvelous our stay was, would love to stay in "
+        },
+        {
+          "doc": 264,
+          "act": 0.4901753067970276,
+          "text": "Residents can choose to pay for their accommodation by a refundable deposit or a daily payment. You can also pay by a combination of both: (50% of refundable de"
+        },
+        {
+          "doc": 922,
+          "act": 0.4525871276855469,
+          "text": "People often think that they need to buy it to use the car, but today, despite the car rental industry or rent car Whether renting a car without a driver or ren"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 104,
+          "act": 0.20716337859630585,
+          "text": "When you stay at Helios Hotel - All Inclusive in Side, you'll be near the beach and 13 minutes by foot from Side West Beach. Featured amenities include express "
+        },
+        {
+          "doc": 938,
+          "act": 0.036239273846149445,
+          "text": "Since 1992, Discovery World Learning Center has offered an innovative, educational curriculum, encouraging each child to discover and explore new horizons. We a"
+        },
+        {
+          "doc": 981,
+          "act": 0.0168929360806942,
+          "text": "This pet friendly hotel offers guests a deluxe breakfast each morning, free Wi-Fi, a business center, laundry facilities, and meeting space. This hotel is 15 mi"
+        },
+        {
+          "doc": 755,
+          "act": 0.011297526769340038,
+          "text": "Arrangements have been made for a visit to the Dover CGOC at Langdon Battery, Swingate in the afternoon of Wednesday 3rd April. The visit, which is free, will c"
+        },
+        {
+          "doc": 733,
+          "act": 0.007661845535039902,
+          "text": "Find the right tour for you through Melaka. We've got 50 tours going to Melaka, starting from just 4 days in length, and the longest tour is 105 days. The most "
+        }
+      ]
+    },
+    {
+      "feature_a": 14918,
+      "feature_b": 65,
+      "pooled_corr": 0.9944635147263723,
+      "doc_corpus_corr": 0.9372297258585681,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 79,
+          "act": 3.7873964309692383,
+          "text": "Coming to a show and need a little help finding your way? Here’s the information you’ll need. We look forward to your visit, and enjoy the show."
+        },
+        {
+          "doc": 787,
+          "act": 2.4851529598236084,
+          "text": "When you are enjoying an afternoon with family or entertaining friends, the Seattle Coffee Table is conveniently sized and capable of accommodating much more th"
+        },
+        {
+          "doc": 413,
+          "act": 2.066803216934204,
+          "text": "This is my 19th year in teaching, the 8th at Fairview. My daughter is a junior this year at CU Boulder. I enjoy all things outdoors: climbing, biking, skiing..."
+        },
+        {
+          "doc": 903,
+          "act": 1.6566245555877686,
+          "text": "Paddy Cullen’s Pub in Dublin’s leafy Ballsbridge is an ideal location for the discerning customer to enjoy a drink or fine food in good company and pleasant tra"
+        },
+        {
+          "doc": 49,
+          "act": 1.3764294385910034,
+          "text": "Does your camper have a collection of cardboard collectibles? Then the SPARK! Box Fort Bonanza week is perfect for you! We will explore architecture and design "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 79,
+          "act": 1.2082710266113281,
+          "text": "Coming to a show and need a little help finding your way? Here’s the information you’ll need. We look forward to your visit, and enjoy the show."
+        },
+        {
+          "doc": 787,
+          "act": 0.8223351240158081,
+          "text": "When you are enjoying an afternoon with family or entertaining friends, the Seattle Coffee Table is conveniently sized and capable of accommodating much more th"
+        },
+        {
+          "doc": 903,
+          "act": 0.43809831142425537,
+          "text": "Paddy Cullen’s Pub in Dublin’s leafy Ballsbridge is an ideal location for the discerning customer to enjoy a drink or fine food in good company and pleasant tra"
+        },
+        {
+          "doc": 87,
+          "act": 0.43520113825798035,
+          "text": "When visiting MJI, you will be greeted by a friendly and professional staff. Awaiting you is a comfortable and quiet customer lounge where you can enjoy WiFi, t"
+        },
+        {
+          "doc": 413,
+          "act": 0.3804718554019928,
+          "text": "This is my 19th year in teaching, the 8th at Fairview. My daughter is a junior this year at CU Boulder. I enjoy all things outdoors: climbing, biking, skiing..."
+        }
+      ]
+    },
+    {
+      "feature_a": 11758,
+      "feature_b": 61635,
+      "pooled_corr": 0.9941998110448405,
+      "doc_corpus_corr": 0.5713521023499659,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 126,
+          "act": 1.644106149673462,
+          "text": "When we hear the word patience, we probably think of the virtue that enables us to wait. That’s one way of looking at it, but Spirit-led patience is also much m"
+        },
+        {
+          "doc": 558,
+          "act": 1.5765221118927002,
+          "text": "Come worship with us every Sunday at 3:00pm @ The Cookery. Learn about who we are, our story and what God has done. It’s a privilege to give back what God has g"
+        },
+        {
+          "doc": 472,
+          "act": 1.5169968605041504,
+          "text": "Did Early Christians Have the Bible? 7 New Testament Valentines for your Sweetie! Mormons in ConTEXT: What Happens in Mormon Temples?"
+        },
+        {
+          "doc": 407,
+          "act": 0.6173036694526672,
+          "text": "2 Joahaz was twenty and three years old when he began to reign; and he reigned three months in Jerusalem. 3 And the king of Egypt deposed him at Jerusalem, and "
+        },
+        {
+          "doc": 796,
+          "act": 0.5991009473800659,
+          "text": "We have been blessed by God to be a part of an organization of women who for 145 years have used their hands to turn their faith, hope and love into action on b"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 126,
+          "act": 0.40068209171295166,
+          "text": "When we hear the word patience, we probably think of the virtue that enables us to wait. That’s one way of looking at it, but Spirit-led patience is also much m"
+        },
+        {
+          "doc": 6,
+          "act": 0.012437927536666393,
+          "text": "Personally speaking, Bringing It All Back Home is the only Dylan album (thatI’ve heard) that I can sit through from beginning to end. I just don’t ‘get’ him…….I"
+        },
+        {
+          "doc": 407,
+          "act": 0.009556143544614315,
+          "text": "2 Joahaz was twenty and three years old when he began to reign; and he reigned three months in Jerusalem. 3 And the king of Egypt deposed him at Jerusalem, and "
+        },
+        {
+          "doc": 254,
+          "act": 0.007882778532803059,
+          "text": "Addiction Step Eleven: Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His wi"
+        },
+        {
+          "doc": 343,
+          "act": 0.0,
+          "text": "For our top tips for making the most of a visit to Angkor Wat, click here. Excellent! Looks like great fun… better than China?"
+        }
+      ]
+    },
+    {
+      "feature_a": 12164,
+      "feature_b": 48096,
+      "pooled_corr": 0.9936025324842799,
+      "doc_corpus_corr": 0.7137111801303689,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 74,
+          "act": 4.597418308258057,
+          "text": "The Walt Disney Company Announces its Intention to Launch a Tender Offer for all Remaining Euro Disney Shares and a mandatory buy-out if the 95% threshold is re"
+        },
+        {
+          "doc": 272,
+          "act": 2.3241469860076904,
+          "text": "Viking Ocean Cruises, which two weeks ago pulled an order for ocean-going cruise ships from a French shipyard, now plans to build the ships at the Italian yard "
+        },
+        {
+          "doc": 235,
+          "act": 1.5378026962280273,
+          "text": "A trip to China sounds very exciting Merle! We're more than happy to help answer your question. We are happy to inform you that you can use your TD Visa debit c"
+        },
+        {
+          "doc": 956,
+          "act": 0.8878757357597351,
+          "text": "BGR has partnered with The Points Guy for our coverage of credit card products. BGR and The Points Guy may receive a commission from card issuers. The annual fe"
+        },
+        {
+          "doc": 157,
+          "act": 0.8625383377075195,
+          "text": "Located on the sugary shores of the Banderas Bay, and surrounded by the beautiful mountains of the Sierra Madre Mountain Range, rests Dreams Villamagna in Puert"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 74,
+          "act": 0.2315760850906372,
+          "text": "The Walt Disney Company Announces its Intention to Launch a Tender Offer for all Remaining Euro Disney Shares and a mandatory buy-out if the 95% threshold is re"
+        },
+        {
+          "doc": 157,
+          "act": 0.09726721048355103,
+          "text": "Located on the sugary shores of the Banderas Bay, and surrounded by the beautiful mountains of the Sierra Madre Mountain Range, rests Dreams Villamagna in Puert"
+        },
+        {
+          "doc": 969,
+          "act": 0.06270702928304672,
+          "text": "This article appeared in the September, 23, 2011 edition of the Davis Enterprise. Explorit Science Center welcomes you back to its Mace Ranch Park facility for "
+        },
+        {
+          "doc": 815,
+          "act": 0.0603250116109848,
+          "text": "Following a multi-million pound revamp, Hastings Library re-opened on 2 March 2018 and unveiled a striking new artwork by Sir Quentin Blake. His work adorns the"
+        },
+        {
+          "doc": 28,
+          "act": 0.04673650860786438,
+          "text": "I'd like to see it return. I've been speaking to the team about it. Will investigate this as I don;t believe Brawl has been implemented since the infinitization"
+        }
+      ]
+    },
+    {
+      "feature_a": 11984,
+      "feature_b": 12887,
+      "pooled_corr": 0.9931562281891794,
+      "doc_corpus_corr": -0.004413763291722838,
+      "top_doc_overlap": 0,
+      "top_docs_a": [
+        {
+          "doc": 435,
+          "act": 0.41394805908203125,
+          "text": "The pay-per-click (PPC) landscape is ever changing. In the first half of this year alone we have seen some major announcements from Google AdWords that have sha"
+        },
+        {
+          "doc": 440,
+          "act": 0.2277352213859558,
+          "text": "Red Bull Arena today announced that it will be host to an international friendly match between the three time Italian Serie A champions AS Roma and El Salvador "
+        },
+        {
+          "doc": 743,
+          "act": 0.09435836225748062,
+          "text": "LOS ANGELES – A lawsuit filed Wednesday against ABC (search) and \"American Idol\" judge Simon Cowell (search) alleges they conspired to steal the brand and conce"
+        },
+        {
+          "doc": 353,
+          "act": 0.08366088569164276,
+          "text": "There are two families of ticks that makeup the majority of the ticks in the Northeast. Hard and soft ticks. The major differences are the reproduction cycle. H"
+        },
+        {
+          "doc": 327,
+          "act": 0.0,
+          "text": "MailChimp is a third-party newsletter platform that many store owners use to keep their customers up to date with their store. Now you should see a box for you "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 61,
+          "act": 0.023193679749965668,
+          "text": "Rock n' Roll Express Retro Classic Wrestling Tag Team T Shirt is available on a Black 100% Cotton Tee. The Rock n' Roll Express Retro Classic Wrestling Tag Team"
+        },
+        {
+          "doc": 983,
+          "act": 0.015979303047060966,
+          "text": "Namecheap Promo Code MMA2016 for 20% off Shared Hosting and 10% off Domains and Transfers. Namecheap provides hosting that is secure, fast and reliable. They of"
+        },
+        {
+          "doc": 674,
+          "act": 0.012477375566959381,
+          "text": "He hopes you’ll buy his latest CD and tickets to his show Jan.15 at Anthology. But at the same time, bluesman Otis Taylor saysthat if he’s honest with himself, "
+        },
+        {
+          "doc": 783,
+          "act": 0.009978381916880608,
+          "text": "#BeautifulPainMovie (#Redha), is the first Malaysian film to tackle about the subject on autism. In her feature directing debut, Tunku Mona Riza delivers a quie"
+        },
+        {
+          "doc": 899,
+          "act": 0.0074905892834067345,
+          "text": "​​\"PICKING WINNERS IS OUR BUSINESS\" ​​Copyright © 2016. JERSEYKIDPICKS. All Rights Reserved. ​and click Subscribe to Join Now! Read Terms & Conditions. ​PayPal "
+        }
+      ]
+    },
+    {
+      "feature_a": 10466,
+      "feature_b": 65421,
+      "pooled_corr": 0.992001108027658,
+      "doc_corpus_corr": 0.984499645337714,
+      "top_doc_overlap": 5,
+      "top_docs_a": [
+        {
+          "doc": 365,
+          "act": 17.577425003051758,
+          "text": "OKLAHOMA CITY - Kevin Durant scored 25 points, James Harden added a spark with 23 points off the bench while returning from an injury and the Oklahoma City Thun"
+        },
+        {
+          "doc": 154,
+          "act": 15.349629402160645,
+          "text": "CLEMSON, S.C. — Jaron Blossomgame scored a season-high 29 points to lead Clemson to a 93-65 victory over SC State on Tuesday, the Tigers’ fifth straight win, al"
+        },
+        {
+          "doc": 725,
+          "act": 9.744547843933105,
+          "text": "Ever since the end of the college basketball season, every NBA fan has been yearning for this special moment in June. The day where so many young and promising "
+        },
+        {
+          "doc": 711,
+          "act": 8.457193374633789,
+          "text": "According to one narrative, the Timberwolves decided after Friday’s loss to the Kings to trade Jimmy Butler. But he might have forced their hand, resulting in h"
+        },
+        {
+          "doc": 268,
+          "act": 4.648882865905762,
+          "text": "Ron Kroichick July 21, 2016 Updated: July 21, 2016 7:54 p.m. Curry offered a half-amused glare in return. That one hurt. Barely a month after his team fell to t"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 365,
+          "act": 7.636828422546387,
+          "text": "OKLAHOMA CITY - Kevin Durant scored 25 points, James Harden added a spark with 23 points off the bench while returning from an injury and the Oklahoma City Thun"
+        },
+        {
+          "doc": 154,
+          "act": 5.7563910484313965,
+          "text": "CLEMSON, S.C. — Jaron Blossomgame scored a season-high 29 points to lead Clemson to a 93-65 victory over SC State on Tuesday, the Tigers’ fifth straight win, al"
+        },
+        {
+          "doc": 725,
+          "act": 5.092619895935059,
+          "text": "Ever since the end of the college basketball season, every NBA fan has been yearning for this special moment in June. The day where so many young and promising "
+        },
+        {
+          "doc": 711,
+          "act": 4.777828693389893,
+          "text": "According to one narrative, the Timberwolves decided after Friday’s loss to the Kings to trade Jimmy Butler. But he might have forced their hand, resulting in h"
+        },
+        {
+          "doc": 268,
+          "act": 3.3141191005706787,
+          "text": "Ron Kroichick July 21, 2016 Updated: July 21, 2016 7:54 p.m. Curry offered a half-amused glare in return. That one hurt. Barely a month after his team fell to t"
+        }
+      ]
+    },
+    {
+      "feature_a": 9248,
+      "feature_b": 64182,
+      "pooled_corr": 0.9903532477801529,
+      "doc_corpus_corr": 0.28261889026592796,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 956,
+          "act": 31.075876235961914,
+          "text": "BGR has partnered with The Points Guy for our coverage of credit card products. BGR and The Points Guy may receive a commission from card issuers. The annual fe"
+        },
+        {
+          "doc": 235,
+          "act": 10.021931648254395,
+          "text": "A trip to China sounds very exciting Merle! We're more than happy to help answer your question. We are happy to inform you that you can use your TD Visa debit c"
+        },
+        {
+          "doc": 960,
+          "act": 6.65451717376709,
+          "text": "Air Miles Canada says it won’t reimburse collectors who spent their points in anticipation of an expiration policy that will no longer take effect at the end of"
+        },
+        {
+          "doc": 127,
+          "act": 3.723066806793213,
+          "text": "Qapital helps you get there faster with Goals and Rules. Two clever ways to supercharge your saving with little effort. The money app that makes it easy to fund"
+        },
+        {
+          "doc": 156,
+          "act": 2.292036533355713,
+          "text": "Here are this weeks deals at Target! Remember that at Target you can \"Stack\" manufacturers and store coupons on the same item. Be sure to go to Target.com and p"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 127,
+          "act": 5.2379021644592285,
+          "text": "Qapital helps you get there faster with Goals and Rules. Two clever ways to supercharge your saving with little effort. The money app that makes it easy to fund"
+        },
+        {
+          "doc": 235,
+          "act": 5.016922950744629,
+          "text": "A trip to China sounds very exciting Merle! We're more than happy to help answer your question. We are happy to inform you that you can use your TD Visa debit c"
+        },
+        {
+          "doc": 306,
+          "act": 0.21641705930233002,
+          "text": "Is the FXCM trading resource centre free? Market orders: With a market order, you instruct your broker to execute your buy/sell at the current market rate. Ther"
+        },
+        {
+          "doc": 966,
+          "act": 0.15298740565776825,
+          "text": "One hour of video chat time with time and date discussed in email. Stable internet connection is required and I am not responsible for any connection issues you"
+        },
+        {
+          "doc": 952,
+          "act": 0.15157796442508698,
+          "text": "The overpayment scam is another time-honored classic that's made a successful leap to the online world. It goes like this: A business (usually a small, seemingl"
+        }
+      ]
+    },
+    {
+      "feature_a": 12993,
+      "feature_b": 22736,
+      "pooled_corr": 0.9901939916806416,
+      "doc_corpus_corr": 0.8763619455520386,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 553,
+          "act": 14.468400955200195,
+          "text": "Having seen 2016 revelation Kelvin Herrera melt under injury/ineffectiveness in logging a horrid 4.25 ERA, the Kansas City Royals were forced to look elsewhere "
+        },
+        {
+          "doc": 247,
+          "act": 3.7231051921844482,
+          "text": "In game 2 of the Tovar Tussle at RHS The Rams jumped on the Eagles quickly and emphatically with a 3-spot in the top of the 1st inning. The Eagles would counter"
+        },
+        {
+          "doc": 273,
+          "act": 1.5772740840911865,
+          "text": "Cards: Crown Royale 2013 Silver (#139/199), Crown Royale 2013 Red (#14/99), Panini Black 2013 (#019/399), Photo Memorabilia. An intriguing member of the Houston"
+        },
+        {
+          "doc": 365,
+          "act": 0.3754122257232666,
+          "text": "OKLAHOMA CITY - Kevin Durant scored 25 points, James Harden added a spark with 23 points off the bench while returning from an injury and the Oklahoma City Thun"
+        },
+        {
+          "doc": 364,
+          "act": 0.2537578046321869,
+          "text": "Clemson, S.C.—The Clemson women’s golf team returns to the course for the second straight week at the sixth annual Allstate Sugar Bowl Invitational at English T"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 553,
+          "act": 3.8900535106658936,
+          "text": "Having seen 2016 revelation Kelvin Herrera melt under injury/ineffectiveness in logging a horrid 4.25 ERA, the Kansas City Royals were forced to look elsewhere "
+        },
+        {
+          "doc": 247,
+          "act": 3.57534122467041,
+          "text": "In game 2 of the Tovar Tussle at RHS The Rams jumped on the Eagles quickly and emphatically with a 3-spot in the top of the 1st inning. The Eagles would counter"
+        },
+        {
+          "doc": 268,
+          "act": 0.18105140328407288,
+          "text": "Ron Kroichick July 21, 2016 Updated: July 21, 2016 7:54 p.m. Curry offered a half-amused glare in return. That one hurt. Barely a month after his team fell to t"
+        },
+        {
+          "doc": 273,
+          "act": 0.04321116581559181,
+          "text": "Cards: Crown Royale 2013 Silver (#139/199), Crown Royale 2013 Red (#14/99), Panini Black 2013 (#019/399), Photo Memorabilia. An intriguing member of the Houston"
+        },
+        {
+          "doc": 134,
+          "act": 0.03582625463604927,
+          "text": "Tom Coolen has coached a lot of teams in his 58 years. His career has spanned seven countries and 25 years. He’s spent thousands of hours in rinks with teenager"
+        }
+      ]
+    },
+    {
+      "feature_a": 15845,
+      "feature_b": 22920,
+      "pooled_corr": 0.9901008244970708,
+      "doc_corpus_corr": 0.049153837143235485,
+      "top_doc_overlap": 1,
+      "top_docs_a": [
+        {
+          "doc": 805,
+          "act": 1.3256759643554688,
+          "text": "Vernal presents a selection of new multi-media works that use stories, myths, and legends passed down from various cultures to explore ideas related to, among o"
+        },
+        {
+          "doc": 727,
+          "act": 1.1675549745559692,
+          "text": "Over the past few years, I have become a student of some global environmental issues. Preparation for the Climate Conference in Paris, and since then, has worke"
+        },
+        {
+          "doc": 265,
+          "act": 0.8781816959381104,
+          "text": "Who wouldn’t want to stay in a yurt? It’s an inexpensive, fun, unique place to stay. Get away from the traditional hotels and motels and experience something ne"
+        },
+        {
+          "doc": 389,
+          "act": 0.5850468277931213,
+          "text": "Travois is a Canadian company with clients from across Canada and the USA. We specialize solely on Mercedes Benz Sprinter and Metris vans. Through Mercedes Benz"
+        },
+        {
+          "doc": 901,
+          "act": 0.4964714050292969,
+          "text": "A flash flood and landslide ripped through the Mae La Oon Karen refugee camp on the northern Thai border early Sunday morning. The sudden flooding killed one re"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 748,
+          "act": 0.07043745368719101,
+          "text": "JERUSALEM (Ma'an) -- The Israeli police banned three Palestinian women and one youth from the Al-Aqsa Mosque, and another from entering occupied Jerusalem, on F"
+        },
+        {
+          "doc": 875,
+          "act": 0.052021123468875885,
+          "text": "ᐅ Online Casino Thailand Paypal in November -> Nur kurze Zeit gratis! Lass den Spaß beginnen, im besten Online Casino Deutschlands! In Zukunft werde ich öfter i"
+        },
+        {
+          "doc": 58,
+          "act": 0.026797005906701088,
+          "text": "Wigwam's Trail Trax Pro is our choice for trail running or “fast and light” summer mountain trips. These socks give your feet insulated, moisture-wicking protec"
+        },
+        {
+          "doc": 234,
+          "act": 0.011714384891092777,
+          "text": "On Saturday, Feb. 24 at 8 p.m., the 12th annual Arab Music Ensemble (AME) will take place in the Performing Arts Center. The ensemble features an orchestra, a c"
+        },
+        {
+          "doc": 805,
+          "act": 0.00173272006213665,
+          "text": "Vernal presents a selection of new multi-media works that use stories, myths, and legends passed down from various cultures to explore ideas related to, among o"
+        }
+      ]
+    },
+    {
+      "feature_a": 2056,
+      "feature_b": 29532,
+      "pooled_corr": 0.9895739174927377,
+      "doc_corpus_corr": 0.24757567578064865,
+      "top_doc_overlap": 0,
+      "top_docs_a": [
+        {
+          "doc": 685,
+          "act": 8.307121276855469,
+          "text": "Songwriter and guitarist for The Outfield, John Spinks has passed away at age 60 from liver cancer. The British pop rock band, The Outfeild had eight Billboard "
+        },
+        {
+          "doc": 216,
+          "act": 1.688636302947998,
+          "text": "Landing the #5 spot on MTV’s Hottest MCs In The Game list is Toronto’s superstar Drake despite him not releasing a project all year. He kicked the year off with"
+        },
+        {
+          "doc": 334,
+          "act": 1.5247553586959839,
+          "text": "Country star Alan Jackson, actor-singer-guitarist Jerry Reed and songwriter Don Schlitz will be inducted into the Country Music Hall of Fame later this year. Th"
+        },
+        {
+          "doc": 364,
+          "act": 0.42170608043670654,
+          "text": "Clemson, S.C.—The Clemson women’s golf team returns to the course for the second straight week at the sixth annual Allstate Sugar Bowl Invitational at English T"
+        },
+        {
+          "doc": 215,
+          "act": 0.16592803597450256,
+          "text": "John Mulaney’s latest stand-up special, Kid Gorgeous at Radio City, came out on Netflix in the spring, and it remains one of the year’s best. (It also just pick"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 338,
+          "act": 0.47845250368118286,
+          "text": "The album was produced by Fitzgerald and put out by Organic Jones Records, their own label. The cover art might look familiar, as it features a bartender from R"
+        },
+        {
+          "doc": 674,
+          "act": 0.4019836485385895,
+          "text": "He hopes you’ll buy his latest CD and tickets to his show Jan.15 at Anthology. But at the same time, bluesman Otis Taylor saysthat if he’s honest with himself, "
+        },
+        {
+          "doc": 45,
+          "act": 0.2727089822292328,
+          "text": "Now that he is over that nasty flu bug David Bowie can't seem to get enough of \"Reality\". After completing his tour of New Zealand and Australia, the legendary "
+        },
+        {
+          "doc": 639,
+          "act": 0.24008584022521973,
+          "text": "Elvis Costello played a two-hour, 25-song show that touched on phases throughout his career, both deep cuts and hits, as well as nine of the new disc’s 12 songs"
+        },
+        {
+          "doc": 6,
+          "act": 0.22903397679328918,
+          "text": "Personally speaking, Bringing It All Back Home is the only Dylan album (thatI’ve heard) that I can sit through from beginning to end. I just don’t ‘get’ him…….I"
+        }
+      ]
+    }
+  ],
+  "mean_top_doc_overlap": 2.35,
+  "mean_doc_corpus_corr": 0.6923900639620484
+}

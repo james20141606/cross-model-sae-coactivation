@@ -1,0 +1,157 @@
+{
+ "pair": "gpt2__mistral7b",
+ "corpus": "c4",
+ "n_docs": 2000,
+ "prereg": "notes/PREREG_lan_filters_20260924.md (commit 4cbd289)",
+ "G0": {
+  "local": {
+   "svcca": 0.17922581732273102,
+   "rsa": 0.0,
+   "K": 512,
+   "svcca_random_pairing": 0.16818176805973054,
+   "rsa_random_pairing": -0.0002908008924123351,
+   "svcca_permuted_pairing": 0.18734655007719994,
+   "rsa_permuted_pairing": -0.002862469748053198
+  },
+  "receipt": {
+   "svcca": 0.1902255415916443,
+   "rsa": 0.0,
+   "K": 512,
+   "svcca_random_pairing": 0.16666109412908553,
+   "rsa_random_pairing": 0.0011134225023852196,
+   "svcca_permuted_pairing": 0.18737440854310988,
+   "rsa_permuted_pairing": -0.0019774240599995884
+  },
+  "receipt_path": "lanC_gpt2__mistral7b.json",
+  "delta_rsa": 0.0,
+  "delta_svcca": -0.010999724268913269,
+  "pass": true
+ },
+ "unfiltered_n200": {
+  "svcca": 0.17922581732273102,
+  "rsa": 0.0,
+  "K": 512,
+  "svcca_random_pairing": 0.16738251119852066,
+  "rsa_random_pairing": -7.222490163613315e-05,
+  "svcca_permuted_pairing": 0.18524400278925895,
+  "rsa_permuted_pairing": -0.0011822791870525573
+ },
+ "filtered": {
+  "P": {
+   "variant": "P",
+   "pool_A": 512,
+   "pool_B": 512,
+   "nonconcept_A": 0,
+   "nonconcept_B": 260,
+   "steps": {
+    "after_F1": 0,
+    "after_F2": 0,
+    "after_F3": 0
+   },
+   "K_f": 0,
+   "retention": 0.0,
+   "n_unique_targets_unfiltered": 1,
+   "estimable": false
+  },
+  "S1": {
+   "variant": "S1",
+   "pool_A": 512,
+   "pool_B": 512,
+   "nonconcept_A": 0,
+   "nonconcept_B": 260,
+   "steps": {
+    "after_F1": 0,
+    "after_F2": 0,
+    "after_F3": 0
+   },
+   "K_f": 0,
+   "retention": 0.0,
+   "n_unique_targets_unfiltered": 1,
+   "estimable": false
+  },
+  "S2": {
+   "variant": "S2",
+   "pool_A": 512,
+   "pool_B": 512,
+   "nonconcept_A": 0,
+   "nonconcept_B": 260,
+   "steps": {
+    "after_F1": 0,
+    "after_F2": 0,
+    "after_F3": 0
+   },
+   "K_f": 0,
+   "retention": 0.0,
+   "n_unique_targets_unfiltered": 1,
+   "estimable": false
+  }
+ },
+ "provenance": {
+  "inputs_sha256": {
+   "gpt2__c4__pooled.npy": "e6d4a4811af2aa32d57af7d48f60058a314e9e170365589d0c7b3b0541870ed2",
+   "mistral7b__c4__pooled.npy": "8faf49d1c63b3cae2f5a038b66f7f4d8489b00487975d87debb0eaaa6c68849d",
+   "gpt2__c4__top5.npz": "5059d546a5db47fa53a7907c56631283566958abd3c7bc9521ed98a183b32910",
+   "mistral7b__c4__top5.npz": "b201ae3ef772457ea846e1a16595825eaa96725f58eccdd00494d453af7fcc2c",
+   "gpt2__wdec.npy": "cd4f26ee1cd233c20c4363e2df200020912df28f8a51511c437238b18e5debbd",
+   "mistral7b__wdec.npy": "2a5afe9b45ef8907fd469b8c51ce8c06706287f3a898ddabb9cabd9133c2a46f"
+  },
+  "script": "code/analysis/lan_filter_audit.py",
+  "script_sha256": "2976edf96783afd0561c8cc1423ced8cad4a67107f0181328d6eadf64deffc9b",
+  "lan_protocol_audit_sha256": "0d868b37af8300132936b70a223b3d3003dbf5482402e4c1c2f30555f133011c",
+  "seeds": {
+   "G0": 0,
+   "unfiltered_n200": 0,
+   "rand": 0,
+   "perm": 1
+  },
+  "n_draws": 200,
+  "min_k": 21,
+  "corr_floor": 0.1,
+  "meta_A": {
+   "model_tag": "gpt2",
+   "hf_id_loaded": "gpt2",
+   "sae_release": "gpt2-small-res-jb",
+   "sae_id": "blocks.6.hook_resid_pre",
+   "hs_idx": 6,
+   "corpus": "c4",
+   "prompts": "c4_slice.jsonl",
+   "prompts_sha256": "4c7c9b9bb2ed840ce0eb3056d3190c62aacc282e5d38f6af16205857e57fe936",
+   "n_rows": 2000,
+   "n_tokens": 128044,
+   "d_sae": 24576,
+   "special_ids": [
+    50256
+   ],
+   "device": "mps",
+   "torch": "2.14.0",
+   "transformers": "4.56.2",
+   "sae_lens": "6.51.1",
+   "script_sha256": "2fb7e2efc264609819b8e807684dfb7f3a8f8b4b1d5de847d8f2e81835701982"
+  },
+  "meta_B": {
+   "model_tag": "mistral7b",
+   "hf_id_loaded": "mistralai/Mistral-7B-v0.1",
+   "sae_release": "mistral-7b-res-wg",
+   "sae_id": "blocks.16.hook_resid_pre",
+   "hs_idx": 16,
+   "corpus": "c4",
+   "prompts": "c4_slice.jsonl",
+   "prompts_sha256": "4c7c9b9bb2ed840ce0eb3056d3190c62aacc282e5d38f6af16205857e57fe936",
+   "n_rows": 2000,
+   "n_tokens": 143519,
+   "d_sae": 65536,
+   "special_ids": [
+    0,
+    1,
+    2
+   ],
+   "device": "mps",
+   "torch": "2.14.0",
+   "transformers": "4.56.2",
+   "sae_lens": "6.51.1",
+   "script_sha256": "2fb7e2efc264609819b8e807684dfb7f3a8f8b4b1d5de847d8f2e81835701982"
+  },
+  "python": "3.11.14",
+  "numpy": "2.4.6"
+ }
+}

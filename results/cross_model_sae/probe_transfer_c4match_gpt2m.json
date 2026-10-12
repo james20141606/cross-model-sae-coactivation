@@ -1,0 +1,29 @@
+{
+  "transfer_acc": 0.043689320388349516,
+  "nonmatched_mean": 0.0436893203883495,
+  "nonmatched_ci": [
+    0.043689320388349516,
+    0.043689320388349516
+  ],
+  "transfer_p": 1.0,
+  "cv_A": 0.4029036004645761,
+  "cv_B": 0.38803716608594657,
+  "majority": 0.21844660194174756,
+  "K": 1,
+  "n": 206,
+  "model_a": "gpt2",
+  "model_b": "mistralai/Mistral-7B-v0.1",
+  "families": [
+    "antonym",
+    "arith_add",
+    "arith_sub",
+    "capital",
+    "doubling",
+    "month",
+    "predecessor",
+    "successor",
+    "weekday"
+  ],
+  "n_matched_features": 1,
+  "match_corpus": "../../data/c4_slice.jsonl"
+}

@@ -1,0 +1,14 @@
+{
+  "model_a": "google/gemma-2-9b",
+  "model_b": "mistralai/Mistral-7B-v0.1",
+  "topk": 512,
+  "templates": {
+    "svcca": 0.2584051191806793,
+    "rsa": 0.16090697050094604,
+    "K": 512,
+    "svcca_random_pairing": 0.1665109619498253,
+    "rsa_random_pairing": -0.0009330428802059032,
+    "svcca_permuted_pairing": 0.20878905802965164,
+    "rsa_permuted_pairing": 0.15047426298260688
+  }
+}

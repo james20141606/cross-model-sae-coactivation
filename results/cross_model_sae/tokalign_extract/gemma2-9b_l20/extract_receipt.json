@@ -1,0 +1,20 @@
+{
+  "model": "google/gemma-2-9b",
+  "sae": "gemma-scope-9b-pt-res-canonical::layer_20/width_16k/canonical",
+  "hs_idx": 20,
+  "d_sae": 16384,
+  "prompts": "data/c4_slice_20k.jsonl",
+  "n_docs": 20000,
+  "shard_size": 1000,
+  "interpreter": "<ENV_TRAIN>/bin/python",
+  "transformers": "4.57.3",
+  "sae_lens": "6.43.0",
+  "torch": "2.6.0+cu124",
+  "prereg_commit": "df330c6",
+  "n_shards": 20,
+  "host": "<node>",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "elapsed_s_this_pass": 734.5,
+  "tokens_this_pass": 1291546,
+  "nnz_this_pass": 151152647
+}

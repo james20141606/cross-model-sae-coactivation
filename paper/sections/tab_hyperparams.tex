@@ -1,0 +1,112 @@
+\begin{table}[h]
+\centering
+\small
+\caption{Hyperparameters used for all attribution-graph generation
+and pruning. Values match \circuittracer{} CLI defaults unless noted.}
+\label{tab:hyperparams}
+\begin{tabular}{lll}
+\toprule
+\textbf{Parameter} & \textbf{Value} & \textbf{Source} \\
+\midrule
+\multicolumn{3}{l}{\textit{Attribution (\texttt{attribute()})}} \\
+\quad \texttt{max\_n\_logits}            & 10                         & default \\
+\quad \texttt{desired\_logit\_prob}      & 0.95                       & default \\
+\quad \texttt{batch\_size}               & 256                        & default \\
+\quad \texttt{max\_feature\_nodes}       & 7500                       & default \\
+\quad \texttt{offload}                   & \texttt{None}              & disabled (v0 runs only; 8$\times$A100) \\
+\quad \texttt{lazy\_decoder}             & \texttt{True}              & memory-saving \\
+\midrule
+\multicolumn{3}{l}{\textit{Pruning (\texttt{prune\_graph()})}} \\
+\quad \texttt{node\_threshold} ($\tau_n$)& 0.8                        & default \\
+\quad \texttt{edge\_threshold} ($\tau_e$)& 0.98                       & default \\
+\midrule
+\multicolumn{3}{l}{\textit{Models}} \\
+\quad \texttt{dtype}                     & \texttt{float16}           & memory-saving \\
+\quad backend (\qwen{})                  & \texttt{nnsight}           & our default (run logs) \\
+\quad backend (\gemma{})                 & \texttt{nnsight}           & required \\
+\midrule
+\multicolumn{3}{l}{\textit{Statistics}} \\
+\quad bootstrap resamples                & $10{,}000$                     & for 95\% CIs \\
+\quad random seed (numpy / torch)        & 0                          & for any stochastic step \\
+\quad random seed (bootstrap)            & 1                          & independent stream \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\scriptsize
+\caption{Pinned snapshot revisions for every HuggingFace artifact used in
+this work. Revisions marked $^{\ddagger}$ are read directly from the
+run-time HF cache shared by all cluster jobs (\texttt{refs/main} of the
+cache directory every SLURM script exports). The remaining artifacts had
+been evicted from that cache before pinning; for these we record the
+\texttt{main} commit resolved via the HF Hub API on 2026-07-11, which is
+guaranteed to equal the revision used because each repository's last
+commit predates the project's first download (2026-04-30). The C4 slice
+is drawn deterministically by streaming the first documents of
+\texttt{en/train} at the pinned dataset revision
+(\texttt{build\_c4\_slice.py}).}
+\label{tab:model-revisions}
+\begin{tabular}{ll}
+\toprule
+\textbf{HuggingFace ID} & \textbf{Pinned revision (snapshot SHA)} \\
+\midrule
+\multicolumn{2}{l}{\textit{Base models --- probe-attribution arm (14)}} \\
+\texttt{Qwen/Qwen3-0.6B}                 & \texttt{c1899de289a04d12100db370d81485cdf75e47ca} \\
+\texttt{Qwen/Qwen3-1.7B}$^{\ddagger}$    & \texttt{70d244cc86ccca08cf5af4e1e306ecf908b1ad5e} \\
+\texttt{Qwen/Qwen3-4B}                   & \texttt{1cfa9a7208912126459214e8b04321603b3df60c} \\
+\texttt{Qwen/Qwen3-8B}                   & \texttt{b968826d9c46dd6066d109eabc6255188de91218} \\
+\texttt{Qwen/Qwen3-14B}                  & \texttt{40c069824f4251a91eefaf281ebe4c544efd3e18} \\
+\texttt{google/gemma-3-1b-it}            & \texttt{dcc83ea841ab6100d6b47a070329e1ba4cf78752} \\
+\texttt{google/gemma-3-4b-it}            & \texttt{093f9f388b31de276ce2de164bdc2081324b9767} \\
+\texttt{google/gemma-3-12b-it}           & \texttt{96b6f1eccf38110c56df3a15bffe176da04bfd80} \\
+\texttt{google/gemma-3-27b-it}           & \texttt{005ad3404e59d6023443cb575daa05336842228a} \\
+\texttt{EleutherAI/pythia-70m-deduped}$^{\ddagger}$ & \texttt{e93a9faa9c77e5d09219f6c868bfc7a1bd65593c} \\
+\texttt{EleutherAI/pythia-160m-deduped}  & \texttt{582159a2dfe3e712a8d47ae83dec95ae3bde8e7e} \\
+\texttt{EleutherAI/pythia-410m-deduped}  & \texttt{c4fc8d586d62df497f1f9b69d66d3ca419992d3e} \\
+\texttt{EleutherAI/pythia-1b-deduped}    & \texttt{7199d8fc61a6d565cd1f3c62bf11525b563e13b2} \\
+\texttt{EleutherAI/pythia-1.4b-deduped}  & \texttt{554d9c1bae3877f740aece41feb90f912cf9fedc} \\
+\midrule
+\multicolumn{2}{l}{\textit{Additional control-set models (completes the 17-model set)}} \\
+\texttt{bigscience/bloom-560m}           & \texttt{ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971} \\
+\texttt{EleutherAI/gpt-neo-125m}         & \texttt{21def0189f5705e2521767faed922f1f15e7d7db} \\
+\texttt{facebook/opt-125m}               & \texttt{27dcfa74d334bc871f3234de431e71c6eeba5dd6} \\
+\texttt{gpt2}$^{\ddagger}$               & \texttt{607a30d783dfa663caf39e06633721c8d4cfcd7e} \\
+\texttt{gpt2-medium}                     & \texttt{6dcaa7a952f72f9298047fd5137cd6e4f05f41da} \\
+\texttt{Qwen/Qwen2.5-0.5B}               & \texttt{060db6499f32faf8b98477b0a26969ef7d8b9987} \\
+\texttt{google/gemma-2-2b}$^{\ddagger}$  & \texttt{c5ebcd40d208330abc697524c919956e692655cf} \\
+\midrule
+\multicolumn{2}{l}{\textit{SAE-matching arm --- additional base models}} \\
+\texttt{google/gemma-2-9b}$^{\ddagger}$        & \texttt{33c193028431c2fde6c6e51f29e6f17b60cbfac6} \\
+\texttt{mistralai/Mistral-7B-v0.1}$^{\ddagger}$ & \texttt{27d67f1b5f57dc0953326b2601d68371d40ea8da} \\
+\texttt{Qwen/Qwen3-1.7B-Base}$^{\ddagger}$     & \texttt{ea980cb0a6c2ae4b936e82123acc929f1cec04c1} \\
+\texttt{Qwen/Qwen3-8B-Base}$^{\ddagger}$       & \texttt{49e3418fbbbca6ecbdf9608b4d22e5a407081db4} \\
+\texttt{meta-llama/Llama-3.2-1B}$^{\ddagger}$  & \texttt{4e20de362430cd3b72f300e6b0f18e50e7166e08} \\
+\midrule
+\multicolumn{2}{l}{\textit{SAE suites (repositories backing the \texttt{sae-lens} releases and Qwen-Scope)}} \\
+\texttt{google/gemma-scope-2b-pt-res}$^{\ddagger}$ & \texttt{fd571b47c1c64851e9b1989792367b9babb4af63} \\
+\texttt{google/gemma-scope-9b-pt-res}$^{\ddagger}$ & \texttt{f9b689815814972562d28082f9f7d65d7e01fdc8} \\
+\texttt{JoshEngels/Mistral-7B-Residual-Stream-SAEs}$^{\ddagger}$ & \texttt{d2d2a64135d2a2c8e7cdfe18c07297af251c744b} \\
+\texttt{jbloom/GPT2-Small-SAEs-Reformatted}$^{\ddagger}$ & \texttt{57d08a4fd333fbf18caf3fbea63ceeb88e2f50d9} \\
+\texttt{ctigges/pythia-70m-deduped\_\_res-sm\_processed}$^{\ddagger}$ & \texttt{4de021e0701171e7a0be1fb711d278ec5c0ebd4d} \\
+\texttt{Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0\_50}$^{\ddagger}$ & \texttt{ce1a79d9c5163932d65c417380e53230e1086370} \\
+\texttt{Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0\_50}$^{\ddagger}$ & \texttt{9b7d647127c303dd371e5dbd992236bd9799b171} \\
+\texttt{chanind/sae-llama-3.2-1b-res}$^{\ddagger}$ & \texttt{6395ab37285a5ef13b7bd16ca0ae75e5929f73b3} \\
+\midrule
+\multicolumn{2}{l}{\textit{PLT transcoders (v0 attribution-graph arm)}} \\
+\texttt{mwhanna/qwen3-0.6b-transcoders-lowl0} & \texttt{28aefe686c09e9bc1a862195b51e145f10868d87} \\
+\texttt{mwhanna/qwen3-1.7b-transcoders-lowl0} & \texttt{9c1b17dfb156d82162ccd2cb7f047ac7f3d3585d} \\
+\texttt{mwhanna/qwen3-4b-transcoders}         & \texttt{94d176260ac39ce2f882b8b09aba8c118df29bb3} \\
+\texttt{mwhanna/qwen3-8b-transcoders}         & \texttt{dc677109cde096a85d03fff4f73a3ec88e7e2105} \\
+\texttt{mwhanna/qwen3-14b-transcoders}        & \texttt{e6595bb044503fd8344b9fef13c29e17a3eab1a8} \\
+\texttt{google/gemma-scope-2-4b-it}           & \texttt{3e94b68be95290aada5b7525cf431d3040f81bb1} \\
+\texttt{google/gemma-scope-2-12b-it}          & \texttt{4c419f1ba0be8b7754d4151d4f26c23b92a9029e} \\
+\texttt{google/gemma-scope-2-27b-it}          & \texttt{5c58dd4cddd52cef653059d85e12a86bf6222a28} \\
+\midrule
+\multicolumn{2}{l}{\textit{Dataset and library}} \\
+\texttt{allenai/c4} (dataset)                 & \texttt{1588ec454efa1a09f29cd18ddd04fe05fc8653a2} \\
+\texttt{safety-research/circuit-tracer} (git, v0.4.1)$^{\ddagger}$ & \texttt{4bb8c0ea10bde09727e14565ec8469656880da53} \\
+\bottomrule
+\end{tabular}
+\end{table}

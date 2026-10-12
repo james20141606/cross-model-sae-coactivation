@@ -1,0 +1,214 @@
+{
+  "rows": [
+    {
+      "model": "EleutherAI/pythia-1.4b-deduped",
+      "family": "Pythia",
+      "params": 1.4,
+      "r": 0.6966414918705398,
+      "npos": 6,
+      "ntot": 20,
+      "n_layers": 25
+    },
+    {
+      "model": "EleutherAI/pythia-160m-deduped",
+      "family": "Pythia",
+      "params": 0.16,
+      "r": 0.2606089262315314,
+      "npos": 6,
+      "ntot": 20,
+      "n_layers": 13
+    },
+    {
+      "model": "EleutherAI/pythia-1b-deduped",
+      "family": "Pythia",
+      "params": 1.0,
+      "r": 0.6169850834104554,
+      "npos": 6,
+      "ntot": 20,
+      "n_layers": 17
+    },
+    {
+      "model": "EleutherAI/pythia-410m-deduped",
+      "family": "Pythia",
+      "params": 0.41,
+      "r": 0.5511285870308237,
+      "npos": 6,
+      "ntot": 20,
+      "n_layers": 25
+    },
+    {
+      "model": "EleutherAI/pythia-70m-deduped",
+      "family": "Pythia",
+      "params": 0.07,
+      "r": -0.036107256551005336,
+      "npos": 2,
+      "ntot": 20,
+      "n_layers": 7
+    },
+    {
+      "model": "Qwen/Qwen3-0.6B",
+      "family": "Qwen3",
+      "params": 0.6,
+      "r": 0.18322099710124282,
+      "npos": 6,
+      "ntot": 20,
+      "n_layers": 29
+    },
+    {
+      "model": "Qwen/Qwen3-1.7B",
+      "family": "Qwen3",
+      "params": 1.7,
+      "r": 0.1938490256340399,
+      "npos": 6,
+      "ntot": 20,
+      "n_layers": 29
+    },
+    {
+      "model": "Qwen/Qwen3-14B",
+      "family": "Qwen3",
+      "params": 14.0,
+      "r": 0.035805965923594786,
+      "npos": 3,
+      "ntot": 20,
+      "n_layers": 41
+    },
+    {
+      "model": "Qwen/Qwen3-4B",
+      "family": "Qwen3",
+      "params": 4.0,
+      "r": 0.12650032620761043,
+      "npos": 5,
+      "ntot": 20,
+      "n_layers": 37
+    },
+    {
+      "model": "Qwen/Qwen3-8B",
+      "family": "Qwen3",
+      "params": 8.0,
+      "r": 0.2925032633830718,
+      "npos": 6,
+      "ntot": 20,
+      "n_layers": 37
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "family": "Gemma3",
+      "params": 12.0,
+      "r": 0.572589808467303,
+      "npos": 6,
+      "ntot": 20,
+      "n_layers": 49
+    },
+    {
+      "model": "google/gemma-3-1b-it",
+      "family": "Gemma3",
+      "params": 1.0,
+      "r": 0.3349556103547872,
+      "npos": 6,
+      "ntot": 20,
+      "n_layers": 27
+    },
+    {
+      "model": "google/gemma-3-27b-it",
+      "family": "Gemma3",
+      "params": 27.0,
+      "r": 0.812648219110946,
+      "npos": 6,
+      "ntot": 20,
+      "n_layers": 63
+    },
+    {
+      "model": "google/gemma-3-4b-it",
+      "family": "Gemma3",
+      "params": 4.0,
+      "r": 0.5722962834707059,
+      "npos": 6,
+      "ntot": 20,
+      "n_layers": 35
+    }
+  ],
+  "fits": {
+    "Qwen3_excl14B": {
+      "exponent_b": 0.09467667335149989,
+      "coef_c": 0.17532187206242558,
+      "r2": 0.09516497264344548,
+      "n": 4,
+      "params": [
+        0.6,
+        1.7,
+        4.0,
+        8.0
+      ],
+      "r": [
+        0.18322099710124282,
+        0.1938490256340399,
+        0.12650032620761043,
+        0.2925032633830718
+      ]
+    },
+    "Qwen3_incl14B": {
+      "exponent_b": -0.3212169062545118,
+      "coef_c": 0.20202396586455898,
+      "r2": 0.2492977541341257,
+      "n": 5,
+      "params": [
+        0.6,
+        1.7,
+        4.0,
+        8.0,
+        14.0
+      ],
+      "r": [
+        0.18322099710124282,
+        0.1938490256340399,
+        0.12650032620761043,
+        0.2925032633830718,
+        0.035805965923594786
+      ]
+    },
+    "Gemma3": {
+      "exponent_b": 0.24315777779508457,
+      "coef_c": 0.35348831896593624,
+      "r2": 0.9011690008897286,
+      "n": 4,
+      "params": [
+        1.0,
+        4.0,
+        12.0,
+        27.0
+      ],
+      "r": [
+        0.3349556103547872,
+        0.5722962834707059,
+        0.572589808467303,
+        0.812648219110946
+      ]
+    },
+    "Pythia": {
+      "exponent_b": 0.42640604871852483,
+      "coef_c": 0.6429451535150091,
+      "r2": 0.8782599685746314,
+      "n": 4,
+      "params": [
+        0.16,
+        0.41,
+        1.0,
+        1.4
+      ],
+      "r": [
+        0.2606089262315314,
+        0.5511285870308237,
+        0.6169850834104554,
+        0.6966414918705398
+      ]
+    }
+  },
+  "cross_family": {
+    "gemma_min_model": "google/gemma-3-1b-it",
+    "gemma_min_r": 0.3349556103547872,
+    "gemma_min_params": 1.0,
+    "qwen_best_model": "Qwen/Qwen3-8B",
+    "qwen_best_r": 0.2925032633830718,
+    "gemma4b_exceeds_all_qwen": true
+  }
+}

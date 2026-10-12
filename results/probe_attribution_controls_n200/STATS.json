@@ -1,0 +1,427 @@
+{
+  "n_pairs": 206,
+  "n_models": 17,
+  "n_boot": 10000,
+  "n_perm": 10000,
+  "seed": 0,
+  "families": [
+    "antonym",
+    "arith_add",
+    "arith_sub",
+    "capital",
+    "doubling",
+    "month",
+    "predecessor",
+    "successor",
+    "weekday"
+  ],
+  "per_model": [
+    {
+      "model": "gpt2",
+      "multilingual": false,
+      "real": 0.315312304885062,
+      "mm_global": -0.004022344280215681,
+      "mm_within_family": 0.11162219235790817,
+      "residual_global": 0.3193346491652777,
+      "residual_wf": 0.20369011252715385,
+      "rg_ci": [
+        0.2517973622123162,
+        0.3850322549069598
+      ],
+      "rw_ci": [
+        0.13708068064212012,
+        0.2556546964363285
+      ],
+      "rw_p_le0": 0.0,
+      "rg_p_le0": 0.0,
+      "rw_boot_se": 0.0299696543100981,
+      "per_pair_wf_mean": 0.058398613245641634,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "Qwen/Qwen3-0.6B",
+      "multilingual": true,
+      "real": 0.335825219621394,
+      "mm_global": 0.06495083887971113,
+      "mm_within_family": 0.17031497908019444,
+      "residual_global": 0.27087438074168285,
+      "residual_wf": 0.16551024054119956,
+      "rg_ci": [
+        0.2054817790852998,
+        0.3311867862174566
+      ],
+      "rw_ci": [
+        0.10677553834245257,
+        0.2098823664065003
+      ],
+      "rw_p_le0": 0.0,
+      "rg_p_le0": 0.0,
+      "rw_boot_se": 0.026451634944172814,
+      "per_pair_wf_mean": 0.019214010499534518,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "Qwen/Qwen3-4B",
+      "multilingual": true,
+      "real": 0.23923498004296762,
+      "mm_global": 0.05372203487313713,
+      "mm_within_family": 0.09058625278062414,
+      "residual_global": 0.1855129451698305,
+      "residual_wf": 0.14864872726234346,
+      "rg_ci": [
+        0.14744948573107,
+        0.22862418637630139
+      ],
+      "rw_ci": [
+        0.10594613214201541,
+        0.17787590190656982
+      ],
+      "rw_p_le0": 0.0,
+      "rg_p_le0": 0.0,
+      "rw_boot_se": 0.01840530296319056,
+      "per_pair_wf_mean": 0.1042402656432174,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "gpt2-medium",
+      "multilingual": false,
+      "real": 0.26427361871785204,
+      "mm_global": 0.01784796104432048,
+      "mm_within_family": 0.12537288524246312,
+      "residual_global": 0.24642565767353156,
+      "residual_wf": 0.13890073347538892,
+      "rg_ci": [
+        0.18299585170334567,
+        0.31243089420842546
+      ],
+      "rw_ci": [
+        0.08725733159635227,
+        0.17832590898542647
+      ],
+      "rw_p_le0": 0.0,
+      "rg_p_le0": 0.0,
+      "rw_boot_se": 0.02298594667510397,
+      "per_pair_wf_mean": 0.0649690417701198,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "EleutherAI/gpt-neo-125m",
+      "multilingual": false,
+      "real": 0.307244753778479,
+      "mm_global": 0.20003837432922492,
+      "mm_within_family": 0.19878205953240533,
+      "residual_global": 0.10720637944925407,
+      "residual_wf": 0.10846269424607366,
+      "rg_ci": [
+        0.05945313920885253,
+        0.15432645315132498
+      ],
+      "rw_ci": [
+        0.0639096644294539,
+        0.1447116618018396
+      ],
+      "rw_p_le0": 0.0,
+      "rg_p_le0": 0.0,
+      "rw_boot_se": 0.020769583855468093,
+      "per_pair_wf_mean": 0.045668336878278246,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "facebook/opt-125m",
+      "multilingual": false,
+      "real": 0.12477661517543738,
+      "mm_global": 0.04352674666854289,
+      "mm_within_family": 0.020496337547692093,
+      "residual_global": 0.08124986850689449,
+      "residual_wf": 0.10428027762774529,
+      "rg_ci": [
+        0.02110983031040966,
+        0.14557198154683643
+      ],
+      "rw_ci": [
+        0.050012636910636524,
+        0.15566924414614097
+      ],
+      "rw_p_le0": 0.0,
+      "rg_p_le0": 0.0051,
+      "rw_boot_se": 0.026775072643894914,
+      "per_pair_wf_mean": -0.00715468308165944,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "Qwen/Qwen3-8B",
+      "multilingual": true,
+      "real": 0.209720223416586,
+      "mm_global": 0.16684187758340072,
+      "mm_within_family": 0.14638740825801377,
+      "residual_global": 0.04287834583318528,
+      "residual_wf": 0.06333281515857223,
+      "rg_ci": [
+        0.014440080645384613,
+        0.07331140801980238
+      ],
+      "rw_ci": [
+        0.03567166476784547,
+        0.084914502981416
+      ],
+      "rw_p_le0": 0.0,
+      "rg_p_le0": 0.002,
+      "rw_boot_se": 0.012716707963685948,
+      "per_pair_wf_mean": 0.03506694113805757,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "bigscience/bloom-560m",
+      "multilingual": true,
+      "real": 0.4178289574417535,
+      "mm_global": 0.3298342002321964,
+      "mm_within_family": 0.3675088645442069,
+      "residual_global": 0.08799475720955713,
+      "residual_wf": 0.05032009289754663,
+      "rg_ci": [
+        0.045720723024707935,
+        0.12686859770099515
+      ],
+      "rw_ci": [
+        0.020030246043238113,
+        0.0723262597037549
+      ],
+      "rw_p_le0": 0.0002,
+      "rg_p_le0": 0.0,
+      "rw_boot_se": 0.013346890815151821,
+      "per_pair_wf_mean": 0.0008251450042327144,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "Qwen/Qwen3-1.7B",
+      "multilingual": true,
+      "real": 0.19452844128467328,
+      "mm_global": 0.16356381532073996,
+      "mm_within_family": 0.17140686225554982,
+      "residual_global": 0.030964625963933318,
+      "residual_wf": 0.023121579029123457,
+      "rg_ci": [
+        -0.004776279749433483,
+        0.07257964368150288
+      ],
+      "rw_ci": [
+        0.0003350261733330704,
+        0.04440967620682302
+      ],
+      "rw_p_le0": 0.0229,
+      "rg_p_le0": 0.0481,
+      "rw_boot_se": 0.01116829599697672,
+      "per_pair_wf_mean": 0.01388268291341747,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "google/gemma-3-4b-it",
+      "multilingual": true,
+      "real": 0.4067709690132825,
+      "mm_global": 0.3803897058892945,
+      "mm_within_family": 0.3850585472193789,
+      "residual_global": 0.02638126312398803,
+      "residual_wf": 0.021712421793903647,
+      "rg_ci": [
+        0.0026783648602444103,
+        0.051497809873583794
+      ],
+      "rw_ci": [
+        0.004188486339711402,
+        0.03989490883636885
+      ],
+      "rw_p_le0": 0.0091,
+      "rg_p_le0": 0.015,
+      "rw_boot_se": 0.009110438639944226,
+      "per_pair_wf_mean": 0.025897042355298078,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "google/gemma-3-1b-it",
+      "multilingual": true,
+      "real": 0.24004204531905884,
+      "mm_global": 0.24293731512253913,
+      "mm_within_family": 0.23020932247954173,
+      "residual_global": -0.002895269803480288,
+      "residual_wf": 0.00983272283951711,
+      "rg_ci": [
+        -0.03494541358222429,
+        0.028590590820409482
+      ],
+      "rw_ci": [
+        -0.014079478996766244,
+        0.03465379234622723
+      ],
+      "rw_p_le0": 0.2115,
+      "rg_p_le0": 0.5843,
+      "rw_boot_se": 0.012543994232909481,
+      "per_pair_wf_mean": 0.01590580616598565,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "google/gemma-2-2b",
+      "multilingual": true,
+      "real": 0.22160878507769888,
+      "mm_global": 0.10991882856514894,
+      "mm_within_family": 0.2118853135901736,
+      "residual_global": 0.11168995651254994,
+      "residual_wf": 0.009723471487525281,
+      "rg_ci": [
+        0.06282453723347517,
+        0.15806268023160247
+      ],
+      "rw_ci": [
+        -0.018088197338164042,
+        0.03867007239120701
+      ],
+      "rw_p_le0": 0.2478,
+      "rg_p_le0": 0.0,
+      "rw_boot_se": 0.01440804769806094,
+      "per_pair_wf_mean": 0.02516290734242441,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "Qwen/Qwen2.5-0.5B",
+      "multilingual": true,
+      "real": 0.023637623506339415,
+      "mm_global": 0.04261721276064092,
+      "mm_within_family": 0.014058195615783954,
+      "residual_global": -0.018979589254301505,
+      "residual_wf": 0.00957942789055546,
+      "rg_ci": [
+        -0.059268896632341556,
+        0.027581566731400203
+      ],
+      "rw_ci": [
+        -0.01806631814396095,
+        0.036887189756095305
+      ],
+      "rw_p_le0": 0.2514,
+      "rg_p_le0": 0.7801,
+      "rw_boot_se": 0.014039745006625134,
+      "per_pair_wf_mean": -0.005000236650598824,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "EleutherAI/pythia-1.4b-deduped",
+      "multilingual": false,
+      "real": 0.6200484183552926,
+      "mm_global": 0.619052467822275,
+      "mm_within_family": 0.6206155557387757,
+      "residual_global": 0.0009959505330175977,
+      "residual_wf": -0.0005671373834831295,
+      "rg_ci": [
+        -0.01310804014160379,
+        0.01379221477304438
+      ],
+      "rw_ci": [
+        -0.00899660591119401,
+        0.007805370006430626
+      ],
+      "rw_p_le0": 0.5289,
+      "rg_p_le0": 0.4814,
+      "rw_boot_se": 0.0042934791749296335,
+      "per_pair_wf_mean": -0.00039228870118965427,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "EleutherAI/pythia-410m-deduped",
+      "multilingual": false,
+      "real": 0.2874881991650966,
+      "mm_global": 0.3220138625211052,
+      "mm_within_family": 0.2931104846089843,
+      "residual_global": -0.034525663356008596,
+      "residual_wf": -0.005622285443887709,
+      "rg_ci": [
+        -0.05895328638528182,
+        -0.010694098631524733
+      ],
+      "rw_ci": [
+        -0.01726010875928232,
+        0.007126168377989182
+      ],
+      "rw_p_le0": 0.7909,
+      "rg_p_le0": 0.9988,
+      "rw_boot_se": 0.00623174308398514,
+      "per_pair_wf_mean": 0.004071342341106867,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "EleutherAI/pythia-1b-deduped",
+      "multilingual": false,
+      "real": 0.5487049696047883,
+      "mm_global": 0.5459923263789273,
+      "mm_within_family": 0.5543434380804722,
+      "residual_global": 0.0027126432258610667,
+      "residual_wf": -0.005638468475683833,
+      "rg_ci": [
+        -0.014425200516293007,
+        0.02156341221821164
+      ],
+      "rw_ci": [
+        -0.01563397069470109,
+        0.004198669091256639
+      ],
+      "rw_p_le0": 0.8561,
+      "rg_p_le0": 0.3729,
+      "rw_boot_se": 0.005111639727647824,
+      "per_pair_wf_mean": 0.0006704619486479666,
+      "per_pair_n": 1236
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "multilingual": true,
+      "real": 0.47533328155754356,
+      "mm_global": 0.5042293456054769,
+      "mm_within_family": 0.48156721442272027,
+      "residual_global": -0.02889606404793338,
+      "residual_wf": -0.006233932865176706,
+      "rg_ci": [
+        -0.04982285931872235,
+        -0.006448247024568356
+      ],
+      "rw_ci": [
+        -0.021344362154286377,
+        0.01095918586994077
+      ],
+      "rw_p_le0": 0.7583,
+      "rg_p_le0": 0.9952,
+      "rw_boot_se": 0.008220205832619069,
+      "per_pair_wf_mean": 0.0033628963502681467,
+      "per_pair_n": 1236
+    }
+  ],
+  "gap_wf_point": -0.02808894719267571,
+  "gap_wf_ci": [
+    -0.05182253824524148,
+    -0.0037038157202401683
+  ],
+  "gap_wf_boot_p": 0.9864,
+  "perm_p_model_level": 0.7913924310983135,
+  "n_model_perms": 19448,
+  "perm_p_model_level_two_sided": 0.41988893459481696,
+  "perm_p_pair_level": 0.49855014498550143,
+  "obs_pair_gap": 0.00010848544747722039,
+  "perm_p_pair_level_two_sided": 0.9792020797920208,
+  "mean_resid_wf_multi": 0.04955475660351101,
+  "mean_resid_wf_en": 0.07764370379618672,
+  "residual_wf_sig_per_model": {
+    "gpt2": true,
+    "Qwen/Qwen3-0.6B": true,
+    "Qwen/Qwen3-4B": true,
+    "gpt2-medium": true,
+    "EleutherAI/gpt-neo-125m": true,
+    "facebook/opt-125m": true,
+    "Qwen/Qwen3-8B": true,
+    "bigscience/bloom-560m": true,
+    "Qwen/Qwen3-1.7B": true,
+    "google/gemma-3-4b-it": true,
+    "google/gemma-3-1b-it": false,
+    "google/gemma-2-2b": false,
+    "Qwen/Qwen2.5-0.5B": false,
+    "EleutherAI/pythia-1.4b-deduped": false,
+    "EleutherAI/pythia-410m-deduped": false,
+    "EleutherAI/pythia-1b-deduped": false,
+    "google/gemma-3-12b-it": false
+  }
+}

@@ -1,0 +1,13 @@
+\section{Discussion and Limitations}\label{sec:discussion}
+
+\paragraph{What to change when matching features across models.} Read a match count only against
+a null that re-runs the matching: random pairings sit below a permuted-pairing null that absorbs
+up to $94\%$ of the unfiltered \citeauthor{lan2024universal} signal above random
+(\Cref{app:lan}). Score frozen pairs on documents the rule never saw, prefer reciprocal matching
+(greedy-max excess saturates even for GPT-2$\leftrightarrow$Mistral-7B, Finding~2), and read each
+control as the retention ratio \eqref{eq:ratio} against a same-sized reference arm.
+
+\label{sec:disc:negative}In our v0 setup (\circuittracer{} v0.4.1, experimental \texttt{nnsight}
+backend, float16; \Cref{tab:hyperparams}), attribution graphs did not converge on four Qwen3 sizes
+(0.6B--8B) though the models answer correctly; we did not test the library's default backend, so
+this is a failure of our pipeline, not evidence about the method (\Cref{app:failure_methods}).

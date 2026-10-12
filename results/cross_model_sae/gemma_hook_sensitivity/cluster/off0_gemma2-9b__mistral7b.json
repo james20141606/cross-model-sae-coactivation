@@ -1,0 +1,40 @@
+{
+ "tag": "gemma2-9b__mistral7b",
+ "gemma_hook_offset": 0,
+ "side_a": {
+  "model": "google/gemma-2-9b",
+  "rev": "33c193028431c2fde6c6e51f29e6f17b60cbfac6",
+  "sae": "gemma-scope-9b-pt-res-canonical::layer_20/width_16k/canonical",
+  "hs_idx": 20,
+  "pooled_sha256": "4912116b5183e584f701138517c8901cb9ee2073c229cb687752698ee0a4e462"
+ },
+ "side_b": {
+  "model": "mistralai/Mistral-7B-v0.1",
+  "rev": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
+  "sae": "mistral-7b-res-wg::blocks.16.hook_resid_pre",
+  "hs_idx": 16,
+  "pooled_sha256": "e2df7f3916cd5dbf845099183fca2ee5973035dc143d38d68beb0548909e617d"
+ },
+ "screen": {
+  "M": 819,
+  "null_mu": 553.39,
+  "null_sd": 11.064714185192495,
+  "z": 24.005138818267554,
+  "p": 0.004975124378109453,
+  "excess_frac": 0.17707333333333333,
+  "greedy_z": 84.58702010508756,
+  "n_perm": 200,
+  "seed": 0
+ },
+ "heldout": {
+  "n_pairs": 771,
+  "excess": 0.601716577079679,
+  "p": 0.0004997501249375312,
+  "z": 409.0047461392739,
+  "r": 0.7911085869724453,
+  "n_perm": 2000,
+  "seed": 0
+ },
+ "script_sha256": "bff35d16416317b7ca5da8572bf0196af47270a792d11389200e641303edfce5",
+ "matcher_sha256": "19db5eed8d8a47889bab4737980ba2e22a143f8efadadc43927943e9e5ebf9f1"
+}

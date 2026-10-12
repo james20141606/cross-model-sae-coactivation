@@ -1,0 +1,40 @@
+{
+ "tag": "qwen3-8b__gemma2-2b",
+ "gemma_hook_offset": 0,
+ "side_a": {
+  "model": "Qwen/Qwen3-8B-Base",
+  "rev": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+  "sae": "qwenpt:Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0_50::layer18",
+  "hs_idx": 19,
+  "pooled_sha256": "0f462f87080eea993f0ceb90a250d39449b53147730fd3ce2bbe725caf812e3f"
+ },
+ "side_b": {
+  "model": "google/gemma-2-2b",
+  "rev": "c5ebcd40d208330abc697524c919956e692655cf",
+  "sae": "gemma-scope-2b-pt-res-canonical::layer_12/width_16k/canonical",
+  "hs_idx": 12,
+  "pooled_sha256": "08e326cf96262b36594ee3c8108afd87ccfd559e2577fde8ecc53591bb928b25"
+ },
+ "screen": {
+  "M": 785,
+  "null_mu": 402.965,
+  "null_sd": 9.401264542602766,
+  "z": 40.63655461121963,
+  "p": 0.004975124378109453,
+  "excess_frac": 0.25469,
+  "greedy_z": 171.50360871377524,
+  "n_perm": 200,
+  "seed": 0
+ },
+ "heldout": {
+  "n_pairs": 768,
+  "excess": 0.6984634189780802,
+  "p": 0.0004997501249375312,
+  "z": 404.9529653575119,
+  "r": 0.901040004911997,
+  "n_perm": 2000,
+  "seed": 0
+ },
+ "script_sha256": "bff35d16416317b7ca5da8572bf0196af47270a792d11389200e641303edfce5",
+ "matcher_sha256": "19db5eed8d8a47889bab4737980ba2e22a143f8efadadc43927943e9e5ebf9f1"
+}

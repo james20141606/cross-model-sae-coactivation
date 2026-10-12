@@ -1,0 +1,183 @@
+{
+  "cell": "tokaclean20k_llama3.2-1b__mistral7b.json",
+  "tag": "llama3.2-1b__mistral7b",
+  "prereg_commit": "df330c6",
+  "a3_exec_commit": "b0b07cd",
+  "smoke": false,
+  "model_a": "meta-llama/Llama-3.2-1B",
+  "model_b": "mistralai/Mistral-7B-v0.1",
+  "sae_a": "chanind/sae-llama-3.2-1b-res::blocks.8.hook_resid_post",
+  "sae_b": "mistral-7b-res-wg::blocks.16.hook_resid_pre",
+  "n_docs": 20000,
+  "n_perm": 2000,
+  "seed": 0,
+  "device": "cuda",
+  "split": {
+    "seed": 42,
+    "n_a": 10000,
+    "n_b": 10000,
+    "sha256_a": "4ce0138bdd8888e0640d7429927591bb9bbdfc35ea37aa0a02042f68f781a0ae",
+    "sha256_b": "e381de51b90e5f876ba6778f0e2303b36bdc4c3a0fbacf98bc5fa9f4f3d770ac"
+  },
+  "selection": {
+    "procedure": "A4: top-K-by-variance universe computed on split-A pooled rows of the FULL dictionary per side, then mutual_nn_pairs (_zcols) inside it",
+    "universe_k": 1500,
+    "n_selected_pairs": 522
+  },
+  "gates": {
+    "G0": {
+      "dump_integrity_a": {
+        "n_features": 522,
+        "min_r": 0.9999998170096834,
+        "n_below_999": 0,
+        "passed": true
+      },
+      "dump_integrity_b": {
+        "n_features": 522,
+        "min_r": 0.9999996280158229,
+        "n_below_999": 0,
+        "passed": true
+      },
+      "n_selected_pairs": 522,
+      "overlap_with_frozen": {
+        "computed": true,
+        "n_frozen_style_pairs": 511,
+        "n_a4_pairs": 522,
+        "n_shared": 438,
+        "note": "informational per A4(b); not gated"
+      },
+      "passed": true
+    },
+    "G1": {
+      "side_a": {
+        "n_docs_qa": 50,
+        "spans_valid_and_covered": true,
+        "word_coverage": 1.0,
+        "crossword_rate": 0.0,
+        "crossword_instances": [],
+        "passed": true
+      },
+      "side_b": {
+        "n_docs_qa": 50,
+        "spans_valid_and_covered": true,
+        "word_coverage": 1.0,
+        "crossword_rate": 0.0,
+        "crossword_instances": [],
+        "passed": true
+      },
+      "frac_docs_failed": 0.0011999999999999789,
+      "passed": true
+    },
+    "G2": {
+      "s1": {
+        "n_pairs_in": 522,
+        "n_pairs_pass": 522,
+        "min_occ": 50,
+        "testable": true
+      },
+      "s2": {
+        "n_pairs_in": 522,
+        "n_pairs_pass": 522,
+        "min_occ": 50,
+        "testable": true
+      }
+    }
+  },
+  "alignment": {
+    "n_occurrences_total": 937290,
+    "n_occurrences_split_b": 468944,
+    "n_word_types": 70752,
+    "n_types_retained": 2821,
+    "n_occ_retained": 360250,
+    "n_occ_total": 468944
+  },
+  "aliasing_audit": {
+    "radix": 68,
+    "max_a_widx": 69,
+    "n_aliasing_a_occurrences": 0
+  },
+  "s1": {
+    "obs_mean_pair_r": 0.33531808853149414,
+    "null_n1": {
+      "mean": -2.2014571761985735e-05,
+      "sd": 0.0007821097032969124,
+      "ci95": [
+        -0.0015067923784954473,
+        0.0015767119592055671
+      ],
+      "p": 0.0004997501249375312,
+      "n_perm": 2000
+    },
+    "excess": 0.3353401031032561,
+    "n_pairs_scored": 522,
+    "null_n2": {
+      "mean": 0.0027953336264472453,
+      "sd": 6.947567879978688e-05,
+      "ci95": [
+        0.0026628063118550927,
+        0.0029371938144322485
+      ],
+      "p": 0.0004997501249375312,
+      "n_perm": 2000
+    },
+    "excess_n2": 0.3325227549050469
+  },
+  "s2_clean": {
+    "obs_mean_pair_r": 0.32011056717911707,
+    "null_n3": {
+      "mean": -0.00196478987913086,
+      "sd": 0.000262948470183182,
+      "ci95": [
+        -0.0024791377323026866,
+        -0.0014319615843438245
+      ],
+      "p": 0.0004997501249375312,
+      "n_perm": 2000
+    },
+    "excess": 0.3220753570582479,
+    "fe_convergence": {
+      "tol": 1e-08,
+      "max_sweeps": 500,
+      "obs_sweeps_a": 14,
+      "obs_sweeps_b": 14,
+      "obs_max_dev_a": 4.370000988599107e-09,
+      "obs_max_dev_b": 9.154001319648502e-09,
+      "null_sweeps_mean": 14.988,
+      "null_sweeps_max": 15
+    },
+    "null_reresidualized": true,
+    "s1_on_s2_support": {
+      "obs_mean_pair_r": 0.3294897980525882,
+      "null_n1": {
+        "mean": -1.1757050176521008e-05,
+        "sd": 0.0009299876645735558,
+        "ci95": [
+          -0.00180433514037045,
+          0.0018195290261774331
+        ],
+        "p": 0.0004997501249375312,
+        "n_perm": 2000
+      },
+      "excess": 0.32950155510276474
+    },
+    "R_tok_clean": 0.9774623277811215,
+    "R_tok_clean_naive": 0.9604439018111598
+  },
+  "common_mask": {
+    "n_pairs_scored": 522,
+    "sha256": "084b4e3fb7fcee98fcfc0d398f9278ac07ed960eed61daae59d2b94bd7e0e0e9",
+    "definition": "G2(S2) support AND residual sd > 1e-8 both sides under BOTH the joint-FE and the doc-centering transformation; asserted identical for R_tok_clean numerator and denominator"
+  },
+  "a3_requirements": {
+    "disjoint_selection_eval": true,
+    "joint_fe_converged": true,
+    "null_reresidualized": true,
+    "common_mask_asserted": true
+  },
+  "a4_requirements": {
+    "token_stream_gated_to_b": true,
+    "universe_screened_on_a_only": true,
+    "aliasing_audited": true
+  },
+  "elapsed_s": 419.0
+}

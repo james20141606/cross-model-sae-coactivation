@@ -1,0 +1,40 @@
+{
+ "tag": "gemma2-9b__mistral7b",
+ "gemma_hook_offset": 1,
+ "side_a": {
+  "model": "google/gemma-2-9b",
+  "rev": "33c193028431c2fde6c6e51f29e6f17b60cbfac6",
+  "sae": "gemma-scope-9b-pt-res-canonical::layer_20/width_16k/canonical",
+  "hs_idx": 21,
+  "pooled_sha256": "667a378b94ecf699117b0d4144aa6d1e147213b9e702a5a7cbbd43df6d4c6ef7"
+ },
+ "side_b": {
+  "model": "mistralai/Mistral-7B-v0.1",
+  "rev": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
+  "sae": "mistral-7b-res-wg::blocks.16.hook_resid_pre",
+  "hs_idx": 16,
+  "pooled_sha256": "e2df7f3916cd5dbf845099183fca2ee5973035dc143d38d68beb0548909e617d"
+ },
+ "screen": {
+  "M": 841,
+  "null_mu": 550.74,
+  "null_sd": 10.555207245715263,
+  "z": 27.499223202635548,
+  "p": 0.004975124378109453,
+  "excess_frac": 0.19350666666666666,
+  "greedy_z": 95.36883178301743,
+  "n_perm": 200,
+  "seed": 0
+ },
+ "heldout": {
+  "n_pairs": 795,
+  "excess": 0.6150917085199564,
+  "p": 0.0004997501249375312,
+  "z": 419.8123035182296,
+  "r": 0.813585584012925,
+  "n_perm": 2000,
+  "seed": 0
+ },
+ "script_sha256": "bff35d16416317b7ca5da8572bf0196af47270a792d11389200e641303edfce5",
+ "matcher_sha256": "19db5eed8d8a47889bab4737980ba2e22a143f8efadadc43927943e9e5ebf9f1"
+}

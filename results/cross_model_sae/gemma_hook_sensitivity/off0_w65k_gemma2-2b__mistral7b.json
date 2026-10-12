@@ -1,0 +1,31 @@
+{
+ "tag": "w65k_gemma2-2b__mistral7b",
+ "gemma_hook_offset": 0,
+ "side_a": {
+  "model": "unsloth/gemma-2-2b",
+  "rev": "25319945f7fd83b8b903e12081777b7eef2ba993",
+  "sae": "gemma-scope-2b-pt-res-canonical::layer_12/width_65k/canonical",
+  "hs_idx": 12,
+  "pooled_sha256": "9fdd8fa02ffb5e6c7858622530d729144c1b179f960fc5178dc071888f327f9d"
+ },
+ "side_b": {
+  "model": "mistralai/Mistral-7B-v0.1",
+  "rev": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
+  "sae": "mistral-7b-res-wg::blocks.16.hook_resid_pre",
+  "hs_idx": 16,
+  "pooled_sha256": "8faf49d1c63b3cae2f5a038b66f7f4d8489b00487975d87debb0eaaa6c68849d"
+ },
+ "screen": {
+  "M": 471,
+  "null_mu": 346.61,
+  "null_sd": 8.840695673984033,
+  "z": 14.070159700898742,
+  "p": 0.004975124378109453,
+  "excess_frac": 0.08292666666666666,
+  "greedy_z": 12.537191141619422,
+  "n_perm": 200,
+  "seed": 0
+ },
+ "script_sha256": "d7fc4b3d91d6f282a1906aba475f691c98f623d9df81e90435b4cef78185a01d",
+ "matcher_sha256": "19db5eed8d8a47889bab4737980ba2e22a143f8efadadc43927943e9e5ebf9f1"
+}

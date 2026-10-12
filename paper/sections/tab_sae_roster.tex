@@ -1,0 +1,33 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{SAE-matching roster and exact observational scope.} ``Read point'' is where we
+apply the encoder; for every suite except Gemma Scope it is the dictionary's training hook.
+Depth is hook layer over transformer blocks. $L_0$ is the release target or the mean nonzeros/token
+(BOS included) measured at our read point by the tracked token-aligned extraction; ``n/r'' means
+neither was encoded in the release ID nor retained in a tracked receipt, and is not inferred.
+$^{\ddagger}$Gemma Scope dictionaries were trained on \texttt{resid\_post} of block $N$
+(\texttt{hidden\_states[$N{+}1$]}) and we apply them to \texttt{hidden\_states[$N$]}, one block early
+(\Cref{app:gemmahook}); without BOS their $L_0$ is ${\sim}75$ (2B) and ${\sim}48$ (9B) at our read point
+and ${\sim}81$ and ${\sim}65$ at the training hook. Repository snapshot SHAs are in
+\Cref{tab:model-revisions}. Every claim is conditional on these
+(model, released SAE, read point, corpus, pooling) choices.}
+\label{tab:sae-roster}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllllll}
+\toprule
+Model & release / repository & read point & depth & width & $L_0$ & recipe / provenance \\
+\midrule
+Gemma-2-2B & \texttt{gemma-scope-2b-pt-res-canonical} & \texttt{resid\_pre} block 12$^{\ddagger}$ & $12/26$ & 16k (65k check) & ${\sim}154$ & JumpReLU, Google Gemma Scope \\
+Gemma-2-9B & \texttt{gemma-scope-9b-pt-res-canonical} & \texttt{resid\_pre} block 20$^{\ddagger}$ & $20/42$ & 16k & ${\sim}117$ & JumpReLU, Google Gemma Scope \\
+Mistral-7B-v0.1 & \texttt{mistral-7b-res-wg} & \texttt{resid\_pre} block 16 & $16/32$ & 65,536 & ${\sim}88$ & SAE Lens; JoshEngels community release \\
+Qwen3-1.7B-Base & \texttt{Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0\_50} & \texttt{resid\_post} layer 14 & $14/28$ & 32,768 & 50 & TopK-ReLU, Qwen-Scope; manual audited loader \\
+Qwen3-8B-Base & \texttt{Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0\_50} & \texttt{resid\_post} layer 18 & $18/36$ & 65,536 & 50 & TopK-ReLU, Qwen-Scope; manual audited loader \\
+Llama-3.2-1B & \texttt{chanind/sae-llama-3.2-1b-res} & \texttt{resid\_post} block 8 & $8/16$ & 16,384 & ${\sim}117$ & SAE Lens; chanind community release \\
+\midrule
+Pythia-70M (negative) & \texttt{pythia-70m-deduped-res-sm} & \texttt{resid\_post} block 3 & $3/6$ & 32,768 & n/r & SAE Lens release; registry lists no publication \\
+GPT-2 (underpowered) & \texttt{gpt2-small-res-jb} & \texttt{resid\_pre} block 6 & $6/12$ & 24,576 & n/r & reformatted SAE Lens release \citep{bloom2024gpt2saes} \\
+\bottomrule
+\end{tabular}}
+\end{table}

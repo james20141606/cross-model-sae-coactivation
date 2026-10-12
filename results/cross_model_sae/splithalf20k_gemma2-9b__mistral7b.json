@@ -1,0 +1,97 @@
+{
+  "cell": "gemma2-9b__mistral7b",
+  "cache": "lextok20k_gemma2-9b__mistral7b.npz",
+  "cache_md5": "be768bbd5cb2530c16a2fa0554cfece8",
+  "selection_rule": "lexical_token_test.mutual_nn_pairs on _zcols (verbatim)",
+  "universe": "top-1500 columns carried by the pinned cache (not re-screened per half)",
+  "n_docs": 20000,
+  "topk": 1500,
+  "split": {
+    "seed": 42,
+    "n_a": 10000,
+    "n_b": 10000,
+    "sha256_a": "4ce0138bdd8888e0640d7429927591bb9bbdfc35ea37aa0a02042f68f781a0ae",
+    "sha256_b": "e381de51b90e5f876ba6778f0e2303b36bdc4c3a0fbacf98bc5fa9f4f3d770ac"
+  },
+  "n_perm": 2000,
+  "select_A_score_B": {
+    "n_pairs_selected": 813,
+    "n_pairs_selected_on_eval_half": 812,
+    "n_pairs_shared_between_halves": 687,
+    "held_out": {
+      "obs_mean_pair_corr": 0.7207765989982887,
+      "null_mean": 9.152289716432396e-07,
+      "null_sd": 0.00044392841224929406,
+      "excess": 0.7207756837693171,
+      "z": 1623.6304410373168,
+      "p": 0.0004997501249375312,
+      "n_perm": 2000,
+      "null_type": "global_perm_within_half"
+    },
+    "in_sample_selection_half": {
+      "obs_mean_pair_corr": 0.7302302514532377,
+      "null_mean": 1.3720890570512616e-05,
+      "null_sd": 0.0004326086787182291,
+      "excess": 0.7302165305626672,
+      "z": 1687.9377749106116,
+      "p": 0.0004997501249375312,
+      "n_perm": 2000,
+      "null_type": "global_perm_within_half"
+    },
+    "in_sample_eval_half_own_pairs": {
+      "obs_mean_pair_corr": 0.7352049658046507,
+      "null_mean": 9.713699786206982e-06,
+      "null_sd": 0.00043005394994668757,
+      "excess": 0.7351952521048645,
+      "z": 1709.541912580978,
+      "p": 0.0004997501249375312,
+      "n_perm": 2000,
+      "null_type": "global_perm_within_half"
+    },
+    "ratio_heldout_over_insample_same_docs": 0.9803867499221953,
+    "ratio_heldout_over_insample_selection_half": 0.9870711680738377
+  },
+  "select_B_score_A": {
+    "n_pairs_selected": 812,
+    "n_pairs_selected_on_eval_half": 813,
+    "n_pairs_shared_between_halves": 687,
+    "held_out": {
+      "obs_mean_pair_corr": 0.7198138470880371,
+      "null_mean": 1.3950926696384238e-05,
+      "null_sd": 0.00043343082660947233,
+      "excess": 0.7197998961613407,
+      "z": 1660.7030510312345,
+      "p": 0.0004997501249375312,
+      "n_perm": 2000,
+      "null_type": "global_perm_within_half"
+    },
+    "in_sample_selection_half": {
+      "obs_mean_pair_corr": 0.7352049658046507,
+      "null_mean": 9.713699786206982e-06,
+      "null_sd": 0.00043005394994668757,
+      "excess": 0.7351952521048645,
+      "z": 1709.541912580978,
+      "p": 0.0004997501249375312,
+      "n_perm": 2000,
+      "null_type": "global_perm_within_half"
+    },
+    "in_sample_eval_half_own_pairs": {
+      "obs_mean_pair_corr": 0.7302302514532377,
+      "null_mean": 5.217766494118493e-06,
+      "null_sd": 0.0004398909473103989,
+      "excess": 0.7302250336867436,
+      "z": 1660.0137787593003,
+      "p": 0.0004997501249375312,
+      "n_perm": 2000,
+      "null_type": "global_perm_within_half"
+    },
+    "ratio_heldout_over_insample_same_docs": 0.9857233906748324,
+    "ratio_heldout_over_insample_selection_half": 0.9790595003171648
+  },
+  "summary": {
+    "mean_ratio_heldout_over_insample": 0.9830550702985139,
+    "min_heldout_p": 0.0004997501249375312,
+    "note": "ratio = held-out excess of A-selected pairs on B / excess of B-selected pairs on B (same documents, same n). 1.0 = no selection optimism at the pooled level; the in-sample number is the one the lextok20k arm reports."
+  },
+  "runtime_s": 390.1918275356293
+}

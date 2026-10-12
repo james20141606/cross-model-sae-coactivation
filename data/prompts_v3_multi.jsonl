@@ -1,0 +1,824 @@
+{"pair_id": 0, "lang": "en", "prompt": "The opposite of hot is", "target": "cold", "family": "antonym"}
+{"pair_id": 0, "lang": "zh", "prompt": "热的反义词是", "target": "冷", "family": "antonym"}
+{"pair_id": 0, "lang": "ja", "prompt": "熱いの反対は", "target": "冷たい", "family": "antonym"}
+{"pair_id": 0, "lang": "ko", "prompt": "뜨거운의 반대는", "target": "차가운", "family": "antonym"}
+{"pair_id": 1, "lang": "en", "prompt": "The opposite of big is", "target": "small", "family": "antonym"}
+{"pair_id": 1, "lang": "zh", "prompt": "大的反义词是", "target": "小", "family": "antonym"}
+{"pair_id": 1, "lang": "ja", "prompt": "大きいの反対は", "target": "小さい", "family": "antonym"}
+{"pair_id": 1, "lang": "ko", "prompt": "큰의 반대는", "target": "작은", "family": "antonym"}
+{"pair_id": 2, "lang": "en", "prompt": "The opposite of fast is", "target": "slow", "family": "antonym"}
+{"pair_id": 2, "lang": "zh", "prompt": "快的反义词是", "target": "慢", "family": "antonym"}
+{"pair_id": 2, "lang": "ja", "prompt": "速いの反対は", "target": "遅い", "family": "antonym"}
+{"pair_id": 2, "lang": "ko", "prompt": "빠른의 반대는", "target": "느린", "family": "antonym"}
+{"pair_id": 3, "lang": "en", "prompt": "The opposite of dark is", "target": "light", "family": "antonym"}
+{"pair_id": 3, "lang": "zh", "prompt": "黑暗的反义词是", "target": "光明", "family": "antonym"}
+{"pair_id": 3, "lang": "ja", "prompt": "暗いの反対は", "target": "明るい", "family": "antonym"}
+{"pair_id": 3, "lang": "ko", "prompt": "어두운의 반대는", "target": "밝은", "family": "antonym"}
+{"pair_id": 4, "lang": "en", "prompt": "The opposite of high is", "target": "low", "family": "antonym"}
+{"pair_id": 4, "lang": "zh", "prompt": "高的反义词是", "target": "低", "family": "antonym"}
+{"pair_id": 4, "lang": "ja", "prompt": "高いの反対は", "target": "低い", "family": "antonym"}
+{"pair_id": 4, "lang": "ko", "prompt": "높은의 반대는", "target": "낮은", "family": "antonym"}
+{"pair_id": 5, "lang": "en", "prompt": "The opposite of wet is", "target": "dry", "family": "antonym"}
+{"pair_id": 5, "lang": "zh", "prompt": "湿的反义词是", "target": "干", "family": "antonym"}
+{"pair_id": 5, "lang": "ja", "prompt": "濡れたの反対は", "target": "乾いた", "family": "antonym"}
+{"pair_id": 5, "lang": "ko", "prompt": "젖은의 반대는", "target": "마른", "family": "antonym"}
+{"pair_id": 6, "lang": "en", "prompt": "The opposite of long is", "target": "short", "family": "antonym"}
+{"pair_id": 6, "lang": "zh", "prompt": "长的反义词是", "target": "短", "family": "antonym"}
+{"pair_id": 6, "lang": "ja", "prompt": "長いの反対は", "target": "短い", "family": "antonym"}
+{"pair_id": 6, "lang": "ko", "prompt": "긴의 반대는", "target": "짧은", "family": "antonym"}
+{"pair_id": 7, "lang": "en", "prompt": "The opposite of strong is", "target": "weak", "family": "antonym"}
+{"pair_id": 7, "lang": "zh", "prompt": "强的反义词是", "target": "弱", "family": "antonym"}
+{"pair_id": 7, "lang": "ja", "prompt": "強いの反対は", "target": "弱い", "family": "antonym"}
+{"pair_id": 7, "lang": "ko", "prompt": "강한의 반대는", "target": "약한", "family": "antonym"}
+{"pair_id": 8, "lang": "en", "prompt": "The opposite of happy is", "target": "sad", "family": "antonym"}
+{"pair_id": 8, "lang": "zh", "prompt": "快乐的反义词是", "target": "悲伤", "family": "antonym"}
+{"pair_id": 8, "lang": "ja", "prompt": "嬉しいの反対は", "target": "悲しい", "family": "antonym"}
+{"pair_id": 8, "lang": "ko", "prompt": "기쁜의 반대는", "target": "슬픈", "family": "antonym"}
+{"pair_id": 9, "lang": "en", "prompt": "The opposite of full is", "target": "empty", "family": "antonym"}
+{"pair_id": 9, "lang": "zh", "prompt": "满的反义词是", "target": "空", "family": "antonym"}
+{"pair_id": 9, "lang": "ja", "prompt": "満たされたの反対は", "target": "空", "family": "antonym"}
+{"pair_id": 9, "lang": "ko", "prompt": "가득한의 반대는", "target": "빈", "family": "antonym"}
+{"pair_id": 10, "lang": "en", "prompt": "The opposite of heavy is", "target": "light", "family": "antonym"}
+{"pair_id": 10, "lang": "zh", "prompt": "重的反义词是", "target": "轻", "family": "antonym"}
+{"pair_id": 10, "lang": "ja", "prompt": "重いの反対は", "target": "軽い", "family": "antonym"}
+{"pair_id": 10, "lang": "ko", "prompt": "무거운의 반대는", "target": "가벼운", "family": "antonym"}
+{"pair_id": 11, "lang": "en", "prompt": "The opposite of clean is", "target": "dirty", "family": "antonym"}
+{"pair_id": 11, "lang": "zh", "prompt": "干净的反义词是", "target": "脏", "family": "antonym"}
+{"pair_id": 11, "lang": "ja", "prompt": "綺麗の反対は", "target": "汚い", "family": "antonym"}
+{"pair_id": 11, "lang": "ko", "prompt": "깨끗한의 반대는", "target": "더러운", "family": "antonym"}
+{"pair_id": 12, "lang": "en", "prompt": "The opposite of rich is", "target": "poor", "family": "antonym"}
+{"pair_id": 12, "lang": "zh", "prompt": "富有的反义词是", "target": "贫穷", "family": "antonym"}
+{"pair_id": 12, "lang": "ja", "prompt": "豊かの反対は", "target": "貧しい", "family": "antonym"}
+{"pair_id": 12, "lang": "ko", "prompt": "부유한의 반대는", "target": "가난한", "family": "antonym"}
+{"pair_id": 13, "lang": "en", "prompt": "The opposite of young is", "target": "old", "family": "antonym"}
+{"pair_id": 13, "lang": "zh", "prompt": "年轻的反义词是", "target": "年老", "family": "antonym"}
+{"pair_id": 13, "lang": "ja", "prompt": "若いの反対は", "target": "年老いた", "family": "antonym"}
+{"pair_id": 13, "lang": "ko", "prompt": "젊은의 반대는", "target": "늙은", "family": "antonym"}
+{"pair_id": 14, "lang": "en", "prompt": "The opposite of warm is", "target": "cool", "family": "antonym"}
+{"pair_id": 14, "lang": "zh", "prompt": "温暖的反义词是", "target": "凉爽", "family": "antonym"}
+{"pair_id": 14, "lang": "ja", "prompt": "暖かいの反対は", "target": "涼しい", "family": "antonym"}
+{"pair_id": 14, "lang": "ko", "prompt": "따뜻한의 반대는", "target": "시원한", "family": "antonym"}
+{"pair_id": 15, "lang": "en", "prompt": "The opposite of hard is", "target": "soft", "family": "antonym"}
+{"pair_id": 15, "lang": "zh", "prompt": "硬的反义词是", "target": "软", "family": "antonym"}
+{"pair_id": 15, "lang": "ja", "prompt": "硬いの反対は", "target": "柔らかい", "family": "antonym"}
+{"pair_id": 15, "lang": "ko", "prompt": "딱딱한의 반대는", "target": "부드러운", "family": "antonym"}
+{"pair_id": 16, "lang": "en", "prompt": "The opposite of new is", "target": "old", "family": "antonym"}
+{"pair_id": 16, "lang": "zh", "prompt": "新的反义词是", "target": "旧", "family": "antonym"}
+{"pair_id": 16, "lang": "ja", "prompt": "新しいの反対は", "target": "古い", "family": "antonym"}
+{"pair_id": 16, "lang": "ko", "prompt": "새로운의 반대는", "target": "오래된", "family": "antonym"}
+{"pair_id": 17, "lang": "en", "prompt": "The opposite of open is", "target": "closed", "family": "antonym"}
+{"pair_id": 17, "lang": "zh", "prompt": "打开的反义词是", "target": "关闭", "family": "antonym"}
+{"pair_id": 17, "lang": "ja", "prompt": "開いたの反対は", "target": "閉じた", "family": "antonym"}
+{"pair_id": 17, "lang": "ko", "prompt": "열린의 반대는", "target": "닫힌", "family": "antonym"}
+{"pair_id": 18, "lang": "en", "prompt": "The opposite of true is", "target": "false", "family": "antonym"}
+{"pair_id": 18, "lang": "zh", "prompt": "真的反义词是", "target": "假", "family": "antonym"}
+{"pair_id": 18, "lang": "ja", "prompt": "本当の反対は", "target": "嘘", "family": "antonym"}
+{"pair_id": 18, "lang": "ko", "prompt": "진실의 반대는", "target": "거짓", "family": "antonym"}
+{"pair_id": 19, "lang": "en", "prompt": "The opposite of love is", "target": "hate", "family": "antonym"}
+{"pair_id": 19, "lang": "zh", "prompt": "爱的反义词是", "target": "恨", "family": "antonym"}
+{"pair_id": 19, "lang": "ja", "prompt": "愛の反対は", "target": "憎しみ", "family": "antonym"}
+{"pair_id": 19, "lang": "ko", "prompt": "사랑의 반대는", "target": "미움", "family": "antonym"}
+{"pair_id": 20, "lang": "en", "family": "capital", "prompt": "The capital of France is", "target": "Paris"}
+{"pair_id": 20, "lang": "zh", "family": "capital", "prompt": "法国的首都是", "target": "巴黎"}
+{"pair_id": 20, "lang": "ja", "family": "capital", "prompt": "フランスの首都は", "target": "パリ"}
+{"pair_id": 20, "lang": "ko", "family": "capital", "prompt": "프랑스의 수도는", "target": "파리"}
+{"pair_id": 21, "lang": "en", "family": "capital", "prompt": "The capital of Japan is", "target": "Tokyo"}
+{"pair_id": 21, "lang": "zh", "family": "capital", "prompt": "日本的首都是", "target": "东京"}
+{"pair_id": 21, "lang": "ja", "family": "capital", "prompt": "日本の首都は", "target": "東京"}
+{"pair_id": 21, "lang": "ko", "family": "capital", "prompt": "일본의 수도는", "target": "도쿄"}
+{"pair_id": 22, "lang": "en", "family": "capital", "prompt": "The capital of China is", "target": "Beijing"}
+{"pair_id": 22, "lang": "zh", "family": "capital", "prompt": "中国的首都是", "target": "北京"}
+{"pair_id": 22, "lang": "ja", "family": "capital", "prompt": "中国の首都は", "target": "北京"}
+{"pair_id": 22, "lang": "ko", "family": "capital", "prompt": "중국의 수도는", "target": "베이징"}
+{"pair_id": 23, "lang": "en", "family": "capital", "prompt": "The capital of Korea is", "target": "Seoul"}
+{"pair_id": 23, "lang": "zh", "family": "capital", "prompt": "韩国的首都是", "target": "首尔"}
+{"pair_id": 23, "lang": "ja", "family": "capital", "prompt": "韓国の首都は", "target": "ソウル"}
+{"pair_id": 23, "lang": "ko", "family": "capital", "prompt": "한국의 수도는", "target": "서울"}
+{"pair_id": 24, "lang": "en", "family": "capital", "prompt": "The capital of Germany is", "target": "Berlin"}
+{"pair_id": 24, "lang": "zh", "family": "capital", "prompt": "德国的首都是", "target": "柏林"}
+{"pair_id": 24, "lang": "ja", "family": "capital", "prompt": "ドイツの首都は", "target": "ベルリン"}
+{"pair_id": 24, "lang": "ko", "family": "capital", "prompt": "독일의 수도는", "target": "베를린"}
+{"pair_id": 25, "lang": "en", "family": "capital", "prompt": "The capital of Italy is", "target": "Rome"}
+{"pair_id": 25, "lang": "zh", "family": "capital", "prompt": "意大利的首都是", "target": "罗马"}
+{"pair_id": 25, "lang": "ja", "family": "capital", "prompt": "イタリアの首都は", "target": "ローマ"}
+{"pair_id": 25, "lang": "ko", "family": "capital", "prompt": "이탈리아의 수도는", "target": "로마"}
+{"pair_id": 26, "lang": "en", "family": "capital", "prompt": "The capital of Spain is", "target": "Madrid"}
+{"pair_id": 26, "lang": "zh", "family": "capital", "prompt": "西班牙的首都是", "target": "马德里"}
+{"pair_id": 26, "lang": "ja", "family": "capital", "prompt": "スペインの首都は", "target": "マドリード"}
+{"pair_id": 26, "lang": "ko", "family": "capital", "prompt": "스페인의 수도는", "target": "마드리드"}
+{"pair_id": 27, "lang": "en", "family": "capital", "prompt": "The capital of Russia is", "target": "Moscow"}
+{"pair_id": 27, "lang": "zh", "family": "capital", "prompt": "俄罗斯的首都是", "target": "莫斯科"}
+{"pair_id": 27, "lang": "ja", "family": "capital", "prompt": "ロシアの首都は", "target": "モスクワ"}
+{"pair_id": 27, "lang": "ko", "family": "capital", "prompt": "러시아의 수도는", "target": "모스크바"}
+{"pair_id": 28, "lang": "en", "family": "capital", "prompt": "The capital of England is", "target": "London"}
+{"pair_id": 28, "lang": "zh", "family": "capital", "prompt": "英国的首都是", "target": "伦敦"}
+{"pair_id": 28, "lang": "ja", "family": "capital", "prompt": "イギリスの首都は", "target": "ロンドン"}
+{"pair_id": 28, "lang": "ko", "family": "capital", "prompt": "영국의 수도는", "target": "런던"}
+{"pair_id": 29, "lang": "en", "family": "capital", "prompt": "The capital of America is", "target": "Washington"}
+{"pair_id": 29, "lang": "zh", "family": "capital", "prompt": "美国的首都是", "target": "华盛顿"}
+{"pair_id": 29, "lang": "ja", "family": "capital", "prompt": "アメリカの首都は", "target": "ワシントン"}
+{"pair_id": 29, "lang": "ko", "family": "capital", "prompt": "미국의 수도는", "target": "워싱턴"}
+{"pair_id": 30, "lang": "en", "family": "capital", "prompt": "The capital of Canada is", "target": "Ottawa"}
+{"pair_id": 30, "lang": "zh", "family": "capital", "prompt": "加拿大的首都是", "target": "渥太华"}
+{"pair_id": 30, "lang": "ja", "family": "capital", "prompt": "カナダの首都は", "target": "オタワ"}
+{"pair_id": 30, "lang": "ko", "family": "capital", "prompt": "캐나다의 수도는", "target": "오타와"}
+{"pair_id": 31, "lang": "en", "family": "capital", "prompt": "The capital of Egypt is", "target": "Cairo"}
+{"pair_id": 31, "lang": "zh", "family": "capital", "prompt": "埃及的首都是", "target": "开罗"}
+{"pair_id": 31, "lang": "ja", "family": "capital", "prompt": "エジプトの首都は", "target": "カイロ"}
+{"pair_id": 31, "lang": "ko", "family": "capital", "prompt": "이집트의 수도는", "target": "카이로"}
+{"pair_id": 32, "lang": "en", "family": "capital", "prompt": "The capital of India is", "target": "Delhi"}
+{"pair_id": 32, "lang": "zh", "family": "capital", "prompt": "印度的首都是", "target": "新德里"}
+{"pair_id": 32, "lang": "ja", "family": "capital", "prompt": "インドの首都は", "target": "ニューデリー"}
+{"pair_id": 32, "lang": "ko", "family": "capital", "prompt": "인도의 수도는", "target": "뉴델리"}
+{"pair_id": 33, "lang": "en", "family": "capital", "prompt": "The capital of Brazil is", "target": "Brasilia"}
+{"pair_id": 33, "lang": "zh", "family": "capital", "prompt": "巴西的首都是", "target": "巴西利亚"}
+{"pair_id": 33, "lang": "ja", "family": "capital", "prompt": "ブラジルの首都は", "target": "ブラジリア"}
+{"pair_id": 33, "lang": "ko", "family": "capital", "prompt": "브라질의 수도는", "target": "브라질리아"}
+{"pair_id": 34, "lang": "en", "family": "capital", "prompt": "The capital of Greece is", "target": "Athens"}
+{"pair_id": 34, "lang": "zh", "family": "capital", "prompt": "希腊的首都是", "target": "雅典"}
+{"pair_id": 34, "lang": "ja", "family": "capital", "prompt": "ギリシャの首都は", "target": "アテネ"}
+{"pair_id": 34, "lang": "ko", "family": "capital", "prompt": "그리스의 수도는", "target": "아테네"}
+{"pair_id": 35, "lang": "en", "family": "capital", "prompt": "The capital of Thailand is", "target": "Bangkok"}
+{"pair_id": 35, "lang": "zh", "family": "capital", "prompt": "泰国的首都是", "target": "曼谷"}
+{"pair_id": 35, "lang": "ja", "family": "capital", "prompt": "タイの首都は", "target": "バンコク"}
+{"pair_id": 35, "lang": "ko", "family": "capital", "prompt": "태국의 수도는", "target": "방콕"}
+{"pair_id": 36, "lang": "en", "family": "capital", "prompt": "The capital of Turkey is", "target": "Ankara"}
+{"pair_id": 36, "lang": "zh", "family": "capital", "prompt": "土耳其的首都是", "target": "安卡拉"}
+{"pair_id": 36, "lang": "ja", "family": "capital", "prompt": "トルコの首都は", "target": "アンカラ"}
+{"pair_id": 36, "lang": "ko", "family": "capital", "prompt": "터키의 수도는", "target": "앙카라"}
+{"pair_id": 37, "lang": "en", "family": "capital", "prompt": "The capital of Australia is", "target": "Canberra"}
+{"pair_id": 37, "lang": "zh", "family": "capital", "prompt": "澳大利亚的首都是", "target": "堪培拉"}
+{"pair_id": 37, "lang": "ja", "family": "capital", "prompt": "オーストラリアの首都は", "target": "キャンベラ"}
+{"pair_id": 37, "lang": "ko", "family": "capital", "prompt": "호주의 수도는", "target": "캔버라"}
+{"pair_id": 38, "lang": "en", "family": "capital", "prompt": "The capital of Mexico is", "target": "Mexico"}
+{"pair_id": 38, "lang": "zh", "family": "capital", "prompt": "墨西哥的首都是", "target": "墨西哥城"}
+{"pair_id": 38, "lang": "ja", "family": "capital", "prompt": "メキシコの首都は", "target": "メキシコシティ"}
+{"pair_id": 38, "lang": "ko", "family": "capital", "prompt": "멕시코의 수도는", "target": "멕시코시티"}
+{"pair_id": 39, "lang": "en", "family": "capital", "prompt": "The capital of Netherlands is", "target": "Amsterdam"}
+{"pair_id": 39, "lang": "zh", "family": "capital", "prompt": "荷兰的首都是", "target": "阿姆斯特丹"}
+{"pair_id": 39, "lang": "ja", "family": "capital", "prompt": "オランダの首都は", "target": "アムステルダム"}
+{"pair_id": 39, "lang": "ko", "family": "capital", "prompt": "네덜란드의 수도는", "target": "암스테르담"}
+{"pair_id": 40, "lang": "en", "family": "capital", "prompt": "The capital of Portugal is", "target": "Lisbon"}
+{"pair_id": 40, "lang": "zh", "family": "capital", "prompt": "葡萄牙的首都是", "target": "里斯本"}
+{"pair_id": 40, "lang": "ja", "family": "capital", "prompt": "ポルトガルの首都は", "target": "リスボン"}
+{"pair_id": 40, "lang": "ko", "family": "capital", "prompt": "포르투갈의 수도는", "target": "리스본"}
+{"pair_id": 41, "lang": "en", "family": "capital", "prompt": "The capital of Sweden is", "target": "Stockholm"}
+{"pair_id": 41, "lang": "zh", "family": "capital", "prompt": "瑞典的首都是", "target": "斯德哥尔摩"}
+{"pair_id": 41, "lang": "ja", "family": "capital", "prompt": "スウェーデンの首都は", "target": "ストックホルム"}
+{"pair_id": 41, "lang": "ko", "family": "capital", "prompt": "스웨덴의 수도는", "target": "스톡홀름"}
+{"pair_id": 42, "lang": "en", "family": "capital", "prompt": "The capital of Norway is", "target": "Oslo"}
+{"pair_id": 42, "lang": "zh", "family": "capital", "prompt": "挪威的首都是", "target": "奥斯陆"}
+{"pair_id": 42, "lang": "ja", "family": "capital", "prompt": "ノルウェーの首都は", "target": "オスロ"}
+{"pair_id": 42, "lang": "ko", "family": "capital", "prompt": "노르웨이의 수도는", "target": "오슬로"}
+{"pair_id": 43, "lang": "en", "family": "capital", "prompt": "The capital of Finland is", "target": "Helsinki"}
+{"pair_id": 43, "lang": "zh", "family": "capital", "prompt": "芬兰的首都是", "target": "赫尔辛基"}
+{"pair_id": 43, "lang": "ja", "family": "capital", "prompt": "フィンランドの首都は", "target": "ヘルシンキ"}
+{"pair_id": 43, "lang": "ko", "family": "capital", "prompt": "핀란드의 수도는", "target": "헬싱키"}
+{"pair_id": 44, "lang": "en", "family": "capital", "prompt": "The capital of Austria is", "target": "Vienna"}
+{"pair_id": 44, "lang": "zh", "family": "capital", "prompt": "奥地利的首都是", "target": "维也纳"}
+{"pair_id": 44, "lang": "ja", "family": "capital", "prompt": "オーストリアの首都は", "target": "ウィーン"}
+{"pair_id": 44, "lang": "ko", "family": "capital", "prompt": "오스트리아의 수도는", "target": "빈"}
+{"pair_id": 45, "lang": "en", "family": "capital", "prompt": "The capital of Switzerland is", "target": "Bern"}
+{"pair_id": 45, "lang": "zh", "family": "capital", "prompt": "瑞士的首都是", "target": "伯尔尼"}
+{"pair_id": 45, "lang": "ja", "family": "capital", "prompt": "スイスの首都は", "target": "ベルン"}
+{"pair_id": 45, "lang": "ko", "family": "capital", "prompt": "스위스의 수도는", "target": "베른"}
+{"pair_id": 46, "lang": "en", "family": "capital", "prompt": "The capital of Poland is", "target": "Warsaw"}
+{"pair_id": 46, "lang": "zh", "family": "capital", "prompt": "波兰的首都是", "target": "华沙"}
+{"pair_id": 46, "lang": "ja", "family": "capital", "prompt": "ポーランドの首都は", "target": "ワルシャワ"}
+{"pair_id": 46, "lang": "ko", "family": "capital", "prompt": "폴란드의 수도는", "target": "바르샤바"}
+{"pair_id": 47, "lang": "en", "family": "capital", "prompt": "The capital of Argentina is", "target": "Buenos"}
+{"pair_id": 47, "lang": "zh", "family": "capital", "prompt": "阿根廷的首都是", "target": "布宜诺斯艾利斯"}
+{"pair_id": 47, "lang": "ja", "family": "capital", "prompt": "アルゼンチンの首都は", "target": "ブエノスアイレス"}
+{"pair_id": 47, "lang": "ko", "family": "capital", "prompt": "아르헨티나의 수도는", "target": "부에노스아이레스"}
+{"pair_id": 48, "lang": "en", "family": "capital", "prompt": "The capital of Cuba is", "target": "Havana"}
+{"pair_id": 48, "lang": "zh", "family": "capital", "prompt": "古巴的首都是", "target": "哈瓦那"}
+{"pair_id": 48, "lang": "ja", "family": "capital", "prompt": "キューバの首都は", "target": "ハバナ"}
+{"pair_id": 48, "lang": "ko", "family": "capital", "prompt": "쿠바의 수도는", "target": "아바나"}
+{"pair_id": 49, "lang": "en", "family": "capital", "prompt": "The capital of Vietnam is", "target": "Hanoi"}
+{"pair_id": 49, "lang": "zh", "family": "capital", "prompt": "越南的首都是", "target": "河内"}
+{"pair_id": 49, "lang": "ja", "family": "capital", "prompt": "ベトナムの首都は", "target": "ハノイ"}
+{"pair_id": 49, "lang": "ko", "family": "capital", "prompt": "베트남의 수도는", "target": "하노이"}
+{"pair_id": 50, "lang": "en", "family": "capital", "prompt": "The capital of Indonesia is", "target": "Jakarta"}
+{"pair_id": 50, "lang": "zh", "family": "capital", "prompt": "印度尼西亚的首都是", "target": "雅加达"}
+{"pair_id": 50, "lang": "ja", "family": "capital", "prompt": "インドネシアの首都は", "target": "ジャカルタ"}
+{"pair_id": 50, "lang": "ko", "family": "capital", "prompt": "인도네시아의 수도는", "target": "자카르타"}
+{"pair_id": 51, "lang": "en", "family": "capital", "prompt": "The capital of Iran is", "target": "Tehran"}
+{"pair_id": 51, "lang": "zh", "family": "capital", "prompt": "伊朗的首都是", "target": "德黑兰"}
+{"pair_id": 51, "lang": "ja", "family": "capital", "prompt": "イランの首都は", "target": "テヘラン"}
+{"pair_id": 51, "lang": "ko", "family": "capital", "prompt": "이란의 수도는", "target": "테헤란"}
+{"pair_id": 52, "lang": "en", "family": "capital", "prompt": "The capital of Iraq is", "target": "Baghdad"}
+{"pair_id": 52, "lang": "zh", "family": "capital", "prompt": "伊拉克的首都是", "target": "巴格达"}
+{"pair_id": 52, "lang": "ja", "family": "capital", "prompt": "イラクの首都は", "target": "バグダッド"}
+{"pair_id": 52, "lang": "ko", "family": "capital", "prompt": "이라크의 수도는", "target": "바그다드"}
+{"pair_id": 53, "lang": "en", "family": "capital", "prompt": "The capital of Cambodia is", "target": "Phnom"}
+{"pair_id": 53, "lang": "zh", "family": "capital", "prompt": "柬埔寨的首都是", "target": "金边"}
+{"pair_id": 53, "lang": "ja", "family": "capital", "prompt": "カンボジアの首都は", "target": "プノンペン"}
+{"pair_id": 53, "lang": "ko", "family": "capital", "prompt": "캄보디아의 수도는", "target": "프놈펜"}
+{"pair_id": 54, "lang": "en", "family": "capital", "prompt": "The capital of Philippines is", "target": "Manila"}
+{"pair_id": 54, "lang": "zh", "family": "capital", "prompt": "菲律宾的首都是", "target": "马尼拉"}
+{"pair_id": 54, "lang": "ja", "family": "capital", "prompt": "フィリピンの首都は", "target": "マニラ"}
+{"pair_id": 54, "lang": "ko", "family": "capital", "prompt": "필리핀의 수도는", "target": "마닐라"}
+{"pair_id": 55, "lang": "en", "family": "capital", "prompt": "The capital of Chile is", "target": "Santiago"}
+{"pair_id": 55, "lang": "zh", "family": "capital", "prompt": "智利的首都是", "target": "圣地亚哥"}
+{"pair_id": 55, "lang": "ja", "family": "capital", "prompt": "チリの首都は", "target": "サンティアゴ"}
+{"pair_id": 55, "lang": "ko", "family": "capital", "prompt": "칠레의 수도는", "target": "산티아고"}
+{"pair_id": 56, "lang": "en", "family": "capital", "prompt": "The capital of Peru is", "target": "Lima"}
+{"pair_id": 56, "lang": "zh", "family": "capital", "prompt": "秘鲁的首都是", "target": "利马"}
+{"pair_id": 56, "lang": "ja", "family": "capital", "prompt": "ペルーの首都は", "target": "リマ"}
+{"pair_id": 56, "lang": "ko", "family": "capital", "prompt": "페루의 수도는", "target": "리마"}
+{"pair_id": 57, "lang": "en", "family": "capital", "prompt": "The capital of Kenya is", "target": "Nairobi"}
+{"pair_id": 57, "lang": "zh", "family": "capital", "prompt": "肯尼亚的首都是", "target": "内罗毕"}
+{"pair_id": 57, "lang": "ja", "family": "capital", "prompt": "ケニアの首都は", "target": "ナイロビ"}
+{"pair_id": 57, "lang": "ko", "family": "capital", "prompt": "케냐의 수도는", "target": "나이로비"}
+{"pair_id": 58, "lang": "en", "family": "arith_add", "prompt": "one plus one equals", "target": "two"}
+{"pair_id": 58, "lang": "zh", "family": "arith_add", "prompt": "一加一等于", "target": "二"}
+{"pair_id": 58, "lang": "ja", "family": "arith_add", "prompt": "一足す一は", "target": "二"}
+{"pair_id": 58, "lang": "ko", "family": "arith_add", "prompt": "일 더하기 일은", "target": "이"}
+{"pair_id": 59, "lang": "en", "family": "arith_add", "prompt": "one plus two equals", "target": "three"}
+{"pair_id": 59, "lang": "zh", "family": "arith_add", "prompt": "一加二等于", "target": "三"}
+{"pair_id": 59, "lang": "ja", "family": "arith_add", "prompt": "一足す二は", "target": "三"}
+{"pair_id": 59, "lang": "ko", "family": "arith_add", "prompt": "일 더하기 이는", "target": "삼"}
+{"pair_id": 60, "lang": "en", "family": "arith_add", "prompt": "one plus three equals", "target": "four"}
+{"pair_id": 60, "lang": "zh", "family": "arith_add", "prompt": "一加三等于", "target": "四"}
+{"pair_id": 60, "lang": "ja", "family": "arith_add", "prompt": "一足す三は", "target": "四"}
+{"pair_id": 60, "lang": "ko", "family": "arith_add", "prompt": "일 더하기 삼은", "target": "사"}
+{"pair_id": 61, "lang": "en", "family": "arith_add", "prompt": "one plus four equals", "target": "five"}
+{"pair_id": 61, "lang": "zh", "family": "arith_add", "prompt": "一加四等于", "target": "五"}
+{"pair_id": 61, "lang": "ja", "family": "arith_add", "prompt": "一足す四は", "target": "五"}
+{"pair_id": 61, "lang": "ko", "family": "arith_add", "prompt": "일 더하기 사는", "target": "오"}
+{"pair_id": 62, "lang": "en", "family": "arith_add", "prompt": "one plus five equals", "target": "six"}
+{"pair_id": 62, "lang": "zh", "family": "arith_add", "prompt": "一加五等于", "target": "六"}
+{"pair_id": 62, "lang": "ja", "family": "arith_add", "prompt": "一足す五は", "target": "六"}
+{"pair_id": 62, "lang": "ko", "family": "arith_add", "prompt": "일 더하기 오는", "target": "육"}
+{"pair_id": 63, "lang": "en", "family": "arith_add", "prompt": "one plus six equals", "target": "seven"}
+{"pair_id": 63, "lang": "zh", "family": "arith_add", "prompt": "一加六等于", "target": "七"}
+{"pair_id": 63, "lang": "ja", "family": "arith_add", "prompt": "一足す六は", "target": "七"}
+{"pair_id": 63, "lang": "ko", "family": "arith_add", "prompt": "일 더하기 육은", "target": "칠"}
+{"pair_id": 64, "lang": "en", "family": "arith_add", "prompt": "one plus seven equals", "target": "eight"}
+{"pair_id": 64, "lang": "zh", "family": "arith_add", "prompt": "一加七等于", "target": "八"}
+{"pair_id": 64, "lang": "ja", "family": "arith_add", "prompt": "一足す七は", "target": "八"}
+{"pair_id": 64, "lang": "ko", "family": "arith_add", "prompt": "일 더하기 칠은", "target": "팔"}
+{"pair_id": 65, "lang": "en", "family": "arith_add", "prompt": "one plus eight equals", "target": "nine"}
+{"pair_id": 65, "lang": "zh", "family": "arith_add", "prompt": "一加八等于", "target": "九"}
+{"pair_id": 65, "lang": "ja", "family": "arith_add", "prompt": "一足す八は", "target": "九"}
+{"pair_id": 65, "lang": "ko", "family": "arith_add", "prompt": "일 더하기 팔은", "target": "구"}
+{"pair_id": 66, "lang": "en", "family": "arith_add", "prompt": "one plus nine equals", "target": "ten"}
+{"pair_id": 66, "lang": "zh", "family": "arith_add", "prompt": "一加九等于", "target": "十"}
+{"pair_id": 66, "lang": "ja", "family": "arith_add", "prompt": "一足す九は", "target": "十"}
+{"pair_id": 66, "lang": "ko", "family": "arith_add", "prompt": "일 더하기 구는", "target": "십"}
+{"pair_id": 67, "lang": "en", "family": "arith_add", "prompt": "two plus two equals", "target": "four"}
+{"pair_id": 67, "lang": "zh", "family": "arith_add", "prompt": "二加二等于", "target": "四"}
+{"pair_id": 67, "lang": "ja", "family": "arith_add", "prompt": "二足す二は", "target": "四"}
+{"pair_id": 67, "lang": "ko", "family": "arith_add", "prompt": "이 더하기 이는", "target": "사"}
+{"pair_id": 68, "lang": "en", "family": "arith_add", "prompt": "two plus three equals", "target": "five"}
+{"pair_id": 68, "lang": "zh", "family": "arith_add", "prompt": "二加三等于", "target": "五"}
+{"pair_id": 68, "lang": "ja", "family": "arith_add", "prompt": "二足す三は", "target": "五"}
+{"pair_id": 68, "lang": "ko", "family": "arith_add", "prompt": "이 더하기 삼은", "target": "오"}
+{"pair_id": 69, "lang": "en", "family": "arith_add", "prompt": "two plus four equals", "target": "six"}
+{"pair_id": 69, "lang": "zh", "family": "arith_add", "prompt": "二加四等于", "target": "六"}
+{"pair_id": 69, "lang": "ja", "family": "arith_add", "prompt": "二足す四は", "target": "六"}
+{"pair_id": 69, "lang": "ko", "family": "arith_add", "prompt": "이 더하기 사는", "target": "육"}
+{"pair_id": 70, "lang": "en", "family": "arith_add", "prompt": "two plus five equals", "target": "seven"}
+{"pair_id": 70, "lang": "zh", "family": "arith_add", "prompt": "二加五等于", "target": "七"}
+{"pair_id": 70, "lang": "ja", "family": "arith_add", "prompt": "二足す五は", "target": "七"}
+{"pair_id": 70, "lang": "ko", "family": "arith_add", "prompt": "이 더하기 오는", "target": "칠"}
+{"pair_id": 71, "lang": "en", "family": "arith_add", "prompt": "two plus six equals", "target": "eight"}
+{"pair_id": 71, "lang": "zh", "family": "arith_add", "prompt": "二加六等于", "target": "八"}
+{"pair_id": 71, "lang": "ja", "family": "arith_add", "prompt": "二足す六は", "target": "八"}
+{"pair_id": 71, "lang": "ko", "family": "arith_add", "prompt": "이 더하기 육은", "target": "팔"}
+{"pair_id": 72, "lang": "en", "family": "arith_add", "prompt": "two plus seven equals", "target": "nine"}
+{"pair_id": 72, "lang": "zh", "family": "arith_add", "prompt": "二加七等于", "target": "九"}
+{"pair_id": 72, "lang": "ja", "family": "arith_add", "prompt": "二足す七は", "target": "九"}
+{"pair_id": 72, "lang": "ko", "family": "arith_add", "prompt": "이 더하기 칠은", "target": "구"}
+{"pair_id": 73, "lang": "en", "family": "arith_add", "prompt": "two plus eight equals", "target": "ten"}
+{"pair_id": 73, "lang": "zh", "family": "arith_add", "prompt": "二加八等于", "target": "十"}
+{"pair_id": 73, "lang": "ja", "family": "arith_add", "prompt": "二足す八は", "target": "十"}
+{"pair_id": 73, "lang": "ko", "family": "arith_add", "prompt": "이 더하기 팔은", "target": "십"}
+{"pair_id": 74, "lang": "en", "family": "arith_add", "prompt": "two plus nine equals", "target": "eleven"}
+{"pair_id": 74, "lang": "zh", "family": "arith_add", "prompt": "二加九等于", "target": "十一"}
+{"pair_id": 74, "lang": "ja", "family": "arith_add", "prompt": "二足す九は", "target": "十一"}
+{"pair_id": 74, "lang": "ko", "family": "arith_add", "prompt": "이 더하기 구는", "target": "십일"}
+{"pair_id": 75, "lang": "en", "family": "arith_add", "prompt": "three plus three equals", "target": "six"}
+{"pair_id": 75, "lang": "zh", "family": "arith_add", "prompt": "三加三等于", "target": "六"}
+{"pair_id": 75, "lang": "ja", "family": "arith_add", "prompt": "三足す三は", "target": "六"}
+{"pair_id": 75, "lang": "ko", "family": "arith_add", "prompt": "삼 더하기 삼은", "target": "육"}
+{"pair_id": 76, "lang": "en", "family": "arith_add", "prompt": "three plus four equals", "target": "seven"}
+{"pair_id": 76, "lang": "zh", "family": "arith_add", "prompt": "三加四等于", "target": "七"}
+{"pair_id": 76, "lang": "ja", "family": "arith_add", "prompt": "三足す四は", "target": "七"}
+{"pair_id": 76, "lang": "ko", "family": "arith_add", "prompt": "삼 더하기 사는", "target": "칠"}
+{"pair_id": 77, "lang": "en", "family": "arith_add", "prompt": "three plus five equals", "target": "eight"}
+{"pair_id": 77, "lang": "zh", "family": "arith_add", "prompt": "三加五等于", "target": "八"}
+{"pair_id": 77, "lang": "ja", "family": "arith_add", "prompt": "三足す五は", "target": "八"}
+{"pair_id": 77, "lang": "ko", "family": "arith_add", "prompt": "삼 더하기 오는", "target": "팔"}
+{"pair_id": 78, "lang": "en", "family": "arith_add", "prompt": "three plus six equals", "target": "nine"}
+{"pair_id": 78, "lang": "zh", "family": "arith_add", "prompt": "三加六等于", "target": "九"}
+{"pair_id": 78, "lang": "ja", "family": "arith_add", "prompt": "三足す六は", "target": "九"}
+{"pair_id": 78, "lang": "ko", "family": "arith_add", "prompt": "삼 더하기 육은", "target": "구"}
+{"pair_id": 79, "lang": "en", "family": "arith_add", "prompt": "three plus seven equals", "target": "ten"}
+{"pair_id": 79, "lang": "zh", "family": "arith_add", "prompt": "三加七等于", "target": "十"}
+{"pair_id": 79, "lang": "ja", "family": "arith_add", "prompt": "三足す七は", "target": "十"}
+{"pair_id": 79, "lang": "ko", "family": "arith_add", "prompt": "삼 더하기 칠은", "target": "십"}
+{"pair_id": 80, "lang": "en", "family": "arith_add", "prompt": "three plus eight equals", "target": "eleven"}
+{"pair_id": 80, "lang": "zh", "family": "arith_add", "prompt": "三加八等于", "target": "十一"}
+{"pair_id": 80, "lang": "ja", "family": "arith_add", "prompt": "三足す八は", "target": "十一"}
+{"pair_id": 80, "lang": "ko", "family": "arith_add", "prompt": "삼 더하기 팔은", "target": "십일"}
+{"pair_id": 81, "lang": "en", "family": "arith_add", "prompt": "three plus nine equals", "target": "twelve"}
+{"pair_id": 81, "lang": "zh", "family": "arith_add", "prompt": "三加九等于", "target": "十二"}
+{"pair_id": 81, "lang": "ja", "family": "arith_add", "prompt": "三足す九は", "target": "十二"}
+{"pair_id": 81, "lang": "ko", "family": "arith_add", "prompt": "삼 더하기 구는", "target": "십이"}
+{"pair_id": 82, "lang": "en", "family": "arith_add", "prompt": "four plus four equals", "target": "eight"}
+{"pair_id": 82, "lang": "zh", "family": "arith_add", "prompt": "四加四等于", "target": "八"}
+{"pair_id": 82, "lang": "ja", "family": "arith_add", "prompt": "四足す四は", "target": "八"}
+{"pair_id": 82, "lang": "ko", "family": "arith_add", "prompt": "사 더하기 사는", "target": "팔"}
+{"pair_id": 83, "lang": "en", "family": "arith_add", "prompt": "four plus five equals", "target": "nine"}
+{"pair_id": 83, "lang": "zh", "family": "arith_add", "prompt": "四加五等于", "target": "九"}
+{"pair_id": 83, "lang": "ja", "family": "arith_add", "prompt": "四足す五は", "target": "九"}
+{"pair_id": 83, "lang": "ko", "family": "arith_add", "prompt": "사 더하기 오는", "target": "구"}
+{"pair_id": 84, "lang": "en", "family": "arith_add", "prompt": "four plus six equals", "target": "ten"}
+{"pair_id": 84, "lang": "zh", "family": "arith_add", "prompt": "四加六等于", "target": "十"}
+{"pair_id": 84, "lang": "ja", "family": "arith_add", "prompt": "四足す六は", "target": "十"}
+{"pair_id": 84, "lang": "ko", "family": "arith_add", "prompt": "사 더하기 육은", "target": "십"}
+{"pair_id": 85, "lang": "en", "family": "arith_add", "prompt": "four plus seven equals", "target": "eleven"}
+{"pair_id": 85, "lang": "zh", "family": "arith_add", "prompt": "四加七等于", "target": "十一"}
+{"pair_id": 85, "lang": "ja", "family": "arith_add", "prompt": "四足す七は", "target": "十一"}
+{"pair_id": 85, "lang": "ko", "family": "arith_add", "prompt": "사 더하기 칠은", "target": "십일"}
+{"pair_id": 86, "lang": "en", "family": "arith_add", "prompt": "four plus eight equals", "target": "twelve"}
+{"pair_id": 86, "lang": "zh", "family": "arith_add", "prompt": "四加八等于", "target": "十二"}
+{"pair_id": 86, "lang": "ja", "family": "arith_add", "prompt": "四足す八は", "target": "十二"}
+{"pair_id": 86, "lang": "ko", "family": "arith_add", "prompt": "사 더하기 팔은", "target": "십이"}
+{"pair_id": 87, "lang": "en", "family": "arith_add", "prompt": "four plus nine equals", "target": "thirteen"}
+{"pair_id": 87, "lang": "zh", "family": "arith_add", "prompt": "四加九等于", "target": "十三"}
+{"pair_id": 87, "lang": "ja", "family": "arith_add", "prompt": "四足す九は", "target": "十三"}
+{"pair_id": 87, "lang": "ko", "family": "arith_add", "prompt": "사 더하기 구는", "target": "십삼"}
+{"pair_id": 88, "lang": "en", "family": "arith_add", "prompt": "five plus five equals", "target": "ten"}
+{"pair_id": 88, "lang": "zh", "family": "arith_add", "prompt": "五加五等于", "target": "十"}
+{"pair_id": 88, "lang": "ja", "family": "arith_add", "prompt": "五足す五は", "target": "十"}
+{"pair_id": 88, "lang": "ko", "family": "arith_add", "prompt": "오 더하기 오는", "target": "십"}
+{"pair_id": 89, "lang": "en", "family": "arith_add", "prompt": "five plus six equals", "target": "eleven"}
+{"pair_id": 89, "lang": "zh", "family": "arith_add", "prompt": "五加六等于", "target": "十一"}
+{"pair_id": 89, "lang": "ja", "family": "arith_add", "prompt": "五足す六は", "target": "十一"}
+{"pair_id": 89, "lang": "ko", "family": "arith_add", "prompt": "오 더하기 육은", "target": "십일"}
+{"pair_id": 90, "lang": "en", "family": "arith_add", "prompt": "five plus seven equals", "target": "twelve"}
+{"pair_id": 90, "lang": "zh", "family": "arith_add", "prompt": "五加七等于", "target": "十二"}
+{"pair_id": 90, "lang": "ja", "family": "arith_add", "prompt": "五足す七は", "target": "十二"}
+{"pair_id": 90, "lang": "ko", "family": "arith_add", "prompt": "오 더하기 칠은", "target": "십이"}
+{"pair_id": 91, "lang": "en", "family": "arith_add", "prompt": "five plus eight equals", "target": "thirteen"}
+{"pair_id": 91, "lang": "zh", "family": "arith_add", "prompt": "五加八等于", "target": "十三"}
+{"pair_id": 91, "lang": "ja", "family": "arith_add", "prompt": "五足す八は", "target": "十三"}
+{"pair_id": 91, "lang": "ko", "family": "arith_add", "prompt": "오 더하기 팔은", "target": "십삼"}
+{"pair_id": 92, "lang": "en", "family": "arith_add", "prompt": "five plus nine equals", "target": "fourteen"}
+{"pair_id": 92, "lang": "zh", "family": "arith_add", "prompt": "五加九等于", "target": "十四"}
+{"pair_id": 92, "lang": "ja", "family": "arith_add", "prompt": "五足す九は", "target": "十四"}
+{"pair_id": 92, "lang": "ko", "family": "arith_add", "prompt": "오 더하기 구는", "target": "십사"}
+{"pair_id": 93, "lang": "en", "family": "arith_add", "prompt": "six plus six equals", "target": "twelve"}
+{"pair_id": 93, "lang": "zh", "family": "arith_add", "prompt": "六加六等于", "target": "十二"}
+{"pair_id": 93, "lang": "ja", "family": "arith_add", "prompt": "六足す六は", "target": "十二"}
+{"pair_id": 93, "lang": "ko", "family": "arith_add", "prompt": "육 더하기 육은", "target": "십이"}
+{"pair_id": 94, "lang": "en", "family": "arith_add", "prompt": "six plus seven equals", "target": "thirteen"}
+{"pair_id": 94, "lang": "zh", "family": "arith_add", "prompt": "六加七等于", "target": "十三"}
+{"pair_id": 94, "lang": "ja", "family": "arith_add", "prompt": "六足す七は", "target": "十三"}
+{"pair_id": 94, "lang": "ko", "family": "arith_add", "prompt": "육 더하기 칠은", "target": "십삼"}
+{"pair_id": 95, "lang": "en", "family": "arith_add", "prompt": "six plus eight equals", "target": "fourteen"}
+{"pair_id": 95, "lang": "zh", "family": "arith_add", "prompt": "六加八等于", "target": "十四"}
+{"pair_id": 95, "lang": "ja", "family": "arith_add", "prompt": "六足す八は", "target": "十四"}
+{"pair_id": 95, "lang": "ko", "family": "arith_add", "prompt": "육 더하기 팔은", "target": "십사"}
+{"pair_id": 96, "lang": "en", "family": "arith_add", "prompt": "six plus nine equals", "target": "fifteen"}
+{"pair_id": 96, "lang": "zh", "family": "arith_add", "prompt": "六加九等于", "target": "十五"}
+{"pair_id": 96, "lang": "ja", "family": "arith_add", "prompt": "六足す九は", "target": "十五"}
+{"pair_id": 96, "lang": "ko", "family": "arith_add", "prompt": "육 더하기 구는", "target": "십오"}
+{"pair_id": 97, "lang": "en", "family": "arith_add", "prompt": "seven plus seven equals", "target": "fourteen"}
+{"pair_id": 97, "lang": "zh", "family": "arith_add", "prompt": "七加七等于", "target": "十四"}
+{"pair_id": 97, "lang": "ja", "family": "arith_add", "prompt": "七足す七は", "target": "十四"}
+{"pair_id": 97, "lang": "ko", "family": "arith_add", "prompt": "칠 더하기 칠은", "target": "십사"}
+{"pair_id": 98, "lang": "en", "family": "arith_add", "prompt": "seven plus eight equals", "target": "fifteen"}
+{"pair_id": 98, "lang": "zh", "family": "arith_add", "prompt": "七加八等于", "target": "十五"}
+{"pair_id": 98, "lang": "ja", "family": "arith_add", "prompt": "七足す八は", "target": "十五"}
+{"pair_id": 98, "lang": "ko", "family": "arith_add", "prompt": "칠 더하기 팔은", "target": "십오"}
+{"pair_id": 99, "lang": "en", "family": "arith_add", "prompt": "seven plus nine equals", "target": "sixteen"}
+{"pair_id": 99, "lang": "zh", "family": "arith_add", "prompt": "七加九等于", "target": "十六"}
+{"pair_id": 99, "lang": "ja", "family": "arith_add", "prompt": "七足す九は", "target": "十六"}
+{"pair_id": 99, "lang": "ko", "family": "arith_add", "prompt": "칠 더하기 구는", "target": "십육"}
+{"pair_id": 100, "lang": "en", "family": "arith_add", "prompt": "eight plus eight equals", "target": "sixteen"}
+{"pair_id": 100, "lang": "zh", "family": "arith_add", "prompt": "八加八等于", "target": "十六"}
+{"pair_id": 100, "lang": "ja", "family": "arith_add", "prompt": "八足す八は", "target": "十六"}
+{"pair_id": 100, "lang": "ko", "family": "arith_add", "prompt": "팔 더하기 팔은", "target": "십육"}
+{"pair_id": 101, "lang": "en", "family": "arith_add", "prompt": "eight plus nine equals", "target": "seventeen"}
+{"pair_id": 101, "lang": "zh", "family": "arith_add", "prompt": "八加九等于", "target": "十七"}
+{"pair_id": 101, "lang": "ja", "family": "arith_add", "prompt": "八足す九は", "target": "十七"}
+{"pair_id": 101, "lang": "ko", "family": "arith_add", "prompt": "팔 더하기 구는", "target": "십칠"}
+{"pair_id": 102, "lang": "en", "family": "arith_add", "prompt": "nine plus nine equals", "target": "eighteen"}
+{"pair_id": 102, "lang": "zh", "family": "arith_add", "prompt": "九加九等于", "target": "十八"}
+{"pair_id": 102, "lang": "ja", "family": "arith_add", "prompt": "九足す九は", "target": "十八"}
+{"pair_id": 102, "lang": "ko", "family": "arith_add", "prompt": "구 더하기 구는", "target": "십팔"}
+{"pair_id": 103, "lang": "en", "family": "arith_sub", "prompt": "two minus one equals", "target": "one"}
+{"pair_id": 103, "lang": "zh", "family": "arith_sub", "prompt": "二减一等于", "target": "一"}
+{"pair_id": 103, "lang": "ja", "family": "arith_sub", "prompt": "二引く一は", "target": "一"}
+{"pair_id": 103, "lang": "ko", "family": "arith_sub", "prompt": "이 빼기 일은", "target": "일"}
+{"pair_id": 104, "lang": "en", "family": "arith_sub", "prompt": "three minus one equals", "target": "two"}
+{"pair_id": 104, "lang": "zh", "family": "arith_sub", "prompt": "三减一等于", "target": "二"}
+{"pair_id": 104, "lang": "ja", "family": "arith_sub", "prompt": "三引く一は", "target": "二"}
+{"pair_id": 104, "lang": "ko", "family": "arith_sub", "prompt": "삼 빼기 일은", "target": "이"}
+{"pair_id": 105, "lang": "en", "family": "arith_sub", "prompt": "three minus two equals", "target": "one"}
+{"pair_id": 105, "lang": "zh", "family": "arith_sub", "prompt": "三减二等于", "target": "一"}
+{"pair_id": 105, "lang": "ja", "family": "arith_sub", "prompt": "三引く二は", "target": "一"}
+{"pair_id": 105, "lang": "ko", "family": "arith_sub", "prompt": "삼 빼기 이는", "target": "일"}
+{"pair_id": 106, "lang": "en", "family": "arith_sub", "prompt": "four minus one equals", "target": "three"}
+{"pair_id": 106, "lang": "zh", "family": "arith_sub", "prompt": "四减一等于", "target": "三"}
+{"pair_id": 106, "lang": "ja", "family": "arith_sub", "prompt": "四引く一は", "target": "三"}
+{"pair_id": 106, "lang": "ko", "family": "arith_sub", "prompt": "사 빼기 일은", "target": "삼"}
+{"pair_id": 107, "lang": "en", "family": "arith_sub", "prompt": "four minus two equals", "target": "two"}
+{"pair_id": 107, "lang": "zh", "family": "arith_sub", "prompt": "四减二等于", "target": "二"}
+{"pair_id": 107, "lang": "ja", "family": "arith_sub", "prompt": "四引く二は", "target": "二"}
+{"pair_id": 107, "lang": "ko", "family": "arith_sub", "prompt": "사 빼기 이는", "target": "이"}
+{"pair_id": 108, "lang": "en", "family": "arith_sub", "prompt": "four minus three equals", "target": "one"}
+{"pair_id": 108, "lang": "zh", "family": "arith_sub", "prompt": "四减三等于", "target": "一"}
+{"pair_id": 108, "lang": "ja", "family": "arith_sub", "prompt": "四引く三は", "target": "一"}
+{"pair_id": 108, "lang": "ko", "family": "arith_sub", "prompt": "사 빼기 삼은", "target": "일"}
+{"pair_id": 109, "lang": "en", "family": "arith_sub", "prompt": "five minus one equals", "target": "four"}
+{"pair_id": 109, "lang": "zh", "family": "arith_sub", "prompt": "五减一等于", "target": "四"}
+{"pair_id": 109, "lang": "ja", "family": "arith_sub", "prompt": "五引く一は", "target": "四"}
+{"pair_id": 109, "lang": "ko", "family": "arith_sub", "prompt": "오 빼기 일은", "target": "사"}
+{"pair_id": 110, "lang": "en", "family": "arith_sub", "prompt": "five minus two equals", "target": "three"}
+{"pair_id": 110, "lang": "zh", "family": "arith_sub", "prompt": "五减二等于", "target": "三"}
+{"pair_id": 110, "lang": "ja", "family": "arith_sub", "prompt": "五引く二は", "target": "三"}
+{"pair_id": 110, "lang": "ko", "family": "arith_sub", "prompt": "오 빼기 이는", "target": "삼"}
+{"pair_id": 111, "lang": "en", "family": "arith_sub", "prompt": "five minus three equals", "target": "two"}
+{"pair_id": 111, "lang": "zh", "family": "arith_sub", "prompt": "五减三等于", "target": "二"}
+{"pair_id": 111, "lang": "ja", "family": "arith_sub", "prompt": "五引く三は", "target": "二"}
+{"pair_id": 111, "lang": "ko", "family": "arith_sub", "prompt": "오 빼기 삼은", "target": "이"}
+{"pair_id": 112, "lang": "en", "family": "arith_sub", "prompt": "five minus four equals", "target": "one"}
+{"pair_id": 112, "lang": "zh", "family": "arith_sub", "prompt": "五减四等于", "target": "一"}
+{"pair_id": 112, "lang": "ja", "family": "arith_sub", "prompt": "五引く四は", "target": "一"}
+{"pair_id": 112, "lang": "ko", "family": "arith_sub", "prompt": "오 빼기 사는", "target": "일"}
+{"pair_id": 113, "lang": "en", "family": "arith_sub", "prompt": "six minus one equals", "target": "five"}
+{"pair_id": 113, "lang": "zh", "family": "arith_sub", "prompt": "六减一等于", "target": "五"}
+{"pair_id": 113, "lang": "ja", "family": "arith_sub", "prompt": "六引く一は", "target": "五"}
+{"pair_id": 113, "lang": "ko", "family": "arith_sub", "prompt": "육 빼기 일은", "target": "오"}
+{"pair_id": 114, "lang": "en", "family": "arith_sub", "prompt": "six minus two equals", "target": "four"}
+{"pair_id": 114, "lang": "zh", "family": "arith_sub", "prompt": "六减二等于", "target": "四"}
+{"pair_id": 114, "lang": "ja", "family": "arith_sub", "prompt": "六引く二は", "target": "四"}
+{"pair_id": 114, "lang": "ko", "family": "arith_sub", "prompt": "육 빼기 이는", "target": "사"}
+{"pair_id": 115, "lang": "en", "family": "arith_sub", "prompt": "six minus three equals", "target": "three"}
+{"pair_id": 115, "lang": "zh", "family": "arith_sub", "prompt": "六减三等于", "target": "三"}
+{"pair_id": 115, "lang": "ja", "family": "arith_sub", "prompt": "六引く三は", "target": "三"}
+{"pair_id": 115, "lang": "ko", "family": "arith_sub", "prompt": "육 빼기 삼은", "target": "삼"}
+{"pair_id": 116, "lang": "en", "family": "arith_sub", "prompt": "six minus four equals", "target": "two"}
+{"pair_id": 116, "lang": "zh", "family": "arith_sub", "prompt": "六减四等于", "target": "二"}
+{"pair_id": 116, "lang": "ja", "family": "arith_sub", "prompt": "六引く四は", "target": "二"}
+{"pair_id": 116, "lang": "ko", "family": "arith_sub", "prompt": "육 빼기 사는", "target": "이"}
+{"pair_id": 117, "lang": "en", "family": "arith_sub", "prompt": "six minus five equals", "target": "one"}
+{"pair_id": 117, "lang": "zh", "family": "arith_sub", "prompt": "六减五等于", "target": "一"}
+{"pair_id": 117, "lang": "ja", "family": "arith_sub", "prompt": "六引く五は", "target": "一"}
+{"pair_id": 117, "lang": "ko", "family": "arith_sub", "prompt": "육 빼기 오는", "target": "일"}
+{"pair_id": 118, "lang": "en", "family": "arith_sub", "prompt": "seven minus one equals", "target": "six"}
+{"pair_id": 118, "lang": "zh", "family": "arith_sub", "prompt": "七减一等于", "target": "六"}
+{"pair_id": 118, "lang": "ja", "family": "arith_sub", "prompt": "七引く一は", "target": "六"}
+{"pair_id": 118, "lang": "ko", "family": "arith_sub", "prompt": "칠 빼기 일은", "target": "육"}
+{"pair_id": 119, "lang": "en", "family": "arith_sub", "prompt": "seven minus two equals", "target": "five"}
+{"pair_id": 119, "lang": "zh", "family": "arith_sub", "prompt": "七减二等于", "target": "五"}
+{"pair_id": 119, "lang": "ja", "family": "arith_sub", "prompt": "七引く二は", "target": "五"}
+{"pair_id": 119, "lang": "ko", "family": "arith_sub", "prompt": "칠 빼기 이는", "target": "오"}
+{"pair_id": 120, "lang": "en", "family": "arith_sub", "prompt": "seven minus three equals", "target": "four"}
+{"pair_id": 120, "lang": "zh", "family": "arith_sub", "prompt": "七减三等于", "target": "四"}
+{"pair_id": 120, "lang": "ja", "family": "arith_sub", "prompt": "七引く三は", "target": "四"}
+{"pair_id": 120, "lang": "ko", "family": "arith_sub", "prompt": "칠 빼기 삼은", "target": "사"}
+{"pair_id": 121, "lang": "en", "family": "arith_sub", "prompt": "seven minus four equals", "target": "three"}
+{"pair_id": 121, "lang": "zh", "family": "arith_sub", "prompt": "七减四等于", "target": "三"}
+{"pair_id": 121, "lang": "ja", "family": "arith_sub", "prompt": "七引く四は", "target": "三"}
+{"pair_id": 121, "lang": "ko", "family": "arith_sub", "prompt": "칠 빼기 사는", "target": "삼"}
+{"pair_id": 122, "lang": "en", "family": "arith_sub", "prompt": "seven minus five equals", "target": "two"}
+{"pair_id": 122, "lang": "zh", "family": "arith_sub", "prompt": "七减五等于", "target": "二"}
+{"pair_id": 122, "lang": "ja", "family": "arith_sub", "prompt": "七引く五は", "target": "二"}
+{"pair_id": 122, "lang": "ko", "family": "arith_sub", "prompt": "칠 빼기 오는", "target": "이"}
+{"pair_id": 123, "lang": "en", "family": "arith_sub", "prompt": "seven minus six equals", "target": "one"}
+{"pair_id": 123, "lang": "zh", "family": "arith_sub", "prompt": "七减六等于", "target": "一"}
+{"pair_id": 123, "lang": "ja", "family": "arith_sub", "prompt": "七引く六は", "target": "一"}
+{"pair_id": 123, "lang": "ko", "family": "arith_sub", "prompt": "칠 빼기 육은", "target": "일"}
+{"pair_id": 124, "lang": "en", "family": "arith_sub", "prompt": "eight minus one equals", "target": "seven"}
+{"pair_id": 124, "lang": "zh", "family": "arith_sub", "prompt": "八减一等于", "target": "七"}
+{"pair_id": 124, "lang": "ja", "family": "arith_sub", "prompt": "八引く一は", "target": "七"}
+{"pair_id": 124, "lang": "ko", "family": "arith_sub", "prompt": "팔 빼기 일은", "target": "칠"}
+{"pair_id": 125, "lang": "en", "family": "arith_sub", "prompt": "eight minus two equals", "target": "six"}
+{"pair_id": 125, "lang": "zh", "family": "arith_sub", "prompt": "八减二等于", "target": "六"}
+{"pair_id": 125, "lang": "ja", "family": "arith_sub", "prompt": "八引く二は", "target": "六"}
+{"pair_id": 125, "lang": "ko", "family": "arith_sub", "prompt": "팔 빼기 이는", "target": "육"}
+{"pair_id": 126, "lang": "en", "family": "arith_sub", "prompt": "eight minus three equals", "target": "five"}
+{"pair_id": 126, "lang": "zh", "family": "arith_sub", "prompt": "八减三等于", "target": "五"}
+{"pair_id": 126, "lang": "ja", "family": "arith_sub", "prompt": "八引く三は", "target": "五"}
+{"pair_id": 126, "lang": "ko", "family": "arith_sub", "prompt": "팔 빼기 삼은", "target": "오"}
+{"pair_id": 127, "lang": "en", "family": "arith_sub", "prompt": "eight minus four equals", "target": "four"}
+{"pair_id": 127, "lang": "zh", "family": "arith_sub", "prompt": "八减四等于", "target": "四"}
+{"pair_id": 127, "lang": "ja", "family": "arith_sub", "prompt": "八引く四は", "target": "四"}
+{"pair_id": 127, "lang": "ko", "family": "arith_sub", "prompt": "팔 빼기 사는", "target": "사"}
+{"pair_id": 128, "lang": "en", "family": "arith_sub", "prompt": "eight minus five equals", "target": "three"}
+{"pair_id": 128, "lang": "zh", "family": "arith_sub", "prompt": "八减五等于", "target": "三"}
+{"pair_id": 128, "lang": "ja", "family": "arith_sub", "prompt": "八引く五は", "target": "三"}
+{"pair_id": 128, "lang": "ko", "family": "arith_sub", "prompt": "팔 빼기 오는", "target": "삼"}
+{"pair_id": 129, "lang": "en", "family": "arith_sub", "prompt": "eight minus six equals", "target": "two"}
+{"pair_id": 129, "lang": "zh", "family": "arith_sub", "prompt": "八减六等于", "target": "二"}
+{"pair_id": 129, "lang": "ja", "family": "arith_sub", "prompt": "八引く六は", "target": "二"}
+{"pair_id": 129, "lang": "ko", "family": "arith_sub", "prompt": "팔 빼기 육은", "target": "이"}
+{"pair_id": 130, "lang": "en", "family": "arith_sub", "prompt": "eight minus seven equals", "target": "one"}
+{"pair_id": 130, "lang": "zh", "family": "arith_sub", "prompt": "八减七等于", "target": "一"}
+{"pair_id": 130, "lang": "ja", "family": "arith_sub", "prompt": "八引く七は", "target": "一"}
+{"pair_id": 130, "lang": "ko", "family": "arith_sub", "prompt": "팔 빼기 칠은", "target": "일"}
+{"pair_id": 131, "lang": "en", "family": "arith_sub", "prompt": "nine minus one equals", "target": "eight"}
+{"pair_id": 131, "lang": "zh", "family": "arith_sub", "prompt": "九减一等于", "target": "八"}
+{"pair_id": 131, "lang": "ja", "family": "arith_sub", "prompt": "九引く一は", "target": "八"}
+{"pair_id": 131, "lang": "ko", "family": "arith_sub", "prompt": "구 빼기 일은", "target": "팔"}
+{"pair_id": 132, "lang": "en", "family": "arith_sub", "prompt": "nine minus two equals", "target": "seven"}
+{"pair_id": 132, "lang": "zh", "family": "arith_sub", "prompt": "九减二等于", "target": "七"}
+{"pair_id": 132, "lang": "ja", "family": "arith_sub", "prompt": "九引く二は", "target": "七"}
+{"pair_id": 132, "lang": "ko", "family": "arith_sub", "prompt": "구 빼기 이는", "target": "칠"}
+{"pair_id": 133, "lang": "en", "family": "arith_sub", "prompt": "nine minus three equals", "target": "six"}
+{"pair_id": 133, "lang": "zh", "family": "arith_sub", "prompt": "九减三等于", "target": "六"}
+{"pair_id": 133, "lang": "ja", "family": "arith_sub", "prompt": "九引く三は", "target": "六"}
+{"pair_id": 133, "lang": "ko", "family": "arith_sub", "prompt": "구 빼기 삼은", "target": "육"}
+{"pair_id": 134, "lang": "en", "family": "arith_sub", "prompt": "nine minus four equals", "target": "five"}
+{"pair_id": 134, "lang": "zh", "family": "arith_sub", "prompt": "九减四等于", "target": "五"}
+{"pair_id": 134, "lang": "ja", "family": "arith_sub", "prompt": "九引く四は", "target": "五"}
+{"pair_id": 134, "lang": "ko", "family": "arith_sub", "prompt": "구 빼기 사는", "target": "오"}
+{"pair_id": 135, "lang": "en", "family": "arith_sub", "prompt": "nine minus five equals", "target": "four"}
+{"pair_id": 135, "lang": "zh", "family": "arith_sub", "prompt": "九减五等于", "target": "四"}
+{"pair_id": 135, "lang": "ja", "family": "arith_sub", "prompt": "九引く五は", "target": "四"}
+{"pair_id": 135, "lang": "ko", "family": "arith_sub", "prompt": "구 빼기 오는", "target": "사"}
+{"pair_id": 136, "lang": "en", "family": "arith_sub", "prompt": "nine minus six equals", "target": "three"}
+{"pair_id": 136, "lang": "zh", "family": "arith_sub", "prompt": "九减六等于", "target": "三"}
+{"pair_id": 136, "lang": "ja", "family": "arith_sub", "prompt": "九引く六は", "target": "三"}
+{"pair_id": 136, "lang": "ko", "family": "arith_sub", "prompt": "구 빼기 육은", "target": "삼"}
+{"pair_id": 137, "lang": "en", "family": "arith_sub", "prompt": "nine minus seven equals", "target": "two"}
+{"pair_id": 137, "lang": "zh", "family": "arith_sub", "prompt": "九减七等于", "target": "二"}
+{"pair_id": 137, "lang": "ja", "family": "arith_sub", "prompt": "九引く七は", "target": "二"}
+{"pair_id": 137, "lang": "ko", "family": "arith_sub", "prompt": "구 빼기 칠은", "target": "이"}
+{"pair_id": 138, "lang": "en", "family": "arith_sub", "prompt": "nine minus eight equals", "target": "one"}
+{"pair_id": 138, "lang": "zh", "family": "arith_sub", "prompt": "九减八等于", "target": "一"}
+{"pair_id": 138, "lang": "ja", "family": "arith_sub", "prompt": "九引く八は", "target": "一"}
+{"pair_id": 138, "lang": "ko", "family": "arith_sub", "prompt": "구 빼기 팔은", "target": "일"}
+{"pair_id": 139, "lang": "en", "family": "successor", "prompt": "The number after one is", "target": "two"}
+{"pair_id": 139, "lang": "zh", "family": "successor", "prompt": "一的下一个数是", "target": "二"}
+{"pair_id": 139, "lang": "ja", "family": "successor", "prompt": "一の次の数は", "target": "二"}
+{"pair_id": 139, "lang": "ko", "family": "successor", "prompt": "일 다음 수는", "target": "이"}
+{"pair_id": 140, "lang": "en", "family": "successor", "prompt": "The number after two is", "target": "three"}
+{"pair_id": 140, "lang": "zh", "family": "successor", "prompt": "二的下一个数是", "target": "三"}
+{"pair_id": 140, "lang": "ja", "family": "successor", "prompt": "二の次の数は", "target": "三"}
+{"pair_id": 140, "lang": "ko", "family": "successor", "prompt": "이 다음 수는", "target": "삼"}
+{"pair_id": 141, "lang": "en", "family": "successor", "prompt": "The number after three is", "target": "four"}
+{"pair_id": 141, "lang": "zh", "family": "successor", "prompt": "三的下一个数是", "target": "四"}
+{"pair_id": 141, "lang": "ja", "family": "successor", "prompt": "三の次の数は", "target": "四"}
+{"pair_id": 141, "lang": "ko", "family": "successor", "prompt": "삼 다음 수는", "target": "사"}
+{"pair_id": 142, "lang": "en", "family": "successor", "prompt": "The number after four is", "target": "five"}
+{"pair_id": 142, "lang": "zh", "family": "successor", "prompt": "四的下一个数是", "target": "五"}
+{"pair_id": 142, "lang": "ja", "family": "successor", "prompt": "四の次の数は", "target": "五"}
+{"pair_id": 142, "lang": "ko", "family": "successor", "prompt": "사 다음 수는", "target": "오"}
+{"pair_id": 143, "lang": "en", "family": "successor", "prompt": "The number after five is", "target": "six"}
+{"pair_id": 143, "lang": "zh", "family": "successor", "prompt": "五的下一个数是", "target": "六"}
+{"pair_id": 143, "lang": "ja", "family": "successor", "prompt": "五の次の数は", "target": "六"}
+{"pair_id": 143, "lang": "ko", "family": "successor", "prompt": "오 다음 수는", "target": "육"}
+{"pair_id": 144, "lang": "en", "family": "successor", "prompt": "The number after six is", "target": "seven"}
+{"pair_id": 144, "lang": "zh", "family": "successor", "prompt": "六的下一个数是", "target": "七"}
+{"pair_id": 144, "lang": "ja", "family": "successor", "prompt": "六の次の数は", "target": "七"}
+{"pair_id": 144, "lang": "ko", "family": "successor", "prompt": "육 다음 수는", "target": "칠"}
+{"pair_id": 145, "lang": "en", "family": "successor", "prompt": "The number after seven is", "target": "eight"}
+{"pair_id": 145, "lang": "zh", "family": "successor", "prompt": "七的下一个数是", "target": "八"}
+{"pair_id": 145, "lang": "ja", "family": "successor", "prompt": "七の次の数は", "target": "八"}
+{"pair_id": 145, "lang": "ko", "family": "successor", "prompt": "칠 다음 수는", "target": "팔"}
+{"pair_id": 146, "lang": "en", "family": "successor", "prompt": "The number after eight is", "target": "nine"}
+{"pair_id": 146, "lang": "zh", "family": "successor", "prompt": "八的下一个数是", "target": "九"}
+{"pair_id": 146, "lang": "ja", "family": "successor", "prompt": "八の次の数は", "target": "九"}
+{"pair_id": 146, "lang": "ko", "family": "successor", "prompt": "팔 다음 수는", "target": "구"}
+{"pair_id": 147, "lang": "en", "family": "successor", "prompt": "The number after nine is", "target": "ten"}
+{"pair_id": 147, "lang": "zh", "family": "successor", "prompt": "九的下一个数是", "target": "十"}
+{"pair_id": 147, "lang": "ja", "family": "successor", "prompt": "九の次の数は", "target": "十"}
+{"pair_id": 147, "lang": "ko", "family": "successor", "prompt": "구 다음 수는", "target": "십"}
+{"pair_id": 148, "lang": "en", "family": "successor", "prompt": "The number after ten is", "target": "eleven"}
+{"pair_id": 148, "lang": "zh", "family": "successor", "prompt": "十的下一个数是", "target": "十一"}
+{"pair_id": 148, "lang": "ja", "family": "successor", "prompt": "十の次の数は", "target": "十一"}
+{"pair_id": 148, "lang": "ko", "family": "successor", "prompt": "십 다음 수는", "target": "십일"}
+{"pair_id": 149, "lang": "en", "family": "successor", "prompt": "The number after eleven is", "target": "twelve"}
+{"pair_id": 149, "lang": "zh", "family": "successor", "prompt": "十一的下一个数是", "target": "十二"}
+{"pair_id": 149, "lang": "ja", "family": "successor", "prompt": "十一の次の数は", "target": "十二"}
+{"pair_id": 149, "lang": "ko", "family": "successor", "prompt": "십일 다음 수는", "target": "십이"}
+{"pair_id": 150, "lang": "en", "family": "successor", "prompt": "The number after twelve is", "target": "thirteen"}
+{"pair_id": 150, "lang": "zh", "family": "successor", "prompt": "十二的下一个数是", "target": "十三"}
+{"pair_id": 150, "lang": "ja", "family": "successor", "prompt": "十二の次の数は", "target": "十三"}
+{"pair_id": 150, "lang": "ko", "family": "successor", "prompt": "십이 다음 수는", "target": "십삼"}
+{"pair_id": 151, "lang": "en", "family": "successor", "prompt": "The number after thirteen is", "target": "fourteen"}
+{"pair_id": 151, "lang": "zh", "family": "successor", "prompt": "十三的下一个数是", "target": "十四"}
+{"pair_id": 151, "lang": "ja", "family": "successor", "prompt": "十三の次の数は", "target": "十四"}
+{"pair_id": 151, "lang": "ko", "family": "successor", "prompt": "십삼 다음 수는", "target": "십사"}
+{"pair_id": 152, "lang": "en", "family": "successor", "prompt": "The number after fourteen is", "target": "fifteen"}
+{"pair_id": 152, "lang": "zh", "family": "successor", "prompt": "十四的下一个数是", "target": "十五"}
+{"pair_id": 152, "lang": "ja", "family": "successor", "prompt": "十四の次の数は", "target": "十五"}
+{"pair_id": 152, "lang": "ko", "family": "successor", "prompt": "십사 다음 수는", "target": "십오"}
+{"pair_id": 153, "lang": "en", "family": "successor", "prompt": "The number after fifteen is", "target": "sixteen"}
+{"pair_id": 153, "lang": "zh", "family": "successor", "prompt": "十五的下一个数是", "target": "十六"}
+{"pair_id": 153, "lang": "ja", "family": "successor", "prompt": "十五の次の数は", "target": "十六"}
+{"pair_id": 153, "lang": "ko", "family": "successor", "prompt": "십오 다음 수는", "target": "십육"}
+{"pair_id": 154, "lang": "en", "family": "successor", "prompt": "The number after sixteen is", "target": "seventeen"}
+{"pair_id": 154, "lang": "zh", "family": "successor", "prompt": "十六的下一个数是", "target": "十七"}
+{"pair_id": 154, "lang": "ja", "family": "successor", "prompt": "十六の次の数は", "target": "十七"}
+{"pair_id": 154, "lang": "ko", "family": "successor", "prompt": "십육 다음 수는", "target": "십칠"}
+{"pair_id": 155, "lang": "en", "family": "successor", "prompt": "The number after seventeen is", "target": "eighteen"}
+{"pair_id": 155, "lang": "zh", "family": "successor", "prompt": "十七的下一个数是", "target": "十八"}
+{"pair_id": 155, "lang": "ja", "family": "successor", "prompt": "十七の次の数は", "target": "十八"}
+{"pair_id": 155, "lang": "ko", "family": "successor", "prompt": "십칠 다음 수는", "target": "십팔"}
+{"pair_id": 156, "lang": "en", "family": "successor", "prompt": "The number after eighteen is", "target": "nineteen"}
+{"pair_id": 156, "lang": "zh", "family": "successor", "prompt": "十八的下一个数是", "target": "十九"}
+{"pair_id": 156, "lang": "ja", "family": "successor", "prompt": "十八の次の数は", "target": "十九"}
+{"pair_id": 156, "lang": "ko", "family": "successor", "prompt": "십팔 다음 수는", "target": "십구"}
+{"pair_id": 157, "lang": "en", "family": "successor", "prompt": "The number after nineteen is", "target": "twenty"}
+{"pair_id": 157, "lang": "zh", "family": "successor", "prompt": "十九的下一个数是", "target": "二十"}
+{"pair_id": 157, "lang": "ja", "family": "successor", "prompt": "十九の次の数は", "target": "二十"}
+{"pair_id": 157, "lang": "ko", "family": "successor", "prompt": "십구 다음 수는", "target": "이십"}
+{"pair_id": 158, "lang": "en", "family": "predecessor", "prompt": "The number before two is", "target": "one"}
+{"pair_id": 158, "lang": "zh", "family": "predecessor", "prompt": "二的上一个数是", "target": "一"}
+{"pair_id": 158, "lang": "ja", "family": "predecessor", "prompt": "二の前の数は", "target": "一"}
+{"pair_id": 158, "lang": "ko", "family": "predecessor", "prompt": "이 이전 수는", "target": "일"}
+{"pair_id": 159, "lang": "en", "family": "predecessor", "prompt": "The number before three is", "target": "two"}
+{"pair_id": 159, "lang": "zh", "family": "predecessor", "prompt": "三的上一个数是", "target": "二"}
+{"pair_id": 159, "lang": "ja", "family": "predecessor", "prompt": "三の前の数は", "target": "二"}
+{"pair_id": 159, "lang": "ko", "family": "predecessor", "prompt": "삼 이전 수는", "target": "이"}
+{"pair_id": 160, "lang": "en", "family": "predecessor", "prompt": "The number before four is", "target": "three"}
+{"pair_id": 160, "lang": "zh", "family": "predecessor", "prompt": "四的上一个数是", "target": "三"}
+{"pair_id": 160, "lang": "ja", "family": "predecessor", "prompt": "四の前の数は", "target": "三"}
+{"pair_id": 160, "lang": "ko", "family": "predecessor", "prompt": "사 이전 수는", "target": "삼"}
+{"pair_id": 161, "lang": "en", "family": "predecessor", "prompt": "The number before five is", "target": "four"}
+{"pair_id": 161, "lang": "zh", "family": "predecessor", "prompt": "五的上一个数是", "target": "四"}
+{"pair_id": 161, "lang": "ja", "family": "predecessor", "prompt": "五の前の数は", "target": "四"}
+{"pair_id": 161, "lang": "ko", "family": "predecessor", "prompt": "오 이전 수는", "target": "사"}
+{"pair_id": 162, "lang": "en", "family": "predecessor", "prompt": "The number before six is", "target": "five"}
+{"pair_id": 162, "lang": "zh", "family": "predecessor", "prompt": "六的上一个数是", "target": "五"}
+{"pair_id": 162, "lang": "ja", "family": "predecessor", "prompt": "六の前の数は", "target": "五"}
+{"pair_id": 162, "lang": "ko", "family": "predecessor", "prompt": "육 이전 수는", "target": "오"}
+{"pair_id": 163, "lang": "en", "family": "predecessor", "prompt": "The number before seven is", "target": "six"}
+{"pair_id": 163, "lang": "zh", "family": "predecessor", "prompt": "七的上一个数是", "target": "六"}
+{"pair_id": 163, "lang": "ja", "family": "predecessor", "prompt": "七の前の数は", "target": "六"}
+{"pair_id": 163, "lang": "ko", "family": "predecessor", "prompt": "칠 이전 수는", "target": "육"}
+{"pair_id": 164, "lang": "en", "family": "predecessor", "prompt": "The number before eight is", "target": "seven"}
+{"pair_id": 164, "lang": "zh", "family": "predecessor", "prompt": "八的上一个数是", "target": "七"}
+{"pair_id": 164, "lang": "ja", "family": "predecessor", "prompt": "八の前の数は", "target": "七"}
+{"pair_id": 164, "lang": "ko", "family": "predecessor", "prompt": "팔 이전 수는", "target": "칠"}
+{"pair_id": 165, "lang": "en", "family": "predecessor", "prompt": "The number before nine is", "target": "eight"}
+{"pair_id": 165, "lang": "zh", "family": "predecessor", "prompt": "九的上一个数是", "target": "八"}
+{"pair_id": 165, "lang": "ja", "family": "predecessor", "prompt": "九の前の数は", "target": "八"}
+{"pair_id": 165, "lang": "ko", "family": "predecessor", "prompt": "구 이전 수는", "target": "팔"}
+{"pair_id": 166, "lang": "en", "family": "predecessor", "prompt": "The number before ten is", "target": "nine"}
+{"pair_id": 166, "lang": "zh", "family": "predecessor", "prompt": "十的上一个数是", "target": "九"}
+{"pair_id": 166, "lang": "ja", "family": "predecessor", "prompt": "十の前の数は", "target": "九"}
+{"pair_id": 166, "lang": "ko", "family": "predecessor", "prompt": "십 이전 수는", "target": "구"}
+{"pair_id": 167, "lang": "en", "family": "predecessor", "prompt": "The number before eleven is", "target": "ten"}
+{"pair_id": 167, "lang": "zh", "family": "predecessor", "prompt": "十一的上一个数是", "target": "十"}
+{"pair_id": 167, "lang": "ja", "family": "predecessor", "prompt": "十一の前の数は", "target": "十"}
+{"pair_id": 167, "lang": "ko", "family": "predecessor", "prompt": "십일 이전 수는", "target": "십"}
+{"pair_id": 168, "lang": "en", "family": "predecessor", "prompt": "The number before twelve is", "target": "eleven"}
+{"pair_id": 168, "lang": "zh", "family": "predecessor", "prompt": "十二的上一个数是", "target": "十一"}
+{"pair_id": 168, "lang": "ja", "family": "predecessor", "prompt": "十二の前の数は", "target": "十一"}
+{"pair_id": 168, "lang": "ko", "family": "predecessor", "prompt": "십이 이전 수는", "target": "십일"}
+{"pair_id": 169, "lang": "en", "family": "predecessor", "prompt": "The number before thirteen is", "target": "twelve"}
+{"pair_id": 169, "lang": "zh", "family": "predecessor", "prompt": "十三的上一个数是", "target": "十二"}
+{"pair_id": 169, "lang": "ja", "family": "predecessor", "prompt": "十三の前の数は", "target": "十二"}
+{"pair_id": 169, "lang": "ko", "family": "predecessor", "prompt": "십삼 이전 수는", "target": "십이"}
+{"pair_id": 170, "lang": "en", "family": "predecessor", "prompt": "The number before fourteen is", "target": "thirteen"}
+{"pair_id": 170, "lang": "zh", "family": "predecessor", "prompt": "十四的上一个数是", "target": "十三"}
+{"pair_id": 170, "lang": "ja", "family": "predecessor", "prompt": "十四の前の数は", "target": "十三"}
+{"pair_id": 170, "lang": "ko", "family": "predecessor", "prompt": "십사 이전 수는", "target": "십삼"}
+{"pair_id": 171, "lang": "en", "family": "predecessor", "prompt": "The number before fifteen is", "target": "fourteen"}
+{"pair_id": 171, "lang": "zh", "family": "predecessor", "prompt": "十五的上一个数是", "target": "十四"}
+{"pair_id": 171, "lang": "ja", "family": "predecessor", "prompt": "十五の前の数は", "target": "十四"}
+{"pair_id": 171, "lang": "ko", "family": "predecessor", "prompt": "십오 이전 수는", "target": "십사"}
+{"pair_id": 172, "lang": "en", "family": "predecessor", "prompt": "The number before sixteen is", "target": "fifteen"}
+{"pair_id": 172, "lang": "zh", "family": "predecessor", "prompt": "十六的上一个数是", "target": "十五"}
+{"pair_id": 172, "lang": "ja", "family": "predecessor", "prompt": "十六の前の数は", "target": "十五"}
+{"pair_id": 172, "lang": "ko", "family": "predecessor", "prompt": "십육 이전 수는", "target": "십오"}
+{"pair_id": 173, "lang": "en", "family": "predecessor", "prompt": "The number before seventeen is", "target": "sixteen"}
+{"pair_id": 173, "lang": "zh", "family": "predecessor", "prompt": "十七的上一个数是", "target": "十六"}
+{"pair_id": 173, "lang": "ja", "family": "predecessor", "prompt": "十七の前の数は", "target": "十六"}
+{"pair_id": 173, "lang": "ko", "family": "predecessor", "prompt": "십칠 이전 수는", "target": "십육"}
+{"pair_id": 174, "lang": "en", "family": "predecessor", "prompt": "The number before eighteen is", "target": "seventeen"}
+{"pair_id": 174, "lang": "zh", "family": "predecessor", "prompt": "十八的上一个数是", "target": "十七"}
+{"pair_id": 174, "lang": "ja", "family": "predecessor", "prompt": "十八の前の数は", "target": "十七"}
+{"pair_id": 174, "lang": "ko", "family": "predecessor", "prompt": "십팔 이전 수는", "target": "십칠"}
+{"pair_id": 175, "lang": "en", "family": "predecessor", "prompt": "The number before nineteen is", "target": "eighteen"}
+{"pair_id": 175, "lang": "zh", "family": "predecessor", "prompt": "十九的上一个数是", "target": "十八"}
+{"pair_id": 175, "lang": "ja", "family": "predecessor", "prompt": "十九の前の数は", "target": "十八"}
+{"pair_id": 175, "lang": "ko", "family": "predecessor", "prompt": "십구 이전 수는", "target": "십팔"}
+{"pair_id": 176, "lang": "en", "family": "predecessor", "prompt": "The number before twenty is", "target": "nineteen"}
+{"pair_id": 176, "lang": "zh", "family": "predecessor", "prompt": "二十的上一个数是", "target": "十九"}
+{"pair_id": 176, "lang": "ja", "family": "predecessor", "prompt": "二十の前の数は", "target": "十九"}
+{"pair_id": 176, "lang": "ko", "family": "predecessor", "prompt": "이십 이전 수는", "target": "십구"}
+{"pair_id": 177, "lang": "en", "family": "doubling", "prompt": "one times two equals", "target": "two"}
+{"pair_id": 177, "lang": "zh", "family": "doubling", "prompt": "一乘二等于", "target": "二"}
+{"pair_id": 177, "lang": "ja", "family": "doubling", "prompt": "一かける二は", "target": "二"}
+{"pair_id": 177, "lang": "ko", "family": "doubling", "prompt": "일 곱하기 이는", "target": "이"}
+{"pair_id": 178, "lang": "en", "family": "doubling", "prompt": "two times two equals", "target": "four"}
+{"pair_id": 178, "lang": "zh", "family": "doubling", "prompt": "二乘二等于", "target": "四"}
+{"pair_id": 178, "lang": "ja", "family": "doubling", "prompt": "二かける二は", "target": "四"}
+{"pair_id": 178, "lang": "ko", "family": "doubling", "prompt": "이 곱하기 이는", "target": "사"}
+{"pair_id": 179, "lang": "en", "family": "doubling", "prompt": "three times two equals", "target": "six"}
+{"pair_id": 179, "lang": "zh", "family": "doubling", "prompt": "三乘二等于", "target": "六"}
+{"pair_id": 179, "lang": "ja", "family": "doubling", "prompt": "三かける二は", "target": "六"}
+{"pair_id": 179, "lang": "ko", "family": "doubling", "prompt": "삼 곱하기 이는", "target": "육"}
+{"pair_id": 180, "lang": "en", "family": "doubling", "prompt": "four times two equals", "target": "eight"}
+{"pair_id": 180, "lang": "zh", "family": "doubling", "prompt": "四乘二等于", "target": "八"}
+{"pair_id": 180, "lang": "ja", "family": "doubling", "prompt": "四かける二は", "target": "八"}
+{"pair_id": 180, "lang": "ko", "family": "doubling", "prompt": "사 곱하기 이는", "target": "팔"}
+{"pair_id": 181, "lang": "en", "family": "doubling", "prompt": "five times two equals", "target": "ten"}
+{"pair_id": 181, "lang": "zh", "family": "doubling", "prompt": "五乘二等于", "target": "十"}
+{"pair_id": 181, "lang": "ja", "family": "doubling", "prompt": "五かける二は", "target": "十"}
+{"pair_id": 181, "lang": "ko", "family": "doubling", "prompt": "오 곱하기 이는", "target": "십"}
+{"pair_id": 182, "lang": "en", "family": "doubling", "prompt": "six times two equals", "target": "twelve"}
+{"pair_id": 182, "lang": "zh", "family": "doubling", "prompt": "六乘二等于", "target": "十二"}
+{"pair_id": 182, "lang": "ja", "family": "doubling", "prompt": "六かける二は", "target": "十二"}
+{"pair_id": 182, "lang": "ko", "family": "doubling", "prompt": "육 곱하기 이는", "target": "십이"}
+{"pair_id": 183, "lang": "en", "family": "doubling", "prompt": "seven times two equals", "target": "fourteen"}
+{"pair_id": 183, "lang": "zh", "family": "doubling", "prompt": "七乘二等于", "target": "十四"}
+{"pair_id": 183, "lang": "ja", "family": "doubling", "prompt": "七かける二は", "target": "十四"}
+{"pair_id": 183, "lang": "ko", "family": "doubling", "prompt": "칠 곱하기 이는", "target": "십사"}
+{"pair_id": 184, "lang": "en", "family": "doubling", "prompt": "eight times two equals", "target": "sixteen"}
+{"pair_id": 184, "lang": "zh", "family": "doubling", "prompt": "八乘二等于", "target": "十六"}
+{"pair_id": 184, "lang": "ja", "family": "doubling", "prompt": "八かける二は", "target": "十六"}
+{"pair_id": 184, "lang": "ko", "family": "doubling", "prompt": "팔 곱하기 이는", "target": "십육"}
+{"pair_id": 185, "lang": "en", "family": "doubling", "prompt": "nine times two equals", "target": "eighteen"}
+{"pair_id": 185, "lang": "zh", "family": "doubling", "prompt": "九乘二等于", "target": "十八"}
+{"pair_id": 185, "lang": "ja", "family": "doubling", "prompt": "九かける二は", "target": "十八"}
+{"pair_id": 185, "lang": "ko", "family": "doubling", "prompt": "구 곱하기 이는", "target": "십팔"}
+{"pair_id": 186, "lang": "en", "family": "doubling", "prompt": "ten times two equals", "target": "twenty"}
+{"pair_id": 186, "lang": "zh", "family": "doubling", "prompt": "十乘二等于", "target": "二十"}
+{"pair_id": 186, "lang": "ja", "family": "doubling", "prompt": "十かける二は", "target": "二十"}
+{"pair_id": 186, "lang": "ko", "family": "doubling", "prompt": "십 곱하기 이는", "target": "이십"}
+{"pair_id": 187, "lang": "en", "family": "weekday", "prompt": "The day after Monday is", "target": "Tuesday"}
+{"pair_id": 187, "lang": "zh", "family": "weekday", "prompt": "星期一的下一天是", "target": "星期二"}
+{"pair_id": 187, "lang": "ja", "family": "weekday", "prompt": "月曜日の次の日は", "target": "火曜日"}
+{"pair_id": 187, "lang": "ko", "family": "weekday", "prompt": "월요일 다음 날은", "target": "화요일"}
+{"pair_id": 188, "lang": "en", "family": "weekday", "prompt": "The day after Tuesday is", "target": "Wednesday"}
+{"pair_id": 188, "lang": "zh", "family": "weekday", "prompt": "星期二的下一天是", "target": "星期三"}
+{"pair_id": 188, "lang": "ja", "family": "weekday", "prompt": "火曜日の次の日は", "target": "水曜日"}
+{"pair_id": 188, "lang": "ko", "family": "weekday", "prompt": "화요일 다음 날은", "target": "수요일"}
+{"pair_id": 189, "lang": "en", "family": "weekday", "prompt": "The day after Wednesday is", "target": "Thursday"}
+{"pair_id": 189, "lang": "zh", "family": "weekday", "prompt": "星期三的下一天是", "target": "星期四"}
+{"pair_id": 189, "lang": "ja", "family": "weekday", "prompt": "水曜日の次の日は", "target": "木曜日"}
+{"pair_id": 189, "lang": "ko", "family": "weekday", "prompt": "수요일 다음 날은", "target": "목요일"}
+{"pair_id": 190, "lang": "en", "family": "weekday", "prompt": "The day after Thursday is", "target": "Friday"}
+{"pair_id": 190, "lang": "zh", "family": "weekday", "prompt": "星期四的下一天是", "target": "星期五"}
+{"pair_id": 190, "lang": "ja", "family": "weekday", "prompt": "木曜日の次の日は", "target": "金曜日"}
+{"pair_id": 190, "lang": "ko", "family": "weekday", "prompt": "목요일 다음 날은", "target": "금요일"}
+{"pair_id": 191, "lang": "en", "family": "weekday", "prompt": "The day after Friday is", "target": "Saturday"}
+{"pair_id": 191, "lang": "zh", "family": "weekday", "prompt": "星期五的下一天是", "target": "星期六"}
+{"pair_id": 191, "lang": "ja", "family": "weekday", "prompt": "金曜日の次の日は", "target": "土曜日"}
+{"pair_id": 191, "lang": "ko", "family": "weekday", "prompt": "금요일 다음 날은", "target": "토요일"}
+{"pair_id": 192, "lang": "en", "family": "weekday", "prompt": "The day after Saturday is", "target": "Sunday"}
+{"pair_id": 192, "lang": "zh", "family": "weekday", "prompt": "星期六的下一天是", "target": "星期日"}
+{"pair_id": 192, "lang": "ja", "family": "weekday", "prompt": "土曜日の次の日は", "target": "日曜日"}
+{"pair_id": 192, "lang": "ko", "family": "weekday", "prompt": "토요일 다음 날은", "target": "일요일"}
+{"pair_id": 193, "lang": "en", "family": "weekday", "prompt": "The day after Sunday is", "target": "Monday"}
+{"pair_id": 193, "lang": "zh", "family": "weekday", "prompt": "星期日的下一天是", "target": "星期一"}
+{"pair_id": 193, "lang": "ja", "family": "weekday", "prompt": "日曜日の次の日は", "target": "月曜日"}
+{"pair_id": 193, "lang": "ko", "family": "weekday", "prompt": "일요일 다음 날은", "target": "월요일"}
+{"pair_id": 194, "lang": "en", "family": "month", "prompt": "The month after January is", "target": "February"}
+{"pair_id": 194, "lang": "zh", "family": "month", "prompt": "一月的下一个月是", "target": "二月"}
+{"pair_id": 194, "lang": "ja", "family": "month", "prompt": "一月の次の月は", "target": "二月"}
+{"pair_id": 194, "lang": "ko", "family": "month", "prompt": "일월 다음 달은", "target": "이월"}
+{"pair_id": 195, "lang": "en", "family": "month", "prompt": "The month after February is", "target": "March"}
+{"pair_id": 195, "lang": "zh", "family": "month", "prompt": "二月的下一个月是", "target": "三月"}
+{"pair_id": 195, "lang": "ja", "family": "month", "prompt": "二月の次の月は", "target": "三月"}
+{"pair_id": 195, "lang": "ko", "family": "month", "prompt": "이월 다음 달은", "target": "삼월"}
+{"pair_id": 196, "lang": "en", "family": "month", "prompt": "The month after March is", "target": "April"}
+{"pair_id": 196, "lang": "zh", "family": "month", "prompt": "三月的下一个月是", "target": "四月"}
+{"pair_id": 196, "lang": "ja", "family": "month", "prompt": "三月の次の月は", "target": "四月"}
+{"pair_id": 196, "lang": "ko", "family": "month", "prompt": "삼월 다음 달은", "target": "사월"}
+{"pair_id": 197, "lang": "en", "family": "month", "prompt": "The month after April is", "target": "May"}
+{"pair_id": 197, "lang": "zh", "family": "month", "prompt": "四月的下一个月是", "target": "五月"}
+{"pair_id": 197, "lang": "ja", "family": "month", "prompt": "四月の次の月は", "target": "五月"}
+{"pair_id": 197, "lang": "ko", "family": "month", "prompt": "사월 다음 달은", "target": "오월"}
+{"pair_id": 198, "lang": "en", "family": "month", "prompt": "The month after May is", "target": "June"}
+{"pair_id": 198, "lang": "zh", "family": "month", "prompt": "五月的下一个月是", "target": "六月"}
+{"pair_id": 198, "lang": "ja", "family": "month", "prompt": "五月の次の月は", "target": "六月"}
+{"pair_id": 198, "lang": "ko", "family": "month", "prompt": "오월 다음 달은", "target": "유월"}
+{"pair_id": 199, "lang": "en", "family": "month", "prompt": "The month after June is", "target": "July"}
+{"pair_id": 199, "lang": "zh", "family": "month", "prompt": "六月的下一个月是", "target": "七月"}
+{"pair_id": 199, "lang": "ja", "family": "month", "prompt": "六月の次の月は", "target": "七月"}
+{"pair_id": 199, "lang": "ko", "family": "month", "prompt": "유월 다음 달은", "target": "칠월"}
+{"pair_id": 200, "lang": "en", "family": "month", "prompt": "The month after July is", "target": "August"}
+{"pair_id": 200, "lang": "zh", "family": "month", "prompt": "七月的下一个月是", "target": "八月"}
+{"pair_id": 200, "lang": "ja", "family": "month", "prompt": "七月の次の月は", "target": "八月"}
+{"pair_id": 200, "lang": "ko", "family": "month", "prompt": "칠월 다음 달은", "target": "팔월"}
+{"pair_id": 201, "lang": "en", "family": "month", "prompt": "The month after August is", "target": "September"}
+{"pair_id": 201, "lang": "zh", "family": "month", "prompt": "八月的下一个月是", "target": "九月"}
+{"pair_id": 201, "lang": "ja", "family": "month", "prompt": "八月の次の月は", "target": "九月"}
+{"pair_id": 201, "lang": "ko", "family": "month", "prompt": "팔월 다음 달은", "target": "구월"}
+{"pair_id": 202, "lang": "en", "family": "month", "prompt": "The month after September is", "target": "October"}
+{"pair_id": 202, "lang": "zh", "family": "month", "prompt": "九月的下一个月是", "target": "十月"}
+{"pair_id": 202, "lang": "ja", "family": "month", "prompt": "九月の次の月は", "target": "十月"}
+{"pair_id": 202, "lang": "ko", "family": "month", "prompt": "구월 다음 달은", "target": "시월"}
+{"pair_id": 203, "lang": "en", "family": "month", "prompt": "The month after October is", "target": "November"}
+{"pair_id": 203, "lang": "zh", "family": "month", "prompt": "十月的下一个月是", "target": "十一月"}
+{"pair_id": 203, "lang": "ja", "family": "month", "prompt": "十月の次の月は", "target": "十一月"}
+{"pair_id": 203, "lang": "ko", "family": "month", "prompt": "시월 다음 달은", "target": "십일월"}
+{"pair_id": 204, "lang": "en", "family": "month", "prompt": "The month after November is", "target": "December"}
+{"pair_id": 204, "lang": "zh", "family": "month", "prompt": "十一月的下一个月是", "target": "十二月"}
+{"pair_id": 204, "lang": "ja", "family": "month", "prompt": "十一月の次の月は", "target": "十二月"}
+{"pair_id": 204, "lang": "ko", "family": "month", "prompt": "십일월 다음 달은", "target": "십이월"}
+{"pair_id": 205, "lang": "en", "family": "month", "prompt": "The month after December is", "target": "January"}
+{"pair_id": 205, "lang": "zh", "family": "month", "prompt": "十二月的下一个月是", "target": "一月"}
+{"pair_id": 205, "lang": "ja", "family": "month", "prompt": "十二月の次の月は", "target": "一月"}
+{"pair_id": 205, "lang": "ko", "family": "month", "prompt": "십이월 다음 달은", "target": "일월"}

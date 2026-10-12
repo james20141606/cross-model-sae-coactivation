@@ -1,0 +1,16 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{The same control, applied to a published pairing rule.} \citet{lan2024universal} pair cross-model SAE features by taking, for each feature in $A$, its highest-correlated feature in $B$ (their 1A-to-ManyB rule; many-to-one by construction). We transplant \emph{that rule} into the \Cref{tab:lextok} pipeline and change nothing else --- same $20{,}000$ C4 documents, same cached pooled features, same TF-IDF$\to$SVD$_k$ cross-fitted design, same row-shuffled calibration, same within-fold null, $n_{\text{perm}}{=}2{,}000$. \emph{reimpl.}: the validity gate read \emph{before} any $R_{\text{lex}}$ --- the mapping must be many-to-one and its $1$--$1$ fraction must fall inside the $[0.159,0.632]$ interval implied by their Tables~5--6; it is necessary, not sufficient (an arbitrary argmax assignment gives $\approx 1/e$). \emph{ours}: the mutual-NN $R_{\text{lex}}$ from \Cref{tab:lextok} on the same cell. Receipts: \texttt{lanpair\_lextok20k\_*.json}.}
+\label{tab:lanpair}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrrrrr}
+\toprule
+Cell & band & $k$ & pairs & $1$--$1$ frac & ret.\ real & ret.\ shuf & $R_{\text{lex}}$ & ours \\
+\midrule
+Qwen3-1.7B $\leftrightarrow$ Gemma2-2B & strong & $4096$ & $1500$ & $0.413$ & $0.899$ & $1.000$ & $0.900$ & $0.933$ \\
+Gemma2-9B $\leftrightarrow$ Mistral-7B & median & $4096$ & $1500$ & $0.424$ & $0.904$ & $0.999$ & $0.905$ & $0.942$ \\
+Llama-3.2-1B $\leftrightarrow$ Mistral-7B & weak & $4096$ & $1500$ & $0.299$ & $0.908$ & $0.998$ & $0.910$ & $0.918$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{Does the sharing survive residualizing on a unigram lexical model?} $20{,}000$ C4 documents, $n_{\text{perm}}{=}2{,}000$. The mutual-NN pair set is frozen on the \emph{raw} features and the test asks whether \emph{those} pairs still co-activate after cross-fitted residualization on a TF-IDF$\to$SVD$_k$ design (stopword-stripped \emph{unigram} TF-IDF over $50{,}000$ terms, truncated to $k$ SVD components; at $k{=}4096$ those components retain $67.7\%$ of that design's own variance). \emph{gate}: the first stage must beat a row-shuffled design of identical spectrum (frac.\ of features with $R^2_{\text{real}}>R^2_{\text{shuf}}$, and median $\Delta R^2$); an arm failing it is uninterpretable, not reassuring. \textbf{The gate is a margin, not an absolute fit}: it requires $R^2_{\text{real}}>R^2_{\text{shuf}}$, \emph{not} $R^2_{\text{real}}>0$, and the shuffled design predicts badly ($R^2_{\text{shuf}}$ median $-0.17$ at $k{=}4096$), so $\Delta R^2$ is much larger than the variance the nuisance model actually captures --- which is the separate $R^2_{\text{real}}$ column. \emph{ret.}: excess retained relative to raw. $R_{\text{lex}}=$ ret.\ real$/$ret.\ shuffled is the lexical-specific retention, since projecting out any $k$-dim subspace costs something. Row shown is the largest adequacy-passing $k$. Receipts: \texttt{lextok20k\_*.json}.}
+\label{tab:lextok}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrrrr}
+\toprule
+Cell & band & $k$ & pairs & gate frac & gate $\Delta R^2$ & $R^2_{\text{real}}$ & ret.\ real & ret.\ shuf & $R_{\text{lex}}$ \\
+\midrule
+Qwen3-1.7B $\leftrightarrow$ Gemma2-2B & strong & $4096$ & $822$ & $1.00$/$1.00$ & $+0.301$/$+0.312$ & $0.129$/$0.140$ & $0.933$ & $1.000$ & $0.933$ \\
+Gemma2-9B $\leftrightarrow$ Mistral-7B & median & $4096$ & $806$ & $1.00$/$1.00$ & $+0.273$/$+0.209$ & $0.101$/$0.036$ & $0.941$ & $1.000$ & $0.942$ \\
+Llama-3.2-1B $\leftrightarrow$ Mistral-7B & weak & $4096$ & $520$ & $1.00$/$1.00$ & $+0.197$/$+0.209$ & $0.028$/$0.036$ & $0.917$ & $1.000$ & $0.918$ \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,21 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{Fine-grained lexical/topic-matched null.} Mutual-NN excess (observed $-$ null mean) on three representative C4-robust cells under a permutation restricted to $k$-way TF-IDF/KMeans topic strata, $n_{\text{perm}}{=}2{,}000$. \emph{base}: unrestricted null. \emph{bow}: topic-matched. \emph{size-rnd}: strata with the \emph{same block sizes} but random membership, so they carry no lexical information --- this calibrates the mechanical shrinkage that any fine partition induces (permuting inside small blocks approaches the identity; at block size $1$ the excess is $0$ by construction). $R=\text{bow}/\text{size-rnd}$ is therefore the \emph{lexical-specific} retention; the raw bow$/$base ratio is shown for completeness but is confounded by that shrinkage. Receipts: \texttt{covctl\_k*\_c4\_*.json}.}
+\label{tab:covctl}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrrrr}
+\toprule
+Cell & band & $k$ & blk & base & bow & size-rnd & $R$ \\
+\midrule
+Qwen3-1.7B $\leftrightarrow$ Gemma2-2B & strong & $200$ & $10$ & $+438.8$ & $+379.2$ & $+407.6$ & $0.930$ \\
+Qwen3-1.7B $\leftrightarrow$ Gemma2-2B & strong & $500$ & $4$ & $+438.8$ & $+243.8$ & $+247.9$ & $0.983$ \\
+\midrule
+Gemma2-9B $\leftrightarrow$ Mistral-7B & median & $200$ & $10$ & $+267.5$ & $+257.0$ & $+260.7$ & $0.986$ \\
+Gemma2-9B $\leftrightarrow$ Mistral-7B & median & $500$ & $4$ & $+267.5$ & $+217.9$ & $+205.5$ & $1.060$ \\
+\midrule
+Llama-3.2-1B $\leftrightarrow$ Mistral-7B & weak & $200$ & $10$ & $+112.7$ & $+108.8$ & $+109.3$ & $0.996$ \\
+Llama-3.2-1B $\leftrightarrow$ Mistral-7B & weak & $500$ & $4$ & $+112.7$ & $+81.0$ & $+80.1$ & $1.012$ \\
+\bottomrule
+\end{tabular}
+\end{table}

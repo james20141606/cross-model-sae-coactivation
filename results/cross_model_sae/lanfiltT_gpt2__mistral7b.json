@@ -1,0 +1,157 @@
+{
+ "pair": "gpt2__mistral7b",
+ "corpus": "templates",
+ "n_docs": 206,
+ "prereg": "notes/PREREG_lan_filters_20260924.md (commit 4cbd289)",
+ "G0": {
+  "local": {
+   "svcca": 0.17316021025180817,
+   "rsa": 0.0013975327601656318,
+   "K": 512,
+   "svcca_random_pairing": 0.16984228193759918,
+   "rsa_random_pairing": 0.000997631206701044,
+   "svcca_permuted_pairing": 0.18051159903407096,
+   "rsa_permuted_pairing": -0.0027504436345121563
+  },
+  "receipt": {
+   "svcca": 0.17390355467796326,
+   "rsa": 0.0014292016858235002,
+   "K": 512,
+   "svcca_random_pairing": 0.1676025614142418,
+   "rsa_random_pairing": 0.00019394713744986803,
+   "svcca_permuted_pairing": 0.1780427388846874,
+   "rsa_permuted_pairing": -0.0008468509884551167
+  },
+  "receipt_path": "lanT_gpt2__mistral7b.json",
+  "delta_rsa": -3.1668925657868385e-05,
+  "delta_svcca": -0.0007433444261550903,
+  "pass": true
+ },
+ "unfiltered_n200": {
+  "svcca": 0.17316021025180817,
+  "rsa": 0.0013975327601656318,
+  "K": 512,
+  "svcca_random_pairing": 0.1677033581584692,
+  "rsa_random_pairing": 9.908113030178356e-05,
+  "svcca_permuted_pairing": 0.17904785521328448,
+  "rsa_permuted_pairing": -0.0012959716732722337
+ },
+ "filtered": {
+  "P": {
+   "variant": "P",
+   "pool_A": 512,
+   "pool_B": 512,
+   "nonconcept_A": 0,
+   "nonconcept_B": 2,
+   "steps": {
+    "after_F1": 0,
+    "after_F2": 0,
+    "after_F3": 0
+   },
+   "K_f": 0,
+   "retention": 0.0,
+   "n_unique_targets_unfiltered": 3,
+   "estimable": false
+  },
+  "S1": {
+   "variant": "S1",
+   "pool_A": 512,
+   "pool_B": 512,
+   "nonconcept_A": 0,
+   "nonconcept_B": 2,
+   "steps": {
+    "after_F1": 0,
+    "after_F2": 0,
+    "after_F3": 0
+   },
+   "K_f": 0,
+   "retention": 0.0,
+   "n_unique_targets_unfiltered": 3,
+   "estimable": false
+  },
+  "S2": {
+   "variant": "S2",
+   "pool_A": 512,
+   "pool_B": 512,
+   "nonconcept_A": 0,
+   "nonconcept_B": 2,
+   "steps": {
+    "after_F1": 0,
+    "after_F2": 0,
+    "after_F3": 0
+   },
+   "K_f": 0,
+   "retention": 0.0,
+   "n_unique_targets_unfiltered": 3,
+   "estimable": false
+  }
+ },
+ "provenance": {
+  "inputs_sha256": {
+   "gpt2__templates__pooled.npy": "cefe038c0adb7c0aff0ccf508745a15f70a2ae40c241525cc8389ff7468225ac",
+   "mistral7b__templates__pooled.npy": "9f55750f07bfeb35e92e5337c8a9e7ce2c28e1879880ea1949e0c3aaddedbf5b",
+   "gpt2__templates__top5.npz": "32665df40e65f5f2f192e799d4e98a0520cc0e128ab2254cd717c4e04d23da7b",
+   "mistral7b__templates__top5.npz": "c73638487dbc3f898fa53ae1f86e28351251da4c0c3d55acc7b47c2ea0bcb0a9",
+   "gpt2__wdec.npy": "cd4f26ee1cd233c20c4363e2df200020912df28f8a51511c437238b18e5debbd",
+   "mistral7b__wdec.npy": "2a5afe9b45ef8907fd469b8c51ce8c06706287f3a898ddabb9cabd9133c2a46f"
+  },
+  "script": "code/analysis/lan_filter_audit.py",
+  "script_sha256": "2976edf96783afd0561c8cc1423ced8cad4a67107f0181328d6eadf64deffc9b",
+  "lan_protocol_audit_sha256": "0d868b37af8300132936b70a223b3d3003dbf5482402e4c1c2f30555f133011c",
+  "seeds": {
+   "G0": 0,
+   "unfiltered_n200": 0,
+   "rand": 0,
+   "perm": 1
+  },
+  "n_draws": 200,
+  "min_k": 21,
+  "corr_floor": 0.1,
+  "meta_A": {
+   "model_tag": "gpt2",
+   "hf_id_loaded": "gpt2",
+   "sae_release": "gpt2-small-res-jb",
+   "sae_id": "blocks.6.hook_resid_pre",
+   "hs_idx": 6,
+   "corpus": "templates",
+   "prompts": "prompts_v3_multi.jsonl",
+   "prompts_sha256": "6e63b7c6684c674fe24df2388ee75c097c2a5fdd4a1fddbd94924609e5c0000a",
+   "n_rows": 206,
+   "n_tokens": 939,
+   "d_sae": 24576,
+   "special_ids": [
+    50256
+   ],
+   "device": "mps",
+   "torch": "2.14.0",
+   "transformers": "4.56.2",
+   "sae_lens": "6.51.1",
+   "script_sha256": "2fb7e2efc264609819b8e807684dfb7f3a8f8b4b1d5de847d8f2e81835701982"
+  },
+  "meta_B": {
+   "model_tag": "mistral7b",
+   "hf_id_loaded": "mistralai/Mistral-7B-v0.1",
+   "sae_release": "mistral-7b-res-wg",
+   "sae_id": "blocks.16.hook_resid_pre",
+   "hs_idx": 16,
+   "corpus": "templates",
+   "prompts": "prompts_v3_multi.jsonl",
+   "prompts_sha256": "6e63b7c6684c674fe24df2388ee75c097c2a5fdd4a1fddbd94924609e5c0000a",
+   "n_rows": 206,
+   "n_tokens": 1187,
+   "d_sae": 65536,
+   "special_ids": [
+    0,
+    1,
+    2
+   ],
+   "device": "mps",
+   "torch": "2.14.0",
+   "transformers": "4.56.2",
+   "sae_lens": "6.51.1",
+   "script_sha256": "2fb7e2efc264609819b8e807684dfb7f3a8f8b4b1d5de847d8f2e81835701982"
+  },
+  "python": "3.11.14",
+  "numpy": "2.4.6"
+ }
+}

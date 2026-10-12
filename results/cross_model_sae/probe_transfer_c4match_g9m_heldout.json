@@ -1,0 +1,29 @@
+{
+  "transfer_acc": 0.1796116504854369,
+  "nonmatched_mean": 0.0991019417475728,
+  "nonmatched_ci": [
+    0.009587378640776701,
+    0.25764563106796123
+  ],
+  "transfer_p": 0.13432835820895522,
+  "cv_A": 1.0,
+  "cv_B": 0.975609756097561,
+  "majority": 0.21844660194174756,
+  "K": 110,
+  "n": 206,
+  "model_a": "google/gemma-2-9b",
+  "model_b": "mistralai/Mistral-7B-v0.1",
+  "families": [
+    "antonym",
+    "arith_add",
+    "arith_sub",
+    "capital",
+    "doubling",
+    "month",
+    "predecessor",
+    "successor",
+    "weekday"
+  ],
+  "n_matched_features": 768,
+  "match_corpus": "../../data/c4_heldout.jsonl"
+}

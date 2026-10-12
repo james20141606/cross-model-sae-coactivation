@@ -1,0 +1,1209 @@
+{
+  "model_a": "google/gemma-2-9b",
+  "model_b": "mistralai/Mistral-7B-v0.1",
+  "n_docs": 2000,
+  "k_pairs": 20,
+  "pairs": [
+    {
+      "feature_a": 7145,
+      "feature_b": 11568,
+      "pooled_corr": 0.9998838027774344,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 1478,
+          "act": 20.346435546875,
+          "text": "Tasmania's Alex Doolan scored the first century of the Sheffield Shield summer before Queensland fought back on a Gabba green top with more bark than bite. The "
+        },
+        {
+          "doc": 108,
+          "act": 0.2108200192451477,
+          "text": "This topic contains 0 replies, has 1 voice, and was last updated by Lodewijk Luijt 1 year ago. I’d like to pitch an idea to a production company that involves f"
+        },
+        {
+          "doc": 1096,
+          "act": 0.17595738172531128,
+          "text": "The Indian squash contingent ended with five medals overall including the women's team silver, men's team bronze and three bronze medals in the individual event"
+        },
+        {
+          "doc": 1401,
+          "act": 0.09832706302404404,
+          "text": "TWO games into the new year and WGC are in something of a crisis. Their second defeat of 2017, this time at league leaders London Colney, has seen Adam Fisher's"
+        },
+        {
+          "doc": 1247,
+          "act": 0.07341212034225464,
+          "text": "In game 2 of the Tovar Tussle at RHS The Rams jumped on the Eagles quickly and emphatically with a 3-spot in the top of the 1st inning. The Eagles would counter"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1478,
+          "act": 5.692815780639648,
+          "text": "Tasmania's Alex Doolan scored the first century of the Sheffield Shield summer before Queensland fought back on a Gabba green top with more bark than bite. The "
+        },
+        {
+          "doc": 1266,
+          "act": 0.019450165331363678,
+          "text": "If you’re a fan of fantasy-themed games, you’ll no doubt be very much enchanted by the Novomatic release, ‘Secret Forest’. It’s full of fairy, elf and gnome mag"
+        },
+        {
+          "doc": 1247,
+          "act": 0.01669398881494999,
+          "text": "In game 2 of the Tovar Tussle at RHS The Rams jumped on the Eagles quickly and emphatically with a 3-spot in the top of the 1st inning. The Eagles would counter"
+        },
+        {
+          "doc": 1801,
+          "act": 0.007738611660897732,
+          "text": "The other night, while staying over at my in-laws’ place in the countryside, my husband and I were just about to get ready for bed when it hit us. Oh crap, we’d"
+        },
+        {
+          "doc": 832,
+          "act": 0.003680500667542219,
+          "text": "Lovely sampler. The model is stitched in Week Dye Works threads, but conversions to both DMC and Anchor are given. The stitch count for this design is 51 x 149."
+        }
+      ]
+    },
+    {
+      "feature_a": 8477,
+      "feature_b": 20881,
+      "pooled_corr": 0.9995035411950561,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 848,
+          "act": 28.047977447509766,
+          "text": "41:33 And who is better in saying than he who invites to God, and does good works, and says: \"I am one of those who have submitted.\" Behold, all who pledge thei"
+        },
+        {
+          "doc": 541,
+          "act": 23.163856506347656,
+          "text": "(Remember) when the angels said: \"O Mary, God gives you good news of a word from Him (God), whose name is the Messiah Jesus, son of Mary, revered in this world "
+        },
+        {
+          "doc": 1490,
+          "act": 0.39114609360694885,
+          "text": "We have been married for several years and have been trying to conceive. Besides the normal Qurʾānic duʿās for conception, what other actions could we do? Psych"
+        },
+        {
+          "doc": 31,
+          "act": 0.2810717225074768,
+          "text": "I , , , , , 1 ” , , , :0 4 r , , Franka BrunsPost-Gazette CUPBOARD NEARLY BARE Jim Marton strolls through. and includes installation of turnaround lanes for lar"
+        },
+        {
+          "doc": 513,
+          "act": 0.11622586846351624,
+          "text": "For the man of Truth, seeking experience of the supreme state, the heroic action needed, is to draw in, the outward darting mind, and fix it firmly in the Heart"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 848,
+          "act": 16.59978485107422,
+          "text": "41:33 And who is better in saying than he who invites to God, and does good works, and says: \"I am one of those who have submitted.\" Behold, all who pledge thei"
+        },
+        {
+          "doc": 541,
+          "act": 12.916825294494629,
+          "text": "(Remember) when the angels said: \"O Mary, God gives you good news of a word from Him (God), whose name is the Messiah Jesus, son of Mary, revered in this world "
+        },
+        {
+          "doc": 1490,
+          "act": 0.07498733699321747,
+          "text": "We have been married for several years and have been trying to conceive. Besides the normal Qurʾānic duʿās for conception, what other actions could we do? Psych"
+        },
+        {
+          "doc": 1254,
+          "act": 0.061139121651649475,
+          "text": "Addiction Step Eleven: Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His wi"
+        },
+        {
+          "doc": 1556,
+          "act": 0.012000530026853085,
+          "text": "With regard to whatever worries you, not only accept the worst thing that could happen, but make it a point to quantify what the worst thing could be. Very seld"
+        }
+      ]
+    },
+    {
+      "feature_a": 1967,
+      "feature_b": 55091,
+      "pooled_corr": 0.9975094410305645,
+      "top_doc_overlap": 2,
+      "top_docs_a": [
+        {
+          "doc": 1056,
+          "act": 26.40884017944336,
+          "text": "Global Sleeping Aids Market size is projected to be valued $96 Billion by 2024; with a CAGR of 6.2% from 2017 to 2025. Sleeping aids are medical specialty or su"
+        },
+        {
+          "doc": 934,
+          "act": 1.2078548669815063,
+          "text": "This report is aimed to present the achievements obtained with the development of a prototype of Architectural DIGITAL PORTFOLIO, this work represents an origin"
+        },
+        {
+          "doc": 163,
+          "act": 1.0772122144699097,
+          "text": "Chronic Kidney Illness (CKD) is recognized by a decrease in Glomerular Filtration Rate (GFR) because of a lower in functioning of nephrons throughout the kidney"
+        },
+        {
+          "doc": 1095,
+          "act": 1.0033820867538452,
+          "text": "Tap into the growing South Indian market by creating joint ventures, partnerships/associations, sourcing, dealerships, and networks. Get a roadmap to success fo"
+        },
+        {
+          "doc": 534,
+          "act": 0.4571349024772644,
+          "text": "Apple Swift application development services to optimize business performance and drive innovation. Hidden Brains is an innovative & result-driven mobile app de"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1056,
+          "act": 4.985057353973389,
+          "text": "Global Sleeping Aids Market size is projected to be valued $96 Billion by 2024; with a CAGR of 6.2% from 2017 to 2025. Sleeping aids are medical specialty or su"
+        },
+        {
+          "doc": 934,
+          "act": 0.21625690162181854,
+          "text": "This report is aimed to present the achievements obtained with the development of a prototype of Architectural DIGITAL PORTFOLIO, this work represents an origin"
+        },
+        {
+          "doc": 487,
+          "act": 0.14852239191532135,
+          "text": "Calisthenics based functional fitness studio, MultiFit offers strength based training with the correct form of gym workout. The startup venture has plans to spr"
+        },
+        {
+          "doc": 896,
+          "act": 0.12691566348075867,
+          "text": "Globalization has offered appreciable controversial impact. The idea is said to the more basic phenomenon of climate change, which refers to changes within the "
+        },
+        {
+          "doc": 914,
+          "act": 0.0682467669248581,
+          "text": "Here are a few major points that make SQLC a sound long-term investment. A rapidly growing market: SQLC serves one of America’s fastest growing housing segments"
+        }
+      ]
+    },
+    {
+      "feature_a": 13612,
+      "feature_b": 59087,
+      "pooled_corr": 0.9968022156379982,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 1845,
+          "act": 17.135435104370117,
+          "text": "When the labeled data are few, exploiting amount of unlabeled data can be helpful for improve learning performance of classifier. The key issue for active learn"
+        },
+        {
+          "doc": 612,
+          "act": 1.724873423576355,
+          "text": "The results of the NOMAD crowd-sourced data analytics competition with Kaggle are out! The goal of this competition was for participants to develop or apply dat"
+        },
+        {
+          "doc": 1900,
+          "act": 1.1186012029647827,
+          "text": "Josh is a Lecturer and Research Fellow at the Australian National University Research School of Computer Science. His mission is to develop the tools and techni"
+        },
+        {
+          "doc": 232,
+          "act": 0.4515255391597748,
+          "text": "Enjoy your family. Enjoy your friends. Make lots of special memories."
+        },
+        {
+          "doc": 506,
+          "act": 0.35245853662490845,
+          "text": "item #PCextensionCordNo1. New. No box. Condition 10."
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1845,
+          "act": 6.2059326171875,
+          "text": "When the labeled data are few, exploiting amount of unlabeled data can be helpful for improve learning performance of classifier. The key issue for active learn"
+        },
+        {
+          "doc": 612,
+          "act": 0.7372452616691589,
+          "text": "The results of the NOMAD crowd-sourced data analytics competition with Kaggle are out! The goal of this competition was for participants to develop or apply dat"
+        },
+        {
+          "doc": 1900,
+          "act": 0.18375645577907562,
+          "text": "Josh is a Lecturer and Research Fellow at the Australian National University Research School of Computer Science. His mission is to develop the tools and techni"
+        },
+        {
+          "doc": 1547,
+          "act": 0.09048090130090714,
+          "text": "SculptTrace | RealityVirtually Hackathon 2019 @ MIT Media Lab - Duration: 2 minutes, 1 second. Spaced Out - a short movie by NASA/Caltech JPL interns - Duration"
+        },
+        {
+          "doc": 1662,
+          "act": 0.0847892239689827,
+          "text": "P. Á. Szilágyi, D. M. Rogers, I. Zaiser, E. Callini, S. Turner, A. Borgschulte, A. Züttel, H. Geerlings, M. Hirscher, and B. Dam, \"Functionalised metal-organic "
+        }
+      ]
+    },
+    {
+      "feature_a": 2665,
+      "feature_b": 7063,
+      "pooled_corr": 0.9961590502887115,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 1770,
+          "act": 14.671201705932617,
+          "text": "The World Poker Tour announced on Wednesday that it has inked a partnership with partypoker LIVE to host as many as seven events in Europe and Canada for the ne"
+        },
+        {
+          "doc": 1093,
+          "act": 0.9606266021728516,
+          "text": "So, apparently the info I found about how tables start was wrong. At least one game didn't start despite having over the min number of players... Sorry. I start"
+        },
+        {
+          "doc": 1760,
+          "act": 0.7017958760261536,
+          "text": "Interfax news agency has just reported that the head of Fide has announced the creation of the International Chess Party! Datelines Kiev, the report states that"
+        },
+        {
+          "doc": 1875,
+          "act": 0.6009609699249268,
+          "text": "ᐅ Online Casino Thailand Paypal in November -> Nur kurze Zeit gratis! Lass den Spaß beginnen, im besten Online Casino Deutschlands! In Zukunft werde ich öfter i"
+        },
+        {
+          "doc": 1680,
+          "act": 0.3010706901550293,
+          "text": "Phew! Do you feel like an emotional husk after yesterday's big wave carnage and confounded trying to keep up with a blast of events happening at the same time? "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1770,
+          "act": 7.454639434814453,
+          "text": "The World Poker Tour announced on Wednesday that it has inked a partnership with partypoker LIVE to host as many as seven events in Europe and Canada for the ne"
+        },
+        {
+          "doc": 1303,
+          "act": 0.21288779377937317,
+          "text": "Lock in a great price for Lederer's living – rated 9.5 by recent guests! As always words can’t express enough how marvelous our stay was, would love to stay in "
+        },
+        {
+          "doc": 1875,
+          "act": 0.18354137241840363,
+          "text": "ᐅ Online Casino Thailand Paypal in November -> Nur kurze Zeit gratis! Lass den Spaß beginnen, im besten Online Casino Deutschlands! In Zukunft werde ich öfter i"
+        },
+        {
+          "doc": 1093,
+          "act": 0.12034294754266739,
+          "text": "So, apparently the info I found about how tables start was wrong. At least one game didn't start despite having over the min number of players... Sorry. I start"
+        },
+        {
+          "doc": 1348,
+          "act": 0.10762683302164078,
+          "text": "A group of IG Group clients who incurred millions in losses after betting against the Swiss franc are escalating their dispute with the company, alleging that t"
+        }
+      ]
+    },
+    {
+      "feature_a": 15255,
+      "feature_b": 39456,
+      "pooled_corr": 0.9951395805507807,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 1507,
+          "act": 37.006187438964844,
+          "text": "Come in and join the fiesta of music, and dancing in this Latin theme from IGT’s video slot game call Latino Machino. This game if full of fun and excitement wi"
+        },
+        {
+          "doc": 1266,
+          "act": 26.200410842895508,
+          "text": "If you’re a fan of fantasy-themed games, you’ll no doubt be very much enchanted by the Novomatic release, ‘Secret Forest’. It’s full of fairy, elf and gnome mag"
+        },
+        {
+          "doc": 769,
+          "act": 7.730632305145264,
+          "text": "Come test your luck on the best slot machine app in the app store. Great graphics make this app so fun to play. Test your luck with Pharaoh Slots! Bet, Spin and"
+        },
+        {
+          "doc": 1926,
+          "act": 2.1476197242736816,
+          "text": "Evoly is a cute match three game that lets you create your own World of cute little critters! Make fast matches and clear the board to earn money to spend on cr"
+        },
+        {
+          "doc": 632,
+          "act": 1.6214126348495483,
+          "text": "With EDEM eliquid you may find your heaven on earth! This irresistible, watermelony sweet vape with the intense taste of dragon fruit is tough to put down and i"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1507,
+          "act": 16.964923858642578,
+          "text": "Come in and join the fiesta of music, and dancing in this Latin theme from IGT’s video slot game call Latino Machino. This game if full of fun and excitement wi"
+        },
+        {
+          "doc": 1266,
+          "act": 10.811420440673828,
+          "text": "If you’re a fan of fantasy-themed games, you’ll no doubt be very much enchanted by the Novomatic release, ‘Secret Forest’. It’s full of fairy, elf and gnome mag"
+        },
+        {
+          "doc": 769,
+          "act": 2.1711647510528564,
+          "text": "Come test your luck on the best slot machine app in the app store. Great graphics make this app so fun to play. Test your luck with Pharaoh Slots! Bet, Spin and"
+        },
+        {
+          "doc": 1433,
+          "act": 0.18201032280921936,
+          "text": "Help Florence restore her familys fortune in Secret Diaries: Florence Ashford, a wonderful Hidden Object Puzzle Adventure game! In order to pay off her father"
+        },
+        {
+          "doc": 553,
+          "act": 0.1395045816898346,
+          "text": "Homer is back and is crazier than ever. He continues his killing spree in this Simpsons crazed shooting game. You get to kill the whole gang in this game, Bart,"
+        }
+      ]
+    },
+    {
+      "feature_a": 773,
+      "feature_b": 32911,
+      "pooled_corr": 0.9949378819083298,
+      "top_doc_overlap": 5,
+      "top_docs_a": [
+        {
+          "doc": 651,
+          "act": 14.762621879577637,
+          "text": "MK Moshe Feiglin in a Knesset committee meeting, next to MK Ahmad Tibi, in 2014. It appears Feiglin is on his way back to the Knesset, while Tibi just sank belo"
+        },
+        {
+          "doc": 1748,
+          "act": 4.394567489624023,
+          "text": "JERUSALEM (Ma'an) -- The Israeli police banned three Palestinian women and one youth from the Al-Aqsa Mosque, and another from entering occupied Jerusalem, on F"
+        },
+        {
+          "doc": 1408,
+          "act": 3.3401529788970947,
+          "text": "I write this from Ben Gurion airport, the Dan lounge to be exact, a perk left over from my pre-B’nai Abraham frequent flyer days. It’s late Thursday evening, bo"
+        },
+        {
+          "doc": 456,
+          "act": 1.2548749446868896,
+          "text": "osk@rbiddl3 lovely. Im very happy I stumbled over this by accident Favorite track: The Longest Road. Gal Leshem A display of different mellow moments. Favorite "
+        },
+        {
+          "doc": 1208,
+          "act": 0.6344096064567566,
+          "text": "Empower users to access all of their applications – Google apps, and Windows applications and desktops. All you need is a Chromebook or Chromebox and an Interne"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 651,
+          "act": 8.718472480773926,
+          "text": "MK Moshe Feiglin in a Knesset committee meeting, next to MK Ahmad Tibi, in 2014. It appears Feiglin is on his way back to the Knesset, while Tibi just sank belo"
+        },
+        {
+          "doc": 1748,
+          "act": 3.166844367980957,
+          "text": "JERUSALEM (Ma'an) -- The Israeli police banned three Palestinian women and one youth from the Al-Aqsa Mosque, and another from entering occupied Jerusalem, on F"
+        },
+        {
+          "doc": 1408,
+          "act": 1.528712272644043,
+          "text": "I write this from Ben Gurion airport, the Dan lounge to be exact, a perk left over from my pre-B’nai Abraham frequent flyer days. It’s late Thursday evening, bo"
+        },
+        {
+          "doc": 456,
+          "act": 0.7202064990997314,
+          "text": "osk@rbiddl3 lovely. Im very happy I stumbled over this by accident Favorite track: The Longest Road. Gal Leshem A display of different mellow moments. Favorite "
+        },
+        {
+          "doc": 1208,
+          "act": 0.48631614446640015,
+          "text": "Empower users to access all of their applications – Google apps, and Windows applications and desktops. All you need is a Chromebook or Chromebox and an Interne"
+        }
+      ]
+    },
+    {
+      "feature_a": 1609,
+      "feature_b": 61760,
+      "pooled_corr": 0.9939179569586359,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 807,
+          "act": 28.039682388305664,
+          "text": "Rooms are available from 17.00 PM day of arrival until 11.00 AM day of departure. Check-in is possible between 17.00 and 19.00 PM or by prior arrangement. For l"
+        },
+        {
+          "doc": 641,
+          "act": 2.237283706665039,
+          "text": "Kick start your Kashmir holiday tour with arrival at Srinagar. Here, you will meet a representative and get transferred to a Deluxe Houseboat. In the afternoon,"
+        },
+        {
+          "doc": 1104,
+          "act": 1.2513272762298584,
+          "text": "When you stay at Helios Hotel - All Inclusive in Side, you'll be near the beach and 13 minutes by foot from Side West Beach. Featured amenities include express "
+        },
+        {
+          "doc": 225,
+          "act": 1.1662126779556274,
+          "text": "Geweldige plek in een geweldige locatie! Are there any golf courses near by? And what are they called? Cuanto cuest una habitacion doble por dos noches?"
+        },
+        {
+          "doc": 258,
+          "act": 1.0124144554138184,
+          "text": "It was time to pack up camp and head north. Our drive to New Bern/Beaufort area was only 2 hours; allowing ample time to do some exploring! Our camping destinat"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 807,
+          "act": 7.839519500732422,
+          "text": "Rooms are available from 17.00 PM day of arrival until 11.00 AM day of departure. Check-in is possible between 17.00 and 19.00 PM or by prior arrangement. For l"
+        },
+        {
+          "doc": 1104,
+          "act": 0.20640431344509125,
+          "text": "When you stay at Helios Hotel - All Inclusive in Side, you'll be near the beach and 13 minutes by foot from Side West Beach. Featured amenities include express "
+        },
+        {
+          "doc": 304,
+          "act": 0.12865914404392242,
+          "text": "At MaxDumpster, we strive to bring you the best service at the best price available. We have a wide selection of dumpster sizes in stock in Poteet, TX, with fle"
+        },
+        {
+          "doc": 410,
+          "act": 0.07861756533384323,
+          "text": "Lock in a great price for Lesní pension – rated 8.2 by recent guests! The owner come to pick us up with his car anf was so kind, the room was clean and the view"
+        },
+        {
+          "doc": 641,
+          "act": 0.03995446860790253,
+          "text": "Kick start your Kashmir holiday tour with arrival at Srinagar. Here, you will meet a representative and get transferred to a Deluxe Houseboat. In the afternoon,"
+        }
+      ]
+    },
+    {
+      "feature_a": 14694,
+      "feature_b": 41409,
+      "pooled_corr": 0.9926766073236266,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 1407,
+          "act": 21.11823272705078,
+          "text": "2 Joahaz was twenty and three years old when he began to reign; and he reigned three months in Jerusalem. 3 And the king of Egypt deposed him at Jerusalem, and "
+        },
+        {
+          "doc": 965,
+          "act": 0.8898022174835205,
+          "text": "And He came to earth as God’s only Son. Now He is seated next to the Father in the heavenly sky. That He is God’s Son indeed. We must accept Him and do what He "
+        },
+        {
+          "doc": 572,
+          "act": 0.7906498908996582,
+          "text": "The question arises, of course, “Who are or what are they calling?” Some say that the cry is for the four horsemen to come forth. Others say that they are calli"
+        },
+        {
+          "doc": 541,
+          "act": 0.46274814009666443,
+          "text": "(Remember) when the angels said: \"O Mary, God gives you good news of a word from Him (God), whose name is the Messiah Jesus, son of Mary, revered in this world "
+        },
+        {
+          "doc": 776,
+          "act": 0.3712865710258484,
+          "text": "September’s Free Book of the Month is here. Get yours now. The story of Joseph offers a vivid picture of redemption, reconciliation, and forgiveness. But it’s s"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1407,
+          "act": 6.193989276885986,
+          "text": "2 Joahaz was twenty and three years old when he began to reign; and he reigned three months in Jerusalem. 3 And the king of Egypt deposed him at Jerusalem, and "
+        },
+        {
+          "doc": 541,
+          "act": 0.792582631111145,
+          "text": "(Remember) when the angels said: \"O Mary, God gives you good news of a word from Him (God), whose name is the Messiah Jesus, son of Mary, revered in this world "
+        },
+        {
+          "doc": 965,
+          "act": 0.5458931922912598,
+          "text": "And He came to earth as God’s only Son. Now He is seated next to the Father in the heavenly sky. That He is God’s Son indeed. We must accept Him and do what He "
+        },
+        {
+          "doc": 848,
+          "act": 0.18237616121768951,
+          "text": "41:33 And who is better in saying than he who invites to God, and does good works, and says: \"I am one of those who have submitted.\" Behold, all who pledge thei"
+        },
+        {
+          "doc": 572,
+          "act": 0.15701663494110107,
+          "text": "The question arises, of course, “Who are or what are they calling?” Some say that the cry is for the four horsemen to come forth. Others say that they are calli"
+        }
+      ]
+    },
+    {
+      "feature_a": 13377,
+      "feature_b": 34539,
+      "pooled_corr": 0.9922577342875178,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 1534,
+          "act": 14.841952323913574,
+          "text": "Ciclesonide is used to prevent and reduce the symptoms (wheezing and shortness of breath) caused by asthma. Controlling asthma symptoms may decrease time lost f"
+        },
+        {
+          "doc": 1907,
+          "act": 5.238039016723633,
+          "text": "You should not receive this vaccine if you have ever had a life-threatening allergic reaction to any vaccine containing Japanese encephalitis virus. What is Jap"
+        },
+        {
+          "doc": 1170,
+          "act": 1.46973717212677,
+          "text": "B. Braun Medical Inc. Recalls Dialog+ Hemodialysis Systems Due Defective Conductivity Sensors. Cook Medical Issues Global, Voluntary Recall of Catheters with Be"
+        },
+        {
+          "doc": 169,
+          "act": 1.194550633430481,
+          "text": "White cotton t-shirt, ribbed crewneck, back central seam detail, front graphic print, oversized fit. The model is 185 cm and wears size M. Composition: 100% cot"
+        },
+        {
+          "doc": 1881,
+          "act": 0.7814656496047974,
+          "text": "[AUTO](RC):[Counter Blast (1) & Put this unit into your soul] During your opponent's end phase, when an opponent's locked card is unlocked, if you have a «Link "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1534,
+          "act": 8.173136711120605,
+          "text": "Ciclesonide is used to prevent and reduce the symptoms (wheezing and shortness of breath) caused by asthma. Controlling asthma symptoms may decrease time lost f"
+        },
+        {
+          "doc": 1907,
+          "act": 3.1783483028411865,
+          "text": "You should not receive this vaccine if you have ever had a life-threatening allergic reaction to any vaccine containing Japanese encephalitis virus. What is Jap"
+        },
+        {
+          "doc": 1170,
+          "act": 0.9260109663009644,
+          "text": "B. Braun Medical Inc. Recalls Dialog+ Hemodialysis Systems Due Defective Conductivity Sensors. Cook Medical Issues Global, Voluntary Recall of Catheters with Be"
+        },
+        {
+          "doc": 1851,
+          "act": 0.43206655979156494,
+          "text": "Progressive Labs Acetyl-L-Carnitine 500mg 60c, the acetyl ester and biologically active form of L-Carnitine, is an effective delivery form for both L-Carnitine "
+        },
+        {
+          "doc": 621,
+          "act": 0.17054355144500732,
+          "text": "This specification covers the requirements for hose and hose assemblies (see 6.9) which supply breathing oxygen to aircrews during the operation of high perform"
+        }
+      ]
+    },
+    {
+      "feature_a": 3886,
+      "feature_b": 35101,
+      "pooled_corr": 0.9917978217098414,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 1902,
+          "act": 28.649038314819336,
+          "text": "Per Archi was composed in 1983 and commissioned by the former “Chamber Orchestra of Heist”. Per Archi is a work in two movements, in which the composer pays tri"
+        },
+        {
+          "doc": 1465,
+          "act": 22.216360092163086,
+          "text": "Composed by Dmitri Shostakovich (1906-1975). Op. 102. Piano duet book (requires 2 copies for performance) for piano duet (2 pianos, 4 hands). With solo part and"
+        },
+        {
+          "doc": 1753,
+          "act": 3.681597948074341,
+          "text": "The collection Arias,, arr. represents a specific aggregation or gathering of resources found in City of Westminster Libraries. 1 Items in the Collection Arias,"
+        },
+        {
+          "doc": 1239,
+          "act": 1.982816457748413,
+          "text": "Proud modern-day Vikings, the Lofoten Islanders make millions from cod and their cows give so much milk they have to wear bras. Mythical creatures must surely i"
+        },
+        {
+          "doc": 1638,
+          "act": 1.7346850633621216,
+          "text": "Coláiste Chiaráin are delighted to announce their forthcoming production of ‘The Addams Family- The Musical’. Over the years Coláiste Chiaráin has been renowned"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1902,
+          "act": 5.631768703460693,
+          "text": "Per Archi was composed in 1983 and commissioned by the former “Chamber Orchestra of Heist”. Per Archi is a work in two movements, in which the composer pays tri"
+        },
+        {
+          "doc": 1465,
+          "act": 3.4513463973999023,
+          "text": "Composed by Dmitri Shostakovich (1906-1975). Op. 102. Piano duet book (requires 2 copies for performance) for piano duet (2 pianos, 4 hands). With solo part and"
+        },
+        {
+          "doc": 1753,
+          "act": 0.7367122769355774,
+          "text": "The collection Arias,, arr. represents a specific aggregation or gathering of resources found in City of Westminster Libraries. 1 Items in the Collection Arias,"
+        },
+        {
+          "doc": 1239,
+          "act": 0.15344038605690002,
+          "text": "Proud modern-day Vikings, the Lofoten Islanders make millions from cod and their cows give so much milk they have to wear bras. Mythical creatures must surely i"
+        },
+        {
+          "doc": 991,
+          "act": 0.030907202512025833,
+          "text": "Xoc presents a tribute to Banjo Kazooie, Xoc 'N' Swop! The eclectic musicianship of Xoc is on full display as he takes on another entire platforming soundtrack."
+        }
+      ]
+    },
+    {
+      "feature_a": 11758,
+      "feature_b": 61635,
+      "pooled_corr": 0.9907467247422918,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 611,
+          "act": 20.57649803161621,
+          "text": "3 Wives, in the same way submit yourselves to your own husbands so that, if any of them do not believe the word, they may be won over without words by the behav"
+        },
+        {
+          "doc": 479,
+          "act": 19.734027862548828,
+          "text": "God didn’t set us up for an angry rejection but for salvation by our Master, Jesus Christ. He died for us, a death that triggered life…So speak encouraging word"
+        },
+        {
+          "doc": 965,
+          "act": 2.585026502609253,
+          "text": "And He came to earth as God’s only Son. Now He is seated next to the Father in the heavenly sky. That He is God’s Son indeed. We must accept Him and do what He "
+        },
+        {
+          "doc": 1126,
+          "act": 1.6510237455368042,
+          "text": "When we hear the word patience, we probably think of the virtue that enables us to wait. That’s one way of looking at it, but Spirit-led patience is also much m"
+        },
+        {
+          "doc": 1558,
+          "act": 1.567665934562683,
+          "text": "Come worship with us every Sunday at 3:00pm @ The Cookery. Learn about who we are, our story and what God has done. It’s a privilege to give back what God has g"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 611,
+          "act": 5.837495803833008,
+          "text": "3 Wives, in the same way submit yourselves to your own husbands so that, if any of them do not believe the word, they may be won over without words by the behav"
+        },
+        {
+          "doc": 479,
+          "act": 4.64402961730957,
+          "text": "God didn’t set us up for an angry rejection but for salvation by our Master, Jesus Christ. He died for us, a death that triggered life…So speak encouraging word"
+        },
+        {
+          "doc": 965,
+          "act": 0.7300841808319092,
+          "text": "And He came to earth as God’s only Son. Now He is seated next to the Father in the heavenly sky. That He is God’s Son indeed. We must accept Him and do what He "
+        },
+        {
+          "doc": 1126,
+          "act": 0.4026074707508087,
+          "text": "When we hear the word patience, we probably think of the virtue that enables us to wait. That’s one way of looking at it, but Spirit-led patience is also much m"
+        },
+        {
+          "doc": 848,
+          "act": 0.08374790102243423,
+          "text": "41:33 And who is better in saying than he who invites to God, and does good works, and says: \"I am one of those who have submitted.\" Behold, all who pledge thei"
+        }
+      ]
+    },
+    {
+      "feature_a": 8826,
+      "feature_b": 1104,
+      "pooled_corr": 0.9902511991204731,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 1023,
+          "act": 17.47109603881836,
+          "text": "US job growth likely rebounded in October, with wages expected to have recorded their largest annual gain in 9-1/2 years, pointing to further labour market tigh"
+        },
+        {
+          "doc": 1201,
+          "act": 3.9254751205444336,
+          "text": "Attendees visit the Vodafone Group pavilion at the Mobile World Congress in Barcelona, Spain, March 4, 2015. Vodafone, one of the world's biggest telecoms compa"
+        },
+        {
+          "doc": 1945,
+          "act": 3.6508758068084717,
+          "text": "Dapatkah Tesla Ungguli Pasar Mobil China? Tesla Inc met its production target of 1,000 Model 3 cars per day, automotive news website Electrek reported, citing C"
+        },
+        {
+          "doc": 1470,
+          "act": 1.979981780052185,
+          "text": "Federal Reserve Bank of Minneapolis President Narayana Kocherlakota will step down when his current term ends in February 2016. The Federal Reserve Bank of Minn"
+        },
+        {
+          "doc": 1026,
+          "act": 1.7196919918060303,
+          "text": "Alan Beattie reported on Friday at the Financial Times Online that, “Brazil said on Thursday that it would suspend sanctions on US imports in retaliation for il"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1023,
+          "act": 8.022542953491211,
+          "text": "US job growth likely rebounded in October, with wages expected to have recorded their largest annual gain in 9-1/2 years, pointing to further labour market tigh"
+        },
+        {
+          "doc": 1945,
+          "act": 1.6020770072937012,
+          "text": "Dapatkah Tesla Ungguli Pasar Mobil China? Tesla Inc met its production target of 1,000 Model 3 cars per day, automotive news website Electrek reported, citing C"
+        },
+        {
+          "doc": 1201,
+          "act": 1.5920017957687378,
+          "text": "Attendees visit the Vodafone Group pavilion at the Mobile World Congress in Barcelona, Spain, March 4, 2015. Vodafone, one of the world's biggest telecoms compa"
+        },
+        {
+          "doc": 1470,
+          "act": 0.500328540802002,
+          "text": "Federal Reserve Bank of Minneapolis President Narayana Kocherlakota will step down when his current term ends in February 2016. The Federal Reserve Bank of Minn"
+        },
+        {
+          "doc": 759,
+          "act": 0.31539037823677063,
+          "text": "Royal Dutch Shell Plc and Equinor ASA said they’re committed to a project that will allow the export of natural gas from Tanzania. Proposals to build a $30 bill"
+        }
+      ]
+    },
+    {
+      "feature_a": 15075,
+      "feature_b": 29978,
+      "pooled_corr": 0.9901912739600522,
+      "top_doc_overlap": 4,
+      "top_docs_a": [
+        {
+          "doc": 1705,
+          "act": 34.65931701660156,
+          "text": "Every Sunday all children (babies through 6th grade) experience safe, age-appropriate environments where the Bible is taught in a creative and relevant way. We "
+        },
+        {
+          "doc": 1060,
+          "act": 34.08514404296875,
+          "text": "If you are interested in knowing more about New Life Community Church or becoming a member, we invite you to join us April 15 at 10:30am in the Meeting Room for"
+        },
+        {
+          "doc": 1383,
+          "act": 23.41851234436035,
+          "text": "Lutheran Church of the Cross (LCC) is an ELCA congregation in the heart of the Brainerd Lakes Area, with a membership of 1,570 and an average weekly worship att"
+        },
+        {
+          "doc": 1558,
+          "act": 22.148826599121094,
+          "text": "Come worship with us every Sunday at 3:00pm @ The Cookery. Learn about who we are, our story and what God has done. It’s a privilege to give back what God has g"
+        },
+        {
+          "doc": 228,
+          "act": 14.721623420715332,
+          "text": "Join us for crafts, egg hunt, music, candy, Bible Story, a snack and the Easter Bunny! Celebrate the resurrection of Jesus with us at BOHBC! Women of Joy, Pigeo"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1060,
+          "act": 10.436700820922852,
+          "text": "If you are interested in knowing more about New Life Community Church or becoming a member, we invite you to join us April 15 at 10:30am in the Meeting Room for"
+        },
+        {
+          "doc": 1705,
+          "act": 8.87034797668457,
+          "text": "Every Sunday all children (babies through 6th grade) experience safe, age-appropriate environments where the Bible is taught in a creative and relevant way. We "
+        },
+        {
+          "doc": 1558,
+          "act": 7.56093692779541,
+          "text": "Come worship with us every Sunday at 3:00pm @ The Cookery. Learn about who we are, our story and what God has done. It’s a privilege to give back what God has g"
+        },
+        {
+          "doc": 1383,
+          "act": 7.029928207397461,
+          "text": "Lutheran Church of the Cross (LCC) is an ELCA congregation in the heart of the Brainerd Lakes Area, with a membership of 1,570 and an average weekly worship att"
+        },
+        {
+          "doc": 918,
+          "act": 4.977146148681641,
+          "text": "Adoracion en español. Worship in Spanish. Criss Chrissman and Helen Wooldridge are the contacts for this event. This group meets the 3rd Thursday of each month."
+        }
+      ]
+    },
+    {
+      "feature_a": 11680,
+      "feature_b": 34888,
+      "pooled_corr": 0.9895619171384741,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 1958,
+          "act": 29.70310401916504,
+          "text": "On this particular page you will find the solution to Egg-shaped crossword clue crossword clue. This clue was last seen on New York Times Crossword on February "
+        },
+        {
+          "doc": 686,
+          "act": 29.529632568359375,
+          "text": "Today's crossword puzzle clue is a cryptic one: Type of party – ring mobile phone to get through. We will try to find the right answer to this particular crossw"
+        },
+        {
+          "doc": 1999,
+          "act": 5.413956165313721,
+          "text": "Is ems valid for Scrabble? Words With Friends? Other games? A river of northwest Germany flowing about 335 km (208 mi) to the North Sea at the Netherlands borde"
+        },
+        {
+          "doc": 471,
+          "act": 0.90931236743927,
+          "text": "Here you will find solutions for all your mobile power supply needs to provide power on the go for all your mobile devices such as smartphones, laptops, tablets"
+        },
+        {
+          "doc": 217,
+          "act": 0.4542072117328644,
+          "text": "1. Changed by pressure so as to be no longer straight; crooked; as, a bent pin; a bent lever. 2. Strongly inclined toward something, so as to be resolved, deter"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1958,
+          "act": 9.001035690307617,
+          "text": "On this particular page you will find the solution to Egg-shaped crossword clue crossword clue. This clue was last seen on New York Times Crossword on February "
+        },
+        {
+          "doc": 686,
+          "act": 6.9033284187316895,
+          "text": "Today's crossword puzzle clue is a cryptic one: Type of party – ring mobile phone to get through. We will try to find the right answer to this particular crossw"
+        },
+        {
+          "doc": 1999,
+          "act": 1.8105741739273071,
+          "text": "Is ems valid for Scrabble? Words With Friends? Other games? A river of northwest Germany flowing about 335 km (208 mi) to the North Sea at the Netherlands borde"
+        },
+        {
+          "doc": 1433,
+          "act": 0.43563544750213623,
+          "text": "Help Florence restore her familys fortune in Secret Diaries: Florence Ashford, a wonderful Hidden Object Puzzle Adventure game! In order to pay off her father"
+        },
+        {
+          "doc": 245,
+          "act": 0.3249741494655609,
+          "text": "The new level pack for Dummy Defense has been released. Instruments of Death features over 30 levels of completely new and unique puzzles. Protect Melvin as he "
+        }
+      ]
+    },
+    {
+      "feature_a": 14918,
+      "feature_b": 65,
+      "pooled_corr": 0.9894222869043263,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 232,
+          "act": 17.807376861572266,
+          "text": "Enjoy your family. Enjoy your friends. Make lots of special memories."
+        },
+        {
+          "doc": 1079,
+          "act": 3.7861955165863037,
+          "text": "Coming to a show and need a little help finding your way? Here’s the information you’ll need. We look forward to your visit, and enjoy the show."
+        },
+        {
+          "doc": 1787,
+          "act": 2.483497381210327,
+          "text": "When you are enjoying an afternoon with family or entertaining friends, the Seattle Coffee Table is conveniently sized and capable of accommodating much more th"
+        },
+        {
+          "doc": 1413,
+          "act": 2.0677900314331055,
+          "text": "This is my 19th year in teaching, the 8th at Fairview. My daughter is a junior this year at CU Boulder. I enjoy all things outdoors: climbing, biking, skiing..."
+        },
+        {
+          "doc": 485,
+          "act": 1.9736361503601074,
+          "text": "Blac Chyna and Rob Kardashian will certainly have their hands full on their new reality show when their baby girl arrives. But they don’t quite have to worry ab"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 232,
+          "act": 5.549513339996338,
+          "text": "Enjoy your family. Enjoy your friends. Make lots of special memories."
+        },
+        {
+          "doc": 1079,
+          "act": 1.2042077779769897,
+          "text": "Coming to a show and need a little help finding your way? Here’s the information you’ll need. We look forward to your visit, and enjoy the show."
+        },
+        {
+          "doc": 1787,
+          "act": 0.8219591379165649,
+          "text": "When you are enjoying an afternoon with family or entertaining friends, the Seattle Coffee Table is conveniently sized and capable of accommodating much more th"
+        },
+        {
+          "doc": 177,
+          "act": 0.6380457878112793,
+          "text": "Want to enjoy your drink at any time? Apparently you need a portable cup such as the collapsible shot glass. If you’re curious, let’s go on checking. As we can "
+        },
+        {
+          "doc": 161,
+          "act": 0.6107105016708374,
+          "text": "Everyone has their own secret destinations to enjoy their emotional feelings whether it may be adults or children or even old peoples. Taking rest with a peacef"
+        }
+      ]
+    },
+    {
+      "feature_a": 6895,
+      "feature_b": 38434,
+      "pooled_corr": 0.9891447989893244,
+      "top_doc_overlap": 1,
+      "top_docs_a": [
+        {
+          "doc": 1945,
+          "act": 14.617606163024902,
+          "text": "Dapatkah Tesla Ungguli Pasar Mobil China? Tesla Inc met its production target of 1,000 Model 3 cars per day, automotive news website Electrek reported, citing C"
+        },
+        {
+          "doc": 1877,
+          "act": 1.0066181421279907,
+          "text": "I believe that humans transferring their minds to digital form is inevitable. In fact, I think it’s precisely the way in which we as a species will achieve immo"
+        },
+        {
+          "doc": 971,
+          "act": 0.9572935104370117,
+          "text": "President Trump broke his silence on Twitter on Sunday after special counsel Robert Mueller submitted his report to the Justice Department. In a pair of tweets "
+        },
+        {
+          "doc": 291,
+          "act": 0.7702586650848389,
+          "text": "Is an election recount a good idea? The Green Party’s Jill Stein is pushing for election recounts in three battleground states. Why and what could come of the e"
+        },
+        {
+          "doc": 84,
+          "act": 0.7343165278434753,
+          "text": "The Arlington County Board plans to vote Saturday afternoon on giving Amazon $23 million and other incentives to build a headquarters campus in Crystal City, bu"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1945,
+          "act": 6.754579067230225,
+          "text": "Dapatkah Tesla Ungguli Pasar Mobil China? Tesla Inc met its production target of 1,000 Model 3 cars per day, automotive news website Electrek reported, citing C"
+        },
+        {
+          "doc": 398,
+          "act": 0.1325659602880478,
+          "text": "Apple has announced a host of services from Apple TV+ for video streaming to a credit card offering to disrupt the space. Also a new offering in the news and ga"
+        },
+        {
+          "doc": 21,
+          "act": 0.015374861657619476,
+          "text": "Hurrah! A cooperative worldwide effort to rescue Thailand children trapped in a flooded cave rescued them all in less than 3 weeks from the time they entered th"
+        },
+        {
+          "doc": 1272,
+          "act": 0.0027903469745069742,
+          "text": "Viking Ocean Cruises, which two weeks ago pulled an order for ocean-going cruise ships from a French shipyard, now plans to build the ships at the Italian yard "
+        },
+        {
+          "doc": 374,
+          "act": 0.001512289047241211,
+          "text": "Nov 15, 2018 in \"Guardians of the Galaxy\" Disney has today released new artwork of the ride vehicles that will be part of the new Guardians of the Galaxy coaste"
+        }
+      ]
+    },
+    {
+      "feature_a": 9492,
+      "feature_b": 2371,
+      "pooled_corr": 0.9883307632002716,
+      "top_doc_overlap": 5,
+      "top_docs_a": [
+        {
+          "doc": 1792,
+          "act": 14.345723152160645,
+          "text": "WALDWICK, N.J. -- Thomas J. McLaughlin, of Waldwick, died Thursday, Nov. 17. He was 86. Born in the Bronx, in 1930, he was a longtime resident of Waldwick. He w"
+        },
+        {
+          "doc": 625,
+          "act": 11.81812572479248,
+          "text": "View Full Information → Sydney, Stanley H. Dianne (Morretti) Dingolo, of Saugus, the retired Principal of the Cheverus School in Malden, died Saturday morning a"
+        },
+        {
+          "doc": 1257,
+          "act": 11.376928329467773,
+          "text": "Frances Carolyn Sedberry, 66 of Middleburg, FL passed away Thursday, May 17, 2018. Mrs. Sedberry was born in Baton Rouge, LA to the late Cleavern and Betty Grim"
+        },
+        {
+          "doc": 939,
+          "act": 7.47636079788208,
+          "text": "numerous aunts, uncles and cousins. She attended Shanksville Stonycreek High School and was a member of St. Paul's Lutheran Church, Buckstown. Family will recei"
+        },
+        {
+          "doc": 723,
+          "act": 1.6399480104446411,
+          "text": "Georgetown — Sally Long, a long-time resident of the Georgetown area, died Wednesday the 18th of June at Sun Bridge Healthcare Center. Born in 1928 in Madison, "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1792,
+          "act": 5.081940650939941,
+          "text": "WALDWICK, N.J. -- Thomas J. McLaughlin, of Waldwick, died Thursday, Nov. 17. He was 86. Born in the Bronx, in 1930, he was a longtime resident of Waldwick. He w"
+        },
+        {
+          "doc": 1257,
+          "act": 4.5959248542785645,
+          "text": "Frances Carolyn Sedberry, 66 of Middleburg, FL passed away Thursday, May 17, 2018. Mrs. Sedberry was born in Baton Rouge, LA to the late Cleavern and Betty Grim"
+        },
+        {
+          "doc": 625,
+          "act": 4.092232704162598,
+          "text": "View Full Information → Sydney, Stanley H. Dianne (Morretti) Dingolo, of Saugus, the retired Principal of the Cheverus School in Malden, died Saturday morning a"
+        },
+        {
+          "doc": 939,
+          "act": 3.796067953109741,
+          "text": "numerous aunts, uncles and cousins. She attended Shanksville Stonycreek High School and was a member of St. Paul's Lutheran Church, Buckstown. Family will recei"
+        },
+        {
+          "doc": 723,
+          "act": 1.0553241968154907,
+          "text": "Georgetown — Sally Long, a long-time resident of the Georgetown area, died Wednesday the 18th of June at Sun Bridge Healthcare Center. Born in 1928 in Madison, "
+        }
+      ]
+    },
+    {
+      "feature_a": 9002,
+      "feature_b": 11705,
+      "pooled_corr": 0.9876467162698636,
+      "top_doc_overlap": 3,
+      "top_docs_a": [
+        {
+          "doc": 1191,
+          "act": 20.024930953979492,
+          "text": "3 Defenders (O’s) set up triangle zone, lead point towards where the ball is, denying any passes to attackers in the “dangerous space” - central area inside 3 A"
+        },
+        {
+          "doc": 836,
+          "act": 1.5935651063919067,
+          "text": "Bowling balls at painted on wall wickets. Kicking bottles through posts in the backstreet. Clutching all of our football tickets. From dawn until dusk no dream "
+        },
+        {
+          "doc": 37,
+          "act": 1.2868419885635376,
+          "text": "2 New England NE 16 1 plays -1 yards 0:07 End of half. 4 Pittsburgh Pit 37 2 plays -1 yards 1:01 End of game. 2 8 opp29 1:57 Pit Bleier 0 Bas Draw/SI 4-3 sZ Run"
+        },
+        {
+          "doc": 827,
+          "act": 1.082319736480713,
+          "text": "The Washington Wizards practiced and watched plenty of film Friday after losing the season opener at home to the Miami Heat the night before, coming to one conc"
+        },
+        {
+          "doc": 1293,
+          "act": 0.3999857008457184,
+          "text": "Cam Newton #1 of the Carolina Panthers indicates a first down against the New York Giants in the fourth quarter during their game at Bank of America Stadium on "
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1191,
+          "act": 5.105376243591309,
+          "text": "3 Defenders (O’s) set up triangle zone, lead point towards where the ball is, denying any passes to attackers in the “dangerous space” - central area inside 3 A"
+        },
+        {
+          "doc": 37,
+          "act": 1.0561097860336304,
+          "text": "2 New England NE 16 1 plays -1 yards 0:07 End of half. 4 Pittsburgh Pit 37 2 plays -1 yards 1:01 End of game. 2 8 opp29 1:57 Pit Bleier 0 Bas Draw/SI 4-3 sZ Run"
+        },
+        {
+          "doc": 836,
+          "act": 0.5856345891952515,
+          "text": "Bowling balls at painted on wall wickets. Kicking bottles through posts in the backstreet. Clutching all of our football tickets. From dawn until dusk no dream "
+        },
+        {
+          "doc": 586,
+          "act": 0.15162110328674316,
+          "text": "The armchair officials will have to find something else to do with their time in 2018, as the USGA has proclaimed that it will no longer take the calls of home "
+        },
+        {
+          "doc": 1294,
+          "act": 0.07456398010253906,
+          "text": "How to win more tennis matches is the 23rd in a series of reprinted articles written by pro tennis coach Jay Davern. The two pages below is the original “Home G"
+        }
+      ]
+    },
+    {
+      "feature_a": 13631,
+      "feature_b": 51006,
+      "pooled_corr": 0.9870009966219291,
+      "top_doc_overlap": 5,
+      "top_docs_a": [
+        {
+          "doc": 1500,
+          "act": 32.39472579956055,
+          "text": "Yardley London Yardley London Morning Dew, Charming Princess Pack of 2 Deodorants Yardley London Deodorants For Women, A light scent with citrus top notes, comb"
+        },
+        {
+          "doc": 1001,
+          "act": 9.174470901489258,
+          "text": "Roger & Gallet Thé Vert Perfumed Soap 100 g order online. The Roger & Gallet Thé Vert Perfumed Soap is one for him and her. Roger & Gallet soaps are produced by"
+        },
+        {
+          "doc": 632,
+          "act": 7.016343116760254,
+          "text": "With EDEM eliquid you may find your heaven on earth! This irresistible, watermelony sweet vape with the intense taste of dragon fruit is tough to put down and i"
+        },
+        {
+          "doc": 1722,
+          "act": 3.8098106384277344,
+          "text": "NicQuid Bahama Blizzard will rival any frozen tropical cocktail. Better than sitting on a beach with a breeze in your hair. It is a perfect paring of orange, cr"
+        },
+        {
+          "doc": 1130,
+          "act": 2.8895370960235596,
+          "text": "Love is when a girl puts on perfume and a boy puts on shaving cologne and they go out and smell each other. Love is when you go out and give somebody most of yo"
+        }
+      ],
+      "top_docs_b": [
+        {
+          "doc": 1500,
+          "act": 7.157083034515381,
+          "text": "Yardley London Yardley London Morning Dew, Charming Princess Pack of 2 Deodorants Yardley London Deodorants For Women, A light scent with citrus top notes, comb"
+        },
+        {
+          "doc": 1001,
+          "act": 3.0769710540771484,
+          "text": "Roger & Gallet Thé Vert Perfumed Soap 100 g order online. The Roger & Gallet Thé Vert Perfumed Soap is one for him and her. Roger & Gallet soaps are produced by"
+        },
+        {
+          "doc": 632,
+          "act": 1.9261047840118408,
+          "text": "With EDEM eliquid you may find your heaven on earth! This irresistible, watermelony sweet vape with the intense taste of dragon fruit is tough to put down and i"
+        },
+        {
+          "doc": 1722,
+          "act": 1.3042072057724,
+          "text": "NicQuid Bahama Blizzard will rival any frozen tropical cocktail. Better than sitting on a beach with a breeze in your hair. It is a perfect paring of orange, cr"
+        },
+        {
+          "doc": 1130,
+          "act": 0.8729875087738037,
+          "text": "Love is when a girl puts on perfume and a boy puts on shaving cologne and they go out and smell each other. Love is when you go out and give somebody most of yo"
+        }
+      ]
+    }
+  ],
+  "mean_top_doc_overlap": 3.35
+}

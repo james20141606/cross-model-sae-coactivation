@@ -1,0 +1,16 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{The same control, under a Procrustes-aligned pairing fitted on a disjoint document half.} A rotation account of cross-model correspondence~\citep{polymorphism_rotation2026} predicts that pairing in an orthogonally aligned coordinate system should recover the correspondence at least as well as raw correlation pairing, and that the standard universality metric is blind to the failure it documents. We test that here: the alignment is fitted over the \emph{shared document axis} on a random half of the $20{,}000$ C4 documents ($Q=UV^\top$ from the SVD of $U_B^\top U_A$, rank $64$, split seed $0$, both fixed a priori), so no feature correspondence is assumed by the fit; pairs are mutual nearest neighbors by cosine in that aligned space; and every quantity below --- raw excess, residualization, null --- is computed on the \emph{held-out} half only. Everything else matches \Cref{tab:lextok}. \emph{ours}: the mutual-NN $R_{\text{lex}}$ on the same cell. Registered at \texttt{3be9b7d} with branches P1--P4 before the pairing existed; the selftest proves it collapses on purely lexical synthetic data and survives on a genuine shared latent. Receipts: \texttt{proclex\_lextok20k\_*.json}.}
+\label{tab:proclex}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrrrr}
+\toprule
+Cell & band & $k$ & pairs & ret.\ real & ret.\ shuf & $R_{\text{lex}}$ & ours \\
+\midrule
+Qwen3-1.7B $\leftrightarrow$ Gemma2-2B & strong & $4096$ & $609$ & $0.928$ & $0.999$ & $0.928$ & $0.933$ \\
+Gemma2-9B $\leftrightarrow$ Mistral-7B & median & $4096$ & $491$ & $0.920$ & $1.000$ & $0.920$ & $0.942$ \\
+Llama-3.2-1B $\leftrightarrow$ Mistral-7B & weak & $4096$ & $335$ & $0.885$ & $1.000$ & $0.885$ & $0.918$ \\
+\bottomrule
+\end{tabular}
+\end{table}

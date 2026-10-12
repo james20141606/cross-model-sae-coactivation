@@ -1,0 +1,15 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{Token-aligned sharing ($S_1$) and current-word conditioning arms ($S_2$; the leakage-clean $R_{\text{tok}}^{\text{clean}}$ is the verdict-bearing arm)} (pre-registered; $20{,}000$ C4 documents, ${\approx}940{,}000$ aligned word occurrences per cell, $n_{\text{perm}}{=}2{,}000$). \emph{pairs}: frozen mutual-NN pairs recovered by the pooled-reconstruction gate G0 (column match $r\ge0.999$). $S_1$: mean frozen-pair correlation of within-document-centered word-level activations (a quantity no document-pooled statistic can contain); its within-document order-shuffle null N1 has mean ${\approx}0$, sd $\le6\times10^{-4}$. $S_2$: the same after fixed effects over lowercased, punctuation-stripped word types with $\ge20$ occurrences, against a within-type derangement null N3 (first design: reported, not verdict-bearing --- selection-leakage caveat, \Cref{app:tokalign}). $R_{\text{tok}}$: support-matched ratio of the $S_2$ excess to the $S_1$ excess on the same retained occurrences (first design; scored-pair sets are per-transformation, no common mask asserted). $R_{\text{tok}}^{\text{clean}}$: the same ratio under the registered leakage-clean rerun (amendments A3-EXEC$+$A4: pair selection and evaluation on disjoint $10{,}000$-document halves with the candidate universe re-screened on the selection half over the full dictionary; a gated token stream with a per-cell aliasing audit ($0/1/0$ affected occurrences); converged joint document$+$type fixed effects re-applied under every null draw; one asserted common scored-pair mask, $n_{\text{scored}}{=}813/819/522$). $S_1^{\text{clean}}$: the S1 excess under that same design (the verdict-bearing S1). Both $p_{\text{N3}}$ at the floor; receipts \texttt{tokaclean20k\_*.json}. $S_2^{c}$: within-document centering \emph{then} type demeaning (excess; the projections do not commute). \emph{bigram}: excess after demeaning within (preceding-word-type, word-type) cells. Every primary $p$ at the $1/2001$ floor; sensitivity arms ($S_2^{c}$, bigram) at their $1/501$ floor.}
+\label{tab:tokalign}
+\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrrrrrr}
+\toprule
+Cell & band & pairs & $S_1$ & $S_1^{\text{clean}}$ & $S_2$ & $R_{\text{tok}}$ & $R_{\text{tok}}^{\text{clean}}$ & $S_2^{c}$ & bigram \\
+\midrule
+Qwen3-1.7B$\leftrightarrow$Gemma-2-2B & strong & $822/822$ & $0.524$ & $0.522$ & $0.546$ & $1.06$ & $0.925$ & $+0.484$ & $+0.525$ \\
+Gemma-2-9B$\leftrightarrow$Mistral-7B & median & $806/806$ & $0.408$ & $0.398$ & $0.527$ & $1.30$ & $0.986$ & $+0.403$ & $+0.533$ \\
+Llama-3.2-1B$\leftrightarrow$Mistral-7B & weak & $520/520$ & $0.342$ & $0.335$ & $0.438$ & $1.31$ & $0.977$ & $+0.331$ & $+0.439$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,28 @@
+Cross-model matches of sparse-autoencoder (SAE) features have been judged against random
+pairings or neuron baselines, neither of which re-runs the pairing rule. Gemma-2-9B and Mistral-7B,
+from different families with different tokenizers, each have a released-SAE obituary feature, and
+the two share their top five documents: is it the same feature? Our controls support a more specific answer: matched features of these two models respond
+to the same inputs beyond chance and pair selection, and that shared response survives the topic
+and vocabulary controls we ran; this is coactivation, not feature identity. Such matches are cheap: two sets of
+$1{,}500$ features reciprocally match about half of each other under idealized chance, and any
+document property both models encode (length, topic, vocabulary) can make features coactivate. We
+run the pairing rule inside a document-permutation null, score frozen pairs on documents the
+rule never saw, and add controls that each fix one named nuisance. In a
+non-pre-registered follow-up, all nine cross-family cells (Gemma-2, Mistral, Qwen3, Llama-3)
+hold on disjoint C4 text ($p=1/2001$ each, Bonferroni over the 17-cell roster). The sharing
+survives length- and coarse topic-matched nulls (one cell); on three representative
+cells, every control leaves at least $0.88$ of the excess its reference arm leaves. Regressing out a unigram TF-IDF
+lexical model, which a pre-registered gate shows is not inert, leaves $92$--$94\%$ of the
+excess: the shared-vocabulary explanation is narrowed, not closed. A registered token-aligned
+test shows the sharing is not reducible to document means (it beats a within-document
+word-order shuffle; mean pair correlation $0.522$/$0.398$/$0.335$) and, in a leakage-clean design, keeps
+$R_{\text{tok}}^{\text{clean}}{=}0.925$--$0.986$ of its token-level excess after conditioning on
+the document and the current word. The claim does not extend to compositional or syntactic
+sharing, a capability trend (swapping only one model's SAE width
+moves its cell from $z=22.1$ to $14.1$), or shared computation (both cross-model
+ablation probes were inconclusive). The controls can say no: they rejected three decisive-looking
+secondary results, all reported (a cross-lingual metric that tracks network depth rather than
+language, its depth-corrected residual, and a Pythia-70M$\leftrightarrow$Mistral-7B match null on natural text).
+Cross-model matches should be scored against a null that re-runs the matching, on documents
+the matching never saw, one nuisance per control; code, nulls, receipts and
+registrations are released at \coderepo.

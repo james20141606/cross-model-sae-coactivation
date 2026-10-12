@@ -1,0 +1,110 @@
+{
+ "prereg": "notes/PREREG_lan_filters_20260924.md (commit 4cbd289)",
+ "G0": {
+  "gemma2-9b_T": {
+   "pass": true,
+   "d_rsa": -0.0009662210941314697,
+   "d_svcca": -0.007439464330673218
+  },
+  "gemma2-9b_C": {
+   "pass": true,
+   "d_rsa": 0.001597970724105835,
+   "d_svcca": 0.003828287124633789
+  },
+  "qwen3-1.7b_T": {
+   "pass": true,
+   "d_rsa": -0.0019526705145835876,
+   "d_svcca": -0.0016426444053649902
+  },
+  "qwen3-1.7b_C": {
+   "pass": true,
+   "d_rsa": 0.001786842942237854,
+   "d_svcca": 0.0012206733226776123
+  },
+  "pythia70m_T": {
+   "pass": true,
+   "d_rsa": -0.0031096935272216797,
+   "d_svcca": -0.012774080038070679
+  },
+  "pythia70m_C": {
+   "pass": true,
+   "d_rsa": 0.003170996904373169,
+   "d_svcca": -0.0007520616054534912
+  },
+  "gpt2_T": {
+   "pass": true,
+   "d_rsa": -3.1668925657868385e-05,
+   "d_svcca": -0.0007433444261550903
+  },
+  "gpt2_C": {
+   "pass": true,
+   "d_rsa": 0.0,
+   "d_svcca": -0.010999724268913269
+  }
+ },
+ "G0_n_fail": 0,
+ "G0_max_abs_delta": 0.012774080038070679,
+ "D1": {
+  "decision": "mixed",
+  "per_cell": {
+   "gemma2-9b_T": "neither (gap>=0.02, share<0.10)",
+   "gemma2-9b_C": "removed (perm not estimable)",
+   "qwen3-1.7b_T": "neither (gap>=0.02, share<0.10)",
+   "qwen3-1.7b_C": "removed (perm not estimable)",
+   "pythia70m_T": "persists",
+   "pythia70m_C": "removed (perm not estimable)"
+  },
+  "n_persist": 1,
+  "n_removed": 3
+ },
+ "D2": {
+  "decision": "removed",
+  "diff": 0.21204840735651428,
+  "yardstick": 0.03922441789331151,
+  "band": 0.05,
+  "separated": true,
+  "kinds": [
+   "exc",
+   "exc"
+  ]
+ },
+ "D3": {
+  "decision": "persists",
+  "diff": 0.14964564465743027,
+  "yardstick": 0.16379489792566326,
+  "band": 0.16379489792566326,
+  "separated": false,
+  "kinds": [
+   "obs-rand",
+   "obs-rand"
+  ],
+  "gemma_vs_qwen": {
+   "diff": 0.25030161088525343,
+   "yardstick": 0.1225277692689879,
+   "band": 0.1225277692689879,
+   "separated": true,
+   "kinds": [
+    "obs-rand",
+    "obs-rand"
+   ]
+  },
+  "gemma_vs_pythia": {
+   "diff": 0.39994725554268373,
+   "yardstick": 0.15635553829668286,
+   "band": 0.15635553829668286,
+   "separated": true,
+   "kinds": [
+    "obs-rand",
+    "obs-rand"
+   ]
+  }
+ },
+ "unfiltered_rsa_share_receipts": {
+  "gemma2-9b_T": 0.9355369089486607,
+  "gemma2-9b_C": 0.14567641741808715,
+  "qwen3-1.7b_T": 0.6270807360381414,
+  "qwen3-1.7b_C": 0.4090853486330687,
+  "pythia70m_T": 0.8794290657215976,
+  "pythia70m_C": 0.5328767515338317
+ }
+}

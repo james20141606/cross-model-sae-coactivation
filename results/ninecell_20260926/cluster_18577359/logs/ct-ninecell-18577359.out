@@ -1,0 +1,359 @@
+[INFO] host=<node> date=2026-09-26T05:18:43-04:00 job=18577359
+NVIDIA A100-SXM4-80GB, 81920 MiB
+tmpfs           504G   19M  504G   1% /dev/shm
+[hf] models--google--gemma-2-2b <- scratch cache (read-only)
+[hf] models--google--gemma-2-9b <- scratch cache (read-only)
+[hf] models--Qwen--Qwen3-8B-Base <- scratch cache (read-only)
+[hf] models--Qwen--Qwen3-1.7B-Base <- scratch cache (read-only)
+[hf] models--mistralai--Mistral-7B-v0.1 <- scratch cache (read-only)
+[hf] models--meta-llama--Llama-3.2-1B <- scratch cache (read-only)
+[hf] models--google--gemma-scope-2b-pt-res <- scratch cache (read-only)
+[hf] models--google--gemma-scope-9b-pt-res <- scratch cache (read-only)
+[hf] models--Qwen--SAE-Res-Qwen3-8B-Base-W64K-L0_50 <- scratch cache (read-only)
+[hf] models--Qwen--SAE-Res-Qwen3-1.7B-Base-W32K-L0_50 <- scratch cache (read-only)
+[hf] models--JoshEngels--Mistral-7B-Residual-Stream-SAEs <- scratch cache (read-only)
+[hf] models--chanind--sae-llama-3.2-1b-res <- scratch cache (read-only)
+[hf] HF_HUB_OFFLINE=1
+1d535dd680d6931594f898d0aaa49c84433b2a449bb86f59fc140a2772473253  ninecell_strengthen_20260926.py
+19db5eed8d8a47889bab4737980ba2e22a143f8efadadc43927943e9e5ebf9f1  cross_model_sae_match.py
+463c76231ea7e523993e321ab53bad26728f857bfd7bd90cf56b1461d562e261  c4_covariate_null.py
+b9aca191c202f43e76bed0be1f6860886b8ee719176078222c0881e071e2d5f3  qwen_sae_adapter.py
+30fe9a250f82eb2bcc94ff2282e1407f  <REPO_ROOT>/data/c4_slice.jsonl
+[selftest 1] numpy==torch counts: True
+[selftest 2] length-driven sharing: base excess 25.8, R_len 0.144 (<0.5 expected) -> True
+[selftest 3] length-free sharing: R_len 0.995 (>0.8 expected) p 0.010 -> True
+[selftest 4] held-out planted p 0.0050, noise p 0.284 -> True
+[selftest 5] decision branches -> True
+SELFTEST PASS
+[extract] llama3.2-1b 2026-09-26T05:18:56-04:00
+[load] model meta-llama/Llama-3.2-1B
+[load] SAE chanind/sae-llama-3.2-1b-res :: blocks.8.hook_resid_post
+[sae] hook_layer=8 hs_idx=9 d_sae=16384
+  [50/2000]
+  [100/2000]
+  [150/2000]
+  [200/2000]
+  [250/2000]
+  [300/2000]
+  [350/2000]
+  [400/2000]
+  [450/2000]
+  [500/2000]
+  [550/2000]
+  [600/2000]
+  [650/2000]
+  [700/2000]
+  [750/2000]
+  [800/2000]
+  [850/2000]
+  [900/2000]
+  [950/2000]
+  [1000/2000]
+  [1050/2000]
+  [1100/2000]
+  [1150/2000]
+  [1200/2000]
+  [1250/2000]
+  [1300/2000]
+  [1350/2000]
+  [1400/2000]
+  [1450/2000]
+  [1500/2000]
+  [1550/2000]
+  [1600/2000]
+  [1650/2000]
+  [1700/2000]
+  [1750/2000]
+  [1800/2000]
+  [1850/2000]
+  [1900/2000]
+  [1950/2000]
+  [2000/2000]
+[features] meta-llama/Llama-3.2-1B: Phi (2000, 16384)
+[saved] /dev/shm/${USER}_nc_18577359/pooled/llama3.2-1b.npy (2000, 16384) 79s
+[extract] qwen3-1.7b 2026-09-26T05:20:34-04:00
+[load] model Qwen/Qwen3-1.7B-Base
+[load] SAE qwenpt:Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50 :: layer14
+[sae] hook_layer=14 hs_idx=15 d_sae=32768
+  [50/2000]
+  [100/2000]
+  [150/2000]
+  [200/2000]
+  [250/2000]
+  [300/2000]
+  [350/2000]
+  [400/2000]
+  [450/2000]
+  [500/2000]
+  [550/2000]
+  [600/2000]
+  [650/2000]
+  [700/2000]
+  [750/2000]
+  [800/2000]
+  [850/2000]
+  [900/2000]
+  [950/2000]
+  [1000/2000]
+  [1050/2000]
+  [1100/2000]
+  [1150/2000]
+  [1200/2000]
+  [1250/2000]
+  [1300/2000]
+  [1350/2000]
+  [1400/2000]
+  [1450/2000]
+  [1500/2000]
+  [1550/2000]
+  [1600/2000]
+  [1650/2000]
+  [1700/2000]
+  [1750/2000]
+  [1800/2000]
+  [1850/2000]
+  [1900/2000]
+  [1950/2000]
+  [2000/2000]
+[features] Qwen/Qwen3-1.7B-Base: Phi (2000, 32768)
+[saved] /dev/shm/${USER}_nc_18577359/pooled/qwen3-1.7b.npy (2000, 32768) 97s
+[extract] gemma2-2b 2026-09-26T05:22:27-04:00
+[load] model google/gemma-2-2b
+[load] SAE gemma-scope-2b-pt-res-canonical :: layer_12/width_16k/canonical
+[sae] hook_layer=12 hs_idx=12 d_sae=16384
+  [50/2000]
+  [100/2000]
+  [150/2000]
+  [200/2000]
+  [250/2000]
+  [300/2000]
+  [350/2000]
+  [400/2000]
+  [450/2000]
+  [500/2000]
+  [550/2000]
+  [600/2000]
+  [650/2000]
+  [700/2000]
+  [750/2000]
+  [800/2000]
+  [850/2000]
+  [900/2000]
+  [950/2000]
+  [1000/2000]
+  [1050/2000]
+  [1100/2000]
+  [1150/2000]
+  [1200/2000]
+  [1250/2000]
+  [1300/2000]
+  [1350/2000]
+  [1400/2000]
+  [1450/2000]
+  [1500/2000]
+  [1550/2000]
+  [1600/2000]
+  [1650/2000]
+  [1700/2000]
+  [1750/2000]
+  [1800/2000]
+  [1850/2000]
+  [1900/2000]
+  [1950/2000]
+  [2000/2000]
+[features] google/gemma-2-2b: Phi (2000, 16384)
+[saved] /dev/shm/${USER}_nc_18577359/pooled/gemma2-2b.npy (2000, 16384) 111s
+[extract] gemma2-9b 2026-09-26T05:24:33-04:00
+[load] model google/gemma-2-9b
+[load] SAE gemma-scope-9b-pt-res-canonical :: layer_20/width_16k/canonical
+[sae] hook_layer=20 hs_idx=20 d_sae=16384
+  [50/2000]
+  [100/2000]
+  [150/2000]
+  [200/2000]
+  [250/2000]
+  [300/2000]
+  [350/2000]
+  [400/2000]
+  [450/2000]
+  [500/2000]
+  [550/2000]
+  [600/2000]
+  [650/2000]
+  [700/2000]
+  [750/2000]
+  [800/2000]
+  [850/2000]
+  [900/2000]
+  [950/2000]
+  [1000/2000]
+  [1050/2000]
+  [1100/2000]
+  [1150/2000]
+  [1200/2000]
+  [1250/2000]
+  [1300/2000]
+  [1350/2000]
+  [1400/2000]
+  [1450/2000]
+  [1500/2000]
+  [1550/2000]
+  [1600/2000]
+  [1650/2000]
+  [1700/2000]
+  [1750/2000]
+  [1800/2000]
+  [1850/2000]
+  [1900/2000]
+  [1950/2000]
+  [2000/2000]
+[features] google/gemma-2-9b: Phi (2000, 16384)
+[saved] /dev/shm/${USER}_nc_18577359/pooled/gemma2-9b.npy (2000, 16384) 179s
+[extract] mistral7b 2026-09-26T05:27:46-04:00
+[load] model mistralai/Mistral-7B-v0.1
+[load] SAE mistral-7b-res-wg :: blocks.16.hook_resid_pre
+[sae] hook_layer=16 hs_idx=16 d_sae=65536
+  [50/2000]
+  [100/2000]
+  [150/2000]
+  [200/2000]
+  [250/2000]
+  [300/2000]
+  [350/2000]
+  [400/2000]
+  [450/2000]
+  [500/2000]
+  [550/2000]
+  [600/2000]
+  [650/2000]
+  [700/2000]
+  [750/2000]
+  [800/2000]
+  [850/2000]
+  [900/2000]
+  [950/2000]
+  [1000/2000]
+  [1050/2000]
+  [1100/2000]
+  [1150/2000]
+  [1200/2000]
+  [1250/2000]
+  [1300/2000]
+  [1350/2000]
+  [1400/2000]
+  [1450/2000]
+  [1500/2000]
+  [1550/2000]
+  [1600/2000]
+  [1650/2000]
+  [1700/2000]
+  [1750/2000]
+  [1800/2000]
+  [1850/2000]
+  [1900/2000]
+  [1950/2000]
+  [2000/2000]
+[features] mistralai/Mistral-7B-v0.1: Phi (2000, 65536)
+[saved] /dev/shm/${USER}_nc_18577359/pooled/mistral7b.npy (2000, 65536) 118s
+[extract] qwen3-8b 2026-09-26T05:30:00-04:00
+[load] model Qwen/Qwen3-8B-Base
+[load] SAE qwenpt:Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0_50 :: layer18
+[sae] hook_layer=18 hs_idx=19 d_sae=65536
+  [50/2000]
+  [100/2000]
+  [150/2000]
+  [200/2000]
+  [250/2000]
+  [300/2000]
+  [350/2000]
+  [400/2000]
+  [450/2000]
+  [500/2000]
+  [550/2000]
+  [600/2000]
+  [650/2000]
+  [700/2000]
+  [750/2000]
+  [800/2000]
+  [850/2000]
+  [900/2000]
+  [950/2000]
+  [1000/2000]
+  [1050/2000]
+  [1100/2000]
+  [1150/2000]
+  [1200/2000]
+  [1250/2000]
+  [1300/2000]
+  [1350/2000]
+  [1400/2000]
+  [1450/2000]
+  [1500/2000]
+  [1550/2000]
+  [1600/2000]
+  [1650/2000]
+  [1700/2000]
+  [1750/2000]
+  [1800/2000]
+  [1850/2000]
+  [1900/2000]
+  [1950/2000]
+  [2000/2000]
+[features] Qwen/Qwen3-8B-Base: Phi (2000, 65536)
+[saved] /dev/shm/${USER}_nc_18577359/pooled/qwen3-8b.npy (2000, 65536) 137s
+total 1664048
+drwxr-xr-x. 2 USER USER       280 Sep 26 05:32 .
+drwxr-xr-x. 4 USER USER        80 Sep 26 05:18 ..
+-rw-r--r--. 1 USER USER       826 Sep 26 05:24 gemma2-2b.meta.json
+-rw-r--r--. 1 USER USER 131072128 Sep 26 05:24 gemma2-2b.npy
+-rw-r--r--. 1 USER USER       826 Sep 26 05:27 gemma2-9b.meta.json
+-rw-r--r--. 1 USER USER 131072128 Sep 26 05:27 gemma2-9b.npy
+-rw-r--r--. 1 USER USER       828 Sep 26 05:20 llama3.2-1b.meta.json
+-rw-r--r--. 1 USER USER 131072128 Sep 26 05:20 llama3.2-1b.npy
+-rw-r--r--. 1 USER USER       816 Sep 26 05:29 mistral7b.meta.json
+-rw-r--r--. 1 USER USER 524288128 Sep 26 05:29 mistral7b.npy
+-rw-r--r--. 1 USER USER       824 Sep 26 05:22 qwen3-1.7b.meta.json
+-rw-r--r--. 1 USER USER 262144128 Sep 26 05:22 qwen3-1.7b.npy
+-rw-r--r--. 1 USER USER       817 Sep 26 05:32 qwen3-8b.meta.json
+-rw-r--r--. 1 USER USER 524288128 Sep 26 05:32 qwen3-8b.npy
+[B] start 2026-09-26T05:32:33-04:00
+[A] start 2026-09-26T05:32:33-04:00
+[A:qwen3-1.7b__gemma2-2b] point done 49s
+[A:qwen3-1.7b__gemma2-2b] done boot 538s -> $HOME/ninecell_20260926/results/ninecell_20260926/A_qwen3-1.7b__gemma2-2b.json
+0 %, 0 MiB
+[A:qwen3-1.7b__gemma2-9b] point done 16s
+[A:qwen3-1.7b__gemma2-9b] done boot 276s -> $HOME/ninecell_20260926/results/ninecell_20260926/A_qwen3-1.7b__gemma2-9b.json
+89 %, 6897 MiB
+[A:qwen3-1.7b__mistral7b] point done 24s
+[A:qwen3-1.7b__mistral7b] done boot 364s -> $HOME/ninecell_20260926/results/ninecell_20260926/A_qwen3-1.7b__mistral7b.json
+89 %, 6897 MiB
+[A:qwen3-8b__gemma2-2b] point done 24s
+[A:qwen3-8b__gemma2-2b] done boot 337s -> $HOME/ninecell_20260926/results/ninecell_20260926/A_qwen3-8b__gemma2-2b.json
+88 %, 6897 MiB
+[A:qwen3-8b__gemma2-9b] receipt exists, skipped -> $HOME/ninecell_20260926/results/ninecell_20260926/A_qwen3-8b__gemma2-9b.json
+12 %, 6897 MiB
+[A:qwen3-8b__mistral7b] receipt exists, skipped -> $HOME/ninecell_20260926/results/ninecell_20260926/A_qwen3-8b__mistral7b.json
+97 %, 6897 MiB
+[A:gemma2-2b__mistral7b] point done 24s
+[A:gemma2-2b__mistral7b] done boot 309s -> $HOME/ninecell_20260926/results/ninecell_20260926/A_gemma2-2b__mistral7b.json
+0 %, 3451 MiB
+[A:gemma2-9b__mistral7b] point done 53s
+[A:gemma2-9b__mistral7b] done boot 504s -> $HOME/ninecell_20260926/results/ninecell_20260926/A_gemma2-9b__mistral7b.json
+0 %, 0 MiB
+[A:llama3.2-1b__mistral7b] receipt exists, skipped -> $HOME/ninecell_20260926/results/ninecell_20260926/A_llama3.2-1b__mistral7b.json
+0 %, 0 MiB
+[A] done 2026-09-26T06:15:27-04:00; waiting for B
+[B] done 2026-09-26T06:15:27-04:00
+{
+ "QA": "A1",
+ "QA_failing_cells": [],
+ "QA_length_hard_fail": [],
+ "QA_g0_blocked": [],
+ "QB": "B1",
+ "QB_failing": {},
+ "QB_optimism": "within +-10%",
+ "QC": "C1",
+ "QC_R_lower_below_0p5": [],
+ "QC_deltaE_nonpositive": []
+}
+[DONE] A=9 B=9 2026-09-26T06:15:28-04:00

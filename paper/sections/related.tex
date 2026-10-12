@@ -1,0 +1,76 @@
+\section{Related Work}\label{sec:related}
+
+\paragraph{Sparse dictionaries and attribution graphs.}
+Sparse autoencoders decompose residual streams into more monosemantic features
+\citep{cunningham2023sparse,bricken2023monosemanticity,rajamanoharan2024gated,templeton2024scaling};
+transcoders and cross-layer transcoders predict across layers so that direct linear effects
+can be computed, and \circuittracer{} turns them into attribution graphs
+\citep{ameisen2025attribution,lindsey2025biology,hanna2025circuit-tracer}. Released
+dictionaries now exist for Gemma-2, Gemma-3 and Qwen3
+\citep{lieberum2024gemmascope,mcdougall2025gemmascope2,hanna2025qwen-transcoders,bluelightai2025qwen-clt},
+with \circuittracer{} configurations for the Gemma-3 transcoders \citep{hanna2025gemma-scope-2-transcoders}.
+We train no dictionary: every claim attaches to a (model, released SAE) pair, which is what a
+practitioner reusing these artifacts would compare.
+
+\paragraph{Convergent units and convergent geometry.}
+Bipartite unit matching across independently trained vision networks began with convergent
+learning \citep{li2016convergent}; Rosetta neurons recur across vision models
+\citep{dravid2023rosetta}, with counts that grow sublinearly in scale \citep{dravid2026divergent},
+and only a small fraction of GPT-2 neurons are universal \citep{gurnee2024universal}. At the level
+of global geometry, \citet{huh2024platonic} argue that capable models converge, while
+\citet{groger2026aristotelian} show that such similarity scores are confounded by scale, and that after
+permutation calibration the convergence seen by global spectral measures largely disappears while
+local-neighborhood similarity retains significant agreement. Circuit-level recurrence is
+documented for vision circuits, induction heads and toy tasks
+\citep{olah2020zoom,olsson2022context,chughtai2023toy}, while behavior tied to a single concept
+can still differ by family \citep{soligo2026distress}. These works ask whether units or geometries recur; we
+ask a narrower question: do post-hoc features of LMs with different tokenizers respond to
+the same documents once named document covariates are held fixed?
+
+\paragraph{Matching or mapping features across models.}
+\citet{bricken2023monosemanticity} match features across seeds by activation correlation, and
+\citet{lan2024universal} pair features across models and compare the paired decoder spaces with
+SVCCA/RSA \citep{raghu2017svcca,kriegeskorte2008rsa} against random pairings.
+\citet{wang2025universality} match SAE features of Pythia-160M and Mamba-130M, which share a
+tokenizer and training corpus, by maximum pairwise correlation over tokens, and read the result
+against a neuron baseline and seed-variant skylines rather than a null that re-runs the matching. Crosscoders and
+universal SAEs instead learn a shared dictionary during training
+\citep{lindsey2024crosscoders,thasarathan2025usae}, and their shared/exclusive diagnostic needs its
+own correction \citep{minder2025crosscoder}. A third line connects models through learned maps:
+stitching \citep{bansal2021stitching}, permutation re-basin \citep{ainsworth2023rebasin}, and affine
+residual maps that carry SAEs, probes and steering vectors
+\citep{chen2025stitching,huang2025platonictransfer}, with success depending on scale and
+tokenizer overlap \citep{gorbett2026linear}; steering vectors also transfer across architectures
+through learned nonlinear bridges between the models' SAE feature spaces
+\citep{agarwal2026crossarch}, and relative representations avoid a learned map
+altogether \citep{moschella2023relative}. A learned map can succeed without any shared sparse
+feature, and a pairing rule fit to the data inflates any statistic computed on the same data. We
+therefore use no learned map in the headline, put the pairing rule inside the null, and score
+frozen pairs on documents the rule never saw. SVCCA/RSA appear only in our audit of
+\citet{lan2024universal} (\Cref{app:lan}): a global score cannot say which features correspond, and
+a crosscoder's shared latents would need retraining for every null draw (\Cref{app:failure_methods}).
+
+\paragraph{Cross-lingual mechanisms.}
+\citet{templeton2024scaling} report SAE features that fire across languages in Claude 3 Sonnet,
+and \citet{lindsey2025biology} extend this to circuits in Claude 3.5 Haiku; both are closed-weight.
+In open models, logit-lens decoding suggests an English-centered latent
+\citep{wendler2024llamaspeak}, some SAE features are language-specific in that ablating them harms
+one language \citep{deng2025languagespecific}, answer consistency comes apart from representation
+sharing \citep{ifergan2024beneath}, sharing depends on model and architecture
+\citep{bogdanov2026geoinv}, and mid-layer overlap within Gemma-2 is reported by
+\citet{son2025semanticconvergence}. We reuse this question in open weights mainly as a test case
+for the control battery, not as the headline.
+
+\paragraph{Construct validity and circular analysis.}
+Representational-similarity metrics can be high for reasons unrelated to what they claim to
+measure \citep[surveyed by][]{klabunde2023similarity}: \citet{ding2021grounding} ask for
+sensitivity and specificity and show that CKA and CCA \citep{kornblith2019cka} can fail them,
+\citet{davari2023reliability} show CKA can be manipulated without changing model function,
+\citet{korznikov2026sanity} find random directions rivalling trained SAE features, and SAEs on
+randomly initialized transformers can match trained ones on common interpretability metrics
+\citep{heap2025random}. Scoring a
+selection on the data that made it is the circular analysis of
+\citet{kriegeskorte2009circular}; plus-one permutation $p$-values are the standard fix for
+Monte-Carlo nulls \citep{phipson2010permutation}. We carry both into feature matching: a count is
+read only against a null that re-runs its own selection, and then against nulls that hold named
+covariates fixed.

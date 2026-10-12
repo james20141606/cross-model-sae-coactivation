@@ -1,0 +1,80 @@
+{"pair_id": 0, "lang": "en", "prompt": "The opposite of hot is", "target": "cold"}
+{"pair_id": 0, "lang": "zh", "prompt": "热的反义词是", "target": "冷"}
+{"pair_id": 0, "lang": "ja", "prompt": "熱いの反対は", "target": "冷たい"}
+{"pair_id": 0, "lang": "ko", "prompt": "뜨거운의 반대는", "target": "차가운"}
+{"pair_id": 1, "lang": "en", "prompt": "The opposite of big is", "target": "small"}
+{"pair_id": 1, "lang": "zh", "prompt": "大的反义词是", "target": "小"}
+{"pair_id": 1, "lang": "ja", "prompt": "大きいの反対は", "target": "小さい"}
+{"pair_id": 1, "lang": "ko", "prompt": "큰의 반대는", "target": "작은"}
+{"pair_id": 2, "lang": "en", "prompt": "The opposite of fast is", "target": "slow"}
+{"pair_id": 2, "lang": "zh", "prompt": "快的反义词是", "target": "慢"}
+{"pair_id": 2, "lang": "ja", "prompt": "速いの反対は", "target": "遅い"}
+{"pair_id": 2, "lang": "ko", "prompt": "빠른의 반대는", "target": "느린"}
+{"pair_id": 3, "lang": "en", "prompt": "The opposite of dark is", "target": "light"}
+{"pair_id": 3, "lang": "zh", "prompt": "黑暗的反义词是", "target": "光明"}
+{"pair_id": 3, "lang": "ja", "prompt": "暗いの反対は", "target": "明るい"}
+{"pair_id": 3, "lang": "ko", "prompt": "어두운의 반대는", "target": "밝은"}
+{"pair_id": 4, "lang": "en", "prompt": "The opposite of high is", "target": "low"}
+{"pair_id": 4, "lang": "zh", "prompt": "高的反义词是", "target": "低"}
+{"pair_id": 4, "lang": "ja", "prompt": "高いの反対は", "target": "低い"}
+{"pair_id": 4, "lang": "ko", "prompt": "높은의 반대는", "target": "낮은"}
+{"pair_id": 5, "lang": "en", "prompt": "The opposite of wet is", "target": "dry"}
+{"pair_id": 5, "lang": "zh", "prompt": "湿的反义词是", "target": "干"}
+{"pair_id": 5, "lang": "ja", "prompt": "濡れたの反対は", "target": "乾いた"}
+{"pair_id": 5, "lang": "ko", "prompt": "젖은의 반대는", "target": "마른"}
+{"pair_id": 6, "lang": "en", "prompt": "The opposite of long is", "target": "short"}
+{"pair_id": 6, "lang": "zh", "prompt": "长的反义词是", "target": "短"}
+{"pair_id": 6, "lang": "ja", "prompt": "長いの反対は", "target": "短い"}
+{"pair_id": 6, "lang": "ko", "prompt": "긴의 반대는", "target": "짧은"}
+{"pair_id": 7, "lang": "en", "prompt": "The opposite of strong is", "target": "weak"}
+{"pair_id": 7, "lang": "zh", "prompt": "强的反义词是", "target": "弱"}
+{"pair_id": 7, "lang": "ja", "prompt": "強いの反対は", "target": "弱い"}
+{"pair_id": 7, "lang": "ko", "prompt": "강한의 반대는", "target": "약한"}
+{"pair_id": 8, "lang": "en", "prompt": "The opposite of happy is", "target": "sad"}
+{"pair_id": 8, "lang": "zh", "prompt": "快乐的反义词是", "target": "悲伤"}
+{"pair_id": 8, "lang": "ja", "prompt": "嬉しいの反対は", "target": "悲しい"}
+{"pair_id": 8, "lang": "ko", "prompt": "기쁜의 반대는", "target": "슬픈"}
+{"pair_id": 9, "lang": "en", "prompt": "The opposite of full is", "target": "empty"}
+{"pair_id": 9, "lang": "zh", "prompt": "满的反义词是", "target": "空"}
+{"pair_id": 9, "lang": "ja", "prompt": "満たされたの反対は", "target": "空"}
+{"pair_id": 9, "lang": "ko", "prompt": "가득한의 반대는", "target": "빈"}
+{"pair_id": 10, "lang": "en", "prompt": "The opposite of heavy is", "target": "light"}
+{"pair_id": 10, "lang": "zh", "prompt": "重的反义词是", "target": "轻"}
+{"pair_id": 10, "lang": "ja", "prompt": "重いの反対は", "target": "軽い"}
+{"pair_id": 10, "lang": "ko", "prompt": "무거운의 반대는", "target": "가벼운"}
+{"pair_id": 11, "lang": "en", "prompt": "The opposite of clean is", "target": "dirty"}
+{"pair_id": 11, "lang": "zh", "prompt": "干净的反义词是", "target": "脏"}
+{"pair_id": 11, "lang": "ja", "prompt": "綺麗の反対は", "target": "汚い"}
+{"pair_id": 11, "lang": "ko", "prompt": "깨끗한의 반대는", "target": "더러운"}
+{"pair_id": 12, "lang": "en", "prompt": "The opposite of rich is", "target": "poor"}
+{"pair_id": 12, "lang": "zh", "prompt": "富有的反义词是", "target": "贫穷"}
+{"pair_id": 12, "lang": "ja", "prompt": "豊かの反対は", "target": "貧しい"}
+{"pair_id": 12, "lang": "ko", "prompt": "부유한의 반대는", "target": "가난한"}
+{"pair_id": 13, "lang": "en", "prompt": "The opposite of young is", "target": "old"}
+{"pair_id": 13, "lang": "zh", "prompt": "年轻的反义词是", "target": "年老"}
+{"pair_id": 13, "lang": "ja", "prompt": "若いの反対は", "target": "年老いた"}
+{"pair_id": 13, "lang": "ko", "prompt": "젊은의 반대는", "target": "늙은"}
+{"pair_id": 14, "lang": "en", "prompt": "The opposite of warm is", "target": "cool"}
+{"pair_id": 14, "lang": "zh", "prompt": "温暖的反义词是", "target": "凉爽"}
+{"pair_id": 14, "lang": "ja", "prompt": "暖かいの反対は", "target": "涼しい"}
+{"pair_id": 14, "lang": "ko", "prompt": "따뜻한의 반대는", "target": "시원한"}
+{"pair_id": 15, "lang": "en", "prompt": "The opposite of hard is", "target": "soft"}
+{"pair_id": 15, "lang": "zh", "prompt": "硬的反义词是", "target": "软"}
+{"pair_id": 15, "lang": "ja", "prompt": "硬いの反対は", "target": "柔らかい"}
+{"pair_id": 15, "lang": "ko", "prompt": "딱딱한의 반대는", "target": "부드러운"}
+{"pair_id": 16, "lang": "en", "prompt": "The opposite of new is", "target": "old"}
+{"pair_id": 16, "lang": "zh", "prompt": "新的反义词是", "target": "旧"}
+{"pair_id": 16, "lang": "ja", "prompt": "新しいの反対は", "target": "古い"}
+{"pair_id": 16, "lang": "ko", "prompt": "새로운의 반대는", "target": "오래된"}
+{"pair_id": 17, "lang": "en", "prompt": "The opposite of open is", "target": "closed"}
+{"pair_id": 17, "lang": "zh", "prompt": "打开的反义词是", "target": "关闭"}
+{"pair_id": 17, "lang": "ja", "prompt": "開いたの反対は", "target": "閉じた"}
+{"pair_id": 17, "lang": "ko", "prompt": "열린의 반대는", "target": "닫힌"}
+{"pair_id": 18, "lang": "en", "prompt": "The opposite of true is", "target": "false"}
+{"pair_id": 18, "lang": "zh", "prompt": "真的反义词是", "target": "假"}
+{"pair_id": 18, "lang": "ja", "prompt": "本当の反対は", "target": "嘘"}
+{"pair_id": 18, "lang": "ko", "prompt": "진실의 반대는", "target": "거짓"}
+{"pair_id": 19, "lang": "en", "prompt": "The opposite of love is", "target": "hate"}
+{"pair_id": 19, "lang": "zh", "prompt": "爱的反义词是", "target": "恨"}
+{"pair_id": 19, "lang": "ja", "prompt": "愛の反対は", "target": "憎しみ"}
+{"pair_id": 19, "lang": "ko", "prompt": "사랑의 반대는", "target": "미움"}

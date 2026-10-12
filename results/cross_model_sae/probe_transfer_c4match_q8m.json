@@ -1,0 +1,29 @@
+{
+  "transfer_acc": 0.11650485436893204,
+  "nonmatched_mean": 0.14053398058252425,
+  "nonmatched_ci": [
+    0.014563106796116505,
+    0.28701456310679624
+  ],
+  "transfer_p": 0.6218905472636815,
+  "cv_A": 0.9368176538908246,
+  "cv_B": 0.90801393728223,
+  "majority": 0.21844660194174756,
+  "K": 63,
+  "n": 206,
+  "model_a": "Qwen/Qwen3-8B-Base",
+  "model_b": "mistralai/Mistral-7B-v0.1",
+  "families": [
+    "antonym",
+    "arith_add",
+    "arith_sub",
+    "capital",
+    "doubling",
+    "month",
+    "predecessor",
+    "successor",
+    "weekday"
+  ],
+  "n_matched_features": 744,
+  "match_corpus": "../../data/c4_slice.jsonl"
+}

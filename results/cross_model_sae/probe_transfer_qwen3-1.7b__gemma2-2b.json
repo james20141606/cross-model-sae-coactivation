@@ -1,0 +1,28 @@
+{
+  "transfer_acc": 1.0,
+  "nonmatched_mean": 0.16429611650485434,
+  "nonmatched_ci": [
+    0.014563106796116505,
+    0.41759708737864076
+  ],
+  "transfer_p": 0.004975124378109453,
+  "cv_A": 1.0,
+  "cv_B": 1.0,
+  "majority": 0.21844660194174756,
+  "K": 94,
+  "n": 206,
+  "model_a": "Qwen/Qwen3-1.7B-Base",
+  "model_b": "google/gemma-2-2b",
+  "families": [
+    "antonym",
+    "arith_add",
+    "arith_sub",
+    "capital",
+    "doubling",
+    "month",
+    "predecessor",
+    "successor",
+    "weekday"
+  ],
+  "n_matched_features": 94
+}

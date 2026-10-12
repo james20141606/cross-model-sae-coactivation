@@ -1,0 +1,7 @@
+[start] 
+[B] qwen3-1.7b__gemma2-2b rc=0 
+[B] gemma2-2b__mistral7b rc=0 
+[B] qwen3-1.7b__mistral7b rc=0 
+[B] qwen3-1.7b__gemma2-9b rc=0 
+[B] gemma2-9b__mistral7b rc=0 
+[note] 2026-09-26T07:20:50+0800 parent loop killed after B; remaining 4 A cells launched in parallel (1 thread each, nice 10)

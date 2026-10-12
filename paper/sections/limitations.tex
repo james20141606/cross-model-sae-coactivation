@@ -1,0 +1,14 @@
+\paragraph{Scope of the SAE-matching result.}\label{sec:limitations} Nothing is claimed beyond
+the tested scope: eight models across six families, one released SAE per model (plus a $65$k-width check for
+Gemma-2-2B), mid-layer bands, en/zh/ja/ko prompts, and mean-pooled
+features, which avoid token alignment but lose word order. The token-aligned follow-up
+(\Cref{sec:results:tokalign}) removes the order-insensitivity limit at word granularity, but
+same-text conditioning cannot separate word-in-context sharing from syntax. The families were trained separately, but most of
+their pretraining corpora are undisclosed and may overlap on web text, possibly including C4, so the
+result does not separate shared training data from shared inductive bias. The frozen-pair lexical arm selects and scores on the same $20{,}000$
+documents. A split-half check finds $1$--$3\%$ selection optimism in pooled excess on three cells,
+but does not bound selection bias in $R_{\text{lex}}$; the disjoint-half Procrustes arm also survives
+(\Cref{tab:proclex}, \Cref{app:threats}). Further caveats
+(GPT-2, $z$ comparability, ablation probes, the Gemma read point, BOS in the pooled mean,
+no random-weight model):
+\Cref{app:threats}.

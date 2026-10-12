@@ -1,0 +1,94 @@
+\section{Reproducibility Checklist}\label{app:repro}
+
+\paragraph{Models and data.}
+\begin{itemize}[leftmargin=*,topsep=2pt,itemsep=2pt]
+  \item Probe-attribution arm: all base models are publicly available on HuggingFace
+  (Qwen3 0.6B--14B; Gemma3 1B/4B/12B/27B-it; the $17$-model control set adds Pythia, GPT-2,
+  GPT-Neo, OPT, BLOOM, Qwen2.5, Gemma-2). Pinned snapshot SHAs for every
+  HuggingFace artifact (models, SAE suites, transcoders, and the C4 dataset)
+  in \Cref{tab:model-revisions}.
+  \item SAE-matching arm: all models (Gemma-2-2B/9B, Mistral-7B-v0.1, Qwen3-1.7B/8B-Base,
+  Llama-3.2-1B, Pythia-70M, GPT-2) and all SAE suites are public: Gemma~Scope (\texttt{gemma-scope-*-pt-res-canonical}),
+  \texttt{chanind/sae-llama-3.2-1b-res}, \texttt{mistral-7b-res-wg},
+  \texttt{gpt2-small-res-jb}, \texttt{pythia-70m-deduped-res-sm} via \texttt{sae-lens},
+  and Qwen-Scope (\texttt{Qwen/SAE-Res-Qwen3-*}) via our manual adapter
+  (\texttt{qwen\_sae\_adapter.py}, in the supplementary material).
+  \item Prompts: the $206$-pair multilingual set (\texttt{build\_prompts\_v3.py},
+  provenance in \Cref{app:prompts}), a $2{,}000$-document C4 slice
+  (\texttt{build\_c4\_slice.py}; its two $1{,}000$-document halves carry the held-out test) and a
+  $20{,}000$-document C4 slice for the lexical and token-aligned arms; each model scores the first token of its own
+  tokenization of the target string (no separately released tokenization audit).
+  \item No private data is used.
+\end{itemize}
+
+\paragraph{Compute.}
+\begin{itemize}[leftmargin=*,topsep=2pt,itemsep=2pt]
+  \item Single NVIDIA~H100-80GB / H200-141GB GPUs; the v1
+  probe-attribution sweep totals well under $10$ GPU-hours
+  (per-job allocations in \Cref{app:scheduling}).
+  \item Setup: the reported runs used PyTorch~2.6 (CUDA~12.4) and
+  \circuittracer{} v0.4.1 from \texttt{safety-research/circuit-tracer} at commit
+  \texttt{4bb8c0e} (full SHA in \Cref{tab:model-revisions}). \texttt{setup.sh} pins
+  PyTorch~2.6.0 (CUDA~12.4 wheels) and checks out \circuittracer{} \texttt{4bb8c0e}. The v1 probe-attribution headline does not depend on the
+  \circuittracer{} library.
+\end{itemize}
+
+\paragraph{Code release.}
+Code, receipts and registrations are released at \coderepo{}
+(\texttt{README.md} gives the offline re-computation commands): (a) all \texttt{experiments/} scripts (including
+\texttt{probe\_attribution\_v2.py});
+(b) the \texttt{utils.py} adapter layer over \circuittracer{};
+(c) all SLURM job scripts;
+(d) figure-generation scripts under \texttt{paper/figures\_src/};
+(e) the per-model v1 probe-attribution JSON summaries
+(\texttt{results/probe\_attribution\_v2/*.json}) with per-pair bootstrap
+CIs and permutation $p$-values;
+(f) the SAE-matching analysis code (\texttt{code/analysis/}), its receipts
+(under \texttt{results/cross\_model\_sae/}) and the registration files; and
+(g) the power-law and slope-bootstrap analysis scripts
+(\texttt{code/analysis/rosetta\_sublinear\_check.py},
+\texttt{rosetta\_slope\_bootstrap.py}) with their output JSONs in
+\texttt{results/rosetta\_check/}. The v0 attribution graphs did not
+converge, so no \texttt{.pt} graph or per-graph \texttt{metadata.json}
+artifacts are produced.
+
+\paragraph{Random seeds.}
+All stochastic steps use \texttt{numpy.random} seed 0 and
+\texttt{torch.manual\_seed(0)}, except the registered seed-$42$ document split of the
+$20{,}000$-document runs. Bootstrap CIs use $10{,}000$ resamples
+with seed 1 (independent of run-time seeds).
+
+\paragraph{Hyperparameters.} Attribution-graph (v0) values match \circuittracer{} defaults
+(\Cref{tab:hyperparams}); the SAE-matching arm uses $K{=}1{,}500$ throughout, and the lexical
+arm's $k$ is chosen by the registered largest-adequacy-passing rule (\Cref{app:lexres}).
+
+\paragraph{Statistical reporting.}
+\begin{itemize}[leftmargin=*,topsep=2pt,itemsep=2pt]
+  \item 95\% CIs are bootstrap percentile intervals with $10{,}000$ resamples.
+  \item Significance comparisons are permutation tests (prompt-permutation nulls for
+  SAE matching; exact model-as-unit and pair-level permutation for the residual gap);
+  bootstrap intervals are reported as descriptive uncertainty, and where a bootstrap
+  and a permutation test disagree we report both (\Cref{sec:results:residual-scaleup}).
+  \item The nine held-out C4 tests are Bonferroni-corrected over the $17$ C4 cells considered
+  ($1/2001<0.05/17$); other verdicts rest on registered survive/fail rules, and all
+  comparisons are reported.
+\end{itemize}
+
+\paragraph{Negative results / pre-registration.}
+Except for the held-out frozen-pair follow-up (not pre-registered; \Cref{prop:heldout}), each
+arm's expected outcome was pre-stated before the deciding run, and negative outcomes
+are reported symmetrically: the v0 attribution-graph reproduction returned a
+non-convergence negative (\Cref{sec:disc:negative,app:deferred}); the cross-lingual arm required
+multilingual $>$ English-only under a valid metric, which the raw and residual metrics
+failed (\Cref{sec:results:construct-validity,sec:results:residual-scaleup}); the zero-shot
+probe-transfer go/no-go pre-registered transfer $\gg$ non-matched control on the surviving pairs
+and failure on the null pair (both held), and its independent-corpus hardening
+pre-registered the same pattern and \emph{failed} on the surviving pairs --- reported as the
+in-sample scoping of Finding~5 (\Cref{app:threats}). The shared-core control remains
+pre-registered and unrun (\Cref{app:threats}).
+
+\paragraph{ICLR reproducibility statement.} Models, datasets, compute, statistical methods,
+hyperparameters and seeds are reported in this appendix, and every model checkpoint used is
+public; code, receipts and registrations are released at \coderepo.
+
+\input{sections/tab_hyperparams}

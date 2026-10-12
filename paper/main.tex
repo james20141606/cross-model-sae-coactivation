@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage{iclr2027_conference,times}
+\iclrfinalcopy
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[expansion=false,protrusion=true]{microtype}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{proposition}{Proposition}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\usepackage[capitalize,noabbrev]{cleveref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xspace}
+\usepackage{enumitem}
+\usepackage{mdframed}
+\newmdenv[
+  linewidth=0.4pt,
+  linecolor=blue!40,
+  backgroundcolor=blue!4,
+  innerleftmargin=6pt,
+  innerrightmargin=6pt,
+  innertopmargin=3pt,
+  innerbottommargin=3pt,
+  skipabove=3pt,
+  skipbelow=3pt,
+]{takeaway}
+
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[TODO: #1]}}}
+\newcommand{\tbd}{\textcolor{purple}{\underline{v1}}}
+\newcommand{\placeholder}[1]{\textcolor{purple}{\underline{#1}}}
+\newcommand{\pred}[1]{\textcolor{purple}{\underline{#1}}}
+
+\newcommand{\circuittracer}{\texttt{circuit-tracer}\xspace}
+\newcommand{\jaccard}{\operatorname{Jaccard}}
+\newcommand{\qwen}[1]{Qwen3\if\relax\detokenize{#1}\relax\else-#1\fi}
+\newcommand{\gemma}[1]{Gemma3\if\relax\detokenize{#1}\relax\else-#1\fi}
+
+\title{Cross-Model SAE Coactivation Survives\\Length, Topic, and Lexical Controls}
+
+\author{Xupeng Chen$^{1,*}$ \quad Runhao Li$^{2}$ \quad Jiayi Cheng$^{1}$ \quad Michael Yue$^{3}$ \quad Chenqian Le$^{1}$ \\
+{\normalfont $^{1}$New York University \quad $^{2}$University of Southern California \quad $^{3}$Columbia University} \\
+{\normalfont $^{*}$Corresponding author: \texttt{xc1490@nyu.edu}}}
+
+\date{}
+
+\newcommand{\coderepo}{\url{https://github.com/james20141606/cross-model-sae-coactivation}}
+\begin{document}
+\maketitle
+\lhead{Preprint}
+
+\begin{abstract}
+\input{sections/abstract}
+\end{abstract}
+
+\input{sections/intro}
+\input{sections/related}
+\input{sections/method}
+\input{sections/experiments}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/limitations}
+\input{sections/conclusion}
+
+\bibliographystyle{iclr2027_conference}
+\bibliography{references}
+
+
+\appendix
+\input{sections/repro_checklist}
+\input{sections/appendix}
+
+\end{document}

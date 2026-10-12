@@ -1,0 +1,14 @@
+{
+  "model_a": "EleutherAI/pythia-70m-deduped",
+  "model_b": "mistralai/Mistral-7B-v0.1",
+  "topk": 512,
+  "c4": {
+    "svcca": 0.3502747118473053,
+    "rsa": 0.14636528491973877,
+    "K": 512,
+    "svcca_random_pairing": 0.1640020452439785,
+    "rsa_random_pairing": -0.0002727562245127046,
+    "svcca_permuted_pairing": 0.23630253225564957,
+    "rsa_permuted_pairing": 0.07786724679172038
+  }
+}

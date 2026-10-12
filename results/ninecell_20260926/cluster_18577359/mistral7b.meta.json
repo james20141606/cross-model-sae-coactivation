@@ -1,0 +1,22 @@
+{
+ "model": "mistral7b",
+ "hf_id": "mistralai/Mistral-7B-v0.1",
+ "sae_release": "mistral-7b-res-wg",
+ "sae_id": "blocks.16.hook_resid_pre",
+ "shape": [
+  2000,
+  65536
+ ],
+ "pooled_file": "/dev/shm/${USER}_nc_18577359/pooled/mistral7b.npy",
+ "pooled_sha256": "c609197c31068ea2e36003f9eb9a962ab911877368c6d3bf4e1a2b06e3be99ef",
+ "corpus": "<REPO_ROOT>/data/c4_slice.jsonl",
+ "corpus_md5": "30fe9a250f82eb2bcc94ff2282e1407f",
+ "wall_s": 117.92619919776917,
+ "host": "<node>",
+ "torch": "2.6.0+cu124",
+ "transformers": "4.57.1",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "script_sha256": "1d535dd680d6931594f898d0aaa49c84433b2a449bb86f59fc140a2772473253",
+ "matcher_sha256": "19db5eed8d8a47889bab4737980ba2e22a143f8efadadc43927943e9e5ebf9f1",
+ "date": "2026-09-26T05:29:58-0400"
+}

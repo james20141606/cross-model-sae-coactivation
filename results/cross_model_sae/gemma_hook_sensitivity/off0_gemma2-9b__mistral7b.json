@@ -1,0 +1,40 @@
+{
+ "tag": "gemma2-9b__mistral7b",
+ "gemma_hook_offset": 0,
+ "side_a": {
+  "model": "unsloth/gemma-2-9b",
+  "rev": "9145841c83add11c48155cd7bb87d8656703f997",
+  "sae": "gemma-scope-9b-pt-res-canonical::layer_20/width_16k/canonical",
+  "hs_idx": 20,
+  "pooled_sha256": "66f54959051409752a1f1187cdb3d95e8ba55f67bf0d5c4c326c3736930172da"
+ },
+ "side_b": {
+  "model": "mistralai/Mistral-7B-v0.1",
+  "rev": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
+  "sae": "mistral-7b-res-wg::blocks.16.hook_resid_pre",
+  "hs_idx": 16,
+  "pooled_sha256": "8faf49d1c63b3cae2f5a038b66f7f4d8489b00487975d87debb0eaaa6c68849d"
+ },
+ "screen": {
+  "M": 820,
+  "null_mu": 553.665,
+  "null_sd": 10.793181875610177,
+  "z": 24.676226442718328,
+  "p": 0.004975124378109453,
+  "excess_frac": 0.1775566666666667,
+  "greedy_z": 85.33855636600885,
+  "n_perm": 200,
+  "seed": 0
+ },
+ "heldout": {
+  "n_pairs": 773,
+  "excess": 0.6010940399038187,
+  "p": 0.0004997501249375312,
+  "z": 409.06510074555183,
+  "r": 0.7916431647877762,
+  "n_perm": 2000,
+  "seed": 0
+ },
+ "script_sha256": "d7fc4b3d91d6f282a1906aba475f691c98f623d9df81e90435b4cef78185a01d",
+ "matcher_sha256": "19db5eed8d8a47889bab4737980ba2e22a143f8efadadc43927943e9e5ebf9f1"
+}

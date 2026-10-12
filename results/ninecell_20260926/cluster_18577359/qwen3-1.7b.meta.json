@@ -1,0 +1,22 @@
+{
+ "model": "qwen3-1.7b",
+ "hf_id": "Qwen/Qwen3-1.7B-Base",
+ "sae_release": "qwenpt:Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50",
+ "sae_id": "layer14",
+ "shape": [
+  2000,
+  32768
+ ],
+ "pooled_file": "/dev/shm/${USER}_nc_18577359/pooled/qwen3-1.7b.npy",
+ "pooled_sha256": "3a219f9c7eb4bed2ffaaedad03f7cb5f2f399037b1fc5e1de47e902bbed8167f",
+ "corpus": "<REPO_ROOT>/data/c4_slice.jsonl",
+ "corpus_md5": "30fe9a250f82eb2bcc94ff2282e1407f",
+ "wall_s": 97.12736749649048,
+ "host": "<node>",
+ "torch": "2.6.0+cu124",
+ "transformers": "4.57.1",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "script_sha256": "1d535dd680d6931594f898d0aaa49c84433b2a449bb86f59fc140a2772473253",
+ "matcher_sha256": "19db5eed8d8a47889bab4737980ba2e22a143f8efadadc43927943e9e5ebf9f1",
+ "date": "2026-09-26T05:22:25-0400"
+}

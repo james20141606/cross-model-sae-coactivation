@@ -1,0 +1,72 @@
+{
+  "rows": [
+    {
+      "model": "EleutherAI/pythia-1.4b-deduped",
+      "multilingual": false,
+      "real": 0.6945985720947209,
+      "orig": 0.6966414918705398,
+      "repro_diff": -0.002042919775818941,
+      "layer_shuffle": 0.0016485098199209931,
+      "mismatched_pair": 0.6889893013105167,
+      "full_shuffle": -0.003982379216537523,
+      "semantic_residual": 0.005609270784204146,
+      "mismatch_survival_frac": 0.9919244423908213
+    },
+    {
+      "model": "google/gemma-3-4b-it",
+      "multilingual": true,
+      "real": 0.5722962834707059,
+      "orig": 0.5722962834707059,
+      "repro_diff": 0.0,
+      "layer_shuffle": 0.059171928209801106,
+      "mismatched_pair": 0.4926695515532569,
+      "full_shuffle": 0.0009476271024162192,
+      "semantic_residual": 0.07962673191744901,
+      "mismatch_survival_frac": 0.8608644958612162
+    },
+    {
+      "model": "EleutherAI/pythia-410m-deduped",
+      "multilingual": false,
+      "real": 0.5534171285553027,
+      "orig": 0.5511285870308237,
+      "repro_diff": 0.002288541524478993,
+      "layer_shuffle": -0.0052033134340722315,
+      "mismatched_pair": 0.5533106710709952,
+      "full_shuffle": 0.0008081119624323054,
+      "semantic_residual": 0.00010645748430748725,
+      "mismatch_survival_frac": 0.9998076360871132
+    },
+    {
+      "model": "google/gemma-3-1b-it",
+      "multilingual": true,
+      "real": 0.336032076018415,
+      "orig": 0.3349556103547872,
+      "repro_diff": 0.0010764656636277903,
+      "layer_shuffle": 0.05896382105362607,
+      "mismatched_pair": 0.27885384474561115,
+      "full_shuffle": 0.001379073986821721,
+      "semantic_residual": 0.05717823127280386,
+      "mismatch_survival_frac": 0.8298429365723098
+    },
+    {
+      "model": "Qwen/Qwen3-1.7B",
+      "multilingual": true,
+      "real": 0.19381240617895357,
+      "orig": 0.1938490256340399,
+      "repro_diff": -3.661945508634523e-05,
+      "layer_shuffle": 0.03953427623105719,
+      "mismatched_pair": 0.15308938393210625,
+      "full_shuffle": -0.003770980706290314,
+      "semantic_residual": 0.04072302224684732,
+      "mismatch_survival_frac": 0.7898843368713643
+    }
+  ],
+  "verdict": {
+    "reproduction_max_abs_diff": 0.002288541524478993,
+    "raw_metric_ranks_EN_only_above_all_multilingual": true,
+    "mean_mismatch_survival_frac": 0.894464769556565,
+    "mean_layer_shuffle_r": 0.030823044376066623,
+    "semantic_residual_EN_only_mean": 0.0028578641342558164,
+    "semantic_residual_multilingual_mean": 0.059175995145700065
+  }
+}

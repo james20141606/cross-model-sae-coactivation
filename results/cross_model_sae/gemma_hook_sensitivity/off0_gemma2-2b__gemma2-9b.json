@@ -1,0 +1,31 @@
+{
+ "tag": "gemma2-2b__gemma2-9b",
+ "gemma_hook_offset": 0,
+ "side_a": {
+  "model": "unsloth/gemma-2-2b",
+  "rev": "25319945f7fd83b8b903e12081777b7eef2ba993",
+  "sae": "gemma-scope-2b-pt-res-canonical::layer_12/width_16k/canonical",
+  "hs_idx": 12,
+  "pooled_sha256": "4f4bfb96a05453aeb7006092dc14797b4ed6ab9b558e70c17b0cbe78e0dddeb3"
+ },
+ "side_b": {
+  "model": "unsloth/gemma-2-9b",
+  "rev": "9145841c83add11c48155cd7bb87d8656703f997",
+  "sae": "gemma-scope-9b-pt-res-canonical::layer_20/width_16k/canonical",
+  "hs_idx": 20,
+  "pooled_sha256": "66f54959051409752a1f1187cdb3d95e8ba55f67bf0d5c4c326c3736930172da"
+ },
+ "screen": {
+  "M": 881,
+  "null_mu": 430.9,
+  "null_sd": 10.291744264214886,
+  "z": 43.734083207355745,
+  "p": 0.004975124378109453,
+  "excess_frac": 0.3000666666666667,
+  "greedy_z": 97.03981775424297,
+  "n_perm": 200,
+  "seed": 0
+ },
+ "script_sha256": "d7fc4b3d91d6f282a1906aba475f691c98f623d9df81e90435b4cef78185a01d",
+ "matcher_sha256": "19db5eed8d8a47889bab4737980ba2e22a143f8efadadc43927943e9e5ebf9f1"
+}

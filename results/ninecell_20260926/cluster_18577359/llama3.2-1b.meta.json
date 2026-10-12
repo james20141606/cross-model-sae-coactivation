@@ -1,0 +1,22 @@
+{
+ "model": "llama3.2-1b",
+ "hf_id": "meta-llama/Llama-3.2-1B",
+ "sae_release": "chanind/sae-llama-3.2-1b-res",
+ "sae_id": "blocks.8.hook_resid_post",
+ "shape": [
+  2000,
+  16384
+ ],
+ "pooled_file": "/dev/shm/${USER}_nc_18577359/pooled/llama3.2-1b.npy",
+ "pooled_sha256": "13d20ad2192895e77893ca04c971892653e02765f9fd1c6f2b27d967866b8480",
+ "corpus": "<REPO_ROOT>/data/c4_slice.jsonl",
+ "corpus_md5": "30fe9a250f82eb2bcc94ff2282e1407f",
+ "wall_s": 79.40383887290955,
+ "host": "<node>",
+ "torch": "2.6.0+cu124",
+ "transformers": "4.57.1",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "script_sha256": "1d535dd680d6931594f898d0aaa49c84433b2a449bb86f59fc140a2772473253",
+ "matcher_sha256": "19db5eed8d8a47889bab4737980ba2e22a143f8efadadc43927943e9e5ebf9f1",
+ "date": "2026-09-26T05:20:32-0400"
+}

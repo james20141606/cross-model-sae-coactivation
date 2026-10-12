@@ -1,0 +1,32 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{Gemma Scope cells read at the dictionaries' training hook} (pre-registered;
+\Cref{app:gemmahook}). Each entry is $N$ / $N{+}1$: $N$ is the published value
+(\texttt{hidden\_states[$N$]}, the input to block $N$; \Cref{tab:c4_counts,tab:c4_verdicts}),
+$N{+}1$ reads \texttt{hidden\_states[$N{+}1$]}, the \texttt{resid\_post} hook each Gemma Scope
+SAE was trained on, all else fixed. $z$: C4-screen mutual-NN $z$ ($200$ permutations); held-out
+excess and retained fraction as in \Cref{tab:c4_verdicts} ($2{,}000$ permutations). G0: the
+re-run at $N$ reproduces the published receipt (reciprocal count within $2$, held-out excess
+within $0.005$). Verdict at $N{+}1$ by the registered rule (held-out $p=1/2001$, excess $>0$,
+screen $p\le1/201$). Env: local = Apple MPS with ungated Gemma re-uploads; cluster = original
+weights. $^{*}$Seen before registration; not counted. $^{\dagger}$Failed G0; not interpreted.
+Receipts: \texttt{results/cross\_model\_sae/gemma\_hook\_sensitivity/}.}
+\label{tab:gemmahook}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{llllllr}
+\toprule
+Cell & env & G0 & $z$ & held-out excess & retained & verdict at $N{+}1$ \\
+\midrule
+Qwen3-1.7B $\leftrightarrow$ Gemma2-2B & local & pass & $42.7$ / $45.0$ & $0.732$ / $0.731$ & $0.936$ / $0.932$ & retained \\
+Qwen3-8B $\leftrightarrow$ Gemma2-2B & cluster & pass & $39.8$ / $35.8$ & $0.698$ / $0.704$ & $0.901$ / $0.908$ & retained \\
+Qwen3-1.7B $\leftrightarrow$ Gemma2-9B & local & fail ($\Delta M{=}3$) & $34.2$ / $32.0$ & $0.678$ / $0.678$ & $0.881$ / $0.891$ & not interpreted$^{\dagger}$ \\
+Qwen3-8B $\leftrightarrow$ Gemma2-9B & cluster & pass & $37.1$ / $38.1$ & $0.682$ / $0.686$ & $0.869$ / $0.878$ & retained \\
+Gemma2-9B $\leftrightarrow$ Mistral-7B & local & pass & $24.0$ / $27.5$ & $0.602$ / $0.617$ & $0.791$ / $0.816$ & retained$^{*}$ \\
+Gemma2-2B $\leftrightarrow$ Mistral-7B & local & pass & $22.1$ / $19.0$ & $0.567$ / $0.572$ & $0.818$ / $0.819$ & retained \\
+\midrule
+Gemma2-2B $\leftrightarrow$ Gemma2-9B & local & pass & $44.7$ / $44.5$ & -- & -- & screen only \\
+Gemma2-2B(w$65$k) $\leftrightarrow$ Mistral-7B & local & pass & $14.1$ / $10.9$ & -- & -- & screen only \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,40 @@
+{
+ "tag": "qwen3-8b__gemma2-9b",
+ "gemma_hook_offset": 0,
+ "side_a": {
+  "model": "Qwen/Qwen3-8B-Base",
+  "rev": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+  "sae": "qwenpt:Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0_50::layer18",
+  "hs_idx": 19,
+  "pooled_sha256": "0f462f87080eea993f0ceb90a250d39449b53147730fd3ce2bbe725caf812e3f"
+ },
+ "side_b": {
+  "model": "google/gemma-2-9b",
+  "rev": "33c193028431c2fde6c6e51f29e6f17b60cbfac6",
+  "sae": "gemma-scope-9b-pt-res-canonical::layer_20/width_16k/canonical",
+  "hs_idx": 20,
+  "pooled_sha256": "4912116b5183e584f701138517c8901cb9ee2073c229cb687752698ee0a4e462"
+ },
+ "screen": {
+  "M": 859,
+  "null_mu": 472.225,
+  "null_sd": 10.54392597659904,
+  "z": 36.68225676644544,
+  "p": 0.004975124378109453,
+  "excess_frac": 0.25784999999999997,
+  "greedy_z": 149.07902056178432,
+  "n_perm": 200,
+  "seed": 0
+ },
+ "heldout": {
+  "n_pairs": 839,
+  "excess": 0.6818681267309271,
+  "p": 0.0004997501249375312,
+  "z": 438.97207887616867,
+  "r": 0.868907516471597,
+  "n_perm": 2000,
+  "seed": 0
+ },
+ "script_sha256": "bff35d16416317b7ca5da8572bf0196af47270a792d11389200e641303edfce5",
+ "matcher_sha256": "19db5eed8d8a47889bab4737980ba2e22a143f8efadadc43927943e9e5ebf9f1"
+}

@@ -1,0 +1,29 @@
+{
+  "transfer_acc": 0.18932038834951456,
+  "nonmatched_mean": 0.15529126213592231,
+  "nonmatched_ci": [
+    0.019053398058252433,
+    0.27208737864077676
+  ],
+  "transfer_p": 0.3482587064676617,
+  "cv_A": 0.9658536585365853,
+  "cv_B": 0.9804878048780488,
+  "majority": 0.21844660194174756,
+  "K": 125,
+  "n": 206,
+  "model_a": "Qwen/Qwen3-1.7B-Base",
+  "model_b": "google/gemma-2-2b",
+  "families": [
+    "antonym",
+    "arith_add",
+    "arith_sub",
+    "capital",
+    "doubling",
+    "month",
+    "predecessor",
+    "successor",
+    "weekday"
+  ],
+  "n_matched_features": 800,
+  "match_corpus": "../../data/c4_slice.jsonl"
+}

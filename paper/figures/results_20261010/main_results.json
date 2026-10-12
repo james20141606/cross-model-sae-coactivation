@@ -1,0 +1,68 @@
+{
+ "script": "code/figures/main_results_20261010.py",
+ "inputs": [
+  {
+   "path": "results/cross_model_sae/heldout_qwen3-1.7b__gemma2-2b.json",
+   "sha256": "a245392408cc8ddd606a741a13c8c3106bee2dcc75e7b2622aae46520baff64e"
+  },
+  {
+   "path": "results/cross_model_sae/heldout_qwen3-8b__gemma2-2b.json",
+   "sha256": "c03283ea4fddad4cf20d92dcdda979d255f46656843d7fd33aa90fa9f2f59578"
+  },
+  {
+   "path": "results/cross_model_sae/heldout_qwen3-8b__gemma2-9b.json",
+   "sha256": "c9dc71a76f577ca2535b4fbd777514084c65e85825e55070c9d8a56ed488aba3"
+  },
+  {
+   "path": "results/cross_model_sae/heldout_qwen3-1.7b__gemma2-9b.json",
+   "sha256": "992d334ceaa050b3b81ad85195cb76bb39b4de1f5d3c43e6423574fd2b652e9d"
+  },
+  {
+   "path": "results/cross_model_sae/heldout_qwen3-8b__mistral7b.json",
+   "sha256": "3aaa1fd0d4969894427fb6e1a516d525103f90d3a70e84b1d09f81c2f3e79b75"
+  },
+  {
+   "path": "results/cross_model_sae/heldout_gemma2-9b__mistral7b.json",
+   "sha256": "efe9e205b73a1a3b1b1186d36721b77abcd2cc70a84ce66df781e88a68329997"
+  },
+  {
+   "path": "results/cross_model_sae/heldout_gemma2-2b__mistral7b.json",
+   "sha256": "d0c406117f155ec79d167bdbb8bc682eef6ad48b1ae8420b046f4a9f8bfbfe9b"
+  },
+  {
+   "path": "results/cross_model_sae/heldout_qwen3-1.7b__mistral7b.json",
+   "sha256": "67f17486ab97ed4e326eaab233dc8588884b113c94f4c3084af8cd3fe6a88849"
+  },
+  {
+   "path": "results/cross_model_sae/heldout_llama3.2-1b__mistral7b.json",
+   "sha256": "d2d789e301ce59952fd848f57f11cd1f58775402517d481e301a081b9bf7724f"
+  },
+  {
+   "path": "results/cross_model_sae/c4_qwen3-1.7b__gemma2-2b.json",
+   "sha256": "90e386a305e0bd2c212c73a5c179ad6ec343bf6d619cd1e111f630a24a966c11"
+  },
+  {
+   "path": "results/cross_model_sae/rand_c4_qwen3-1.7b__gemma2-2b.json",
+   "sha256": "2563882cba99d1ee9ed3c611239265ac4239b00925b0903a74713348ffdaab14"
+  },
+  {
+   "path": "results/cross_model_sae/c4_gemma2-9b__mistral7b.json",
+   "sha256": "08cb3d8291e20153846f5fde441d5f629201989e2697dc6fd4cf6aeac7f3d266"
+  },
+  {
+   "path": "results/cross_model_sae/rand_c4_gemma2-9b__mistral7b.json",
+   "sha256": "eaf9d0436a05b3774ee0dc733316f8aa28404043b1b50cae99344f7c9357043a"
+  },
+  {
+   "path": "results/cross_model_sae/c4_llama3.2-1b__mistral7b.json",
+   "sha256": "0be3845d4296d10a96a54d32d83d083de2e086fd72d895bf5ac0a990850288fe"
+  },
+  {
+   "path": "results/cross_model_sae/rand_c4_llama3.2-1b__mistral7b.json",
+   "sha256": "af4374733a14a389f71652fe6513a773d5cc676267643311f2fa3401653f5f74"
+  }
+ ],
+ "chance_Kiid": 750.2500833611203,
+ "width_in": 5.5,
+ "height_in": 2.15
+}

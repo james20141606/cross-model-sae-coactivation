@@ -1,0 +1,12 @@
+{
+ "QA": "A1",
+ "QA_failing_cells": [],
+ "QA_length_hard_fail": [],
+ "QA_g0_blocked": [],
+ "QB": "B1",
+ "QB_failing": {},
+ "QB_optimism": "within +-10%",
+ "QC": "C1",
+ "QC_R_lower_below_0p5": [],
+ "QC_deltaE_nonpositive": []
+}

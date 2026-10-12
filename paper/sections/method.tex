@@ -1,0 +1,96 @@
+\section{Problem Setup}\label{sec:method}
+
+To tell a match like the obituary pair from chance and from shared document properties, the
+statistic needs a known chance level, a null that re-runs its own selection, and controls read
+against a reference arm.
+
+\paragraph{Coactivation.} Let $A$ and $B$ be two models, each with one released SAE at a
+mid-layer residual site, and $D=\{d_1,\dots,d_N\}$ a shared corpus. For feature $i$ of $A$'s SAE,
+$f^A_i(d)$ is its activation mean-pooled over $A$'s tokens of document $d$, one scalar per
+(document, feature), which sidesteps the tokenizer mismatch. We keep the $K{=}1{,}500$
+highest-variance features per model, standardize each over $D$ to $z^A_i(d)$, and define
+\begin{equation}\label{eq:rho}
+\rho_{ij} \;=\; \tfrac{1}{N}\textstyle\sum_{n=1}^{N} z^A_i(d_n)\, z^B_j(d_n),
+\qquad i\le K_A,\; j\le K_B,
+\end{equation}
+the correlation of the two features across documents. Here ``sharing'' denotes residual dependence in $\rho$
+under the tested controls; it is not feature identity and not shared computation.
+
+\paragraph{Reciprocal matching and its null.} With $a(i)=\arg\max_j\rho_{ij}$ and
+$b(j)=\arg\max_i\rho_{ij}$, the reciprocal (mutual-nearest-neighbor) pairs and their count are
+\begin{equation}\label{eq:count}
+\mathcal{M}(\rho)=\{(i,j):a(i)=j,\ b(j)=i\},\qquad M=|\mathcal{M}(\rho)|.
+\end{equation}
+The null permutes documents on one side: for $\pi$ uniform on $S_N$, $\rho^{\pi}$ is
+\eqref{eq:rho} with $z^B_j(d_{\pi(n)})$, and $M^{\pi}=|\mathcal{M}(\rho^{\pi})|$ \emph{re-runs the
+matching}. From draws $M^{(1)},\dots,M^{(n_{\text{perm}})}$ we report
+\begin{equation}\label{eq:excess}
+\Delta = M-\overline{M^{\pi}},\qquad z=\Delta/\operatorname{sd}(M^{\pi}),\qquad
+p=\frac{1+\#\{b: M^{(b)}\ge M\}}{n_{\text{perm}}+1}.
+\end{equation}
+Significance rests on $p$ \citep{phipson2010permutation}, never on a Gaussian reading of $z$.
+Two facts fix the design (proofs in \Cref{app:proofs}).
+
+\begin{proposition}[Chance reciprocal matches; validity of the re-matching null]\label{prop:null}
+(a) If, for every $(i,j)$, the $K_A{+}K_B{-}1$ entries in row $i$ and column $j$ of $\rho$ are
+exchangeable and almost surely distinct (e.g.\ i.i.d.\ continuous), then
+$\mathbb{E}[M]=K_AK_B/(K_A{+}K_B{-}1)$, i.e.\ $\approx750$ at $K_A{=}K_B{=}1{,}500$.
+(b) Permuting documents on one side leaves both within-model correlation matrices unchanged.
+If $H_0$ holds, i.e.\ $(z^A,z^B)\overset{d}{=}(z^A,z^B\!\circ\pi)$ for every $\pi\in S_N$, then
+every statistic of $(z^A,z^B)$, including one that selects its own pairs, has
+$\Pr(p\le\alpha)\le\alpha$ for all $\alpha$.
+\end{proposition}
+
+By (a), about half of the $1{,}500$ screened features per model are reciprocally matched under
+idealized chance, more than
+the raw count of our weakest surviving cell (\Cref{tab:ladder}); the realized chance level also
+depends on each dictionary's internal correlations, which the null preserves, so every cell gets
+its own null and $z$ is never compared across cells. By (b), rejecting $H_0$ shows dependence
+between the models on shared documents, not correspondence: any document property both models
+encode (length, topic, vocabulary) also violates $H_0$. That is what the controls are for.
+
+\paragraph{Held-out frozen pairs.} Split the corpus into disjoint halves $D_S,D_E$ ($1{,}000$
+C4 documents each). Pairs $\widehat{\mathcal{P}}=\mathcal{M}(\rho^{S})$ selected on $D_S$ are
+frozen and scored on $D_E$ by $T_E(\mathcal{P})=|\mathcal{P}|^{-1}\sum_{(i,j)\in\mathcal{P}}\rho^{E}_{ij}$,
+with excess $\Delta_E$ and $p$ from $2{,}000$ permutations of $D_E$ alone. The ratio
+$r=\Delta_E(\widehat{\mathcal{P}})/\Delta_E(\mathcal{M}(\rho^{E}))$ compares against pairs
+re-selected on $D_E$, a different pair set, so it is not within-pair retention.
+
+\begin{proposition}[Frozen pairs carry no selection optimism]\label{prop:heldout}
+Let documents be i.i.d., $D_S\cap D_E=\emptyset$, and $\widehat{\mathcal{P}}$ depend on $D_S$
+only. Conditional on $D_S$: (a)
+$\mathbb{E}[T_E(\widehat{\mathcal{P}})\mid D_S]=|\widehat{\mathcal{P}}|^{-1}
+\sum_{(i,j)\in\widehat{\mathcal{P}}}\mathbb{E}[\rho^E_{ij}]$, as for a pair set fixed in advance;
+(b) the permutation $p$ on $D_E$ is valid under $H_0$ restricted to $D_E$. Pairs re-selected on
+$D_E$ and held fixed in the null, as in the denominator of $r$, need not have either property:
+$\mathbb{E}[\max_j\rho^E_{ij}]\ge\max_j\mathbb{E}[\rho^E_{ij}]$; re-selecting in every draw
+restores (b) by \Cref{prop:null}(b).
+\end{proposition}
+
+This is what lets the nine held-out cells carry the positive, conditional on its i.i.d. premise:
+our C4 slice is the first $2{,}000$ eligible streamed documents, split into consecutive halves. On five
+cells, seeded random halves change the median held-out excess by at most $3\%$ (separately extracted features,
+\Cref{app:ninecell}); on the three ladder cells, a seeded random split of $20{,}000$ documents keeps
+$0.97$--$0.99$ of in-sample excess held out (\Cref{app:threats}); the Qwen3-8B cells were untested at
+submission (a registered run after submission covers all nine, \Cref{app:ninecell}). The follow-up was not
+pre-registered, and its screen saw both halves (\Cref{tab:c4_verdicts}).
+
+\paragraph{Controls as retention ratios.} A control either restricts $\pi$ to permutations
+within strata of a covariate (valid under within-stratum exchangeability) or removes the
+covariate from the features before frozen pairs are scored. Removing \emph{anything} costs excess
+mechanically, so each control is divided by a reference arm: a same-sized transformation that
+carries no information about the covariate or, for tokens, the unconditioned statistic on the
+same occurrences. We report
+\begin{equation}\label{eq:ratio}
+R=\Delta_{\text{control}}\,/\,\Delta_{\text{calibration}},
+\end{equation}
+so $R\approx1$ means the covariate, as the control captures it, explains none of the shared
+excess and $R\to0$ all of it; forms of the covariate the control does not capture are not excluded.
+Instances: $k$-way TF-IDF topic strata vs.\ random strata of identical sizes ($R$);
+cross-fitted residualization on a TF-IDF$\to$SVD$_k$ design vs.\ a row-shuffled design of
+identical spectrum ($R_{\text{lex}}$); and, at word granularity, document plus word-type fixed
+effects vs.\ a within-type derangement ($R_{\text{tok}}$: conditioned over unconditioned
+token-level excess on common support). The secondary cross-lingual measure, probe-attribution
+alignment (mid-layer logit-lens profiles correlated across translated prompts), is defined in
+\Cref{app:probe_attribution}. Neither uses attribution-graph topology, which our v0
+pipeline did not recover (\Cref{sec:disc:negative}).
