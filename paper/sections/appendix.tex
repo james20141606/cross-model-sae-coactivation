@@ -246,7 +246,7 @@ Every headline (v1) result in this paper runs as a single-GPU job on one H100-80
 H200-141GB: the probe-attribution sweep is minutes per model (17 models, well under $10$
 GPU-hours in total), and each cross-model SAE-matching cell --- the $2{,}000$-document C4
 slice through both models plus the $200$-permutation null --- is under $1.5$ GPU-hours,
-with the \texttt{.sbatch} scripts (in the supplementary material) giving the exact allocation per cell.
+with the \texttt{.sbatch} scripts (in the code release) giving the exact allocation per cell.
 Two appendix analyses, the filtered audit of \citet{lan2024universal} (\Cref{app:lan_filters}) and
 the Gemma read-point sensitivity (\Cref{app:gemmahook}), ran wholly or partly on Apple MPS with ungated
 Gemma-2 re-uploads, as stated there.
@@ -1063,7 +1063,7 @@ baseline is far too weak), and a natural-text corpus (on templates the statistic
 separate the strongest genuine pair from the artifact). Their filters change the first two
 findings and leave the third, by a narrow margin (\Cref{app:lan_filters}). The implementations
 (\texttt{code/analysis/lan\_protocol\_audit.py} and \texttt{lan\_filter\_audit.py}, selftests
-included) are in the supplementary material.
+included) are in the code release.
 
 \paragraph{The reverse transplant: their pairing rule inside our strongest control.}
 \Cref{tab:lanpair} reports the complementary direction --- their 1A-to-ManyB pairing rule
